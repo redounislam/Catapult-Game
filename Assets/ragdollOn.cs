@@ -1,12 +1,44 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using DG.Tweening;
 public class ragdollOn : MonoBehaviour
 {
     public GameObject thisGuysRig;
     Collider[] ragCol;
     Rigidbody[] limbsRb;
+
+
+    public float IncreaseAmmount;
+
+    public float radius = 5.0F;
+    public float power = 10.0F;
+
+    void ExPlodeStart()
+    {
+        Collider[] objects = UnityEngine.Physics.OverlapSphere(transform.position, 100);
+        foreach (Collider h in objects)
+        {
+            Rigidbody r = h.GetComponent<Rigidbody>();
+            if (r != null)
+            {
+                r.AddExplosionForce(1000,transform.position, 1000);
+            }
+        }
+    }
+
+
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            ExPlodeStart();
+            transform.GetChild(1).gameObject.SetActive(false);
+        }
+    }
+
+
+
 
     void GetRagDollBits()
     {
@@ -49,4 +81,15 @@ public class ragdollOn : MonoBehaviour
         StartCoroutine(Ragdoll());
        
     }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if(other.gameObject.CompareTag("Collectable"))
+        {
+            this.transform.DOScale(new Vector3(this.transform.localScale.x + IncreaseAmmount, this.transform.localScale.y + IncreaseAmmount,
+       this.transform.localScale.z + IncreaseAmmount), .3f).SetEase(Ease.InOutElastic);
+            Destroy(other.gameObject);
+        }
+    }
+
 }

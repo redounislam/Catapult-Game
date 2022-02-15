@@ -1772,10 +1772,10 @@ SphereCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4343697343905132779}
   m_Material: {fileID: 13400000, guid: 1a98884085d3d63449affccb1e96f296, type: 2}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 0.95
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &4343697343905132776
 MonoBehaviour:
@@ -1790,6 +1790,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   thisGuysRig: {fileID: 4343697343148630690}
+  IncreaseAmmount: 0.3
+  radius: 5
+  power: 10
 --- !u!1 &4343697343957012776
 GameObject:
   m_ObjectHideFlags: 0
