@@ -84,11 +84,38 @@ public class ragdollOn : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if(other.gameObject.CompareTag("Collectable"))
+        if (other.gameObject.CompareTag("Ground"))
+        {
+            GetComponent<Rigidbody>().AddForce(Vector3.up * 100, ForceMode.Impulse);
+            other.tag = "Untagged";
+        }
+        if (other.gameObject.CompareTag("Collectable"))
         {
             this.transform.DOScale(new Vector3(this.transform.localScale.x + IncreaseAmmount, this.transform.localScale.y + IncreaseAmmount,
        this.transform.localScale.z + IncreaseAmmount), .3f).SetEase(Ease.InOutElastic);
             Destroy(other.gameObject);
+        }
+        if (other.gameObject.CompareTag("Enemy"))
+        {
+            other.GetComponent<Enemy>().RagDollOn();
+            other.GetComponent<Enemy>().Death = true;
+
+            other.GetComponent<Enemy>().Shiled.transform.gameObject.AddComponent<Rigidbody>().AddForce(Vector3.up * 50);
+            other.GetComponent<Enemy>().Shiled.transform.gameObject.AddComponent<BoxCollider>();
+            other.GetComponent<Enemy>().Sword.transform.gameObject.AddComponent<Rigidbody>().AddForce(Vector3.up * 50);
+            other.GetComponent<Enemy>().Sword.transform.gameObject.AddComponent<BoxCollider>();
+
+            other.GetComponent<Enemy>().Spear.transform.gameObject.AddComponent<Rigidbody>().AddForce(Vector3.up * 50);
+            other.GetComponent<Enemy>().Spear.transform.gameObject.AddComponent<BoxCollider>();
+            other.GetComponent<Enemy>().Helmet.transform.gameObject.AddComponent<Rigidbody>().AddForce(Vector3.up * 50);
+            other.GetComponent<Enemy>().Helmet.transform.gameObject.AddComponent<BoxCollider>();
+
+            other.GetComponent<Enemy>().Shiled.transform.parent = null;
+            other.GetComponent<Enemy>().Sword.transform.parent = null;
+            other.GetComponent<Enemy>().Spear.transform.parent = null;
+            other.GetComponent<Enemy>().Helmet.transform.parent = null;
+
+
         }
     }
 
