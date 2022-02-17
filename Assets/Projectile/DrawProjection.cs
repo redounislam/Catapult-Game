@@ -24,23 +24,26 @@ public class DrawProjection : MonoBehaviour
 
     void Update()
     {
-        lineRenderer.positionCount = (int)numPoints;
-        List<Vector3> points = new List<Vector3>();
-        Vector3 startingPosition = cannonController.ShotPoint.position;
-        Vector3 startingVelocity = cannonController.ShotPoint.up * cannonController.BlastPower * Power;
-        for (float t = 0; t < numPoints; t += timeBetweenPoints)
+        if (GM.Instance.StartGame)
         {
-            Vector3 newPoint = startingPosition + t * startingVelocity;
-            newPoint.y = startingPosition.y + startingVelocity.y * t + Physics.gravity.y/2f * t * t;
-            points.Add(newPoint);
-
-            if(Physics.OverlapSphere(newPoint, 2, CollidableLayers).Length > 0)
+            lineRenderer.positionCount = (int)numPoints;
+            List<Vector3> points = new List<Vector3>();
+            Vector3 startingPosition = cannonController.ShotPoint.position;
+            Vector3 startingVelocity = cannonController.ShotPoint.up * cannonController.BlastPower * Power;
+            for (float t = 0; t < numPoints; t += timeBetweenPoints)
             {
-                lineRenderer.positionCount = points.Count;
-                break;
-            }
-        }
+                Vector3 newPoint = startingPosition + t * startingVelocity;
+                newPoint.y = startingPosition.y + startingVelocity.y * t + Physics.gravity.y / 2f * t * t;
+                points.Add(newPoint);
 
-        lineRenderer.SetPositions(points.ToArray());
+                if (Physics.OverlapSphere(newPoint, 2, CollidableLayers).Length > 0)
+                {
+                    lineRenderer.positionCount = points.Count;
+                    break;
+                }
+            }
+
+            lineRenderer.SetPositions(points.ToArray());
+        }
     }
 }
