@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
+    public GameObject Canvas, PopUp;
     public bool EnableSword;
     public bool EnableShield;
     public bool EnableHelmet;
@@ -19,6 +20,7 @@ public class Enemy : MonoBehaviour
 
     void Start()
     {
+        Canvas = GameObject.FindGameObjectWithTag("Canvas");
         if(EnableHelmet)
         {
             Helmet.gameObject.SetActive(true);
@@ -60,7 +62,10 @@ public class Enemy : MonoBehaviour
     {
         if (!RagDollPlayed)
         {
-
+            GameObject g = Instantiate(PopUp, transform.position, Quaternion.identity);
+        
+           
+            Destroy(g, .5f);
             GM.Instance.KillCount++;
             UiManager.Instance.KillCount.text = GM.Instance.KillCount.ToString();
             if (Shiled.activeSelf)
