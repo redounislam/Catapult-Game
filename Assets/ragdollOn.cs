@@ -4,6 +4,8 @@ using UnityEngine;
 using DG.Tweening;
 public class ragdollOn : MonoBehaviour
 {
+    public ParticleSystem HitRed;
+
     public int ImpactRadius = 200;
     public GameObject thisGuysRig;
     Collider[] ragCol;
@@ -39,6 +41,7 @@ public class ragdollOn : MonoBehaviour
         {
             if (!played)
             {
+                HitRed.Play();
                 ExPlodeStart();
                 transform.GetChild(1).gameObject.SetActive(false);
                 played = true;
@@ -97,6 +100,7 @@ public class ragdollOn : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Ground"))
         {
+            HitRed.Play();
             GetComponent<Rigidbody>().AddForce(Vector3.up * 100, ForceMode.Impulse);
             other.tag = "Untagged";
             transform.GetComponentInChildren<MySDK.SimpleRotator>().enabled = false;
