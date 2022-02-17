@@ -67,50 +67,54 @@ public class CannonController : MonoBehaviour
         Cannonball.GetComponent<Collider>().enabled = false;
         Cannonball.transform.GetComponent<Rigidbody>().isKinematic = false;
     }
+    bool Played;
     private void Update()
     {
+     
+     
 
-        i = -Input.GetAxis("Mouse Y");
-       
-
+        if (!Played)
+        {
+            i = -Input.GetAxis("Mouse Y");
 
             if (Input.GetMouseButton(0))
-        {
-            j = ( -Input.GetAxis("Mouse Y"));
-
-            l.enabled = true;
-            Bend.angle = Bend.angle + -(j * 2 );
-
-
-            BlastPower = BlastPower + i;
-            if (Input.GetAxis("Mouse X") < 0)
             {
-                transform.Rotate(0, (Input.GetAxis("Mouse X")), 0 * Time.deltaTime * rotationSpeed);
-           
+                j = (-Input.GetAxis("Mouse Y"));
+
+                l.enabled = true;
+                Bend.angle = Bend.angle + -(j * 2);
+
+
+                BlastPower = BlastPower + i;
+                if (Input.GetAxis("Mouse X") < 0)
+                {
+                    transform.Rotate(0, (Input.GetAxis("Mouse X")), 0 * Time.deltaTime * rotationSpeed);
+                    Bend.transform.Rotate(0, 0, (Input.GetAxis("Mouse X")) * Time.deltaTime * rotationSpeed * 1.3f);
+
+                }
+                else if (Input.GetAxis("Mouse X") > 0)
+                {
+                    transform.Rotate(0, (Input.GetAxis("Mouse X")), 0 * Time.deltaTime * rotationSpeed);
+
+                    Bend.transform.Rotate(0, 0, (Input.GetAxis("Mouse X")) * Time.deltaTime * rotationSpeed * 1.3f);
+                }
+
             }
-            else if (Input.GetAxis("Mouse X") > 0)
+            if (Input.GetMouseButtonUp(0))
             {
-                transform.Rotate(0, (Input.GetAxis("Mouse X")), 0 * Time.deltaTime * rotationSpeed);
-           
+                
+                l.enabled = false;
+                Bend.angle = 0;
+                GameObject CreatedCannonball = Instantiate(Cannonball, ShotPoint.position, ShotPoint.rotation);
+                CreatedCannonball.GetComponent<Rigidbody>().velocity = ShotPoint.transform.up * BlastPower;
+
+                SharkAttack.CameraController.Instance.gameObject.transform.DORotate(new Vector3(22, -101.977f, 0), 2f);
+                SharkAttack.CameraController.Instance.target = CreatedCannonball.transform.GetChild(1);
+                Played = true;
+
             }
-
+          
         }
-        if(Input.GetMouseButtonUp(0))
-        {
-
-            l.enabled = false;
-            Bend.angle = 0;
-            GameObject CreatedCannonball = Instantiate(Cannonball, ShotPoint.position, ShotPoint.rotation); 
-            CreatedCannonball.GetComponent<Rigidbody>().velocity = ShotPoint.transform.up * BlastPower;
-   
-           // BlastPower = 5;
-            // Added explosion for added effect
-           SharkAttack.CameraController.Instance.gameObject.transform.DORotate(new Vector3(22, -101.977f, 0), 2f);
-           SharkAttack.CameraController.Instance.target = CreatedCannonball.transform.GetChild(1);
-            // Shake the screen for added effect
-        }
-
-       
 
 
 

@@ -1069,6 +1069,7 @@ GameObject:
   - component: {fileID: 4343697343148630691}
   - component: {fileID: 4343697343148630689}
   - component: {fileID: 2964265767897112159}
+  - component: {fileID: 2382748213635355455}
   m_Layer: 0
   m_Name: mixamorig:Hips
   m_TagString: Untagged
@@ -1168,6 +1169,21 @@ CharacterJoint:
   m_EnablePreprocessing: 0
   m_MassScale: 1
   m_ConnectedMassScale: 1
+--- !u!114 &2382748213635355455
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4343697343148630690}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7810d8cb65028bd4da5067eb9dcdde26, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UpdateType: 1
+  Speed: 10
+  RotationVector: {x: -6, y: 8, z: 5}
 --- !u!1 &4343697343278192615
 GameObject:
   m_ObjectHideFlags: 0
@@ -1789,6 +1805,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 620a3967debf97147a4461d9eb432b6b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ImpactRadius: 200
   thisGuysRig: {fileID: 4343697343148630690}
   IncreaseAmmount: 0.3
   radius: 5
@@ -2266,7 +2283,7 @@ SkinnedMeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 239378781582670930, guid: 876c78766b1f6ce43bb7be39dd555446, type: 3}
+  - {fileID: 2100000, guid: 621ae21f9a3bccf48b7962957efc66ea, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

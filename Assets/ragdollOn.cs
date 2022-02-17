@@ -4,6 +4,7 @@ using UnityEngine;
 using DG.Tweening;
 public class ragdollOn : MonoBehaviour
 {
+    public int ImpactRadius = 200;
     public GameObject thisGuysRig;
     Collider[] ragCol;
     Rigidbody[] limbsRb;
@@ -13,16 +14,19 @@ public class ragdollOn : MonoBehaviour
 
     public float radius = 5.0F;
     public float power = 10.0F;
-
+    bool played;
     void ExPlodeStart()
     {
-        Collider[] objects = UnityEngine.Physics.OverlapSphere(transform.position, 100);
+        Collider[] objects = UnityEngine.Physics.OverlapSphere(transform.position, 20);
         foreach (Collider h in objects)
         {
             Rigidbody r = h.GetComponent<Rigidbody>();
-            if (r != null)
+            
+            if (r != null && r.transform.root.transform.GetComponentInChildren<Enemy>() )
             {
-                r.AddExplosionForce(1000,transform.position, 1000);
+                r.transform.root.transform.GetComponentInChildren<Enemy>().RagDollOn();
+              //  r.transform.parent.transform.GetComponentInChildren<Enemy>().RagDollOn();
+                r.AddExplosionForce(1000,transform.position, ImpactRadius);
             }
         }
     }
@@ -30,10 +34,17 @@ public class ragdollOn : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
+       
+        if (Input.GetMouseButton(0))
         {
-            ExPlodeStart();
-            transform.GetChild(1).gameObject.SetActive(false);
+            if (!played)
+            {
+                ExPlodeStart();
+                transform.GetChild(1).gameObject.SetActive(false);
+                played = true;
+                SharkAttack.CameraController.Instance.target = null;
+
+            }
         }
     }
 
@@ -88,6 +99,7 @@ public class ragdollOn : MonoBehaviour
         {
             GetComponent<Rigidbody>().AddForce(Vector3.up * 100, ForceMode.Impulse);
             other.tag = "Untagged";
+            transform.GetComponentInChildren<MySDK.SimpleRotator>().enabled = false;
         }
         if (other.gameObject.CompareTag("Collectable"))
         {

@@ -58,7 +58,7 @@ public class Enemy : MonoBehaviour
    public void RagDollOn()
     {
 
-
+        Death = true;
         foreach (Collider col in ragCol)
         {
             col.enabled = true;
@@ -66,7 +66,7 @@ public class Enemy : MonoBehaviour
         foreach (Rigidbody rigid in limbsRb)
         {
             rigid.isKinematic = false;
-            rigid.AddForce(Vector3.up * 150);
+            rigid.AddForce(new Vector3(Random.Range(-18f, 18f), Random.Range(20, 30f), Random.Range(-18f, 18f)).normalized * 150);
         }
         GetComponent<Animator>().enabled = false;
     }
