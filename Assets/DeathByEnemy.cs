@@ -15,7 +15,15 @@ public class DeathByEnemy : MonoBehaviour
     {
         if(other.gameObject.CompareTag("Other"))
         {
-            print("asd");
+          
+            m_Enemy.RagDollOn();
+        }
+    }
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.CompareTag("Other"))
+        {
+            
             m_Enemy.RagDollOn();
         }
     }

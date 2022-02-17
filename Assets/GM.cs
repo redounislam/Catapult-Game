@@ -26,7 +26,7 @@ public class GM :Singleton<GM>
           CamEndPos.transform.eulerAngles.z), CamMoveDuration);
         cam.transform.DOMove(CamEndPos.transform.position, CamMoveDuration).OnComplete(() =>
         {
-          
+            StartGame = true;
             cam.transform.GetComponent<SharkAttack.CameraController>().enabled = true;
         });
 
