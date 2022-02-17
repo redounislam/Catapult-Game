@@ -55,54 +55,59 @@ public class Enemy : MonoBehaviour
         limbsRb = thisGuysRig.GetComponentsInChildren<Rigidbody>();
 
     }
+    bool RagDollPlayed;
    public void RagDollOn()
     {
-
-        if (Shiled.activeSelf)
+        if (!RagDollPlayed)
         {
-            Shiled.transform.GetChild(0).gameObject.SetActive(true);
-            Shiled.transform.GetChild(0).transform.parent = null;
-            Shiled.transform.gameObject.SetActive(false); Shiled.transform.parent = null;
+
+            GM.Instance.KillCount++;
+            UiManager.Instance.KillCount.text = GM.Instance.KillCount.ToString();
+            if (Shiled.activeSelf)
+            {
+                Shiled.transform.GetChild(0).gameObject.SetActive(true);
+                Shiled.transform.GetChild(0).transform.parent = null;
+                Shiled.transform.gameObject.SetActive(false); Shiled.transform.parent = null;
+            }
+
+            if (Sword.activeSelf)
+            {
+                Sword.transform.gameObject.AddComponent<Rigidbody>().AddForce(Vector3.up * 50);
+                Sword.transform.gameObject.AddComponent<BoxCollider>(); Sword.transform.parent = null;
+            }
+            if (Spear.activeSelf)
+            {
+                Spear.transform.gameObject.AddComponent<Rigidbody>().AddForce(Vector3.up * 50);
+                Spear.transform.gameObject.AddComponent<BoxCollider>(); Spear.transform.parent = null;
+            }
+            if (Helmet.activeSelf)
+            {
+                Helmet.transform.gameObject.AddComponent<Rigidbody>().AddForce(Vector3.up * 50);
+                Helmet.transform.gameObject.AddComponent<BoxCollider>(); Helmet.transform.parent = null;
+            }
+
+
+
+
+            Death = true;
+
+
+
+
+            foreach (Collider col in ragCol)
+            {
+                col.enabled = true;
+            }
+            foreach (Rigidbody rigid in limbsRb)
+            {
+                rigid.isKinematic = false;
+                rigid.AddForce(new Vector3(Random.Range(-18f, 18f), Random.Range(20, 30f), Random.Range(-18f, 18f)).normalized * 150);
+            }
+            GetComponent<Animator>().enabled = false;
+
+
+            RagDollPlayed = true;
         }
-
-        if (Sword.activeSelf)
-        {
-            Sword.transform.gameObject.AddComponent<Rigidbody>().AddForce(Vector3.up * 50);
-            Sword.transform.gameObject.AddComponent<BoxCollider>(); Sword.transform.parent = null;
-        }
-        if (Spear.activeSelf)
-        {
-            Spear.transform.gameObject.AddComponent<Rigidbody>().AddForce(Vector3.up * 50);
-            Spear.transform.gameObject.AddComponent<BoxCollider>(); Spear.transform.parent = null;
-        }
-        if (Helmet.activeSelf)
-        {
-            Helmet.transform.gameObject.AddComponent<Rigidbody>().AddForce(Vector3.up * 50);
-            Helmet.transform.gameObject.AddComponent<BoxCollider>(); Helmet.transform.parent = null;
-        }
-      
-       
-       
-       
-        Death = true;
-
-
-
-
-        foreach (Collider col in ragCol)
-        {
-            col.enabled = true;
-        }
-        foreach (Rigidbody rigid in limbsRb)
-        {
-            rigid.isKinematic = false;
-            rigid.AddForce(new Vector3(Random.Range(-18f, 18f), Random.Range(20, 30f), Random.Range(-18f, 18f)).normalized * 150);
-        }
-       GetComponent<Animator>().enabled = false;
-  
-
-
-
     }
     void RagDollOff()
     {
