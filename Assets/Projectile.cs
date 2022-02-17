@@ -2,20 +2,18 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using DG.Tweening;
-public class ragdollOn : MonoBehaviour
+public class Projectile : MonoBehaviour
 {
-    public ParticleSystem HitRed;
+    public ParticleSystem HitRed ,Splash;
 
+    public float power = 1000.0F;
     public int ImpactRadius = 200;
     public GameObject thisGuysRig;
     Collider[] ragCol;
     Rigidbody[] limbsRb;
-
-
     public float IncreaseAmmount;
+    public GameObject Crack;
 
-    public float radius = 5.0F;
-    public float power = 10.0F;
     bool played;
     void ExPlodeStart()
     {
@@ -28,7 +26,7 @@ public class ragdollOn : MonoBehaviour
             {
                 r.transform.root.transform.GetComponentInChildren<Enemy>().RagDollOn();
               //  r.transform.parent.transform.GetComponentInChildren<Enemy>().RagDollOn();
-                r.AddExplosionForce(1000,transform.position, ImpactRadius);
+                r.AddExplosionForce(power,transform.position, ImpactRadius);
             }
         }
     }
@@ -41,7 +39,14 @@ public class ragdollOn : MonoBehaviour
         {
             if (!played)
             {
+                Splash.transform.eulerAngles = new Vector3(-90, -270, 0);
+                Splash.Play();
+                
+                Splash.transform.parent = null;
+
                 HitRed.Play();
+                HitRed.transform.parent = null;
+                Destroy(HitRed.transform.gameObject, .5f);
                 ExPlodeStart();
                 transform.GetChild(1).gameObject.SetActive(false);
                 played = true;
@@ -100,6 +105,10 @@ public class ragdollOn : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Ground"))
         {
+            Crack.SetActive(true);
+            Crack.transform.eulerAngles = new Vector3(90, 0, 0);
+            Crack.transform.parent = null;
+            if(HitRed != null)
             HitRed.Play();
             GetComponent<Rigidbody>().AddForce(Vector3.up * 100, ForceMode.Impulse);
             other.tag = "Untagged";
@@ -107,31 +116,15 @@ public class ragdollOn : MonoBehaviour
         }
         if (other.gameObject.CompareTag("Collectable"))
         {
+            ImpactRadius += 50;
             this.transform.DOScale(new Vector3(this.transform.localScale.x + IncreaseAmmount, this.transform.localScale.y + IncreaseAmmount,
-       this.transform.localScale.z + IncreaseAmmount), .3f).SetEase(Ease.InOutElastic);
+             this.transform.localScale.z + IncreaseAmmount), .3f).SetEase(Ease.InOutElastic);
             Destroy(other.gameObject);
         }
         if (other.gameObject.CompareTag("Enemy"))
         {
             other.GetComponent<Enemy>().RagDollOn();
             other.GetComponent<Enemy>().Death = true;
-
-            other.GetComponent<Enemy>().Shiled.transform.gameObject.AddComponent<Rigidbody>().AddForce(Vector3.up * 50);
-            other.GetComponent<Enemy>().Shiled.transform.gameObject.AddComponent<BoxCollider>();
-            other.GetComponent<Enemy>().Sword.transform.gameObject.AddComponent<Rigidbody>().AddForce(Vector3.up * 50);
-            other.GetComponent<Enemy>().Sword.transform.gameObject.AddComponent<BoxCollider>();
-
-            other.GetComponent<Enemy>().Spear.transform.gameObject.AddComponent<Rigidbody>().AddForce(Vector3.up * 50);
-            other.GetComponent<Enemy>().Spear.transform.gameObject.AddComponent<BoxCollider>();
-            other.GetComponent<Enemy>().Helmet.transform.gameObject.AddComponent<Rigidbody>().AddForce(Vector3.up * 50);
-            other.GetComponent<Enemy>().Helmet.transform.gameObject.AddComponent<BoxCollider>();
-
-            other.GetComponent<Enemy>().Shiled.transform.parent = null;
-            other.GetComponent<Enemy>().Sword.transform.parent = null;
-            other.GetComponent<Enemy>().Spear.transform.parent = null;
-            other.GetComponent<Enemy>().Helmet.transform.parent = null;
-
-
         }
     }
 
