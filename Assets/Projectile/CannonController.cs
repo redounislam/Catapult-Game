@@ -80,6 +80,7 @@ public class CannonController : MonoBehaviour
 
                 if (Input.GetMouseButton(0))
                 {
+                    GM.Instance.EnemyMove = true;
                     j = (-Input.GetAxis("Mouse Y"));
 
                     l.enabled = true;

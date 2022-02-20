@@ -82,14 +82,14 @@ Material:
     - _OcclusionStrength: 1
     - _Offset1: 0
     - _Offset2: 0
-    - _Outline: 1
+    - _Outline: 0
     - _Parallax: 0.02
-    - _RampSmooth: 0.1
+    - _RampSmooth: 0.001
     - _RampSmoothOtherLights: 0.5
-    - _RampThreshold: 0.5
+    - _RampThreshold: 0
     - _RampThresholdOtherLights: 0.5
     - _SketchSpeed: 6
-    - _Smoothness: 0.2
+    - _Smoothness: 0.5
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1

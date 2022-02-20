@@ -26,6 +26,7 @@ public class DrawProjection : MonoBehaviour
     {
         if (GM.Instance.StartGame)
         {
+           
             lineRenderer.positionCount = (int)numPoints;
             List<Vector3> points = new List<Vector3>();
             Vector3 startingPosition = cannonController.ShotPoint.position;

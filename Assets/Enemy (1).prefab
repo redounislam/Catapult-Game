@@ -116,7 +116,7 @@ MonoBehaviour:
   PopUp: {fileID: 2591623643121982080, guid: 75012507313d3dc4498b5101373b07c7, type: 3}
   EnableSword: 0
   EnableShield: 1
-  EnableHelmet: 1
+  EnableHelmet: 0
   EnableSpear: 1
   EnableSflag: 0
   Sword: {fileID: 2240857988444651068}
@@ -2605,6 +2605,10 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 2847df5eb88bb034a9b6ec75437e20a4, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: -231.545
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 2847df5eb88bb034a9b6ec75437e20a4, type: 3}
+      propertyPath: m_ReceiveShadows
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 2847df5eb88bb034a9b6ec75437e20a4, type: 3}
       propertyPath: m_Materials.Array.data[0]

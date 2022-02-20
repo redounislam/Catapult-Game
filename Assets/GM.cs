@@ -14,10 +14,11 @@ public class GM :Singleton<GM>
     public GameObject CamStartPos, CamEndPos;
     public float CamMoveDuration = 1f;
     Camera cam;
+    public bool EnemyMove;
 
-
-    public override void Start()
+    public IEnumerator CameraRoutine()
     {
+        yield return new WaitForSeconds(1);
         cam = Camera.main;
         cam.transform.position = CamStartPos.transform.position;
         cam.transform.eulerAngles = new Vector3(CamStartPos.transform.eulerAngles.x, CamStartPos.transform.eulerAngles.y,
@@ -30,6 +31,11 @@ public class GM :Singleton<GM>
             cam.transform.GetComponent<SharkAttack.CameraController>().enabled = true;
         });
 
+    }
+
+    public override void Start()
+    {
+        StartCoroutine(CameraRoutine());
         base.Start();
     }
     void Update()
