@@ -69,6 +69,12 @@ public class Enemy : MonoBehaviour
 
     }
     bool RagDollPlayed;
+
+    public IEnumerator LevelCompleteUIRoutine()
+    {
+        yield return new WaitForSeconds(1.5f);
+        UiManager.Instance.LevelCompleteUI.SetActive(true);
+    }
    public void RagDollOn()
     {
         if (!RagDollPlayed)
@@ -78,6 +84,11 @@ public class Enemy : MonoBehaviour
            
             Destroy(g, 1.5f);
             GM.Instance.KillCount++;
+
+            if(GM.Instance.KillCount == GM.Instance.TargetThisLevel)
+            {
+                StartCoroutine(LevelCompleteUIRoutine());
+            }
             UiManager.Instance.KillCount.text = GM.Instance.KillCount.ToString();
             if (Flag.activeSelf)
             {
@@ -127,7 +138,7 @@ public class Enemy : MonoBehaviour
             foreach (Rigidbody rigid in limbsRb)
             {
                 rigid.isKinematic = false;
-                rigid.AddForce(new Vector3(Random.Range(-18f, 18f), Random.Range(20, 30f), Random.Range(-18f, 18f)).normalized * 150);
+                rigid.AddForce(new Vector3(Random.Range(-18f, 18f), Random.Range(2, 12f), Random.Range(-18f, 18f)).normalized * 150);
             }
             GetComponent<Animator>().enabled = false;
 
@@ -144,6 +155,11 @@ public class Enemy : MonoBehaviour
 
             Destroy(g,1.5f);
             GM.Instance.KillCount++;
+
+            if (GM.Instance.KillCount == GM.Instance.TargetThisLevel)
+            {
+                StartCoroutine(LevelCompleteUIRoutine());
+            }
             UiManager.Instance.KillCount.text = GM.Instance.KillCount.ToString();
             if (Shiled.activeSelf)
             {

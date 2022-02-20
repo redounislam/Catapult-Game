@@ -27,6 +27,7 @@ public class GM :Singleton<GM>
           CamEndPos.transform.eulerAngles.z), CamMoveDuration);
         cam.transform.DOMove(CamEndPos.transform.position, CamMoveDuration).OnComplete(() =>
         {
+            UiManager.Instance. ScoreCard.gameObject.SetActive(true);
             StartGame = true;
             cam.transform.GetComponent<SharkAttack.CameraController>().enabled = true;
         });
@@ -35,8 +36,13 @@ public class GM :Singleton<GM>
 
     public override void Start()
     {
-        StartCoroutine(CameraRoutine());
+      
         base.Start();
+    }
+    public void StartIt()
+    {
+        StartCoroutine(CameraRoutine());
+        UiManager.Instance.StartSceneUI.SetActive(false);
     }
     void Update()
     {
