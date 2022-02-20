@@ -6,7 +6,7 @@ public class Projectile : MonoBehaviour
 {
     public ParticleSystem HitRed ,Splash;
 
-    public float power = 1000.0F;
+    public float power = 1000.0F , JumpPower;
     public int ImpactRadius = 200;
     public GameObject thisGuysRig;
     Collider[] ragCol;
@@ -24,9 +24,10 @@ public class Projectile : MonoBehaviour
             
             if (r != null && r.transform.root.transform.GetComponentInChildren<Enemy>() )
             {
-                r.transform.root.transform.GetComponentInChildren<Enemy>().RagDollOn();
+                r.transform.root.transform.GetComponentInChildren<Enemy>().RagDollOnAdForce();
               //  r.transform.parent.transform.GetComponentInChildren<Enemy>().RagDollOn();
-                r.AddExplosionForce(power,transform.position, ImpactRadius);
+             //   r.AddExplosionForce(power,transform.position, ImpactRadius);
+               // r.AddForce(new Vector3(Random.Range(-18f, 18f),0, Random.Range(-18f, 18f)).normalized * power);
             }
         }
     }
@@ -106,14 +107,14 @@ public class Projectile : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Ground"))
         {
-
+            GetComponent<Rigidbody>().AddForce(Vector3.up * JumpPower * Time.deltaTime * 100, ForceMode.Impulse);
             Crack.SetActive(true);
             Crack.transform.DOMoveY(4.12f, 0);
             Crack.transform.eulerAngles = new Vector3(90, 0, 0);
             Crack.transform.parent = null;
             if(HitRed != null)
             HitRed.Play();
-            GetComponent<Rigidbody>().AddForce(Vector3.up * 400, ForceMode.Impulse);          
+                
             transform.GetComponentInChildren<MySDK.SimpleRotator>().enabled = false;
             other.tag = "Untagged";
         }

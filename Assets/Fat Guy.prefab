@@ -10490,8 +10490,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   HitRed: {fileID: 6372331078282572918}
   Splash: {fileID: 4115086459968261092}
-  power: 10
-  ImpactRadius: 200
+  power: 100
+  JumpPower: 150
+  ImpactRadius: 300
   thisGuysRig: {fileID: 3395674644010531575}
   IncreaseAmmount: 0.1
   Crack: {fileID: 8227198733330654397}
