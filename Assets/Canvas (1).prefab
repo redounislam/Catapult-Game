@@ -100,6 +100,34 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 55
+--- !u!114 &447974137
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5761440313803287052}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94164b795b94c524a8ccb1dea92dac3d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IsPlaying: 0
+  PlayOnEnable: 1
+  RandomStartTime: 0
+  StartTime: 0
+  UseDotweenID: 0
+  Id: -9999
+  Duration: 1
+  Ease: 1
+  IsRelative: 0
+  UpdateType: 0
+  UpdateFrameIndependant: 0
+  LoopCount: 0
+  LoopType: 0
+  IsLocal: 0
+  m_InitialPosition: {x: 0, y: -1.7224, z: 0}
+  FinalPosition: {x: 0, y: -672.7, z: 0}
 --- !u!1001 &2342670085579967208
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -111,9 +139,25 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.x
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1429350277374954799, guid: 78b30ea8c4d8adb4a8b5ef7cc533a0fe, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -1.7224
+      objectReference: {fileID: 0}
     - target: {fileID: 1490768330434810583, guid: 78b30ea8c4d8adb4a8b5ef7cc533a0fe, type: 3}
       propertyPath: m_Name
       value: skull pop
+      objectReference: {fileID: 0}
+    - target: {fileID: 4116341266664717468, guid: 78b30ea8c4d8adb4a8b5ef7cc533a0fe, type: 3}
+      propertyPath: m_Color.a
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4116341266664717468, guid: 78b30ea8c4d8adb4a8b5ef7cc533a0fe, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7502903872558067007, guid: 78b30ea8c4d8adb4a8b5ef7cc533a0fe, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 1.7224122
       objectReference: {fileID: 0}
     - target: {fileID: 8013962761484600528, guid: 78b30ea8c4d8adb4a8b5ef7cc533a0fe, type: 3}
       propertyPath: m_Pivot.x
@@ -204,5 +248,10 @@ PrefabInstance:
 --- !u!224 &5743644973569543736 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 8013962761484600528, guid: 78b30ea8c4d8adb4a8b5ef7cc533a0fe, type: 3}
+  m_PrefabInstance: {fileID: 2342670085579967208}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &5761440313803287052 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8031722946461540580, guid: 78b30ea8c4d8adb4a8b5ef7cc533a0fe, type: 3}
   m_PrefabInstance: {fileID: 2342670085579967208}
   m_PrefabAsset: {fileID: 0}

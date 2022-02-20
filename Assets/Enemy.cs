@@ -76,7 +76,7 @@ public class Enemy : MonoBehaviour
             GameObject g = Instantiate(PopUp, transform.position, Quaternion.identity);
         
            
-            Destroy(g, .5f);
+            Destroy(g, 1.5f);
             GM.Instance.KillCount++;
             UiManager.Instance.KillCount.text = GM.Instance.KillCount.ToString();
             if (Flag.activeSelf)
@@ -142,7 +142,7 @@ public class Enemy : MonoBehaviour
             GameObject g = Instantiate(PopUp, transform.position, Quaternion.identity);
 
 
-            Destroy(g, .5f);
+            Destroy(g,1.5f);
             GM.Instance.KillCount++;
             UiManager.Instance.KillCount.text = GM.Instance.KillCount.ToString();
             if (Shiled.activeSelf)
