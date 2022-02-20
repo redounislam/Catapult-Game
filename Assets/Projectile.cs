@@ -80,6 +80,7 @@ public class Projectile : MonoBehaviour
             rigid.mass = 1f;
             rigid.angularDrag = 0; rigid.drag = 0;
             rigid.isKinematic = false;
+            rigid.interpolation = RigidbodyInterpolation.Interpolate;
             
            rigid.velocity =FindObjectOfType<CannonController>(). ShotPoint.transform.up * FindObjectOfType<CannonController>().BlastPower;
         }
@@ -105,14 +106,16 @@ public class Projectile : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Ground"))
         {
+
             Crack.SetActive(true);
+            Crack.transform.DOMoveY(4.12f, 0);
             Crack.transform.eulerAngles = new Vector3(90, 0, 0);
             Crack.transform.parent = null;
             if(HitRed != null)
             HitRed.Play();
-            GetComponent<Rigidbody>().AddForce(Vector3.up * 100, ForceMode.Impulse);
-            other.tag = "Untagged";
+            GetComponent<Rigidbody>().AddForce(Vector3.up * 400, ForceMode.Impulse);          
             transform.GetComponentInChildren<MySDK.SimpleRotator>().enabled = false;
+            other.tag = "Untagged";
         }
         if (other.gameObject.CompareTag("Collectable"))
         {

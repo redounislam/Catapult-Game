@@ -70,9 +70,11 @@ public class Enemy : MonoBehaviour
             UiManager.Instance.KillCount.text = GM.Instance.KillCount.ToString();
             if (Shiled.activeSelf)
             {
-                Shiled.transform.GetChild(0).gameObject.SetActive(true);
-                Shiled.transform.GetChild(0).transform.parent = null;
-                Shiled.transform.gameObject.SetActive(false); Shiled.transform.parent = null;
+              //  Shiled.transform.GetChild(0).gameObject.SetActive(true);
+               // Shiled.transform.GetChild(0).transform.parent = null;
+                Shiled.transform.gameObject.gameObject.AddComponent<Rigidbody>().AddForce(Vector3.up * 50);
+                Shiled.transform.gameObject.gameObject.AddComponent<BoxCollider>();
+               Shiled.transform.parent = null;
             }
 
             if (Sword.activeSelf)
