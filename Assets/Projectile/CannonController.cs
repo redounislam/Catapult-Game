@@ -4,6 +4,7 @@ using UnityEngine;
 using DG.Tweening;
 public class CannonController : MonoBehaviour
 {
+    public GameObject Dummy;
     public GameObject MainStick;
     public float rotationSpeed = 1;
     public float BlastPower = 5;
@@ -104,7 +105,7 @@ public class CannonController : MonoBehaviour
                 }
                 if (Input.GetMouseButtonUp(0))
                 {
-
+                    Invoke("DummyDisable", .005f);
                     l.enabled = false;
                     Bend.angle = 0;
                     GameObject CreatedCannonball = Instantiate(Cannonball, ShotPoint.position, ShotPoint.rotation);
@@ -118,7 +119,7 @@ public class CannonController : MonoBehaviour
 
             }
 
-
+            
 
 
             //float HorizontalRotation = Input.GetAxis("Horizontal");
@@ -133,6 +134,10 @@ public class CannonController : MonoBehaviour
 
             }
         }
+    }
+    public void DummyDisable()
+    {
+        Dummy.gameObject.SetActive(false);
     }
 
 }
