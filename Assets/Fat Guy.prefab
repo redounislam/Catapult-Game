@@ -10491,11 +10491,12 @@ MonoBehaviour:
   HitRed: {fileID: 6372331078282572918}
   Splash: {fileID: 4115086459968261092}
   power: 100
-  JumpPower: 70
+  JumpPower: 120
   ImpactRadius: 300
   thisGuysRig: {fileID: 3395674644010531575}
   IncreaseAmmount: 0.1
   Crack: {fileID: 8227198733330654397}
+  Cannon: 1
 --- !u!1 &3347496669009186184
 GameObject:
   m_ObjectHideFlags: 0

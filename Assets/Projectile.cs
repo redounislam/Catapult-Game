@@ -15,6 +15,8 @@ public class Projectile : MonoBehaviour
     public GameObject Crack;
 
     bool played;
+
+    public bool Cannon;
     void ExPlodeStart()
     {
         Collider[] objects = UnityEngine.Physics.OverlapSphere(transform.position, 20);
@@ -39,7 +41,7 @@ public class Projectile : MonoBehaviour
        
         
 
-            if (Input.GetMouseButton(0))
+            if (Input.GetMouseButton(0) && Cannon)
         {
             if (!played)
             {
