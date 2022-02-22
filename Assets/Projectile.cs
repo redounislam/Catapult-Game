@@ -13,10 +13,14 @@ public class Projectile : MonoBehaviour
     Rigidbody[] limbsRb;
     public float IncreaseAmmount;
     public GameObject Crack;
-
+    Rigidbody rb;
     bool played;
 
     public bool Cannon;
+    private void Start()
+    {
+        rb = GetComponent<Rigidbody>();
+    }
     void ExPlodeStart()
     {
         Collider[] objects = UnityEngine.Physics.OverlapSphere(transform.position, 20);
@@ -60,9 +64,28 @@ public class Projectile : MonoBehaviour
 
             }
         }
+
+
+           if( rb.velocity.magnitude <= .1f)
+        {
+            if (GM.Instance.KillCount < GM.Instance.TargetThisLevel)
+            {
+                UiManager.Instance.EndSceneUI.SetActive(true);
+                UiManager.Instance.ScoreCard.SetActive(false);
+            }
+            
+
+            StartCoroutine(SciptDisable());
+        }
+
+        
     }
 
-
+    public IEnumerator SciptDisable()
+    {
+        yield return new WaitForSeconds(.2f);
+        GetComponent<Projectile>().enabled = false;
+    }
 
 
     void GetRagDollBits()

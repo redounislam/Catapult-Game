@@ -72,7 +72,7 @@ public class Enemy : MonoBehaviour
 
     public IEnumerator LevelCompleteUIRoutine()
     {
-        yield return new WaitForSeconds(1.5f);
+        yield return new WaitForSeconds(1.5f); UiManager.Instance.ScoreCard.SetActive(false);
         UiManager.Instance.LevelCompleteUI.SetActive(true);
     }
    public void RagDollOn()
@@ -83,13 +83,7 @@ public class Enemy : MonoBehaviour
         
            
             Destroy(g, 1.5f);
-            GM.Instance.KillCount++;
-
-            if(GM.Instance.KillCount == GM.Instance.TargetThisLevel)
-            {
-                StartCoroutine(LevelCompleteUIRoutine());
-            }
-            UiManager.Instance.KillCount.text = GM.Instance.KillCount.ToString();
+            IncreaseKill();
             if (Flag.activeSelf)
             {
                 //  Shiled.transform.GetChild(0).gameObject.SetActive(true);
@@ -146,6 +140,18 @@ public class Enemy : MonoBehaviour
             RagDollPlayed = true;
         }
     }
+    void IncreaseKill()
+    {
+        GM.Instance.KillCount++;
+        UiManager.Instance.GetCurrentFill(GM.Instance.KillCount, GM.Instance.TargetThisLevel);
+
+        if (GM.Instance.KillCount == GM.Instance.TargetThisLevel)
+        {
+            
+            StartCoroutine(LevelCompleteUIRoutine());
+        }
+        UiManager.Instance.KillCount.text = GM.Instance.KillCount.ToString();
+    }
     public void RagDollOnAdForce()
     {
         if (!RagDollPlayed)
@@ -154,13 +160,7 @@ public class Enemy : MonoBehaviour
 
 
             Destroy(g,1.5f);
-            GM.Instance.KillCount++;
-
-            if (GM.Instance.KillCount == GM.Instance.TargetThisLevel)
-            {
-                StartCoroutine(LevelCompleteUIRoutine());
-            }
-            UiManager.Instance.KillCount.text = GM.Instance.KillCount.ToString();
+            IncreaseKill();
             if (Shiled.activeSelf)
             {
                 //  Shiled.transform.GetChild(0).gameObject.SetActive(true);

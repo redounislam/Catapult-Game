@@ -7,7 +7,7 @@ public class GM :Singleton<GM>
 {
     public int TargetThisLevel;
     public int KillCount;
-
+    public GameObject GroundPlane;
 
     public bool StartGame, End;
 
@@ -18,7 +18,9 @@ public class GM :Singleton<GM>
 
     public IEnumerator CameraRoutine()
     {
+
         yield return new WaitForSeconds(1);
+        GroundPlane.GetComponent<Animator>().enabled = false;
         cam = Camera.main;
         cam.transform.position = CamStartPos.transform.position;
         cam.transform.eulerAngles = new Vector3(CamStartPos.transform.eulerAngles.x, CamStartPos.transform.eulerAngles.y,
@@ -41,6 +43,7 @@ public class GM :Singleton<GM>
     }
     public void StartIt()
     {
+      
         StartCoroutine(CameraRoutine());
         UiManager.Instance.StartSceneUI.SetActive(false);
     }
