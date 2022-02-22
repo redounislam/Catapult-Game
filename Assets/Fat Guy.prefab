@@ -974,7 +974,7 @@ MonoBehaviour:
   CamRotatorParent: {fileID: 5840489086561317105}
   DestroyedParts: {fileID: 5176234365056287716}
   power: 300
-  JumpPower: 120
+  JumpPower: 20
   ImpactRadius: 400
   thisGuysRig: {fileID: 3395674644010531575}
   IncreaseAmmount: 0.1

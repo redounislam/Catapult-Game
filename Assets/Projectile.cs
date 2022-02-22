@@ -38,7 +38,7 @@ public class Projectile : MonoBehaviour
             if(r != null && r.transform.gameObject.CompareTag("Explode"))
             {
                 r.transform.GetChild(0).gameObject.SetActive(true);
-               r.transform.GetChild(0).gameObject.SetActive(true); r.transform.GetChild(0).gameObject.transform.parent = null;
+                r.transform.GetChild(0).gameObject.SetActive(true); r.transform.GetChild(0).gameObject.transform.parent = null;
                 r.transform.gameObject.SetActive(false);
             }
         }
@@ -129,7 +129,28 @@ public class Projectile : MonoBehaviour
        
     }
 
+    void RagDollJump()
+    {
 
+        thisGuysRig.GetComponent<Rigidbody>().mass = 10f;
+        thisGuysRig.GetComponent<Collider>().enabled = false;
+
+        foreach (Collider col in ragCol)
+        {
+            col.enabled = true;
+        }
+        foreach (Rigidbody rigid in limbsRb)
+        {
+            rigid.mass = 1f;
+            rigid.angularDrag = 0; rigid.drag = 0;
+            rigid.isKinematic = false;
+            rigid.interpolation = RigidbodyInterpolation.Interpolate;
+            rigid.AddForce(Vector3.up * JumpPower * Time.deltaTime *100, ForceMode.Impulse);
+        }
+        //   GetComponent<Collider>().enabled = false;
+        transform.GetComponent<Rigidbody>().isKinematic = false;
+
+    }
     IEnumerator Ragdoll()
     {
         yield return new WaitForSeconds(0f);
@@ -154,7 +175,7 @@ public class Projectile : MonoBehaviour
             if (other.gameObject.CompareTag("Ground"))
         {
             Camera.main.GetComponent<SharkAttack.CameraController>().enabled = false;
-            GetComponent<Rigidbody>().AddForce(Vector3.up * JumpPower * Time.deltaTime * 100, ForceMode.Impulse);
+            RagDollJump();
             Crack.SetActive(true);
             Crack.transform.DOMoveY(4.12f, 0);
             Crack.transform.eulerAngles = new Vector3(90, 0, 0);
