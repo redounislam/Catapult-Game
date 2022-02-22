@@ -45,7 +45,7 @@ public class DrawProjection : MonoBehaviour
                     {
                         Cube.SetActive(true);
 
-                        Cube.transform.position = new Vector3(newPoint.x , 3 , newPoint.z);
+                        Cube.transform.position = newPoint;
                     }
                   
                     break;
