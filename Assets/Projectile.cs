@@ -174,6 +174,7 @@ public class Projectile : MonoBehaviour
         }
             if (other.gameObject.CompareTag("Ground"))
         {
+            Camera.main.transform.parent = GM.Instance.ParentCam.transform;
             Camera.main.GetComponent<SharkAttack.CameraController>().enabled = false;
             RagDollJump();
             Crack.SetActive(true);
@@ -183,9 +184,9 @@ public class Projectile : MonoBehaviour
             if(HitRed != null)
             HitRed.Play();
 
-            
-            Camera.main.transform.DOLocalMove(new Vector3(GM.Instance.offset.x , GM.Instance.offset.y , 22.8f),1);
 
+
+            Camera.main.transform.DOLocalMove(new Vector3(GM.Instance.offset.x, GM.Instance.offset.y, 22.8f), 1);
             Camera.main.transform.DOLocalRotate(new Vector3(37.9f, -232.3f, 0), .5f).SetEase(Ease.InSine).OnComplete(() =>
             {
                 
@@ -193,7 +194,7 @@ public class Projectile : MonoBehaviour
            
             transform.GetComponentInChildren<MySDK.SimpleRotator>().enabled = false; 
             other.tag = "Untagged";
-            Camera.main.transform.parent = GM.Instance.ParentCam.transform;
+          
         }
         if (other.gameObject.CompareTag("Collectable"))
         {
