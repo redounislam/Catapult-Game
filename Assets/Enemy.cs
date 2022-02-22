@@ -74,6 +74,7 @@ public class Enemy : MonoBehaviour
     {
         yield return new WaitForSeconds(1.5f); UiManager.Instance.ScoreCard.SetActive(false);
         UiManager.Instance.LevelCompleteUI.SetActive(true);
+        Camera.main.transform.GetChild(0).gameObject.SetActive(true);
     }
    public void RagDollOn()
     {
@@ -147,7 +148,7 @@ public class Enemy : MonoBehaviour
 
         if (GM.Instance.KillCount == GM.Instance.TargetThisLevel)
         {
-            
+          
             StartCoroutine(LevelCompleteUIRoutine());
         }
         UiManager.Instance.KillCount.text = GM.Instance.KillCount.ToString();

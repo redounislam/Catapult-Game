@@ -5,7 +5,7 @@ using DG.Tweening;
 public class Projectile : MonoBehaviour
 {
     public ParticleSystem HitRed ,Splash;
-
+    public GameObject ConfettiFX;
     public float power = 1000.0F , JumpPower;
     public int ImpactRadius = 200;
     public GameObject thisGuysRig;
