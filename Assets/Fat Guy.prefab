@@ -10422,7 +10422,7 @@ GameObject:
   - component: {fileID: 8884927206908042894}
   m_Layer: 6
   m_Name: Fat Guy
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10443,6 +10443,7 @@ Transform:
   - {fileID: 6372331078282572872}
   - {fileID: 8651040711835718223}
   - {fileID: 4625284779922031065}
+  - {fileID: 2866451602415807160}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: -86.231, z: 0}
@@ -10490,9 +10491,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   HitRed: {fileID: 6372331078282572918}
   Splash: {fileID: 4115086459968261092}
-  ConfettiFX: {fileID: 0}
+  CamRotatorParent: {fileID: 5840489086561317105}
   power: 100
-  JumpPower: 150
+  JumpPower: 0
   ImpactRadius: 300
   thisGuysRig: {fileID: 3395674644010531575}
   IncreaseAmmount: 0.1
@@ -79637,6 +79638,50 @@ Transform:
   m_Father: {fileID: 604433680384111189}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &5840489086561317105
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2866451602415807160}
+  - component: {fileID: 3046904219950097790}
+  m_Layer: 6
+  m_Name: CamRotator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2866451602415807160
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5840489086561317105}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2850890683305018134}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3046904219950097790
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5840489086561317105}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11f985de757641c4cbfb9d679e925152, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RotationSpeed: 2
 --- !u!1 &6086436832629357834
 GameObject:
   m_ObjectHideFlags: 0

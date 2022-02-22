@@ -5,7 +5,7 @@ using DG.Tweening;
 public class Projectile : MonoBehaviour
 {
     public ParticleSystem HitRed ,Splash;
-    public GameObject ConfettiFX;
+    public GameObject CamRotatorParent;
     public float power = 1000.0F , JumpPower;
     public int ImpactRadius = 200;
     public GameObject thisGuysRig;
@@ -142,8 +142,13 @@ public class Projectile : MonoBehaviour
             Crack.transform.parent = null;
             if(HitRed != null)
             HitRed.Play();
-                
-            transform.GetComponentInChildren<MySDK.SimpleRotator>().enabled = false;
+            
+           
+            Camera.main.transform.DOLocalMove(GM.Instance.offset,0);
+
+            Camera.main.transform.DOLocalRotate(new Vector3(37.9f, 133.8f, Camera.main.transform.eulerAngles.z), 0).SetEase(Ease.InSine);
+            Camera.main.GetComponent<SharkAttack.CameraController>().enabled = false;
+            transform.GetComponentInChildren<MySDK.SimpleRotator>().enabled = false; Camera.main.transform.parent = GM.Instance.ParentCam.transform;
             other.tag = "Untagged";
         }
         if (other.gameObject.CompareTag("Collectable"))

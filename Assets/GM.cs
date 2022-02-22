@@ -15,7 +15,8 @@ public class GM :Singleton<GM>
     public float CamMoveDuration = 1f;
     Camera cam;
     public bool EnemyMove;
-
+    public GameObject ParentCam;
+    public Vector3 offset;
     public IEnumerator CameraRoutine()
     {
 

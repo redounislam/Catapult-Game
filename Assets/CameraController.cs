@@ -10,7 +10,7 @@ namespace SharkAttack
         public static CameraController Instance;
         public Transform target;
         public Vector3 offset;
-        public float smoothFactor;
+        public float smoothFactor , offsetDistance ;
         public float OffsetY, OffsetZ , Xoffset;
         private bool isTargetFound = false;
         private Vector3 defaultPos;
@@ -18,9 +18,9 @@ namespace SharkAttack
 
         private CanvasScaler playerCanvasScaler;
         private Camera mainCam;
-     
 
-
+        public bool Rotate;
+        Vector3 positionForCamera;
         public static CameraController SharedManager()
         {
             return Instance;
@@ -42,12 +42,18 @@ namespace SharkAttack
    
            
         }
-
+        void Update()
+        {
+          
+        }
 
         private void LateUpdate()
         {
            
 
+
+
+            
                 if (target == null)
                 {
                     return;
@@ -65,7 +71,8 @@ namespace SharkAttack
                 transform.position = smoothedPosition;
 
                 transform.LookAt(smoothedPosition);
-
+            
+       
 
         }
 
