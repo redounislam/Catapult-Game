@@ -35,6 +35,12 @@ public class Projectile : MonoBehaviour
              //   r.AddExplosionForce(power,transform.position, ImpactRadius);
                // r.AddForce(new Vector3(Random.Range(-18f, 18f),0, Random.Range(-18f, 18f)).normalized * power);
             }
+            if(r != null && r.transform.gameObject.CompareTag("Explode"))
+            {
+                r.transform.GetChild(0).gameObject.SetActive(true);
+               r.transform.GetChild(0).gameObject.SetActive(true); r.transform.GetChild(0).gameObject.transform.parent = null;
+                r.transform.gameObject.SetActive(false);
+            }
         }
     }
 
@@ -51,8 +57,8 @@ public class Projectile : MonoBehaviour
             {
                 Splash.transform.eulerAngles = new Vector3(-90, -270, 0);
                 Splash.Play();
-                GameObject g = Instantiate(DestroyedParts, transform.position, Quaternion.identity);
-                
+                DestroyedParts.gameObject.SetActive(true);
+                DestroyedParts.gameObject.transform.parent = null;
                 Splash.transform.parent = null;
                 GetComponent<Collider>().enabled = false;
                 HitRed.Play();
@@ -71,8 +77,7 @@ public class Projectile : MonoBehaviour
         {
             if (GM.Instance.KillCount < GM.Instance.TargetThisLevel)
             {
-                UiManager.Instance.EndSceneUI.SetActive(true);
-                UiManager.Instance.ScoreCard.SetActive(false);
+                StartCoroutine(DelayEnd());
             }
             
 
@@ -81,7 +86,12 @@ public class Projectile : MonoBehaviour
 
         
     }
-
+    public IEnumerator DelayEnd()
+    {
+        yield return new WaitForSeconds(4f);
+        UiManager.Instance.EndSceneUI.SetActive(true);
+        UiManager.Instance.ScoreCard.SetActive(false);
+    }
     public IEnumerator SciptDisable()
     {
         yield return new WaitForSeconds(.2f);
