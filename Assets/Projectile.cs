@@ -5,7 +5,7 @@ using DG.Tweening;
 public class Projectile : MonoBehaviour
 {
     public ParticleSystem HitRed ,Splash;
-    public GameObject CamRotatorParent;
+    public GameObject CamRotatorParent , DestroyedParts;
     public float power = 1000.0F , JumpPower;
     public int ImpactRadius = 200;
     public GameObject thisGuysRig;
@@ -51,9 +51,10 @@ public class Projectile : MonoBehaviour
             {
                 Splash.transform.eulerAngles = new Vector3(-90, -270, 0);
                 Splash.Play();
+                GameObject g = Instantiate(DestroyedParts, transform.position, Quaternion.identity);
                 
                 Splash.transform.parent = null;
-
+                GetComponent<Collider>().enabled = false;
                 HitRed.Play();
                 HitRed.transform.parent = null;
                 Destroy(HitRed.transform.gameObject, .5f);
@@ -142,6 +143,7 @@ public class Projectile : MonoBehaviour
         }
             if (other.gameObject.CompareTag("Ground"))
         {
+            Camera.main.GetComponent<SharkAttack.CameraController>().enabled = false;
             GetComponent<Rigidbody>().AddForce(Vector3.up * JumpPower * Time.deltaTime * 100, ForceMode.Impulse);
             Crack.SetActive(true);
             Crack.transform.DOMoveY(4.12f, 0);
@@ -149,14 +151,18 @@ public class Projectile : MonoBehaviour
             Crack.transform.parent = null;
             if(HitRed != null)
             HitRed.Play();
-            
-           
-            Camera.main.transform.DOLocalMove(GM.Instance.offset,2);
 
-            Camera.main.transform.DOLocalRotate(new Vector3(37.9f, 133.8f, Camera.main.transform.eulerAngles.z), 2).SetEase(Ease.InSine);
-            Camera.main.GetComponent<SharkAttack.CameraController>().enabled = false;
-            transform.GetComponentInChildren<MySDK.SimpleRotator>().enabled = false; Camera.main.transform.parent = GM.Instance.ParentCam.transform;
+            
+            Camera.main.transform.DOLocalMove(new Vector3(GM.Instance.offset.x , GM.Instance.offset.y , 22.8f),1);
+
+            Camera.main.transform.DOLocalRotate(new Vector3(37.9f, -232.3f, 0), .5f).SetEase(Ease.InSine).OnComplete(() =>
+            {
+                
+            });
+           
+            transform.GetComponentInChildren<MySDK.SimpleRotator>().enabled = false; 
             other.tag = "Untagged";
+            Camera.main.transform.parent = GM.Instance.ParentCam.transform;
         }
         if (other.gameObject.CompareTag("Collectable"))
         {
