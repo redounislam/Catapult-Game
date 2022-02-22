@@ -151,9 +151,9 @@ public class Projectile : MonoBehaviour
             HitRed.Play();
             
            
-            Camera.main.transform.DOLocalMove(GM.Instance.offset,0);
+            Camera.main.transform.DOLocalMove(GM.Instance.offset,2);
 
-            Camera.main.transform.DOLocalRotate(new Vector3(37.9f, 133.8f, Camera.main.transform.eulerAngles.z), 0).SetEase(Ease.InSine);
+            Camera.main.transform.DOLocalRotate(new Vector3(37.9f, 133.8f, Camera.main.transform.eulerAngles.z), 2).SetEase(Ease.InSine);
             Camera.main.GetComponent<SharkAttack.CameraController>().enabled = false;
             transform.GetComponentInChildren<MySDK.SimpleRotator>().enabled = false; Camera.main.transform.parent = GM.Instance.ParentCam.transform;
             other.tag = "Untagged";
