@@ -127,7 +127,7 @@ MonoBehaviour:
   LoopType: 0
   IsLocal: 0
   m_InitialPosition: {x: 0, y: -1.7224, z: 0}
-  FinalPosition: {x: 0, y: -672.7, z: 0}
+  FinalPosition: {x: 0, y: 751, z: 0}
 --- !u!1001 &2342670085579967208
 PrefabInstance:
   m_ObjectHideFlags: 0
