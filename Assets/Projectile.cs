@@ -45,7 +45,7 @@ public class Projectile : MonoBehaviour
     }
 
 
-    private void Update()
+    private void FixedUpdate()
     {
        
        
