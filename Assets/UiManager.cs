@@ -4,6 +4,7 @@ using UnityEngine;
 using Singleton;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.SceneManagement;
 public class UiManager : Singleton<UiManager>
 {
     public TMP_Text Target, KillCount;
@@ -23,5 +24,10 @@ public class UiManager : Singleton<UiManager>
         float fillAmmount = (float)current / (float)max;
         FillBar.fillAmount = fillAmmount;
 
+    }
+
+    public void Reset()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 }

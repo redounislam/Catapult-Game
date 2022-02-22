@@ -67,7 +67,7 @@ public class Projectile : MonoBehaviour
         }
 
 
-           if( rb.velocity.magnitude <= .1f)
+           if( rb.velocity.magnitude <= .2f)
         {
             if (GM.Instance.KillCount < GM.Instance.TargetThisLevel)
             {

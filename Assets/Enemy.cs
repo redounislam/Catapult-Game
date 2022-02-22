@@ -72,7 +72,8 @@ public class Enemy : MonoBehaviour
 
     public IEnumerator LevelCompleteUIRoutine()
     {
-        yield return new WaitForSeconds(1.5f); UiManager.Instance.ScoreCard.SetActive(false);
+        yield return new WaitForSeconds(1.5f); 
+        UiManager.Instance.ScoreCard.SetActive(false);
         UiManager.Instance.LevelCompleteUI.SetActive(true);
         Camera.main.transform.GetChild(0).gameObject.SetActive(true);
     }
