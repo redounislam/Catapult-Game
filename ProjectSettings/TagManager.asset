@@ -9,6 +9,7 @@ TagManager:
   - Ground
   - Canvas
   - Other
+  - Explode
   layers:
   - Default
   - TransparentFX

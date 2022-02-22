@@ -133,7 +133,14 @@ public class Projectile : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.CompareTag("Ground"))
+        if (other.gameObject.CompareTag("Explode"))
+        {
+            
+            
+            other.transform.GetChild(0).gameObject.SetActive(true); other.transform.GetChild(0).gameObject.transform.parent = null;
+            other.transform.gameObject.SetActive(false);
+        }
+            if (other.gameObject.CompareTag("Ground"))
         {
             GetComponent<Rigidbody>().AddForce(Vector3.up * JumpPower * Time.deltaTime * 100, ForceMode.Impulse);
             Crack.SetActive(true);
