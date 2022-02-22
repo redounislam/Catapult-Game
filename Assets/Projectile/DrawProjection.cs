@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class DrawProjection : MonoBehaviour
 {
+    public GameObject Cube;
     CannonController cannonController;
     LineRenderer lineRenderer;
 
@@ -26,7 +27,7 @@ public class DrawProjection : MonoBehaviour
     {
         if (GM.Instance.StartGame)
         {
-           
+            
             lineRenderer.positionCount = (int)numPoints;
             List<Vector3> points = new List<Vector3>();
             Vector3 startingPosition = cannonController.ShotPoint.position;
@@ -36,12 +37,24 @@ public class DrawProjection : MonoBehaviour
                 Vector3 newPoint = startingPosition + t * startingVelocity;
                 newPoint.y = startingPosition.y + startingVelocity.y * t + Physics.gravity.y / 2f * t * t;
                 points.Add(newPoint);
-
+                
                 if (Physics.OverlapSphere(newPoint, 2, CollidableLayers).Length > 0)
                 {
                     lineRenderer.positionCount = points.Count;
+                    if (Input.GetMouseButton(0))
+                    {
+                        Cube.SetActive(true);
+                       
+                        Cube.transform.position = new Vector3(newPoint.x , newPoint.y , newPoint.z);
+                    }
+                    else
+                    {
+                        Cube.SetActive(false);
+                    }
                     break;
                 }
+
+             
             }
 
             lineRenderer.SetPositions(points.ToArray());
