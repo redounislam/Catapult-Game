@@ -23,7 +23,7 @@ public class DrawProjection : MonoBehaviour
     }
 
 
-    void Update()
+    void LateUpdate()
     {
         if (GM.Instance.StartGame)
         {
@@ -44,17 +44,18 @@ public class DrawProjection : MonoBehaviour
                     if (Input.GetMouseButton(0))
                     {
                         Cube.SetActive(true);
-                       
-                        Cube.transform.position = new Vector3(newPoint.x , newPoint.y , newPoint.z);
+
+                        Cube.transform.position = new Vector3(newPoint.x , 3 , newPoint.z);
                     }
-                    else
-                    {
-                        Cube.SetActive(false);
-                    }
+                  
                     break;
                 }
+                else
+                {
+                    Cube.SetActive(false);
+                }
 
-             
+
             }
 
             lineRenderer.SetPositions(points.ToArray());
