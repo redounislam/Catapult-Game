@@ -185,12 +185,16 @@ public class Projectile : MonoBehaviour
             HitRed.Play();
 
 
-
-            Camera.main.transform.DOLocalMove(new Vector3(GM.Instance.offset.x, GM.Instance.offset.y, 22.8f), 2f).SetEase(Ease.InSine);
-            Camera.main.transform.DOLocalRotate(new Vector3(37.9f, -232.3f, 0), 2f).SetEase(Ease.InSine).OnComplete(() =>
+            Camera.main.transform.DOLookAt(GM.Instance.ParentCam.transform.position, 1).OnComplete(() =>
             {
-                
+                GM.Instance.ParentCam.GetComponent<CamRotator>().enabled = true;
             });
+            //Camera.main.transform.DOLocalMove(new Vector3(GM.Instance.offset.x, GM.Instance.offset.y, 22.8f), 2f).SetEase(Ease.InSine);
+            //Camera.main.transform.DOLocalRotate(new Vector3(37.9f, -232.3f, 0), 2f).SetEase(Ease.InSine).OnComplete(() =>
+            //{
+
+            //});
+            GM.Instance.ParentCam.GetComponent<CamRotator>();
             Camera.main.transform.parent = GM.Instance.ParentCam.transform;
             transform.GetComponentInChildren<MySDK.SimpleRotator>().enabled = false; 
             other.tag = "Untagged";

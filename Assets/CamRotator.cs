@@ -11,7 +11,7 @@ public class CamRotator : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void LateUpdate()
     {
         transform.Rotate(0, RotationSpeed * Time.deltaTime, 0);
     }
