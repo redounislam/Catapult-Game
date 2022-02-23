@@ -186,8 +186,8 @@ public class Projectile : MonoBehaviour
 
 
 
-            Camera.main.transform.DOLocalMove(new Vector3(GM.Instance.offset.x, GM.Instance.offset.y, 22.8f), 1f).SetEase(Ease.InSine);
-            Camera.main.transform.DOLocalRotate(new Vector3(37.9f, -232.3f, 0), 1f).SetEase(Ease.InSine).OnComplete(() =>
+            Camera.main.transform.DOLocalMove(new Vector3(GM.Instance.offset.x, GM.Instance.offset.y, 22.8f), 2f).SetEase(Ease.InSine);
+            Camera.main.transform.DOLocalRotate(new Vector3(37.9f, -232.3f, 0), 2f).SetEase(Ease.InSine).OnComplete(() =>
             {
                 
             });
