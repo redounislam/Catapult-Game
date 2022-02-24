@@ -16,10 +16,12 @@ public class Projectile : MonoBehaviour
     Rigidbody rb;
     bool played;
 
+
     public bool Cannon;
     private void Start()
     {
         rb = GetComponent<Rigidbody>();
+       
     }
     void ExPlodeStart()
     {
@@ -202,7 +204,7 @@ public class Projectile : MonoBehaviour
         }
         if (other.gameObject.CompareTag("Collectable"))
         {
-            ImpactRadius += 50;
+            ImpactRadius += 250;
             this.transform.DOScale(new Vector3(this.transform.localScale.x + IncreaseAmmount, this.transform.localScale.y + IncreaseAmmount,
              this.transform.localScale.z + IncreaseAmmount), .3f).SetEase(Ease.InOutElastic);
             Destroy(other.gameObject);

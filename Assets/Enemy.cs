@@ -18,8 +18,10 @@ public class Enemy : MonoBehaviour
     public Collider mainCollider;
     public bool Death;
 
+
     void Start()
     {
+        
         Canvas = GameObject.FindGameObjectWithTag("Canvas");
         if(EnableHelmet)
         {

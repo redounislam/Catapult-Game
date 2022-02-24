@@ -11,6 +11,8 @@ TagManager:
   - Other
   - Explode
   - FxTemporaire
+  - Death
+  - Hoop
   layers:
   - Default
   - TransparentFX
