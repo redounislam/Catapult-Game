@@ -38,13 +38,13 @@ Material:
     m_Floats:
     - _EndPos: 3.6
     - _Falloff: 5.36
-    - _GridScale: 0.18
-    - _OverlayAmount: 1
+    - _GridScale: -0.03
+    - _OverlayAmount: 0.362
     - _StartPos: -7.93
     - _UseHeightFog: 1
     - __dirty: 0
     m_Colors:
-    - _BaseColor: {r: 0.7028302, g: 0.8483766, b: 1, a: 1}
+    - _BaseColor: {r: 0.692922, g: 1, b: 0.5801887, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 0}
     - _FogColor: {r: 0.5647059, g: 0.48235297, b: 0.5294118, a: 1}
   m_BuildTextureStacks: []

@@ -1389,7 +1389,7 @@ SkinnedMeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 13a815e472fa38145b03ce8c51935e06, type: 2}
+  - {fileID: 2100000, guid: 52e43ff90076e09498315a623cd4d3a3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -75796,6 +75796,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2850890683305018134}
     m_Modifications:
+    - target: {fileID: 622886483812890218, guid: fcec30081f7375c4384497218aa5cee1, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 52e43ff90076e09498315a623cd4d3a3, type: 2}
+    - target: {fileID: 2412794571013397811, guid: fcec30081f7375c4384497218aa5cee1, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 52e43ff90076e09498315a623cd4d3a3, type: 2}
     - target: {fileID: 3482128281268141544, guid: fcec30081f7375c4384497218aa5cee1, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -75872,6 +75880,10 @@ PrefabInstance:
       propertyPath: m_Interpolate
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8470604664514392947, guid: fcec30081f7375c4384497218aa5cee1, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 52e43ff90076e09498315a623cd4d3a3, type: 2}
     m_RemovedComponents:
     - {fileID: 3648225248869478066, guid: fcec30081f7375c4384497218aa5cee1, type: 3}
     - {fileID: 2816878735608338438, guid: fcec30081f7375c4384497218aa5cee1, type: 3}
