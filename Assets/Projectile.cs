@@ -2,10 +2,22 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using DG.Tweening;
+
+
+public enum ProjectileType
+{
+    Main , 
+    Copy
+}
 public class Projectile : MonoBehaviour
 {
+    [SerializeField] private GameObject Clone;
+    [SerializeField] private int numToInstantiate;
+    [SerializeField] private Vector3 startPosition;
+    [SerializeField] private Vector3 endPosition;
+    public ProjectileType m_ProjectileType;
     public ParticleSystem HitRed ,Splash;
-    public GameObject CamRotatorParent , DestroyedParts;
+    public GameObject DestroyedParts;
     public float power = 1000.0F , JumpPower;
     public int ImpactRadius = 200;
     public GameObject thisGuysRig;
@@ -23,6 +35,8 @@ public class Projectile : MonoBehaviour
         rb = GetComponent<Rigidbody>();
        
     }
+
+  
     void ExPlodeStart()
     {
         Collider[] objects = UnityEngine.Physics.OverlapSphere(transform.position, 20);
@@ -49,44 +63,55 @@ public class Projectile : MonoBehaviour
 
     private void FixedUpdate()
     {
-       
-       
-        
+
+
+        if (m_ProjectileType == ProjectileType.Main)
+        {
 
             if (Input.GetMouseButton(0) && Cannon)
-        {
-            if (!played)
             {
-                Splash.transform.eulerAngles = new Vector3(-90, -270, 0);
-                Splash.Play();
-                DestroyedParts.gameObject.SetActive(true);
-                DestroyedParts.gameObject.transform.parent = null;
-                Splash.transform.parent = null;
-                GetComponent<Collider>().enabled = false;
-                HitRed.Play();
-                HitRed.transform.parent = null;
-                Destroy(HitRed.transform.gameObject, .5f);
-                ExPlodeStart();
-                transform.GetChild(1).gameObject.SetActive(false);
-                played = true;
-                SharkAttack.CameraController.Instance.target = null;
+                if (!played)
+                {
+                    Splash.transform.eulerAngles = new Vector3(-90, -270, 0);
+                    Splash.Play();
+                    DestroyedParts.gameObject.SetActive(true);
+                    DestroyedParts.gameObject.transform.parent = null;
+                    Splash.transform.parent = null;
+                    GetComponent<Collider>().enabled = false;
+                    HitRed.Play();
+                    HitRed.transform.parent = null;
+                    Destroy(HitRed.transform.gameObject, .5f);
+                    ExPlodeStart();
+                    transform.GetChild(1).gameObject.SetActive(false);
+                    played = true;
+                    SharkAttack.CameraController.Instance.target = null;
 
+                }
             }
+
+
+            if (rb.velocity.magnitude <= .2f)
+            {
+                if (GM.Instance.KillCount < GM.Instance.TargetThisLevel)
+                {
+                    StartCoroutine(DelayEnd());
+                }
+
+
+                StartCoroutine(SciptDisable());
+            }
+
         }
 
-
-           if( rb.velocity.magnitude <= .2f)
+        else
         {
-            if (GM.Instance.KillCount < GM.Instance.TargetThisLevel)
+
+            if (rb.velocity.magnitude <= .2f)
             {
-                StartCoroutine(DelayEnd());
+
+                StartCoroutine(SciptDisable());
             }
-            
-
-            StartCoroutine(SciptDisable());
         }
-
-        
     }
     public IEnumerator DelayEnd()
     {
@@ -162,17 +187,20 @@ public class Projectile : MonoBehaviour
     private void OnEnable()
     {
         StartCoroutine(Ragdoll());
-       
+
+
+
+
     }
 
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.CompareTag("Explode"))
         {
+
+                other.transform.GetChild(0).gameObject.SetActive(true); other.transform.GetChild(0).gameObject.transform.parent = null;
+                other.transform.gameObject.SetActive(false);
             
-            
-            other.transform.GetChild(0).gameObject.SetActive(true); other.transform.GetChild(0).gameObject.transform.parent = null;
-            other.transform.gameObject.SetActive(false);
         }
             if (other.gameObject.CompareTag("Ground"))
         {
@@ -213,6 +241,25 @@ public class Projectile : MonoBehaviour
         {
             other.GetComponent<Enemy>().RagDollOn();
             other.GetComponent<Enemy>().Death = true;
+        }
+
+        if (other.gameObject.CompareTag("Hoop"))
+        {
+            if (m_ProjectileType == ProjectileType.Main)
+            {
+                
+                for (int i = 0; i < numToInstantiate; i++)
+                {
+                   GameObject g  = Instantiate(Clone, new Vector3(other.transform.position.x, other.transform.position.y, (other.transform.position.z + i * -6)), Quaternion.identity);
+                    g.transform.DOMoveZ(g.transform.position.z + 8, .2f);
+                   
+                 
+
+                    
+
+                }
+
+            }
         }
     }
 

@@ -15,7 +15,9 @@ public class DeathByEnemy : MonoBehaviour
     {
         if(other.gameObject.CompareTag("Other"))
         {
-          
+            if(m_Enemy == null)
+          other.transform.root.transform.GetChild(0).GetComponent<Enemy>().RagDollOn();
+            else
             m_Enemy.RagDollOn();
         }
     }
@@ -23,12 +25,11 @@ public class DeathByEnemy : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Other"))
         {
-            
-            m_Enemy.RagDollOn();
+            if (m_Enemy == null)
+                collision.gameObject.transform.root.transform.GetChild(0).GetComponent<Enemy>().RagDollOn();
+            else
+                m_Enemy.RagDollOn();
         }
     }
-    void Update()
-    {
-        
-    }
+
 }

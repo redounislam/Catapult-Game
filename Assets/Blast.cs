@@ -7,6 +7,7 @@ public class Blast : MonoBehaviour
     public GameObject thisGuysRig;
     Collider[] ragCol;
     Rigidbody[] limbsRb;
+    public int a = 500, b = 100;
     private void Start()
     {
         
@@ -30,7 +31,7 @@ public class Blast : MonoBehaviour
         foreach (Rigidbody rigid in limbsRb)
         {
             rigid.isKinematic = false;
-            rigid.AddExplosionForce(FindObjectOfType<Projectile>().power+500, FindObjectOfType<Projectile>().transform.position, FindObjectOfType<Projectile>().ImpactRadius+100);
+            rigid.AddExplosionForce(FindObjectOfType<Projectile>().power+a, FindObjectOfType<Projectile>().transform.position, FindObjectOfType<Projectile>().ImpactRadius+b);
 
         }
 

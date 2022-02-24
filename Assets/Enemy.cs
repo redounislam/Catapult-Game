@@ -2,8 +2,17 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Enemy : MonoBehaviour
+
+
+public enum EnemyType
 {
+    Normal , 
+    Giant
+}
+public class Enemy : MonoBehaviour
+
+{
+    public EnemyType m_EnemyType;
     public GameObject Canvas, PopUp;
     public bool EnableSword;
     public bool EnableShield;
@@ -23,44 +32,47 @@ public class Enemy : MonoBehaviour
     {
         
         Canvas = GameObject.FindGameObjectWithTag("Canvas");
-        if(EnableHelmet)
+        if (m_EnemyType == EnemyType.Normal)
         {
-            Helmet.gameObject.SetActive(true);
-        }
-        else
-            Helmet.gameObject.SetActive(false);
 
-        if (EnableShield)
-        {
-            Shiled.gameObject.SetActive(true);
-        }
-        else
-            Shiled.gameObject.SetActive(false);
+            if (EnableHelmet)
+            {
+                Helmet.gameObject.SetActive(true);
+            }
+            else
+                Helmet.gameObject.SetActive(false);
 
-        if (EnableSword)
-        {
-            Sword.gameObject.SetActive(true);
-        }
-        else
-            Sword.gameObject.SetActive(false);
-        if (EnableSpear)
-        {
-            Spear.gameObject.SetActive(true);
-        }
-        else
-            Spear.gameObject.SetActive(false);
+            if (EnableShield)
+            {
+                Shiled.gameObject.SetActive(true);
+            }
+            else
+                Shiled.gameObject.SetActive(false);
 
-        if (EnableSflag)
-        {
-            Flag.gameObject.SetActive(true);
-            GetComponent<Animator>().SetTrigger("Flag");
-        }
-        else
-        {
-            Flag.gameObject.SetActive(false);
+            if (EnableSword)
+            {
+                Sword.gameObject.SetActive(true);
+            }
+            else
+                Sword.gameObject.SetActive(false);
+            if (EnableSpear)
+            {
+                Spear.gameObject.SetActive(true);
+            }
+            else
+                Spear.gameObject.SetActive(false);
 
-        }
+            if (EnableSflag)
+            {
+                Flag.gameObject.SetActive(true);
+                GetComponent<Animator>().SetTrigger("Flag");
+            }
+            else
+            {
+                Flag.gameObject.SetActive(false);
 
+            }
+        }
         GetRagDollBits();
         RagDollOff();
     }
@@ -88,41 +100,43 @@ public class Enemy : MonoBehaviour
            
             Destroy(g, 1.5f);
             IncreaseKill();
-            if (Flag.activeSelf)
+            if (m_EnemyType == EnemyType.Normal)
             {
-                //  Shiled.transform.GetChild(0).gameObject.SetActive(true);
-                // Shiled.transform.GetChild(0).transform.parent = null;
-                Flag.transform.gameObject.gameObject.AddComponent<Rigidbody>().AddForce(Vector3.up * 50);
-                Flag.transform.gameObject.gameObject.AddComponent<BoxCollider>();
-                Flag.transform.parent = null;
-            }
-            if (Shiled.activeSelf)
-            {
-              //  Shiled.transform.GetChild(0).gameObject.SetActive(true);
-               // Shiled.transform.GetChild(0).transform.parent = null;
-                Shiled.transform.gameObject.gameObject.AddComponent<Rigidbody>().AddForce(Vector3.up * 50);
-                Shiled.transform.gameObject.gameObject.AddComponent<BoxCollider>();
-               Shiled.transform.parent = null;
-            }
+                if (Flag.activeSelf && Flag != null)
+                {
+                    //  Shiled.transform.GetChild(0).gameObject.SetActive(true);
+                    // Shiled.transform.GetChild(0).transform.parent = null;
+                    Flag.transform.gameObject.gameObject.AddComponent<Rigidbody>().AddForce(Vector3.up * 50);
+                    Flag.transform.gameObject.gameObject.AddComponent<BoxCollider>();
+                    Flag.transform.parent = null;
+                }
+                if (Shiled.activeSelf && Shiled != null)
+                {
+                    //  Shiled.transform.GetChild(0).gameObject.SetActive(true);
+                    // Shiled.transform.GetChild(0).transform.parent = null;
+                    Shiled.transform.gameObject.gameObject.AddComponent<Rigidbody>().AddForce(Vector3.up * 50);
+                    Shiled.transform.gameObject.gameObject.AddComponent<BoxCollider>();
+                    Shiled.transform.parent = null;
+                }
 
-            if (Sword.activeSelf)
-            {
-                Sword.transform.gameObject.AddComponent<Rigidbody>().AddForce(Vector3.up * 50);
-                Sword.transform.gameObject.AddComponent<BoxCollider>(); Sword.transform.parent = null;
-            }
-            if (Spear.activeSelf)
-            {
-                Spear.transform.gameObject.AddComponent<Rigidbody>().AddForce(Vector3.up * 50);
-                Spear.transform.gameObject.AddComponent<BoxCollider>(); Spear.transform.parent = null;
-            }
-            if (Helmet.activeSelf)
-            {
-                Helmet.transform.gameObject.AddComponent<Rigidbody>().AddForce(Vector3.up * 50);
-                Helmet.transform.gameObject.AddComponent<BoxCollider>(); Helmet.transform.parent = null;
-            }
+                if (Sword.activeSelf && Sword != null)
+                {
+                    Sword.transform.gameObject.AddComponent<Rigidbody>().AddForce(Vector3.up * 50);
+                    Sword.transform.gameObject.AddComponent<BoxCollider>(); Sword.transform.parent = null;
+                }
+                if (Spear.activeSelf && Spear != null)
+                {
+                    Spear.transform.gameObject.AddComponent<Rigidbody>().AddForce(Vector3.up * 50);
+                    Spear.transform.gameObject.AddComponent<BoxCollider>(); Spear.transform.parent = null;
+                }
+                if (Helmet.activeSelf && Helmet != null)
+                {
+                    Helmet.transform.gameObject.AddComponent<Rigidbody>().AddForce(Vector3.up * 50);
+                    Helmet.transform.gameObject.AddComponent<BoxCollider>(); Helmet.transform.parent = null;
+                }
 
 
-
+            }
 
             Death = true;
 
@@ -165,33 +179,35 @@ public class Enemy : MonoBehaviour
 
             Destroy(g,1.5f);
             IncreaseKill();
-            if (Shiled.activeSelf)
+            if (m_EnemyType == EnemyType.Normal)
             {
-                //  Shiled.transform.GetChild(0).gameObject.SetActive(true);
-                // Shiled.transform.GetChild(0).transform.parent = null;
-                Shiled.transform.gameObject.gameObject.AddComponent<Rigidbody>().AddForce(Vector3.up * 50);
-                Shiled.transform.gameObject.gameObject.AddComponent<BoxCollider>();
-                Shiled.transform.parent = null;
-            }
+                if (Shiled.activeSelf && Shiled != null)
+                {
+                    //  Shiled.transform.GetChild(0).gameObject.SetActive(true);
+                    // Shiled.transform.GetChild(0).transform.parent = null;
+                    Shiled.transform.gameObject.gameObject.AddComponent<Rigidbody>().AddForce(Vector3.up * 50);
+                    Shiled.transform.gameObject.gameObject.AddComponent<BoxCollider>();
+                    Shiled.transform.parent = null;
+                }
 
-            if (Sword.activeSelf)
-            {
-                Sword.transform.gameObject.AddComponent<Rigidbody>().AddForce(Vector3.up * 50);
-                Sword.transform.gameObject.AddComponent<BoxCollider>(); Sword.transform.parent = null;
-            }
-            if (Spear.activeSelf)
-            {
-                Spear.transform.gameObject.AddComponent<Rigidbody>().AddForce(Vector3.up * 50);
-                Spear.transform.gameObject.AddComponent<BoxCollider>(); Spear.transform.parent = null;
-            }
-            if (Helmet.activeSelf)
-            {
-                Helmet.transform.gameObject.AddComponent<Rigidbody>().AddForce(Vector3.up * 50);
-                Helmet.transform.gameObject.AddComponent<BoxCollider>(); Helmet.transform.parent = null;
-            }
+                if (Sword.activeSelf && Sword != null)
+                {
+                    Sword.transform.gameObject.AddComponent<Rigidbody>().AddForce(Vector3.up * 50);
+                    Sword.transform.gameObject.AddComponent<BoxCollider>(); Sword.transform.parent = null;
+                }
+                if (Spear.activeSelf && Spear != null)
+                {
+                    Spear.transform.gameObject.AddComponent<Rigidbody>().AddForce(Vector3.up * 50);
+                    Spear.transform.gameObject.AddComponent<BoxCollider>(); Spear.transform.parent = null;
+                }
+                if (Helmet.activeSelf && Helmet != null)
+                {
+                    Helmet.transform.gameObject.AddComponent<Rigidbody>().AddForce(Vector3.up * 50);
+                    Helmet.transform.gameObject.AddComponent<BoxCollider>(); Helmet.transform.parent = null;
+                }
 
 
-
+            }
 
             Death = true;
 

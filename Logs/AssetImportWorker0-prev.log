@@ -15,11 +15,11 @@ D:/Catapult-Game
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-60705
+58748
 Successfully changed project path to: D:/Catapult-Game
 D:/Catapult-Game
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 85.76 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 128.41 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.19f1 (68f137dc9bbe)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/Resources/UnitySubsystems
@@ -37,91 +37,91 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56104
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56540
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001807 seconds.
+Registered in 0.001636 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 76.96 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 126.38 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.032 seconds
+- Completed reload, in  5.998 seconds
 Domain Reload Profiling:
-	ReloadAssembly (3032ms)
-		BeginReloadAssembly (56ms)
+	ReloadAssembly (5998ms)
+		BeginReloadAssembly (82ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (459ms)
-			LoadAssemblies (53ms)
+		EndReloadAssembly (532ms)
+			LoadAssemblies (79ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (154ms)
+			SetupTypeCache (141ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (31ms)
-			SetupLoadedEditorAssemblies (206ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (287ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (77ms)
-				BeforeProcessingInitializeOnLoad (15ms)
-				ProcessInitializeOnLoadAttributes (80ms)
-				ProcessInitializeOnLoadMethodAttributes (30ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (126ms)
+				BeforeProcessingInitializeOnLoad (23ms)
+				ProcessInitializeOnLoadAttributes (100ms)
+				ProcessInitializeOnLoadMethodAttributes (34ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.009121 seconds.
+Registered in 0.011171 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.97 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 2.36 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.919 seconds
+- Completed reload, in  3.836 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2920ms)
-		BeginReloadAssembly (155ms)
+	ReloadAssembly (3837ms)
+		BeginReloadAssembly (318ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (19ms)
-		EndReloadAssembly (2701ms)
-			LoadAssemblies (176ms)
+			CreateAndSetChildDomain (43ms)
+		EndReloadAssembly (3316ms)
+			LoadAssemblies (235ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (469ms)
+			SetupTypeCache (374ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (74ms)
-			SetupLoadedEditorAssemblies (1882ms)
+			RebuildScriptCaches (93ms)
+			SetupLoadedEditorAssemblies (2487ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (104ms)
-				ProcessInitializeOnLoadAttributes (1683ms)
-				ProcessInitializeOnLoadMethodAttributes (80ms)
-				AfterProcessingInitializeOnLoad (8ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (306ms)
+				ProcessInitializeOnLoadAttributes (2075ms)
+				ProcessInitializeOnLoadMethodAttributes (83ms)
+				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'BOXOPHOBIC/Polyverse Skies/Simple': fallback shader 'False' not found
 Shader 'BOXOPHOBIC/Polyverse Skies/Standard': fallback shader 'False' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
-Refreshing native plugins compatible for Editor in 1.94 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
+Refreshing native plugins compatible for Editor in 0.99 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3422 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 270.4 MB.
-System memory in use after: 266.3 MB.
+System memory in use before: 270.8 MB.
+System memory in use after: 266.6 MB.
 
 Unloading 266 unused Assets to reduce memory usage. Loaded Objects now: 3871.
-Total: 50.251900 ms (FindLiveObjects: 0.730600 ms CreateObjectMapping: 0.619900 ms MarkObjects: 45.383900 ms  DeleteObjects: 3.514400 ms)
+Total: 47.962200 ms (FindLiveObjects: 0.611300 ms CreateObjectMapping: 0.380500 ms MarkObjects: 43.756100 ms  DeleteObjects: 3.211600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -137,16 +137,24 @@ AssetImportParameters requested are different than current active one (requested
 Received Import Request.
   path: Assets/Fat Guy.prefab
   artifactKey: Guid(54cea86152d5f7e4dbf0b2bf157591d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fat Guy.prefab using Guid(54cea86152d5f7e4dbf0b2bf157591d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '468fd17e0b05abf80adde4b6a9ac68ad') in 0.429078 seconds 
-  Import took 0.446628 seconds .
+Start importing Assets/Fat Guy.prefab using Guid(54cea86152d5f7e4dbf0b2bf157591d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed91a95532519234a46f5846d0ec3728') in 0.268674 seconds 
+  Import took 0.281718 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/Fat Guy Clone.prefab
+  artifactKey: Guid(372768a3402f73e4fb5e5f84b4ad77df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fat Guy Clone.prefab using Guid(372768a3402f73e4fb5e5f84b4ad77df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6377d4fb097a5fc764064fdbdfe737a1') in 0.081748 seconds 
+  Import took 0.098078 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.011410 seconds.
+Registered in 0.036152 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.96 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.00 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Warning: Annotation not found!
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
@@ -158,306 +166,30 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 [Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
 
 Mono: successfully reloaded assembly
-- Completed reload, in  2.428 seconds
+- Completed reload, in  2.660 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2429ms)
-		BeginReloadAssembly (149ms)
+	ReloadAssembly (2661ms)
+		BeginReloadAssembly (175ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (7ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (57ms)
-		EndReloadAssembly (2214ms)
-			LoadAssemblies (168ms)
+			CreateAndSetChildDomain (85ms)
+		EndReloadAssembly (2417ms)
+			LoadAssemblies (138ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (462ms)
+			SetupTypeCache (606ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (56ms)
-			SetupLoadedEditorAssemblies (1380ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (116ms)
-				ProcessInitializeOnLoadAttributes (1167ms)
-				ProcessInitializeOnLoadMethodAttributes (81ms)
-				AfterProcessingInitializeOnLoad (7ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Shader 'BOXOPHOBIC/Polyverse Skies/Simple': fallback shader 'False' not found
-Shader 'BOXOPHOBIC/Polyverse Skies/Standard': fallback shader 'False' not found
-Refreshing native plugins compatible for Editor in 1.75 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3276 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 274.9 MB.
-System memory in use after: 270.8 MB.
-
-Unloading 65 unused Assets to reduce memory usage. Loaded Objects now: 3883.
-Total: 50.343300 ms (FindLiveObjects: 0.646700 ms CreateObjectMapping: 0.343500 ms MarkObjects: 46.150400 ms  DeleteObjects: 3.200000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.016876 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.06 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Mono: successfully reloaded assembly
-- Completed reload, in  2.650 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2650ms)
-		BeginReloadAssembly (202ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (111ms)
-		EndReloadAssembly (2384ms)
-			LoadAssemblies (115ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (378ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (53ms)
-			SetupLoadedEditorAssemblies (1708ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (1500ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (134ms)
-				ProcessInitializeOnLoadAttributes (1473ms)
-				ProcessInitializeOnLoadMethodAttributes (88ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Shader 'BOXOPHOBIC/Polyverse Skies/Simple': fallback shader 'False' not found
-Shader 'BOXOPHOBIC/Polyverse Skies/Standard': fallback shader 'False' not found
-Refreshing native plugins compatible for Editor in 0.97 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3276 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 275.0 MB.
-System memory in use after: 270.9 MB.
-
-Unloading 65 unused Assets to reduce memory usage. Loaded Objects now: 3887.
-Total: 29.809000 ms (FindLiveObjects: 0.347900 ms CreateObjectMapping: 0.138200 ms MarkObjects: 27.370000 ms  DeleteObjects: 1.950900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.013018 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.33 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Mono: successfully reloaded assembly
-- Completed reload, in  2.544 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2545ms)
-		BeginReloadAssembly (197ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (81ms)
-		EndReloadAssembly (2270ms)
-			LoadAssemblies (127ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (414ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (53ms)
-			SetupLoadedEditorAssemblies (1535ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (109ms)
-				ProcessInitializeOnLoadAttributes (1331ms)
-				ProcessInitializeOnLoadMethodAttributes (76ms)
-				AfterProcessingInitializeOnLoad (7ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Shader 'BOXOPHOBIC/Polyverse Skies/Simple': fallback shader 'False' not found
-Shader 'BOXOPHOBIC/Polyverse Skies/Standard': fallback shader 'False' not found
-Refreshing native plugins compatible for Editor in 1.80 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3276 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 284.8 MB.
-System memory in use after: 280.7 MB.
-
-Unloading 65 unused Assets to reduce memory usage. Loaded Objects now: 3891.
-Total: 38.804500 ms (FindLiveObjects: 0.464400 ms CreateObjectMapping: 0.250300 ms MarkObjects: 35.729700 ms  DeleteObjects: 2.358400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.040490 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 3.52 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Mono: successfully reloaded assembly
-- Completed reload, in  5.975 seconds
-Domain Reload Profiling:
-	ReloadAssembly (5976ms)
-		BeginReloadAssembly (599ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (35ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (257ms)
-		EndReloadAssembly (5078ms)
-			LoadAssemblies (572ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (1630ms)
-			ReleaseScriptCaches (6ms)
-			RebuildScriptCaches (280ms)
-			SetupLoadedEditorAssemblies (2148ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (30ms)
-				SetLoadedEditorAssemblies (2ms)
-				RefreshPlugins (4ms)
-				BeforeProcessingInitializeOnLoad (340ms)
-				ProcessInitializeOnLoadAttributes (1690ms)
-				ProcessInitializeOnLoadMethodAttributes (75ms)
-				AfterProcessingInitializeOnLoad (7ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Shader 'BOXOPHOBIC/Polyverse Skies/Simple': fallback shader 'False' not found
-Shader 'BOXOPHOBIC/Polyverse Skies/Standard': fallback shader 'False' not found
-Refreshing native plugins compatible for Editor in 2.57 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3276 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 275.0 MB.
-System memory in use after: 270.9 MB.
-
-Unloading 65 unused Assets to reduce memory usage. Loaded Objects now: 3895.
-Total: 79.760700 ms (FindLiveObjects: 1.481000 ms CreateObjectMapping: 0.669000 ms MarkObjects: 71.945900 ms  DeleteObjects: 5.661300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.017985 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.03 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Mono: successfully reloaded assembly
-- Completed reload, in  2.283 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2283ms)
-		BeginReloadAssembly (228ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (17ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (108ms)
-		EndReloadAssembly (1939ms)
-			LoadAssemblies (162ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (420ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (50ms)
-			SetupLoadedEditorAssemblies (1167ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (91ms)
-				ProcessInitializeOnLoadAttributes (974ms)
-				ProcessInitializeOnLoadMethodAttributes (88ms)
-				AfterProcessingInitializeOnLoad (7ms)
+				BeforeProcessingInitializeOnLoad (87ms)
+				ProcessInitializeOnLoadAttributes (1327ms)
+				ProcessInitializeOnLoadMethodAttributes (68ms)
+				AfterProcessingInitializeOnLoad (10ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (10ms)
@@ -465,14 +197,14 @@ Platform modules already initialized, skipping
 Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
 Shader 'BOXOPHOBIC/Polyverse Skies/Simple': fallback shader 'False' not found
 Shader 'BOXOPHOBIC/Polyverse Skies/Standard': fallback shader 'False' not found
-Refreshing native plugins compatible for Editor in 1.89 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.04 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3276 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 284.8 MB.
-System memory in use after: 280.7 MB.
+System memory in use before: 285.0 MB.
+System memory in use after: 280.8 MB.
 
-Unloading 65 unused Assets to reduce memory usage. Loaded Objects now: 3899.
-Total: 33.106900 ms (FindLiveObjects: 0.510400 ms CreateObjectMapping: 0.238300 ms MarkObjects: 29.958800 ms  DeleteObjects: 2.397700 ms)
+Unloading 65 unused Assets to reduce memory usage. Loaded Objects now: 3883.
+Total: 38.077900 ms (FindLiveObjects: 0.467100 ms CreateObjectMapping: 0.251400 ms MarkObjects: 35.367500 ms  DeleteObjects: 1.989700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -488,10 +220,10 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.012932 seconds.
+Registered in 0.016443 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.06 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.19 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Warning: Annotation not found!
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
@@ -503,114 +235,45 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 [Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
 
 Mono: successfully reloaded assembly
-- Completed reload, in  3.898 seconds
+- Completed reload, in  2.653 seconds
 Domain Reload Profiling:
-	ReloadAssembly (3899ms)
-		BeginReloadAssembly (157ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (64ms)
-		EndReloadAssembly (3628ms)
-			LoadAssemblies (163ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (478ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (85ms)
-			SetupLoadedEditorAssemblies (2557ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (113ms)
-				ProcessInitializeOnLoadAttributes (1418ms)
-				ProcessInitializeOnLoadMethodAttributes (965ms)
-				AfterProcessingInitializeOnLoad (52ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (103ms)
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Shader 'BOXOPHOBIC/Polyverse Skies/Simple': fallback shader 'False' not found
-Shader 'BOXOPHOBIC/Polyverse Skies/Standard': fallback shader 'False' not found
-Refreshing native plugins compatible for Editor in 2.29 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3276 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 284.8 MB.
-System memory in use after: 280.7 MB.
-
-Unloading 65 unused Assets to reduce memory usage. Loaded Objects now: 3903.
-Total: 55.333000 ms (FindLiveObjects: 0.617500 ms CreateObjectMapping: 0.345000 ms MarkObjects: 49.451800 ms  DeleteObjects: 4.916700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.011953 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 2.27 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Mono: successfully reloaded assembly
-- Completed reload, in  3.518 seconds
-Domain Reload Profiling:
-	ReloadAssembly (3518ms)
-		BeginReloadAssembly (186ms)
+	ReloadAssembly (2653ms)
+		BeginReloadAssembly (154ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (7ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (70ms)
-		EndReloadAssembly (3220ms)
-			LoadAssemblies (161ms)
+			CreateAndSetChildDomain (59ms)
+		EndReloadAssembly (2436ms)
+			LoadAssemblies (119ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (458ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (161ms)
-			SetupLoadedEditorAssemblies (1990ms)
+			SetupTypeCache (533ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (92ms)
+			SetupLoadedEditorAssemblies (1524ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
+				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (136ms)
-				ProcessInitializeOnLoadAttributes (1749ms)
-				ProcessInitializeOnLoadMethodAttributes (82ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (106ms)
+				ProcessInitializeOnLoadAttributes (1258ms)
+				ProcessInitializeOnLoadMethodAttributes (142ms)
 				AfterProcessingInitializeOnLoad (10ms)
 				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (12ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
 Platform modules already initialized, skipping
 Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
 Shader 'BOXOPHOBIC/Polyverse Skies/Simple': fallback shader 'False' not found
 Shader 'BOXOPHOBIC/Polyverse Skies/Standard': fallback shader 'False' not found
-Refreshing native plugins compatible for Editor in 1.09 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.93 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3276 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 284.8 MB.
-System memory in use after: 280.7 MB.
+System memory in use before: 275.2 MB.
+System memory in use after: 271.1 MB.
 
-Unloading 65 unused Assets to reduce memory usage. Loaded Objects now: 3907.
-Total: 51.653200 ms (FindLiveObjects: 0.786100 ms CreateObjectMapping: 0.644100 ms MarkObjects: 46.532900 ms  DeleteObjects: 3.687700 ms)
+Unloading 65 unused Assets to reduce memory usage. Loaded Objects now: 3887.
+Total: 30.228700 ms (FindLiveObjects: 0.393700 ms CreateObjectMapping: 0.186000 ms MarkObjects: 27.570500 ms  DeleteObjects: 2.076400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -625,131 +288,19 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 690.798579 seconds.
-  path: Assets/Main.prefab
-  artifactKey: Guid(a3b1bef5bf2f4804eb82202207f2d212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Main.prefab using Guid(a3b1bef5bf2f4804eb82202207f2d212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '831581f79474ecf1eb45dc7d04b3d6b4') in 0.176045 seconds 
-  Import took 0.192289 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 35.032649 seconds.
-  path: Assets/03 - Default 1.mat
-  artifactKey: Guid(52e43ff90076e09498315a623cd4d3a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/03 - Default 1.mat using Guid(52e43ff90076e09498315a623cd4d3a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '007af4e162026aa63075a88180f4059f') in 2.218531 seconds 
-  Import took 2.260890 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000243 seconds.
-  path: Assets/JMO Assets/Cartoon FX (legacy)/Materials (Mobile)/Fire/CFXM_Flame2BW_AlphaBlended.mat
-  artifactKey: Guid(9dda5333e53c67e4eae02c7d7d78f712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Cartoon FX (legacy)/Materials (Mobile)/Fire/CFXM_Flame2BW_AlphaBlended.mat using Guid(9dda5333e53c67e4eae02c7d7d78f712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e603fd51b80c9c74ac3dcd4e072b982') in 0.033203 seconds 
-  Import took 0.043050 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000318 seconds.
-  path: Assets/JMO Assets/Cartoon FX (legacy)/Materials (Mobile)/Animated/CFXM_Anim_Triangle3_Add.mat
-  artifactKey: Guid(31cc33771133e684299665e8815260ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Cartoon FX (legacy)/Materials (Mobile)/Animated/CFXM_Anim_Triangle3_Add.mat using Guid(31cc33771133e684299665e8815260ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd89e2484c20ce6f1300a89c3a1ecee5c') in 0.150539 seconds 
-  Import took 0.210304 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000275 seconds.
-  path: Assets/_Project_Specific_Folder/Art/3D/3D assets/ch.mat
-  artifactKey: Guid(621ae21f9a3bccf48b7962957efc66ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Project_Specific_Folder/Art/3D/3D assets/ch.mat using Guid(621ae21f9a3bccf48b7962957efc66ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3edee94af231655f4505655d9573b91f') in 0.253756 seconds 
-  Import took 0.276687 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000226 seconds.
-  path: Assets/JMO Assets/Cartoon FX (legacy)/Materials (Mobile)/Fire/CFXM_Flame1BW_AlphaBlended.mat
-  artifactKey: Guid(7e31cfa851175a54195fb6d729492508) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Cartoon FX (legacy)/Materials (Mobile)/Fire/CFXM_Flame1BW_AlphaBlended.mat using Guid(7e31cfa851175a54195fb6d729492508) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a002e3c426ee8f1a95443cd39244009') in 0.083232 seconds 
-  Import took 0.092577 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000412 seconds.
-  path: Assets/JMO Assets/Cartoon FX (legacy)/Materials (Mobile)/Fire/CFXM_Flame2BW_AlphaBlendedPremult.mat
-  artifactKey: Guid(e98549522a159c1459fa4b480cc617dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Cartoon FX (legacy)/Materials (Mobile)/Fire/CFXM_Flame2BW_AlphaBlendedPremult.mat using Guid(e98549522a159c1459fa4b480cc617dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f5fdb7aa5d694a3bedea4453ea7d073') in 0.097456 seconds 
-  Import took 0.126439 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000310 seconds.
-  path: Assets/JMO Assets/Cartoon FX (legacy)/Materials (Mobile)/Fire/CFXM_Flame2_Add.mat
-  artifactKey: Guid(43599a5cc65383848839cf1fbbee9220) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Cartoon FX (legacy)/Materials (Mobile)/Fire/CFXM_Flame2_Add.mat using Guid(43599a5cc65383848839cf1fbbee9220) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f920774de279cb61297d7f85407dfe43') in 0.113252 seconds 
-  Import took 0.133496 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000224 seconds.
-  path: Assets/JMO Assets/Cartoon FX (legacy)/Materials (Mobile)/Water/CFXM_Foam_AddSoft.mat
-  artifactKey: Guid(1e86d0154d01dc946ad990a6fef0510c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Cartoon FX (legacy)/Materials (Mobile)/Water/CFXM_Foam_AddSoft.mat using Guid(1e86d0154d01dc946ad990a6fef0510c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8826add8f707d20c50052209dcd55dac') in 0.109935 seconds 
-  Import took 0.131076 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000319 seconds.
-  path: Assets/JMO Assets/Cartoon FX (legacy)/Materials (Mobile)/Misc/CFXM_GasLeak.mat
-  artifactKey: Guid(1b7ab69c763f5854d875e8fc8d1d4fac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Cartoon FX (legacy)/Materials (Mobile)/Misc/CFXM_GasLeak.mat using Guid(1b7ab69c763f5854d875e8fc8d1d4fac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c711c76416a936a1b1ce0149d7d496ff') in 0.074734 seconds 
-  Import took 0.157326 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000378 seconds.
-  path: Assets/JMO Assets/Cartoon FX (legacy)/Materials (Mobile)/Stretched/CFXM_RayRounded.mat
-  artifactKey: Guid(8164c58bbdb1a1944af4c3c06492ccc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Cartoon FX (legacy)/Materials (Mobile)/Stretched/CFXM_RayRounded.mat using Guid(8164c58bbdb1a1944af4c3c06492ccc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '579e97503befef05dde82eec8bb0bbbb') in 0.102903 seconds 
-  Import took 0.175584 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 60.627933 seconds.
-  path: Assets/Materials/food_Pizza_DefaultMaterial_BaseColor.mat
-  artifactKey: Guid(b5d1f488c07002c44af65f08c76b58f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/food_Pizza_DefaultMaterial_BaseColor.mat using Guid(b5d1f488c07002c44af65f08c76b58f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13d9d126e1b3475fdec3dae9c446eb9d') in 0.054137 seconds 
-  Import took 0.065361 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000201 seconds.
-  path: Assets/main.mat
-  artifactKey: Guid(2caca82e05963c64caa6eb1d87db75a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/main.mat using Guid(2caca82e05963c64caa6eb1d87db75a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1be2d05f7bde4f76ff3e7a5fb92ac42c') in 0.036386 seconds 
-  Import took 0.044684 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000195 seconds.
-  path: Assets/_Project_Specific_Folder/Art/3D/Materials/LevelSharedMaterials/Enemy/Sky gradient.mat
-  artifactKey: Guid(3456705ba418f6f409c348eed31f0572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Project_Specific_Folder/Art/3D/Materials/LevelSharedMaterials/Enemy/Sky gradient.mat using Guid(3456705ba418f6f409c348eed31f0572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79cb3c6fb99d4fe8411691edbde8b990') in 0.046489 seconds 
-  Import took 0.070247 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 26.914384 seconds.
-  path: Assets/water.prefab
-  artifactKey: Guid(20050105324d4ac40a3e96fa1796edd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/water.prefab using Guid(20050105324d4ac40a3e96fa1796edd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0dada3840bd909a6c103d5ebcf9244e') in 0.143491 seconds 
-  Import took 0.153848 seconds .
+  Time since last request: 156.185783 seconds.
+  path: Assets/Fat Guy.prefab
+  artifactKey: Guid(54cea86152d5f7e4dbf0b2bf157591d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fat Guy.prefab using Guid(54cea86152d5f7e4dbf0b2bf157591d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d15b6ad01a2cb142d2c21a2a5b20c5c') in 0.116272 seconds 
+  Import took 0.128463 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.049584 seconds.
+Registered in 0.027340 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 2.32 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.53 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Warning: Annotation not found!
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
@@ -761,28 +312,28 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 [Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
 
 Mono: successfully reloaded assembly
-- Completed reload, in  3.348 seconds
+- Completed reload, in  2.522 seconds
 Domain Reload Profiling:
-	ReloadAssembly (3351ms)
-		BeginReloadAssembly (786ms)
+	ReloadAssembly (2522ms)
+		BeginReloadAssembly (157ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (45ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (432ms)
-		EndReloadAssembly (2496ms)
-			LoadAssemblies (132ms)
+			CreateAndSetChildDomain (69ms)
+		EndReloadAssembly (2297ms)
+			LoadAssemblies (122ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (407ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (70ms)
-			SetupLoadedEditorAssemblies (1686ms)
+			SetupTypeCache (569ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (60ms)
+			SetupLoadedEditorAssemblies (1317ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (10ms)
+				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (3ms)
-				BeforeProcessingInitializeOnLoad (198ms)
-				ProcessInitializeOnLoadAttributes (1406ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (158ms)
+				ProcessInitializeOnLoadAttributes (1083ms)
 				ProcessInitializeOnLoadMethodAttributes (62ms)
 				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
@@ -792,14 +343,14 @@ Platform modules already initialized, skipping
 Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
 Shader 'BOXOPHOBIC/Polyverse Skies/Simple': fallback shader 'False' not found
 Shader 'BOXOPHOBIC/Polyverse Skies/Standard': fallback shader 'False' not found
-Refreshing native plugins compatible for Editor in 0.99 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.65 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3276 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 285.1 MB.
-System memory in use after: 281.0 MB.
+System memory in use before: 275.3 MB.
+System memory in use after: 271.2 MB.
 
-Unloading 65 unused Assets to reduce memory usage. Loaded Objects now: 3947.
-Total: 31.274600 ms (FindLiveObjects: 0.467200 ms CreateObjectMapping: 0.177000 ms MarkObjects: 28.274800 ms  DeleteObjects: 2.352900 ms)
+Unloading 65 unused Assets to reduce memory usage. Loaded Objects now: 3892.
+Total: 32.681900 ms (FindLiveObjects: 0.407900 ms CreateObjectMapping: 0.226200 ms MarkObjects: 29.922200 ms  DeleteObjects: 2.122200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -815,10 +366,10 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.016340 seconds.
+Registered in 0.010037 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.01 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.05 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Warning: Annotation not found!
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
@@ -830,114 +381,45 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 [Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
 
 Mono: successfully reloaded assembly
-- Completed reload, in  3.156 seconds
+- Completed reload, in  2.604 seconds
 Domain Reload Profiling:
-	ReloadAssembly (3157ms)
-		BeginReloadAssembly (151ms)
+	ReloadAssembly (2605ms)
+		BeginReloadAssembly (169ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (54ms)
-		EndReloadAssembly (2946ms)
-			LoadAssemblies (131ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (578ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (52ms)
-			SetupLoadedEditorAssemblies (2023ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (100ms)
-				ProcessInitializeOnLoadAttributes (1795ms)
-				ProcessInitializeOnLoadMethodAttributes (113ms)
-				AfterProcessingInitializeOnLoad (8ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Shader 'BOXOPHOBIC/Polyverse Skies/Simple': fallback shader 'False' not found
-Shader 'BOXOPHOBIC/Polyverse Skies/Standard': fallback shader 'False' not found
-Refreshing native plugins compatible for Editor in 0.94 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3276 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 275.4 MB.
-System memory in use after: 271.3 MB.
-
-Unloading 65 unused Assets to reduce memory usage. Loaded Objects now: 3951.
-Total: 29.421500 ms (FindLiveObjects: 0.370700 ms CreateObjectMapping: 0.190300 ms MarkObjects: 26.466300 ms  DeleteObjects: 2.392000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.014109 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.01 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Mono: successfully reloaded assembly
-- Completed reload, in  3.068 seconds
-Domain Reload Profiling:
-	ReloadAssembly (3068ms)
-		BeginReloadAssembly (181ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
+			DisableScriptedObjects (13ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (70ms)
-		EndReloadAssembly (2811ms)
-			LoadAssemblies (145ms)
+		EndReloadAssembly (2369ms)
+			LoadAssemblies (131ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (988ms)
+			SetupTypeCache (479ms)
 			ReleaseScriptCaches (1ms)
 			RebuildScriptCaches (53ms)
-			SetupLoadedEditorAssemblies (1413ms)
+			SetupLoadedEditorAssemblies (1532ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (118ms)
-				ProcessInitializeOnLoadAttributes (1208ms)
-				ProcessInitializeOnLoadMethodAttributes (72ms)
-				AfterProcessingInitializeOnLoad (9ms)
+				BeforeProcessingInitializeOnLoad (115ms)
+				ProcessInitializeOnLoadAttributes (1260ms)
+				ProcessInitializeOnLoadMethodAttributes (143ms)
+				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
 Platform modules already initialized, skipping
 Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
 Shader 'BOXOPHOBIC/Polyverse Skies/Simple': fallback shader 'False' not found
 Shader 'BOXOPHOBIC/Polyverse Skies/Standard': fallback shader 'False' not found
-Refreshing native plugins compatible for Editor in 133.50 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.40 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3276 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 275.4 MB.
-System memory in use after: 271.3 MB.
+System memory in use before: 285.1 MB.
+System memory in use after: 280.9 MB.
 
-Unloading 65 unused Assets to reduce memory usage. Loaded Objects now: 3955.
-Total: 79.521300 ms (FindLiveObjects: 0.705300 ms CreateObjectMapping: 0.374700 ms MarkObjects: 61.399200 ms  DeleteObjects: 17.039200 ms)
+Unloading 65 unused Assets to reduce memory usage. Loaded Objects now: 3896.
+Total: 33.361800 ms (FindLiveObjects: 0.398200 ms CreateObjectMapping: 0.222100 ms MarkObjects: 30.434000 ms  DeleteObjects: 2.305500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -951,1244 +433,12 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 402.702930 seconds.
-  path: Assets/EffectCore/textures/generic/Light.psd
-  artifactKey: Guid(0e896c5bcd907344483ec9396aca291b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EffectCore/textures/generic/Light.psd using Guid(0e896c5bcd907344483ec9396aca291b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bb2b5f7d01e3dd4167984abd4febc9f') in 0.107381 seconds 
-  Import took 0.125388 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000176 seconds.
-  path: Assets/MegaFiers/MegaLiner Scene/Textures/moonliner atlas.png
-  artifactKey: Guid(419d94ae6cd7f3a46a89fe6991ec24b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MegaFiers/MegaLiner Scene/Textures/moonliner atlas.png using Guid(419d94ae6cd7f3a46a89fe6991ec24b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c88ea452a9eed45fe5fa4653f2c8591') in 0.392236 seconds 
-  Import took 0.401417 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000236 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Textures/Mask Zig-n-Zag.psd
-  artifactKey: Guid(bb8dfcd263ad4eb383a33d74a720be6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Mask Zig-n-Zag.psd using Guid(bb8dfcd263ad4eb383a33d74a720be6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40119b34e1092fb60ca426c5d4eca618') in 0.040565 seconds 
-  Import took 0.055792 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000284 seconds.
-  path: Assets/Projectile/Materials/PixelPallet.png
-  artifactKey: Guid(19be2bc30e8225a418107c16d644b7ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Projectile/Materials/PixelPallet.png using Guid(19be2bc30e8225a418107c16d644b7ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d8017d9e5c65feeb5f8045190e14a4e') in 0.039765 seconds 
-  Import took 0.060217 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000306 seconds.
-  path: Assets/BOXOPHOBIC/Polyverse Skies/Core/Textures/Moons/Moon 04.png
-  artifactKey: Guid(b15c2596790c6ce42980282a7e842f57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BOXOPHOBIC/Polyverse Skies/Core/Textures/Moons/Moon 04.png using Guid(b15c2596790c6ce42980282a7e842f57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '910576484e53c1cfc5665ea827d81caa') in 0.139774 seconds 
-  Import took 0.148468 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000287 seconds.
-  path: Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Textures/MatCap/MatCap_BS3.jpg
-  artifactKey: Guid(fb8bf055049cc8b4696e6e9653f4f239) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Textures/MatCap/MatCap_BS3.jpg using Guid(fb8bf055049cc8b4696e6e9653f4f239) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd28b264b8a6367d567b8b9dea3e3be6') in 0.056432 seconds 
-  Import took 0.074956 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000362 seconds.
-  path: Assets/MegaFiers/MegaLiner Scene/Textures/moonliner red.png
-  artifactKey: Guid(e2f75c57241124a4ebd0e0cf85a5fc54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MegaFiers/MegaLiner Scene/Textures/moonliner red.png using Guid(e2f75c57241124a4ebd0e0cf85a5fc54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dac94349d75591d83c9a5c8ea0cb7af9') in 0.291111 seconds 
-  Import took 0.300173 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000333 seconds.
-  path: Assets/MegaFiers/MegaLiner Scene/Textures/moonliner spec.png
-  artifactKey: Guid(eed93c14b8c61af44a25034103a7153c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MegaFiers/MegaLiner Scene/Textures/moonliner spec.png using Guid(eed93c14b8c61af44a25034103a7153c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b04b7faf670b3b7d455da4db15c97c6d') in 0.482857 seconds 
-  Import took 0.495033 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000216 seconds.
-  path: Assets/_Project_Specific_Folder/Art/2D/UI/Next Button.png
-  artifactKey: Guid(a5fa4d9943103a14091ced1c261929cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Project_Specific_Folder/Art/2D/UI/Next Button.png using Guid(a5fa4d9943103a14091ced1c261929cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc2e9345900220463ee58b8bf0af4f42') in 0.106104 seconds 
-  Import took 0.116591 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000224 seconds.
-  path: Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Textures/MatCap/MatCap_BS2.jpg
-  artifactKey: Guid(08f995fc44e29da4d9327759f69a63df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Textures/MatCap/MatCap_BS2.jpg using Guid(08f995fc44e29da4d9327759f69a63df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5e027b48b7aab6703cb70b86ba6a562') in 0.041970 seconds 
-  Import took 0.054620 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000217 seconds.
-  path: Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Textures/MatCap/MatCap_BS1.jpg
-  artifactKey: Guid(7d8493307988fb64d810a1d2d47d2c70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Textures/MatCap/MatCap_BS1.jpg using Guid(7d8493307988fb64d810a1d2d47d2c70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28d9adc641d457b1bc75453a7b33d0d8') in 0.062893 seconds 
-  Import took 0.072261 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000341 seconds.
-  path: Assets/BOXOPHOBIC/Polyverse Skies/Core/Textures/Moons/Moon 03.png
-  artifactKey: Guid(e80870b385adcae48871133b9b5759dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BOXOPHOBIC/Polyverse Skies/Core/Textures/Moons/Moon 03.png using Guid(e80870b385adcae48871133b9b5759dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c2e8cd144e3f2c6d8bb2b480747d765') in 0.153561 seconds 
-  Import took 0.163027 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000264 seconds.
-  path: Assets/BOXOPHOBIC/Polyverse Skies/Core/Textures/Noise/Noise 01.png
-  artifactKey: Guid(4962b985402794749902f8b024ee1934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BOXOPHOBIC/Polyverse Skies/Core/Textures/Noise/Noise 01.png using Guid(4962b985402794749902f8b024ee1934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3274a23dc3bf39f1e15ff9bb5bb689a4') in 0.027265 seconds 
-  Import took 0.037622 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000258 seconds.
-  path: Assets/BOXOPHOBIC/Polyverse Skies/Core/Textures/Moons/Moon 01.png
-  artifactKey: Guid(16d300134c867234588aeecccb9392b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BOXOPHOBIC/Polyverse Skies/Core/Textures/Moons/Moon 01.png using Guid(16d300134c867234588aeecccb9392b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9942de9a715dbce2e5bc187528823a53') in 0.128488 seconds 
-  Import took 0.138705 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000225 seconds.
-  path: Assets/MegaFiers/MegaLiner Scene/Textures/moonliner douglas.png
-  artifactKey: Guid(3dd69c191ce35ae40b4a27fed458cd74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MegaFiers/MegaLiner Scene/Textures/moonliner douglas.png using Guid(3dd69c191ce35ae40b4a27fed458cd74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bac61ddcfde119da4475c2ef2d22a751') in 0.260260 seconds 
-  Import took 0.267739 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000363 seconds.
-  path: Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Textures/MatCap/MatCap_BS5.jpg
-  artifactKey: Guid(cae44471c0e978742985c5d5402fe9da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Textures/MatCap/MatCap_BS5.jpg using Guid(cae44471c0e978742985c5d5402fe9da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc0fad6cd14ba651183d74aeaca52e23') in 0.082340 seconds 
-  Import took 0.090564 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000218 seconds.
-  path: Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Textures/MatCap/MatCap_BS7.jpg
-  artifactKey: Guid(a30cfa55ee9c5dd41aa0de318e9e8367) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Textures/MatCap/MatCap_BS7.jpg using Guid(a30cfa55ee9c5dd41aa0de318e9e8367) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b496ef840383618c54d70526d41cdd8') in 0.053290 seconds 
-  Import took 0.067446 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000612 seconds.
-  path: Assets/BOXOPHOBIC/Polyverse Skies/Core/Textures/Moons/Moon 02.png
-  artifactKey: Guid(bca1a5f579c02d74dbc7e7f61cda640b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BOXOPHOBIC/Polyverse Skies/Core/Textures/Moons/Moon 02.png using Guid(bca1a5f579c02d74dbc7e7f61cda640b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '778ba99bb559dab441ade702db247cfd') in 0.150620 seconds 
-  Import took 0.164176 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000206 seconds.
-  path: Assets/3rd Party/Sirenix/Odin Inspector/Assets/Editor/Odin Inspector Logo.png
-  artifactKey: Guid(a78bffbeb81b48ae9ec71ad7969613e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3rd Party/Sirenix/Odin Inspector/Assets/Editor/Odin Inspector Logo.png using Guid(a78bffbeb81b48ae9ec71ad7969613e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35bab3be5126063ca2c10807f13d6f7e') in 0.026941 seconds 
-  Import took 0.036977 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000273 seconds.
-  path: Assets/pngkey.com-target-png-36702.png
-  artifactKey: Guid(3f53f4f544945e64a9abc320198802f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/pngkey.com-target-png-36702.png using Guid(3f53f4f544945e64a9abc320198802f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '235fd6b07ef4a75100d1858617615df1') in 0.085057 seconds 
-  Import took 0.096090 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000210 seconds.
-  path: Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Textures/MatCap/MatCap_BS4.jpg
-  artifactKey: Guid(5a049a5395c90154dbc3d1cc025c2f59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Textures/MatCap/MatCap_BS4.jpg using Guid(5a049a5395c90154dbc3d1cc025c2f59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7da7bb6eb29bc2585a224320ca9a6c7') in 0.073697 seconds 
-  Import took 0.083384 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000584 seconds.
-  path: Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Textures/MatCap/MatCap_BS6.jpg
-  artifactKey: Guid(04173e7d552d5854ebf8b2080ac3eb27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Textures/MatCap/MatCap_BS6.jpg using Guid(04173e7d552d5854ebf8b2080ac3eb27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f643de4c62fc1c61e9dd7b654e74f6fe') in 0.031143 seconds 
-  Import took 0.039872 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000187 seconds.
-  path: Assets/BOXOPHOBIC/Polyverse Skies/Core/Textures/Patterns/Pattern 03.png
-  artifactKey: Guid(2496987be02f21244bcd1e6c3bfa5aff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BOXOPHOBIC/Polyverse Skies/Core/Textures/Patterns/Pattern 03.png using Guid(2496987be02f21244bcd1e6c3bfa5aff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74b8c8182f15eab49da8e6819d17f0d4') in 1.632185 seconds 
-  Import took 1.640083 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000229 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Textures/Small Crate_normal.jpg
-  artifactKey: Guid(8878a782f4334ecbbcf683b3ac780966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Small Crate_normal.jpg using Guid(8878a782f4334ecbbcf683b3ac780966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f824e000227424c34b5efbfc75e6c2ed') in 0.072836 seconds 
-  Import took 0.085056 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000254 seconds.
-  path: Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Textures/TCP2_Demo_Cat_Flat.png
-  artifactKey: Guid(af02dda8ae75a334e9d41087d4a9a7fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Textures/TCP2_Demo_Cat_Flat.png using Guid(af02dda8ae75a334e9d41087d4a9a7fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a992e6ce971b1dfa2fc2ae7f2b2cdd41') in 0.063907 seconds 
-  Import took 0.082864 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000547 seconds.
-  path: Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Editor/Icons/TCP2_ContextIcon.png
-  artifactKey: Guid(6677282b57967944d8ad48c2f7c88519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Editor/Icons/TCP2_ContextIcon.png using Guid(6677282b57967944d8ad48c2f7c88519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6469bf9edbe34a230609317d009aed8') in 0.062871 seconds 
-  Import took 0.076614 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000202 seconds.
-  path: Assets/_Project_Specific_Folder/Art/3D/props/prop_Flag-pirate_02 - Default_BaseColor.png
-  artifactKey: Guid(efae9f933ed66a64a8ae290216d0bc82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Project_Specific_Folder/Art/3D/props/prop_Flag-pirate_02 - Default_BaseColor.png using Guid(efae9f933ed66a64a8ae290216d0bc82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8fec68284de570662d9fab2a32c2c59') in 0.066412 seconds 
-  Import took 0.078999 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000271 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Textures/Small Crate_diffuse.jpg
-  artifactKey: Guid(602cb87b6a29443b8636370ea0751574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Small Crate_diffuse.jpg using Guid(602cb87b6a29443b8636370ea0751574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa6f81f331e5b86e7f072b958f530c5f') in 0.062314 seconds 
-  Import took 0.074226 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000229 seconds.
-  path: Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Demo TCP2/TCP2 Demo Assets/Robot Kyle/Textures/TCP2_Demo Robot_Color.png
-  artifactKey: Guid(90f5c2a59e018304bb00979205857f25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Demo TCP2/TCP2 Demo Assets/Robot Kyle/Textures/TCP2_Demo Robot_Color.png using Guid(90f5c2a59e018304bb00979205857f25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfd54edd289fa8d6c5ae63d9cf088e16') in 0.089762 seconds 
-  Import took 0.099360 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000218 seconds.
-  path: Assets/Projectile/Scenes/main/ReflectionProbe-0.exr
-  artifactKey: Guid(34f07fc8439623d4491d98298a5f1ced) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Projectile/Scenes/main/ReflectionProbe-0.exr using Guid(34f07fc8439623d4491d98298a5f1ced) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3233549e273727bb728975a7e3ff64ee') in 0.066259 seconds 
-  Import took 0.078533 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000360 seconds.
-  path: Assets/_Project_Specific_Folder/Art/3D/3D assets/sword_01 - Default_BaseColor.png
-  artifactKey: Guid(092fe7f75eb64954eb69c7f65e01eefd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Project_Specific_Folder/Art/3D/3D assets/sword_01 - Default_BaseColor.png using Guid(092fe7f75eb64954eb69c7f65e01eefd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37fc5db15715af25b7ab1e79b0b00471') in 0.058838 seconds 
-  Import took 0.073274 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000228 seconds.
-  path: Assets/BOXOPHOBIC/Polyverse Skies/Core/Textures/Suns/Sun 01.png
-  artifactKey: Guid(dd566660fc358aa4098080e42ca0db56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BOXOPHOBIC/Polyverse Skies/Core/Textures/Suns/Sun 01.png using Guid(dd566660fc358aa4098080e42ca0db56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04a196a366a069ad6cffc8d4c19fef2e') in 0.106522 seconds 
-  Import took 0.115620 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000202 seconds.
-  path: Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Demo TCP2/SG Demo Assets/_Misc Assets/TCP2_Demo_Balloon.psd
-  artifactKey: Guid(d66eb364b6566a14cbd42b55e6b7008a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Demo TCP2/SG Demo Assets/_Misc Assets/TCP2_Demo_Balloon.psd using Guid(d66eb364b6566a14cbd42b55e6b7008a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42cb8ec1e61624ab0d08ad31a295148d') in 0.081507 seconds 
-  Import took 0.092958 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000307 seconds.
-  path: Assets/_Project_Specific_Folder/Art/3D/3D assets/Spear_DefaultMaterial_BaseColor.png
-  artifactKey: Guid(a9c87e9733604a746bc8e0d8ae913640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Project_Specific_Folder/Art/3D/3D assets/Spear_DefaultMaterial_BaseColor.png using Guid(a9c87e9733604a746bc8e0d8ae913640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '304824f08feb8aa33d6c02e6e3d705ef') in 0.059256 seconds 
-  Import took 0.075477 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000523 seconds.
-  path: Assets/props/prop_Flag-usa_02 - Default_BaseColor.png
-  artifactKey: Guid(98f116c2ab1066a44a87ddffb9e32292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/props/prop_Flag-usa_02 - Default_BaseColor.png using Guid(98f116c2ab1066a44a87ddffb9e32292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33465e955c12faa5f0301807c56192e2') in 0.071942 seconds 
-  Import took 0.091963 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000282 seconds.
-  path: Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Textures/TCP2_Demo_Car.png
-  artifactKey: Guid(2aa8a45cbd95e7843a5a908a6464f25e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Textures/TCP2_Demo_Car.png using Guid(2aa8a45cbd95e7843a5a908a6464f25e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ce6a92c5dbb2909d1f6931a63921168') in 0.064723 seconds 
-  Import took 0.078651 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000267 seconds.
-  path: Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Textures/TCP2_Demo_Cat.png
-  artifactKey: Guid(08c21915d31a7bb4f9d200a43171b54f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Textures/TCP2_Demo_Cat.png using Guid(08c21915d31a7bb4f9d200a43171b54f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4910b02c02bedb5fe4eabd1eabc89aae') in 0.069913 seconds 
-  Import took 0.081909 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000248 seconds.
-  path: Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Editor/Icons/TCP2_ContextualHelpBoxHover.png
-  artifactKey: Guid(ea173785f4651574a9f9d35dfaff8cff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Editor/Icons/TCP2_ContextualHelpBoxHover.png using Guid(ea173785f4651574a9f9d35dfaff8cff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03edf583eaa0865ebb1f103e8bc82d3b') in 0.044353 seconds 
-  Import took 0.058215 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000280 seconds.
-  path: Assets/_Project_Specific_Folder/Art/2D/Sprites/Base/Default SDK UI_Temp/fx/rays_v1.png
-  artifactKey: Guid(c2807c95d75f80049b00e0bc82689932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Project_Specific_Folder/Art/2D/Sprites/Base/Default SDK UI_Temp/fx/rays_v1.png using Guid(c2807c95d75f80049b00e0bc82689932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '665b06e216da99e42a7672e9b8426bf9') in 0.072978 seconds 
-  Import took 0.086467 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001566 seconds.
-  path: Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Demo TCP2/TCP2 Demo Assets/Robot Kyle/Textures/TCP2_Demo Robot_Thickness.png
-  artifactKey: Guid(2fb9975c379e44e44b7abcf981468c32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Demo TCP2/TCP2 Demo Assets/Robot Kyle/Textures/TCP2_Demo Robot_Thickness.png using Guid(2fb9975c379e44e44b7abcf981468c32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd47d6f98fb707a7a31b20de3ab610882') in 0.085607 seconds 
-  Import took 0.095262 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000275 seconds.
-  path: Assets/props/prop_Flag-pirate_02 - Default_BaseColor.png
-  artifactKey: Guid(b7eccac8581ee8040a6bfb48cd123410) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/props/prop_Flag-pirate_02 - Default_BaseColor.png using Guid(b7eccac8581ee8040a6bfb48cd123410) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4d98bb703252135ab39be82b9df91a9') in 0.048223 seconds 
-  Import took 0.060596 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000275 seconds.
-  path: Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Editor/Icons/TCP2_ContextualHelpBoxHover_Pro.png
-  artifactKey: Guid(a865634860db9e54ea5e2373e13900f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Editor/Icons/TCP2_ContextualHelpBoxHover_Pro.png using Guid(a865634860db9e54ea5e2373e13900f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '189ccc57bfd93a91ab16e4d16d8399d7') in 0.059725 seconds 
-  Import took 0.070361 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000197 seconds.
-  path: Assets/MegaFiers/MegaLiner Scene/Scenes/demo scene/ReflectionProbe-0.exr
-  artifactKey: Guid(c547b900ae01ed549b829175aeac7843) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MegaFiers/MegaLiner Scene/Scenes/demo scene/ReflectionProbe-0.exr using Guid(c547b900ae01ed549b829175aeac7843) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '936b9dd70ffeb06f4bca4d737cd1b4c8') in 0.069249 seconds 
-  Import took 0.080008 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000273 seconds.
-  path: Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Demo TCP2/TCP2 Demo Assets/Cubemaps/TCP2_Demo_Cubemap_NissiBeach.jpg
-  artifactKey: Guid(1c7a3b27c48d5ff40b26f176007095bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Demo TCP2/TCP2 Demo Assets/Cubemaps/TCP2_Demo_Cubemap_NissiBeach.jpg using Guid(1c7a3b27c48d5ff40b26f176007095bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15221f0e6a1cb5739b40ca92379da335') in 0.133445 seconds 
-  Import took 0.143332 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000185 seconds.
-  path: Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Editor/Icons/TCP2_CogIcon.png
-  artifactKey: Guid(936423d97fbdd3c40bd47377240f5c64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Editor/Icons/TCP2_CogIcon.png using Guid(936423d97fbdd3c40bd47377240f5c64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfb0a89c5a408a3f9ecc61d479649f33') in 0.034755 seconds 
-  Import took 0.048669 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000620 seconds.
-  path: Assets/BOXOPHOBIC/Polyverse Skies/Core/Textures/Stars/Stars 5Corners.png
-  artifactKey: Guid(2410ceb2200b01a4cad9ef3c253b8a5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BOXOPHOBIC/Polyverse Skies/Core/Textures/Stars/Stars 5Corners.png using Guid(2410ceb2200b01a4cad9ef3c253b8a5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5c181fe8e37a73acfc2ba7fd969ef0b') in 0.544960 seconds 
-  Import took 0.557121 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000278 seconds.
-  path: Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Demo TCP2/TCP2 Demo Assets/Cubemaps/TCP2_Demo_Cubemap_GoldenGate.jpg
-  artifactKey: Guid(640fbba046e376d42b76f90820637418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Demo TCP2/TCP2 Demo Assets/Cubemaps/TCP2_Demo_Cubemap_GoldenGate.jpg using Guid(640fbba046e376d42b76f90820637418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ee8fc1a67486b612d3a53127f4f2a0e') in 0.136868 seconds 
-  Import took 0.149650 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000267 seconds.
-  path: Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Editor/Icons/TCP2_ContextualHelpBox.png
-  artifactKey: Guid(e9b4e5ce012646f4396bbda4e7300375) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Editor/Icons/TCP2_ContextualHelpBox.png using Guid(e9b4e5ce012646f4396bbda4e7300375) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58b7156e1e71a904f180300c873699ed') in 0.070725 seconds 
-  Import took 0.081241 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000279 seconds.
-  path: Assets/MegaFiers/MegaLiner Scene/Textures/rocket 1024.png
-  artifactKey: Guid(13141f20b6fcdb74eb170a31f7f01e84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MegaFiers/MegaLiner Scene/Textures/rocket 1024.png using Guid(13141f20b6fcdb74eb170a31f7f01e84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ded886ec145bf27114f809eb88f8f8bc') in 0.061913 seconds 
-  Import took 0.076297 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000267 seconds.
-  path: Assets/MegaFiers/MegaLiner Scene/Textures/rocket coloured.png
-  artifactKey: Guid(7d3311f06ad01e041856048b58079dc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MegaFiers/MegaLiner Scene/Textures/rocket coloured.png using Guid(7d3311f06ad01e041856048b58079dc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4891c8b7ebecda812cb4bfd765c2fd95') in 0.052032 seconds 
-  Import took 0.060982 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000246 seconds.
-  path: Assets/MegaFiers/MegaLiner Scene/Textures/smokeysteam.tif
-  artifactKey: Guid(76e25da1cefc7f446bcc43a70fb13a0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MegaFiers/MegaLiner Scene/Textures/smokeysteam.tif using Guid(76e25da1cefc7f446bcc43a70fb13a0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bf580d9b0cf70b9ef94fc42ba7da02b') in 0.137494 seconds 
-  Import took 0.148056 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000377 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Textures/Sunny Days - Seamless.jpg
-  artifactKey: Guid(17c350171f7a3ca479f830547c66d187) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Sunny Days - Seamless.jpg using Guid(17c350171f7a3ca479f830547c66d187) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '638fc289d904d4482c7cc57f3f7c9307') in 0.081534 seconds 
-  Import took 0.092215 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000232 seconds.
-  path: Assets/MegaFiers/MegaLiner Scene/Textures/red sprite.png
-  artifactKey: Guid(0625fc386e1698a46b0eb062657377b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MegaFiers/MegaLiner Scene/Textures/red sprite.png using Guid(0625fc386e1698a46b0eb062657377b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09b95e1c2bd38ff350f4defb4ad9197d') in 0.065782 seconds 
-  Import took 0.075702 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000242 seconds.
-  path: Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Textures/TCP2_Demo_BrickWall.png
-  artifactKey: Guid(3adf527c914df3b449b56a7b8446f919) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Textures/TCP2_Demo_BrickWall.png using Guid(3adf527c914df3b449b56a7b8446f919) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b48e101f599fa3871247dec2dbf76bcf') in 0.053112 seconds 
-  Import took 0.063323 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000192 seconds.
-  path: Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Textures/TCP2_Demo_BrickWall_Flat.png
-  artifactKey: Guid(6d727a66cb0b12c4bad4faf8bdff458c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Textures/TCP2_Demo_BrickWall_Flat.png using Guid(6d727a66cb0b12c4bad4faf8bdff458c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd303862e8f85819b1bf258a497b0213e') in 0.051659 seconds 
-  Import took 0.061901 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000179 seconds.
-  path: Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Editor/Icons/TCP2_CogIcon_Down.png
-  artifactKey: Guid(dfc2218fdd8f9ac42adc5a1f6f775fbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Editor/Icons/TCP2_CogIcon_Down.png using Guid(dfc2218fdd8f9ac42adc5a1f6f775fbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77378592ebe7ad870101164c067176b3') in 0.041819 seconds 
-  Import took 0.051747 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000256 seconds.
-  path: Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Textures/TCP2_Demo_Car_Flat.png
-  artifactKey: Guid(9bc88dd8bdc49804a9296afcebb0c28b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Textures/TCP2_Demo_Car_Flat.png using Guid(9bc88dd8bdc49804a9296afcebb0c28b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c3beaeac2671f464d9d9bdbea5767e0') in 0.067250 seconds 
-  Import took 0.080166 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000232 seconds.
-  path: Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Editor/Icons/TCP2_ContextualHelpBox_Pro.png
-  artifactKey: Guid(738c239888a0d6142a8d22c35c323a52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Editor/Icons/TCP2_ContextualHelpBox_Pro.png using Guid(738c239888a0d6142a8d22c35c323a52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c0d6c0b88b60894b93e3752550a614f') in 0.041495 seconds 
-  Import took 0.055487 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000227 seconds.
-  path: Assets/BOXOPHOBIC/Polyverse Skies/Core/Textures/Stars/Stars Square.png
-  artifactKey: Guid(4136c4d5d7422cf49a21b885d09f4518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BOXOPHOBIC/Polyverse Skies/Core/Textures/Stars/Stars Square.png using Guid(4136c4d5d7422cf49a21b885d09f4518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9136e3c2599d8e0e852be2958288694a') in 0.737108 seconds 
-  Import took 0.749502 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000295 seconds.
-  path: Assets/_Project_Specific_Folder/Art/2D/Sprites/Base/pixel.png
-  artifactKey: Guid(679668c51ae990243b90323289717a67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Project_Specific_Folder/Art/2D/Sprites/Base/pixel.png using Guid(679668c51ae990243b90323289717a67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2135ba95c0779295e955b3481d093677') in 0.057499 seconds 
-  Import took 0.071523 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000242 seconds.
-  path: Assets/_Project_Specific_Folder/Art/2D/Sprites/Base/Default SDK UI_Temp/misc/logo_default_bg.png
-  artifactKey: Guid(0dfbd01386a676242b51e1b35f389c70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Project_Specific_Folder/Art/2D/Sprites/Base/Default SDK UI_Temp/misc/logo_default_bg.png using Guid(0dfbd01386a676242b51e1b35f389c70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad2783fa12fb795b077390fbeff7133b') in 0.053222 seconds 
-  Import took 0.066070 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000205 seconds.
-  path: Assets/BOXOPHOBIC/Polyverse Skies/Core/Textures/Moons/Moon 05.png
-  artifactKey: Guid(4d70420f1a4758e469e0ac65b6df86cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BOXOPHOBIC/Polyverse Skies/Core/Textures/Moons/Moon 05.png using Guid(4d70420f1a4758e469e0ac65b6df86cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a814db1b2b34ed76e4dd1e3d6c7cc901') in 0.118028 seconds 
-  Import took 0.125514 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 53.607933 seconds.
-  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr electric arc anim x4.mat
-  artifactKey: Guid(21ce22ee4a68b854f8df2b3f4de750e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr electric arc anim x4.mat using Guid(21ce22ee4a68b854f8df2b3f4de750e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94c0e2fe032051f9d49e0353970e9b63') in 1.216129 seconds 
-  Import took 1.225253 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000584 seconds.
-  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr fire crisp fade hdr ab.mat
-  artifactKey: Guid(433cfee66f74fd94fa6149666cfbea29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr fire crisp fade hdr ab.mat using Guid(433cfee66f74fd94fa6149666cfbea29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d4512a95a84aa2e1a412a0c495f0abe') in 1.068470 seconds 
-  Import took 1.074510 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000400 seconds.
-  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr flamme blur unstable fine hdr ab.mat
-  artifactKey: Guid(832254a1e17e6d242922c401632ff9cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr flamme blur unstable fine hdr ab.mat using Guid(832254a1e17e6d242922c401632ff9cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0aa94610e590ecc0a5c8421f6f27ebf4') in 0.058598 seconds 
-  Import took 0.069642 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000234 seconds.
-  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr flamme plain stable hdr ab.mat
-  artifactKey: Guid(3971f198822757548a4891ef95ae7a80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr flamme plain stable hdr ab.mat using Guid(3971f198822757548a4891ef95ae7a80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77dc6471e369edfcb4ecc733f2cde2eb') in 0.046442 seconds 
-  Import took 0.064133 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000736 seconds.
-  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr flamme crisp stable hdr ab.mat
-  artifactKey: Guid(f62768e2cc4a1ca479d7e62fb0dade76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr flamme crisp stable hdr ab.mat using Guid(f62768e2cc4a1ca479d7e62fb0dade76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de3bdb8487e4954833cb2c7b8c3ed7a1') in 0.042275 seconds 
-  Import took 0.057881 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000412 seconds.
-  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr fire plain fade hdr ab.mat
-  artifactKey: Guid(c3b36b67920c18a4a8df7edba245e809) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr fire plain fade hdr ab.mat using Guid(c3b36b67920c18a4a8df7edba245e809) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2b7b15354c77193f97a4addd424c8b7') in 0.030266 seconds 
-  Import took 0.039486 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000474 seconds.
-  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr flamme crisp mid fine hdr ab.mat
-  artifactKey: Guid(d8a21f1c09eaf4d40a9e977784629cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr flamme crisp mid fine hdr ab.mat using Guid(d8a21f1c09eaf4d40a9e977784629cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd3ab2076f0a9215d5945ded75efff7b') in 0.045096 seconds 
-  Import took 0.060154 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 41.377386 seconds.
-  path: Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Demo TCP2/SG Demo Assets/Default/TCP2_Demo_DissolveRamp.png
-  artifactKey: Guid(badc79676ebe83c40af64a7df2ed6586) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Demo TCP2/SG Demo Assets/Default/TCP2_Demo_DissolveRamp.png using Guid(badc79676ebe83c40af64a7df2ed6586) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4ca95769762c937a6f756e72c306a7b') in 0.036609 seconds 
-  Import took 0.049312 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000257 seconds.
-  path: Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Demo TCP2/SG Demo Assets/_Misc Assets/TCP2_Demo_Lava.png
-  artifactKey: Guid(929f2fb0e4fa033409d770aa87bea9b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Demo TCP2/SG Demo Assets/_Misc Assets/TCP2_Demo_Lava.png using Guid(929f2fb0e4fa033409d770aa87bea9b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '820694bd966c7d9d7ef81883b9d6d22d') in 0.071130 seconds 
-  Import took 0.080590 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000216 seconds.
-  path: Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Textures/TCP2_Demo_Poster3.png
-  artifactKey: Guid(d0d7f9d969c49cd4885f97c165bdfa7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Textures/TCP2_Demo_Poster3.png using Guid(d0d7f9d969c49cd4885f97c165bdfa7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e318ca8df3a87a4f367c970ea9382a3') in 0.060473 seconds 
-  Import took 0.068049 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000362 seconds.
-  path: Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Textures/TCP2_Demo_UnityChan.png
-  artifactKey: Guid(88e58b4cc42d7304fb1dc40653de8e97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Textures/TCP2_Demo_UnityChan.png using Guid(88e58b4cc42d7304fb1dc40653de8e97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c261b156221143385147e6eaf7668131') in 0.153536 seconds 
-  Import took 0.163462 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000196 seconds.
-  path: Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Textures/TCP2_Demo_Poster2.png
-  artifactKey: Guid(89565c77717192a4e98b519d59b3bbb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Textures/TCP2_Demo_Poster2.png using Guid(89565c77717192a4e98b519d59b3bbb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ca5c00c8cffd0345ca04489357b34fd') in 0.068376 seconds 
-  Import took 0.078728 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000252 seconds.
-  path: Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Textures/TCP2_Demo_Grass.png
-  artifactKey: Guid(379dbc64b9e961945bb85ccde59979cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Textures/TCP2_Demo_Grass.png using Guid(379dbc64b9e961945bb85ccde59979cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22e472a807e03051b83f551c91ac8e65') in 0.062269 seconds 
-  Import took 0.072174 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000212 seconds.
-  path: Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Textures/TCP2_Demo_Poster1.png
-  artifactKey: Guid(d8f76b712098b754dafbe140ac26ece8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Textures/TCP2_Demo_Poster1.png using Guid(d8f76b712098b754dafbe140ac26ece8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1c4012891a1c44b29c167d3c2075117') in 0.047612 seconds 
-  Import took 0.058209 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000505 seconds.
-  path: Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Textures/TCP2_Demo_StoneGround.png
-  artifactKey: Guid(5c5e55a9fbc4aa64a92b1555198f8bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Textures/TCP2_Demo_StoneGround.png using Guid(5c5e55a9fbc4aa64a92b1555198f8bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '218741afc0d2623f9382adbebd955f2d') in 0.071449 seconds 
-  Import took 0.082605 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000800 seconds.
-  path: Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Demo TCP2/SG Demo Assets/_Misc Assets/TCP2_Demo_Poison.png
-  artifactKey: Guid(c294ce2b4801b074f951b6b9d043c8dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Demo TCP2/SG Demo Assets/_Misc Assets/TCP2_Demo_Poison.png using Guid(c294ce2b4801b074f951b6b9d043c8dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '559838e7982fda229a3b02d83156db72') in 0.069778 seconds 
-  Import took 0.078283 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000252 seconds.
-  path: Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Textures/TCP2_Demo_Sand.png
-  artifactKey: Guid(31943228e69a5b54992b5322327313e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Textures/TCP2_Demo_Sand.png using Guid(31943228e69a5b54992b5322327313e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26684d9d5d6e667505fff2e2bce8d0ca') in 0.064189 seconds 
-  Import took 0.075207 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000206 seconds.
-  path: Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Demo TCP2/SG Demo Assets/_Misc Assets/TCP2_Demo_LavaCartoon.png
-  artifactKey: Guid(8d928a03c9a6d8445a56096a84efd563) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Demo TCP2/SG Demo Assets/_Misc Assets/TCP2_Demo_LavaCartoon.png using Guid(8d928a03c9a6d8445a56096a84efd563) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15b6bdf447c0025348f49153f3b90c45') in 0.068193 seconds 
-  Import took 0.076968 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000323 seconds.
-  path: Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Demo TCP2/SG Demo Assets/_Misc Assets/TCP2_Demo_GradientRamp.png
-  artifactKey: Guid(ee2c1625f8801df4ea984bc0de5e5f6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Demo TCP2/SG Demo Assets/_Misc Assets/TCP2_Demo_GradientRamp.png using Guid(ee2c1625f8801df4ea984bc0de5e5f6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11c393cf2e125832c5e4b636a6436097') in 0.053630 seconds 
-  Import took 0.063492 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000309 seconds.
-  path: Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Demo TCP2/TCP2 Demo Assets/Misc/TCP2_Demo_Title.png
-  artifactKey: Guid(5ecbf1df7a7a1c64fab4cfb306c177c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Demo TCP2/TCP2 Demo Assets/Misc/TCP2_Demo_Title.png using Guid(5ecbf1df7a7a1c64fab4cfb306c177c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9733d0199b78d5dddb9267708e192165') in 0.053374 seconds 
-  Import took 0.065349 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000592 seconds.
-  path: Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Textures/TCP2_Demo_Logo.png
-  artifactKey: Guid(22db3d1683e49874c9321c2887146b94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Textures/TCP2_Demo_Logo.png using Guid(22db3d1683e49874c9321c2887146b94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d394b1abd81fd951eb689e954c73630') in 0.057508 seconds 
-  Import took 0.068572 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.009890 seconds.
-  path: Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Textures/TCP2_Demo_UnityChan_Flat.png
-  artifactKey: Guid(efb373a6e0c047146b108f84426b8c5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Textures/TCP2_Demo_UnityChan_Flat.png using Guid(efb373a6e0c047146b108f84426b8c5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '682f6d81fd3108afca0fc87b32142a7a') in 0.143636 seconds 
-  Import took 0.155845 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000347 seconds.
-  path: Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Textures/TCP2_Ramp_Backlit.png
-  artifactKey: Guid(a2daa9b606711a643808bebed4c59a0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Textures/TCP2_Ramp_Backlit.png using Guid(a2daa9b606711a643808bebed4c59a0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '609f58668489b650aee323a350864e3a') in 0.055637 seconds 
-  Import took 0.064614 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000081 seconds.
-  path: Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Editor/Icons/TCP2_HelpIcon.png
-  artifactKey: Guid(ae5ada963fa6f5646bb7344f5e41f488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Editor/Icons/TCP2_HelpIcon.png using Guid(ae5ada963fa6f5646bb7344f5e41f488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd196e9f9c5d63e5c2db0bf4f61089345') in 0.054890 seconds 
-  Import took 0.065660 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000231 seconds.
-  path: Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Textures/TCP2_Ramp_8px.png
-  artifactKey: Guid(8af77daad29f8b34da56515f193158f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Textures/TCP2_Ramp_8px.png using Guid(8af77daad29f8b34da56515f193158f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '658fd45238b3ef85e0031788c6afa4d8') in 0.049257 seconds 
-  Import took 0.061870 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000256 seconds.
-  path: Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Textures/TCP2_SketchGradient_Halftone2.png
-  artifactKey: Guid(7c9d6cd16e51c834b8a063ea54bd0edb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Textures/TCP2_SketchGradient_Halftone2.png using Guid(7c9d6cd16e51c834b8a063ea54bd0edb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaf7526d472d8b1ffd3165bcbac39289') in 1.053680 seconds 
-  Import took 1.061414 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000316 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Textures/Wipe Pattern - Radial Quad.psd
-  artifactKey: Guid(2b5e9ae96c5644d8bae932f8b4ca68a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Wipe Pattern - Radial Quad.psd using Guid(2b5e9ae96c5644d8bae932f8b4ca68a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0edb4ef9618cee8e4235465b4465e43f') in 0.072459 seconds 
-  Import took 0.081741 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000221 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Textures/Wipe Pattern - Circle.psd
-  artifactKey: Guid(10c49fcd9c64421db7c0133e61e55f97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Wipe Pattern - Circle.psd using Guid(10c49fcd9c64421db7c0133e61e55f97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98b535213e6768cafb793e47f9f1164f') in 0.054881 seconds 
-  Import took 0.070601 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000276 seconds.
-  path: Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Editor/Icons/TCP2_Tab.png
-  artifactKey: Guid(e2718433029a50343bf18392fecba9b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Editor/Icons/TCP2_Tab.png using Guid(e2718433029a50343bf18392fecba9b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d8a4d4ac02404d64c30927e8f8bcfd2') in 0.064793 seconds 
-  Import took 0.073466 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000233 seconds.
-  path: Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Editor/Icons/TCP2_Tab_Pro.png
-  artifactKey: Guid(652804c9294ec584fa678d0c83066732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Editor/Icons/TCP2_Tab_Pro.png using Guid(652804c9294ec584fa678d0c83066732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b4a71c78801eb48bb4b5e53e119d333') in 0.053590 seconds 
-  Import took 0.064396 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000299 seconds.
-  path: Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Textures/TCP2_ThresholdTex_Noise.png
-  artifactKey: Guid(a6658021cab4ef4469e34c50df983aad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Textures/TCP2_ThresholdTex_Noise.png using Guid(a6658021cab4ef4469e34c50df983aad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f79c9cb5b81f6333d15be182ee74c57d') in 0.048458 seconds 
-  Import took 0.067290 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000212 seconds.
-  path: Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Editor/Icons/TCP2_EnabledBg.png
-  artifactKey: Guid(6f2773a76627c6a4e8e57bb55f0a97ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Editor/Icons/TCP2_EnabledBg.png using Guid(6f2773a76627c6a4e8e57bb55f0a97ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3e75ec11a0fc7847485bb5f06cd1890') in 0.053784 seconds 
-  Import took 0.065515 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000226 seconds.
-  path: Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Textures/TCP2_Ramp_OldSchool_3.png
-  artifactKey: Guid(f7efee5cdbe39254082e87a9ddcf42e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Textures/TCP2_Ramp_OldSchool_3.png using Guid(f7efee5cdbe39254082e87a9ddcf42e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e02a97d100304df9a24381aa091c0d4') in 0.056597 seconds 
-  Import took 0.070995 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000606 seconds.
-  path: Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Editor/Icons/TCP2_InfoIcon.png
-  artifactKey: Guid(a7fbd87291a77ec4c852b4fff839663e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Editor/Icons/TCP2_InfoIcon.png using Guid(a7fbd87291a77ec4c852b4fff839663e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eca0d9dd41384b842eb6aadd4de21132') in 0.058069 seconds 
-  Import took 0.070248 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000240 seconds.
-  path: Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Editor/Icons/TCP2_HelpIcon2.png
-  artifactKey: Guid(e1eeadbbe9ff17142a432947aa062948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Editor/Icons/TCP2_HelpIcon2.png using Guid(e1eeadbbe9ff17142a432947aa062948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a0fb6fd586d9b2d74d6bb91b075481b') in 0.054381 seconds 
-  Import took 0.063708 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000222 seconds.
-  path: Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Textures/TCP2_SketchB_Hor.png
-  artifactKey: Guid(22e7a07df5628c2429c8f958a6fb8817) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Textures/TCP2_SketchB_Hor.png using Guid(22e7a07df5628c2429c8f958a6fb8817) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1a7e921687810b33b7459ce90144525') in 0.061187 seconds 
-  Import took 0.071408 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000173 seconds.
-  path: Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Textures/TCP2_SketchC.png
-  artifactKey: Guid(9e1565e2f7e0a6e4aaa88ed460551ee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Textures/TCP2_SketchC.png using Guid(9e1565e2f7e0a6e4aaa88ed460551ee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8eda734f29a280a23abf72625cdd34b9') in 0.055096 seconds 
-  Import took 0.064276 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000287 seconds.
-  path: Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Textures/TCP2_SketchGradient_Diamond.png
-  artifactKey: Guid(a53def7b8b10ce24697b973c9e995ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Textures/TCP2_SketchGradient_Diamond.png using Guid(a53def7b8b10ce24697b973c9e995ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36b0b960e2fdb5a798524ad435a3afbb') in 0.050907 seconds 
-  Import took 0.060412 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000531 seconds.
-  path: Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Textures/TCP2_SketchA_Diag.png
-  artifactKey: Guid(e2b38417f28f3714bbef266604e1611e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Textures/TCP2_SketchA_Diag.png using Guid(e2b38417f28f3714bbef266604e1611e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a30329f4fbf82b2a0ebf12e9dfa85cc') in 0.048058 seconds 
-  Import took 0.058742 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000290 seconds.
-  path: Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Demo TCP2/SG Demo Assets/_Misc Assets/TCP2_Water Foam Caustics.png
-  artifactKey: Guid(2a2d71ee416d3c844adfa1a053ea32f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Demo TCP2/SG Demo Assets/_Misc Assets/TCP2_Water Foam Caustics.png using Guid(2a2d71ee416d3c844adfa1a053ea32f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '788e01d029b2c84be9b55bdd3166dd7f') in 0.051933 seconds 
-  Import took 0.064315 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000224 seconds.
-  path: Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Textures/TCP2_NoTileNoise.png
-  artifactKey: Guid(af5515bfe14f1af4a9b8b3bf306b9261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Textures/TCP2_NoTileNoise.png using Guid(af5515bfe14f1af4a9b8b3bf306b9261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9b98d358118441250d9cf96cd5f70eb') in 0.044281 seconds 
-  Import took 0.056753 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000709 seconds.
-  path: Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Textures/TCP2_ThresholdTex_Handpaint.png
-  artifactKey: Guid(608c8f119ceafdc439c32f936e29b63c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Textures/TCP2_ThresholdTex_Handpaint.png using Guid(608c8f119ceafdc439c32f936e29b63c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4a9124093bed83523a1ea92f4626761') in 0.056475 seconds 
-  Import took 0.069955 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000362 seconds.
-  path: Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Textures/TCP2_ThresholdTex_Handpaint_3.png
-  artifactKey: Guid(60573ff7f60d93e4e88c01310ba411e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Textures/TCP2_ThresholdTex_Handpaint_3.png using Guid(60573ff7f60d93e4e88c01310ba411e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d13f35d295417fe1bcdf2045660a2d2') in 0.050418 seconds 
-  Import took 0.065516 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000242 seconds.
-  path: Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Textures/TCP2_SketchB_Diag2.png
-  artifactKey: Guid(a0d03d906b6264d4c8c02b0ffd7bc8c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Textures/TCP2_SketchB_Diag2.png using Guid(a0d03d906b6264d4c8c02b0ffd7bc8c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '648784deaaabed85ba5e80e19eefec48') in 0.055998 seconds 
-  Import took 0.075759 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001161 seconds.
-  path: Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Editor/Icons/TCP2_FoldoutArrowRight_Pro.png
-  artifactKey: Guid(fd2a7b20e151af74899266252fe996c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Editor/Icons/TCP2_FoldoutArrowRight_Pro.png using Guid(fd2a7b20e151af74899266252fe996c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8c26dbcf92c68c4cc4cd4d71ede1d07') in 0.048084 seconds 
-  Import took 0.063691 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000246 seconds.
-  path: Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Textures/TCP2_NoTileNoise_256.png
-  artifactKey: Guid(0909bc15081482640bdb194cf325f027) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Textures/TCP2_NoTileNoise_256.png using Guid(0909bc15081482640bdb194cf325f027) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb54ce8f1712974120a444dfedc44c80') in 0.051300 seconds 
-  Import took 0.067453 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000231 seconds.
-  path: Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Editor/Icons/TCP2_SmallHelpIcon.png
-  artifactKey: Guid(6ea4b72a5c36cac4c8014324d621ecc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Editor/Icons/TCP2_SmallHelpIcon.png using Guid(6ea4b72a5c36cac4c8014324d621ecc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58ea5dea2366e6dae785c544bf2cb4e5') in 0.065274 seconds 
-  Import took 0.078970 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000308 seconds.
-  path: Assets/MegaFiers/Scripts/MegaFiers/Editor/Gizmos/up.png
-  artifactKey: Guid(5a261e8f504202240b300e03c5a98ee5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MegaFiers/Scripts/MegaFiers/Editor/Gizmos/up.png using Guid(5a261e8f504202240b300e03c5a98ee5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90b5cf6bd4c35815bce00db8921f43e5') in 0.069499 seconds 
-  Import took 0.081942 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000266 seconds.
-  path: Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Textures/TCP2_Ramp_4Levels_2.png
-  artifactKey: Guid(e932c54d6500f9c46b63c4d9d03387d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Textures/TCP2_Ramp_4Levels_2.png using Guid(e932c54d6500f9c46b63c4d9d03387d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4d80413efd413be2a8487292e35d230') in 0.049503 seconds 
-  Import took 0.062672 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000229 seconds.
-  path: Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Textures/TCP2_SketchGradient_Square.png
-  artifactKey: Guid(048b8ea8f34ab8c48bc154e893d11b62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Textures/TCP2_SketchGradient_Square.png using Guid(048b8ea8f34ab8c48bc154e893d11b62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '960a9b02c1074257281222e8e4b31593') in 0.052037 seconds 
-  Import took 0.064601 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000165 seconds.
-  path: Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Textures/TCP2_Ramp_3Levels.png
-  artifactKey: Guid(948e1b7327c293a4081ba3c18eaab19f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Textures/TCP2_Ramp_3Levels.png using Guid(948e1b7327c293a4081ba3c18eaab19f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '871740ba18da1637d7f406d89838b2a7') in 0.053674 seconds 
-  Import took 0.061524 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000190 seconds.
-  path: Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Editor/Icons/TCP2_TabOff.png
-  artifactKey: Guid(c91ae224fd4863e42a2521ff0287b400) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Editor/Icons/TCP2_TabOff.png using Guid(c91ae224fd4863e42a2521ff0287b400) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d28d6a53733626d040310c53db8dcd1') in 0.048899 seconds 
-  Import took 0.059105 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000217 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Textures/Wipe Pattern - Diagonal.psd
-  artifactKey: Guid(ed5290d8df18488780e2996b9b882f01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Wipe Pattern - Diagonal.psd using Guid(ed5290d8df18488780e2996b9b882f01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2f4ea8b610f51271adda9356f1de149') in 0.051602 seconds 
-  Import took 0.063276 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000252 seconds.
-  path: Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Editor/Icons/TCP2_TabOff_Pro.png
-  artifactKey: Guid(38410c51be882f04f9659e38417962b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Editor/Icons/TCP2_TabOff_Pro.png using Guid(38410c51be882f04f9659e38417962b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6ffa07fdf56943d657715d4cd31af75') in 0.044271 seconds 
-  Import took 0.051987 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000199 seconds.
-  path: Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Editor/Icons/TCP2_EnabledBgPropertyExpanded.png
-  artifactKey: Guid(262ec62be58e3144f8f2ea321b32582e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Editor/Icons/TCP2_EnabledBgPropertyExpanded.png using Guid(262ec62be58e3144f8f2ea321b32582e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73e4df78cf399b3fc30a22e2c8752be3') in 0.065870 seconds 
-  Import took 0.078387 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000239 seconds.
-  path: Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Textures/TCP2_Demo_WheelyBin.png
-  artifactKey: Guid(ff7a4b460b2f2a64ca7a30f1a1eac06d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Textures/TCP2_Demo_WheelyBin.png using Guid(ff7a4b460b2f2a64ca7a30f1a1eac06d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '241053086fb21aa45327460cf6ec062b') in 0.063413 seconds 
-  Import took 0.075013 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000273 seconds.
-  path: Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Textures/TCP2_Ramp_OldSchool_2.png
-  artifactKey: Guid(398e2aa5b6132c1428aea67ce16f2047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Textures/TCP2_Ramp_OldSchool_2.png using Guid(398e2aa5b6132c1428aea67ce16f2047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f15325760f634e8b40419d4539c86fd') in 0.049044 seconds 
-  Import took 0.061322 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000232 seconds.
-  path: Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Editor/Icons/TCP2_ErrorIcon.png
-  artifactKey: Guid(34b5326daa48ac043acdde2d688f8ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Editor/Icons/TCP2_ErrorIcon.png using Guid(34b5326daa48ac043acdde2d688f8ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd03cdc0c0c1673d31cbddf2ae48106e8') in 0.053841 seconds 
-  Import took 0.066227 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000205 seconds.
-  path: Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Textures/TCP2_Demo_UnityChan_Flat_ShadowColor.png
-  artifactKey: Guid(2dd5db1f3356deb4dbf2dfec55c37dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Textures/TCP2_Demo_UnityChan_Flat_ShadowColor.png using Guid(2dd5db1f3356deb4dbf2dfec55c37dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c47dad0553fd10a98fc0fe9ad5a4a45') in 0.093590 seconds 
-  Import took 0.100534 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000267 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Textures/Text Overflow - Linked Text UI Screenshot.png
-  artifactKey: Guid(c76d18757a194d618355f05f815cb0a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Text Overflow - Linked Text UI Screenshot.png using Guid(c76d18757a194d618355f05f815cb0a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1005224625cfd45c29959002105c1826') in 0.065820 seconds 
-  Import took 0.076715 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000167 seconds.
-  path: Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Textures/TCP2_Ramp_3Levels_2.png
-  artifactKey: Guid(a95564a2f97bced47aea5f5edc17daae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Textures/TCP2_Ramp_3Levels_2.png using Guid(a95564a2f97bced47aea5f5edc17daae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7773f895a28d0842d3cc71cef74cf85b') in 0.052861 seconds 
-  Import took 0.060515 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000386 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Textures/Wipe Pattern - Radial Double.psd
-  artifactKey: Guid(7631f4eff8f74ed38eb3eb9db17134e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Wipe Pattern - Radial Double.psd using Guid(7631f4eff8f74ed38eb3eb9db17134e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e4eaf8e2e37d06cef97238ef3c237d0') in 0.052996 seconds 
-  Import took 0.064142 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000205 seconds.
-  path: Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Textures/TCP2_Ramp_OldSchool.png
-  artifactKey: Guid(a54a836f027df3f4a8d894236589b700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Textures/TCP2_Ramp_OldSchool.png using Guid(a54a836f027df3f4a8d894236589b700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54686b3fc150f08ffde12eac04ac9818') in 0.052071 seconds 
-  Import took 0.063551 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000214 seconds.
-  path: Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Textures/TCP2_SketchGradient_Halftone.png
-  artifactKey: Guid(74f40e2117b2f334083f0f1bbbe11df1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Textures/TCP2_SketchGradient_Halftone.png using Guid(74f40e2117b2f334083f0f1bbbe11df1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89302201ec449a753cf489632855bf83') in 0.052068 seconds 
-  Import took 0.063847 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000276 seconds.
-  path: Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Editor/Icons/TCP2_HelpIcon2_Pro.png
-  artifactKey: Guid(e8f431fe710a1b1439529362daaeaed7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Editor/Icons/TCP2_HelpIcon2_Pro.png using Guid(e8f431fe710a1b1439529362daaeaed7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4378c4bc51818a325c7a537a88dcd2f2') in 0.047671 seconds 
-  Import took 0.056341 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000241 seconds.
-  path: Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Textures/TCP2_Ramp_UnityGradient.png
-  artifactKey: Guid(ccad9b0732473ee4e95de81e50e9050f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Textures/TCP2_Ramp_UnityGradient.png using Guid(ccad9b0732473ee4e95de81e50e9050f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ce1d2e95ae94216b7573398e6b0489f') in 0.047666 seconds 
-  Import took 0.060541 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000212 seconds.
-  path: Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Textures/TCP2_Ramp_Hard.png
-  artifactKey: Guid(ea267fafe0b5b4044a5ec467f6494f57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Textures/TCP2_Ramp_Hard.png using Guid(ea267fafe0b5b4044a5ec467f6494f57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bee0cb9c718008f0d93ff4497f7056fb') in 0.063685 seconds 
-  Import took 0.074634 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000461 seconds.
-  path: Assets/PaintIn3D/InGame/Examples/Textures/White Explosion.png
-  artifactKey: Guid(8e247c9ce3a59834dafe07f95cd9fbce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PaintIn3D/InGame/Examples/Textures/White Explosion.png using Guid(8e247c9ce3a59834dafe07f95cd9fbce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d740f0d22c67fd8124e65a8e0a19b3a') in 0.049439 seconds 
-  Import took 0.061762 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000282 seconds.
-  path: Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Editor/Icons/TCP2_ErrorBgProperty.png
-  artifactKey: Guid(2fda31ad75a11904fae1155f1e66ed44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Editor/Icons/TCP2_ErrorBgProperty.png using Guid(2fda31ad75a11904fae1155f1e66ed44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6966a3d4c2968fe7feb3579b7dd772c5') in 0.046044 seconds 
-  Import took 0.057473 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000252 seconds.
-  path: Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Editor/Icons/TCP2_HelpIcon2_Down_Pro.png
-  artifactKey: Guid(7e5abf6354bc5d648b581cb7b1869dd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Editor/Icons/TCP2_HelpIcon2_Down_Pro.png using Guid(7e5abf6354bc5d648b581cb7b1869dd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64010fe5f0055f34fb5d397e7cd499a1') in 0.044745 seconds 
-  Import took 0.056355 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000196 seconds.
-  path: Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Textures/TCP2_SketchA_Cross.png
-  artifactKey: Guid(b1b62855ddf91f140a6b405c3037c38d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Textures/TCP2_SketchA_Cross.png using Guid(b1b62855ddf91f140a6b405c3037c38d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e5fb912a7681888e8f70cd3484ec476') in 0.049034 seconds 
-  Import took 0.061561 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000275 seconds.
-  path: Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Editor/Icons/TCP2_FoldoutArrowRight.png
-  artifactKey: Guid(3138fff2fbbfcba4ca6b0d2761c14185) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Editor/Icons/TCP2_FoldoutArrowRight.png using Guid(3138fff2fbbfcba4ca6b0d2761c14185) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91c3fa4fc631dae4fb69cce7ec4f117b') in 0.079369 seconds 
-  Import took 0.091013 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000181 seconds.
-  path: Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Textures/TCP2_ThresholdTex_Handpaint_2.png
-  artifactKey: Guid(ebbb2bec16a72fe48b8463e62d47d076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Textures/TCP2_ThresholdTex_Handpaint_2.png using Guid(ebbb2bec16a72fe48b8463e62d47d076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '696221ab2cbeb0273204da438d0edc66') in 0.054483 seconds 
-  Import took 0.062612 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000632 seconds.
-  path: Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Editor/Icons/TCP2_HelpIcon2_Down.png
-  artifactKey: Guid(e3849fe45d9326b4eb78d0e72b58d795) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Editor/Icons/TCP2_HelpIcon2_Down.png using Guid(e3849fe45d9326b4eb78d0e72b58d795) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ff942e876af43a71a8d21b6a61b76ac') in 0.051238 seconds 
-  Import took 0.061524 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000266 seconds.
-  path: Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Editor/Icons/TCP2_ErrorBgPropertyExpanded_Pro.png
-  artifactKey: Guid(f0f3e5e9922de31469885cf7cbc44b45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Editor/Icons/TCP2_ErrorBgPropertyExpanded_Pro.png using Guid(f0f3e5e9922de31469885cf7cbc44b45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8da7ebbd7a517a15d5094302d4b8f0ef') in 0.054811 seconds 
-  Import took 0.064918 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000255 seconds.
-  path: Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Editor/Icons/TCP2_ErrorBgPropertyExpanded.png
-  artifactKey: Guid(da3d8cc5617f8d6419e7d636db280e39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Editor/Icons/TCP2_ErrorBgPropertyExpanded.png using Guid(da3d8cc5617f8d6419e7d636db280e39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ca07ddf6bc3f2ccf18a9bf71b35e6e3') in 0.064869 seconds 
-  Import took 0.073212 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000227 seconds.
-  path: Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Textures/TCP2_Ramp_4Levels.png
-  artifactKey: Guid(7fe85df733e76164b912c7ade9e31f71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Textures/TCP2_Ramp_4Levels.png using Guid(7fe85df733e76164b912c7ade9e31f71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a098381005de6f28f5eaee9233a3624') in 0.049459 seconds 
-  Import took 0.061598 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000237 seconds.
-  path: Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Editor/Icons/TCP2_WarningIcon.png
-  artifactKey: Guid(8ef1aa6ddf6d8aa41b22f62497ceb9f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Editor/Icons/TCP2_WarningIcon.png using Guid(8ef1aa6ddf6d8aa41b22f62497ceb9f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '127355dcb5ea04d7cd4abca2289b9ebb') in 0.051385 seconds 
-  Import took 0.064375 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000174 seconds.
-  path: Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Editor/Icons/TCP2_EnabledBgProperty.png
-  artifactKey: Guid(64e126fa56346144d92fc29b81a2a164) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Editor/Icons/TCP2_EnabledBgProperty.png using Guid(64e126fa56346144d92fc29b81a2a164) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c69cff2dc31af97bb4bd0db6e695216') in 0.052668 seconds 
-  Import took 0.060628 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000213 seconds.
-  path: Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Textures/TCP2_Ramp_Unity.png
-  artifactKey: Guid(abc83c21d57d4a74cabe12065fa1a8b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Textures/TCP2_Ramp_Unity.png using Guid(abc83c21d57d4a74cabe12065fa1a8b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42c3a52aae26f7f9dada5869d90b22f4') in 0.046607 seconds 
-  Import took 0.056833 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000228 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Textures/Text Overflow - Linked Text Image 1.png
-  artifactKey: Guid(4ccf43d26c4748c792174516f4a8fcef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Text Overflow - Linked Text Image 1.png using Guid(4ccf43d26c4748c792174516f4a8fcef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '503ece09f6ef7aaf66578e1feec148b5') in 0.057080 seconds 
-  Import took 0.066476 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000181 seconds.
-  path: Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Editor/Icons/TCP2_HelpIcon_Down.png
-  artifactKey: Guid(9ac309ec6267b7a4cbefb094b3592150) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Editor/Icons/TCP2_HelpIcon_Down.png using Guid(9ac309ec6267b7a4cbefb094b3592150) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac99c29fed9b342ef33a42f99c76bd21') in 0.050675 seconds 
-  Import took 0.057873 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000216 seconds.
-  path: Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Editor/Icons/TCP2_EnabledBg_Pro.png
-  artifactKey: Guid(5ca14fffb77993e42bc81ceab03ae319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Editor/Icons/TCP2_EnabledBg_Pro.png using Guid(5ca14fffb77993e42bc81ceab03ae319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52a9ea498a81035954458498e0a6d399') in 0.046051 seconds 
-  Import took 0.060666 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000252 seconds.
-  path: Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Textures/TCP2_Demo_UnityChan_ShadowColor.png
-  artifactKey: Guid(45ac4363e3b257c418e91f9f201bbf13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Demo TCP2/Cat Demo Assets/Textures/TCP2_Demo_UnityChan_ShadowColor.png using Guid(45ac4363e3b257c418e91f9f201bbf13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f148f6da4b6dc2276f06916c647820fb') in 0.102887 seconds 
-  Import took 0.111582 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000187 seconds.
-  path: Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Editor/Icons/TCP2_ErrorBgProperty_Pro.png
-  artifactKey: Guid(c9f2d0df054bb44429c93f5316dbc27b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Editor/Icons/TCP2_ErrorBgProperty_Pro.png using Guid(c9f2d0df054bb44429c93f5316dbc27b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf79ab5f7dc37856bd6568ce95efa9c9') in 0.050623 seconds 
-  Import took 0.059042 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000213 seconds.
-  path: Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Editor/Icons/TCP2_EnabledBgProperty_Pro.png
-  artifactKey: Guid(176376ede39ccc2498d0bd91617eaf3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Editor/Icons/TCP2_EnabledBgProperty_Pro.png using Guid(176376ede39ccc2498d0bd91617eaf3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e088a7506c464d5f84e9e241aac29ac') in 0.049285 seconds 
-  Import took 0.062543 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000448 seconds.
-  path: Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Editor/Icons/TCP2_EnabledBgPropertyExpanded_Pro.png
-  artifactKey: Guid(41aabafada9891c4fa8cab017f529b49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Editor/Icons/TCP2_EnabledBgPropertyExpanded_Pro.png using Guid(41aabafada9891c4fa8cab017f529b49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2500b03b413ac70b28d34498d6cc67fe') in 0.064899 seconds 
-  Import took 0.080448 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000301 seconds.
-  path: Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Textures/TCP2_SketchB_Diag1.png
-  artifactKey: Guid(f1ea04fb4ec98b64ebe859386b64e7f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Textures/TCP2_SketchB_Diag1.png using Guid(f1ea04fb4ec98b64ebe859386b64e7f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b7ea2116a013ccd8f6d6efbe0d8f016') in 0.056053 seconds 
-  Import took 0.065749 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000325 seconds.
-  path: Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Documentation/Documentation Data/TCP2_HelpImages.png
-  artifactKey: Guid(bdf80d8d0fb917f48b6747de2ffa49ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Documentation/Documentation Data/TCP2_HelpImages.png using Guid(bdf80d8d0fb917f48b6747de2ffa49ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '782d56b041a794e03936593e3765407d') in 0.053415 seconds 
-  Import took 0.065495 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000235 seconds.
-  path: Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Editor/Icons/TCP2_FoldoutArrowDown_Pro.png
-  artifactKey: Guid(5182f7d7607d78946b72cb3233354523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Editor/Icons/TCP2_FoldoutArrowDown_Pro.png using Guid(5182f7d7607d78946b72cb3233354523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccc84e65af74e62369137b4053cd937d') in 0.056818 seconds 
-  Import took 0.066657 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000291 seconds.
-  path: Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Editor/Icons/TCP2_FoldoutArrowDown.png
-  artifactKey: Guid(d40f5a47ffac0b2469b0c66f3df827ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Editor/Icons/TCP2_FoldoutArrowDown.png using Guid(d40f5a47ffac0b2469b0c66f3df827ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '011bda058435a9a3c902cccdaba94046') in 0.053249 seconds 
-  Import took 0.064051 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000323 seconds.
-  path: Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Textures/TCP2_SketchB_Hor (ColorBurn).png
-  artifactKey: Guid(461a858c7ff874d42b13217ddbf81d28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toony Colors Pro 2 - v2.4.5/Toony Colors Pro/Textures/TCP2_SketchB_Hor (ColorBurn).png using Guid(461a858c7ff874d42b13217ddbf81d28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c3df1b045b164b5b79813e072bdf49a') in 0.059451 seconds 
-  Import took 0.070345 seconds .
-
-========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.009582 seconds.
+Registered in 0.010739 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.99 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.13 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Warning: Annotation not found!
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
@@ -2200,29 +450,29 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 [Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
 
 Mono: successfully reloaded assembly
-- Completed reload, in  2.928 seconds
+- Completed reload, in  2.278 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2929ms)
-		BeginReloadAssembly (165ms)
+	ReloadAssembly (2279ms)
+		BeginReloadAssembly (208ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
+			DisableScriptedObjects (12ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (71ms)
-		EndReloadAssembly (2704ms)
-			LoadAssemblies (651ms)
+			CreateAndSetChildDomain (77ms)
+		EndReloadAssembly (2001ms)
+			LoadAssemblies (152ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (566ms)
+			SetupTypeCache (443ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (63ms)
-			SetupLoadedEditorAssemblies (1193ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (1255ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
+				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (96ms)
-				ProcessInitializeOnLoadAttributes (1019ms)
-				ProcessInitializeOnLoadMethodAttributes (64ms)
+				BeforeProcessingInitializeOnLoad (91ms)
+				ProcessInitializeOnLoadAttributes (1087ms)
+				ProcessInitializeOnLoadMethodAttributes (65ms)
 				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -2231,14 +481,14 @@ Platform modules already initialized, skipping
 Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
 Shader 'BOXOPHOBIC/Polyverse Skies/Simple': fallback shader 'False' not found
 Shader 'BOXOPHOBIC/Polyverse Skies/Standard': fallback shader 'False' not found
-Refreshing native plugins compatible for Editor in 1.03 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.99 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3276 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 276.1 MB.
-System memory in use after: 272.0 MB.
+System memory in use before: 275.3 MB.
+System memory in use after: 271.2 MB.
 
-Unloading 65 unused Assets to reduce memory usage. Loaded Objects now: 3995.
-Total: 35.013300 ms (FindLiveObjects: 0.359700 ms CreateObjectMapping: 0.186700 ms MarkObjects: 31.843600 ms  DeleteObjects: 2.621800 ms)
+Unloading 65 unused Assets to reduce memory usage. Loaded Objects now: 3900.
+Total: 29.765700 ms (FindLiveObjects: 0.364900 ms CreateObjectMapping: 0.191100 ms MarkObjects: 26.940800 ms  DeleteObjects: 2.266900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -2252,12 +502,20 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
+Received Import Request.
+  Time since last request: 92.788581 seconds.
+  path: Assets/Fat Guy.prefab
+  artifactKey: Guid(54cea86152d5f7e4dbf0b2bf157591d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fat Guy.prefab using Guid(54cea86152d5f7e4dbf0b2bf157591d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81de514fa262183dddca93b5cc3cfba2') in 0.105339 seconds 
+  Import took 0.119522 seconds .
+
+========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.009030 seconds.
+Registered in 0.016187 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.22 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.52 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Warning: Annotation not found!
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
@@ -2269,45 +527,45 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 [Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
 
 Mono: successfully reloaded assembly
-- Completed reload, in  2.763 seconds
+- Completed reload, in  8.249 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2764ms)
-		BeginReloadAssembly (151ms)
+	ReloadAssembly (8253ms)
+		BeginReloadAssembly (173ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (9ms)
+			DisableScriptedObjects (8ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (57ms)
-		EndReloadAssembly (2532ms)
-			LoadAssemblies (125ms)
+			CreateAndSetChildDomain (67ms)
+		EndReloadAssembly (8009ms)
+			LoadAssemblies (224ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (520ms)
+			SetupTypeCache (614ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (58ms)
-			SetupLoadedEditorAssemblies (1590ms)
+			RebuildScriptCaches (67ms)
+			SetupLoadedEditorAssemblies (6436ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (119ms)
-				ProcessInitializeOnLoadAttributes (1370ms)
-				ProcessInitializeOnLoadMethodAttributes (87ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (152ms)
+				ProcessInitializeOnLoadAttributes (5103ms)
+				ProcessInitializeOnLoadMethodAttributes (1088ms)
+				AfterProcessingInitializeOnLoad (77ms)
+				EditorAssembliesLoaded (3ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
+			AwakeInstancesAfterBackupRestoration (72ms)
 Platform modules already initialized, skipping
 Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
 Shader 'BOXOPHOBIC/Polyverse Skies/Simple': fallback shader 'False' not found
 Shader 'BOXOPHOBIC/Polyverse Skies/Standard': fallback shader 'False' not found
-Refreshing native plugins compatible for Editor in 1.13 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 6.96 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3276 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 276.1 MB.
-System memory in use after: 272.0 MB.
+System memory in use before: 275.4 MB.
+System memory in use after: 271.2 MB.
 
-Unloading 65 unused Assets to reduce memory usage. Loaded Objects now: 3999.
-Total: 228.616700 ms (FindLiveObjects: 0.447400 ms CreateObjectMapping: 0.476800 ms MarkObjects: 224.887300 ms  DeleteObjects: 2.802700 ms)
+Unloading 65 unused Assets to reduce memory usage. Loaded Objects now: 3905.
+Total: 103.039500 ms (FindLiveObjects: 0.576700 ms CreateObjectMapping: 0.565800 ms MarkObjects: 96.962300 ms  DeleteObjects: 4.932000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -2323,10 +581,10 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.011534 seconds.
+Registered in 0.016078 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 2.51 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 2.60 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Warning: Annotation not found!
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
@@ -2337,3 +595,409 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 
 [Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
 
+Mono: successfully reloaded assembly
+- Completed reload, in  2.592 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2592ms)
+		BeginReloadAssembly (174ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (65ms)
+		EndReloadAssembly (2336ms)
+			LoadAssemblies (176ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (531ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (1367ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (131ms)
+				ProcessInitializeOnLoadAttributes (1149ms)
+				ProcessInitializeOnLoadMethodAttributes (69ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'BOXOPHOBIC/Polyverse Skies/Simple': fallback shader 'False' not found
+Shader 'BOXOPHOBIC/Polyverse Skies/Standard': fallback shader 'False' not found
+Refreshing native plugins compatible for Editor in 1.49 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3276 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 275.4 MB.
+System memory in use after: 271.3 MB.
+
+Unloading 65 unused Assets to reduce memory usage. Loaded Objects now: 3909.
+Total: 34.512900 ms (FindLiveObjects: 0.470800 ms CreateObjectMapping: 0.295000 ms MarkObjects: 30.591500 ms  DeleteObjects: 3.153700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.023671 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.20 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.576 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2576ms)
+		BeginReloadAssembly (191ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (78ms)
+		EndReloadAssembly (2305ms)
+			LoadAssemblies (226ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (436ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (1447ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (87ms)
+				ProcessInitializeOnLoadAttributes (1274ms)
+				ProcessInitializeOnLoadMethodAttributes (73ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'BOXOPHOBIC/Polyverse Skies/Simple': fallback shader 'False' not found
+Shader 'BOXOPHOBIC/Polyverse Skies/Standard': fallback shader 'False' not found
+Refreshing native plugins compatible for Editor in 1.08 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3276 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 275.4 MB.
+System memory in use after: 271.3 MB.
+
+Unloading 65 unused Assets to reduce memory usage. Loaded Objects now: 3913.
+Total: 43.281400 ms (FindLiveObjects: 1.056300 ms CreateObjectMapping: 0.341900 ms MarkObjects: 37.790000 ms  DeleteObjects: 4.091100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011493 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.95 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.150 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2150ms)
+		BeginReloadAssembly (195ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (79ms)
+		EndReloadAssembly (1874ms)
+			LoadAssemblies (167ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (445ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (1082ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (92ms)
+				ProcessInitializeOnLoadAttributes (916ms)
+				ProcessInitializeOnLoadMethodAttributes (61ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'BOXOPHOBIC/Polyverse Skies/Simple': fallback shader 'False' not found
+Shader 'BOXOPHOBIC/Polyverse Skies/Standard': fallback shader 'False' not found
+Refreshing native plugins compatible for Editor in 1.08 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3276 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 285.1 MB.
+System memory in use after: 281.0 MB.
+
+Unloading 65 unused Assets to reduce memory usage. Loaded Objects now: 3917.
+Total: 34.352500 ms (FindLiveObjects: 0.387900 ms CreateObjectMapping: 0.186500 ms MarkObjects: 31.318100 ms  DeleteObjects: 2.456100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.036936 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.02 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.654 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2654ms)
+		BeginReloadAssembly (185ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (89ms)
+		EndReloadAssembly (2399ms)
+			LoadAssemblies (116ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (453ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (83ms)
+			SetupLoadedEditorAssemblies (1472ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (109ms)
+				ProcessInitializeOnLoadAttributes (1238ms)
+				ProcessInitializeOnLoadMethodAttributes (110ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'BOXOPHOBIC/Polyverse Skies/Simple': fallback shader 'False' not found
+Shader 'BOXOPHOBIC/Polyverse Skies/Standard': fallback shader 'False' not found
+Refreshing native plugins compatible for Editor in 1.21 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3276 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 275.4 MB.
+System memory in use after: 271.3 MB.
+
+Unloading 65 unused Assets to reduce memory usage. Loaded Objects now: 3921.
+Total: 46.929800 ms (FindLiveObjects: 1.350900 ms CreateObjectMapping: 0.439700 ms MarkObjects: 41.897700 ms  DeleteObjects: 3.235300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009574 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.03 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.702 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2702ms)
+		BeginReloadAssembly (189ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (89ms)
+		EndReloadAssembly (2441ms)
+			LoadAssemblies (140ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (404ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (57ms)
+			SetupLoadedEditorAssemblies (1615ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (118ms)
+				ProcessInitializeOnLoadAttributes (1401ms)
+				ProcessInitializeOnLoadMethodAttributes (80ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (16ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'BOXOPHOBIC/Polyverse Skies/Simple': fallback shader 'False' not found
+Shader 'BOXOPHOBIC/Polyverse Skies/Standard': fallback shader 'False' not found
+Refreshing native plugins compatible for Editor in 1.07 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3276 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 275.4 MB.
+System memory in use after: 271.3 MB.
+
+Unloading 65 unused Assets to reduce memory usage. Loaded Objects now: 3925.
+Total: 33.195400 ms (FindLiveObjects: 0.342000 ms CreateObjectMapping: 0.166800 ms MarkObjects: 30.022100 ms  DeleteObjects: 2.662100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.016820 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.06 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  9.516 seconds
+Domain Reload Profiling:
+	ReloadAssembly (9516ms)
+		BeginReloadAssembly (285ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (173ms)
+		EndReloadAssembly (9149ms)
+			LoadAssemblies (174ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (550ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (81ms)
+			SetupLoadedEditorAssemblies (7511ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (112ms)
+				ProcessInitializeOnLoadAttributes (6613ms)
+				ProcessInitializeOnLoadMethodAttributes (718ms)
+				AfterProcessingInitializeOnLoad (56ms)
+				EditorAssembliesLoaded (2ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (67ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'BOXOPHOBIC/Polyverse Skies/Simple': fallback shader 'False' not found
+Shader 'BOXOPHOBIC/Polyverse Skies/Standard': fallback shader 'False' not found
+Refreshing native plugins compatible for Editor in 3.98 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3276 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 275.4 MB.
+System memory in use after: 271.3 MB.
+
+Unloading 65 unused Assets to reduce memory usage. Loaded Objects now: 3929.
+Total: 127.863700 ms (FindLiveObjects: 2.587600 ms CreateObjectMapping: 3.755400 ms MarkObjects: 101.626400 ms  DeleteObjects: 19.883500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 413.896593 seconds.
+  path: Assets/Fat Guy Clone.prefab
+  artifactKey: Guid(372768a3402f73e4fb5e5f84b4ad77df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fat Guy Clone.prefab using Guid(372768a3402f73e4fb5e5f84b4ad77df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '235072134b6ef6a0f2aaf764ca901bd9') in 0.475423 seconds 
+  Import took 0.511226 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
