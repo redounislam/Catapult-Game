@@ -8,7 +8,8 @@ public class CannonController : MonoBehaviour
     public GameObject MainStick;
     public float rotationSpeed = 1;
     public float BlastPower = 5;
-
+    public float
+        UpMultiplier = 2 , Delay;
     public GameObject Cannonball;
     public Transform ShotPoint;
     public MegaFiers.MegaBend Bend;
@@ -68,12 +69,36 @@ public class CannonController : MonoBehaviour
         Cannonball.GetComponent<Collider>().enabled = false;
         Cannonball.transform.GetComponent<Rigidbody>().isKinematic = false;
     }
-    bool Played;
+    bool Played , launched;
+    float m;
+
+
+    public IEnumerator LaunchDelay()
+    {
+        yield return new WaitForSeconds(Delay);
+        Invoke("DummyDisable", 0);
+        GameObject CreatedCannonball = Instantiate(Cannonball, ShotPoint.position, ShotPoint.rotation);
+        CreatedCannonball.GetComponent<Rigidbody>().velocity = ShotPoint.transform.up * BlastPower;
+
+        SharkAttack.CameraController.Instance.gameObject.transform.DORotate(new Vector3(22, -101.977f, 0), 2f);
+        SharkAttack.CameraController.Instance.target = CreatedCannonball.transform.GetChild(1);
+    }
     private void Update()
     {
 
         if (GM.Instance.StartGame)
         {
+            if (launched )
+            {
+                if (Bend.angle <= 0)
+                {
+                    m += Time.deltaTime * UpMultiplier;
+                    print(m);
+                    Bend.angle = Bend.angle + m;
+                }
+            
+                
+            }
 
             if (!Played)
             {
@@ -105,14 +130,14 @@ public class CannonController : MonoBehaviour
                 }
                 if (Input.GetMouseButtonUp(0))
                 {
-                    Invoke("DummyDisable", .005f);
+         
                     l.enabled = false;
-                    Bend.angle = 0;
-                    GameObject CreatedCannonball = Instantiate(Cannonball, ShotPoint.position, ShotPoint.rotation);
-                    CreatedCannonball.GetComponent<Rigidbody>().velocity = ShotPoint.transform.up * BlastPower;
+            
+                    
+                    launched = true ;
+                    StartCoroutine(LaunchDelay());
 
-                    SharkAttack.CameraController.Instance.gameObject.transform.DORotate(new Vector3(22, -101.977f, 0), 2f);
-                    SharkAttack.CameraController.Instance.target = CreatedCannonball.transform.GetChild(1);
+                    
                     Played = true;
 
                 }

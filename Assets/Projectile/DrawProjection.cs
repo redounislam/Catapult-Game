@@ -18,11 +18,16 @@ public class DrawProjection : MonoBehaviour
     public LayerMask CollidableLayers;
     void Start()
     {
+        Cube.transform.GetChild(0).gameObject.SetActive(false);
         cannonController = GetComponent<CannonController>();
         lineRenderer = GetComponent<LineRenderer>();
     }
 
-
+public IEnumerator Dealys()
+    {
+        yield return new WaitForSeconds(1);
+        Cube.transform.GetChild(0).gameObject.SetActive(true);
+    }
     void LateUpdate()
     {
         if (GM.Instance.StartGame)
@@ -44,7 +49,7 @@ public class DrawProjection : MonoBehaviour
                     if (Input.GetMouseButton(0))
                     {
                         Cube.SetActive(true);
-
+                        StartCoroutine(Dealys());
                         Cube.transform.position = newPoint;
                     }
                   
