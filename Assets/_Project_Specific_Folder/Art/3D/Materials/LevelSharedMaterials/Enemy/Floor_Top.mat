@@ -39,7 +39,7 @@ Material:
     - _EndPos: 3.6
     - _Falloff: 5.36
     - _GridScale: -0.03
-    - _OverlayAmount: 0.362
+    - _OverlayAmount: 0
     - _StartPos: -7.93
     - _UseHeightFog: 1
     - __dirty: 0
