@@ -977,7 +977,7 @@ MonoBehaviour:
   JumpPower: 20
   ImpactRadius: 400
   thisGuysRig: {fileID: 3395674644010531575}
-  IncreaseAmmount: 0.1
+  IncreaseAmmount: 0.5
   Crack: {fileID: 8227198733330654397}
   Cannon: 1
 --- !u!1 &3347496669009186184
