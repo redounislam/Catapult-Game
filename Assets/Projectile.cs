@@ -250,12 +250,13 @@ public class Projectile : MonoBehaviour
                 
                 for (int i = 0; i < numToInstantiate; i++)
                 {
-                   GameObject g  = Instantiate(Clone, new Vector3(other.transform.position.x, other.transform.position.y, (other.transform.position.z + i * -6)), Quaternion.identity);
-                    g.transform.DOMoveZ(g.transform.position.z + 8, .2f);
-                   
-                 
+                    GameObject g = Instantiate(Clone, other.transform.GetChild(i).transform.position, Quaternion.Euler(new Vector3(other.transform.GetChild(i).eulerAngles.x, other.transform.GetChild(i).eulerAngles.y, other.transform.GetChild(i).eulerAngles.z)));
+                    g.transform.GetComponent<Rigidbody>().velocity = transform.forward * 500 * Time.deltaTime;
 
-                    
+
+
+
+
 
                 }
 
