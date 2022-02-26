@@ -27,10 +27,18 @@ public class Enemy : MonoBehaviour
     public Collider mainCollider;
     public bool Death;
 
+    public IEnumerator AnimatorDelayRoutine()
+    {
+        yield return new WaitForSeconds(Random.Range(.1f, 1.1f));
+        GetComponent<Animator>().enabled = false;
+        yield return new WaitForSeconds(Random.Range(.1f, 1.1f));
+        GetComponent<Animator>().enabled = true;
+    }
 
     void Start()
     {
-        
+     
+        StartCoroutine(AnimatorDelayRoutine());
         Canvas = GameObject.FindGameObjectWithTag("Canvas");
         if (m_EnemyType == EnemyType.Normal)
         {

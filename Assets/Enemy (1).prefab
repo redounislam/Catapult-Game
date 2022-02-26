@@ -112,6 +112,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a22324f19ea393e4f8940f9f0f0607f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_EnemyType: 0
   Canvas: {fileID: 0}
   PopUp: {fileID: 2591623643121982080, guid: 75012507313d3dc4498b5101373b07c7, type: 3}
   EnableSword: 1
@@ -165,7 +166,7 @@ Animator:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1429973859197354950}
   m_Enabled: 0
-  m_Avatar: {fileID: 9000000, guid: ffbbdc2d555f3d64abd4b6a71343dbf2, type: 3}
+  m_Avatar: {fileID: 9000000, guid: 52acec34fa99749438771ad5a2e17324, type: 3}
   m_Controller: {fileID: 9100000, guid: fdf26b9d67e4466498a1100d3e43a102, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
@@ -324,7 +325,7 @@ SkinnedMeshRenderer:
   m_Quality: 0
   m_UpdateWhenOffscreen: 0
   m_SkinnedMotionVectors: 1
-  m_Mesh: {fileID: -2338596457566395391, guid: cf9425f96fd170545ba8d3e8e3db52af, type: 3}
+  m_Mesh: {fileID: -2338596457566395391, guid: 52acec34fa99749438771ad5a2e17324, type: 3}
   m_Bones:
   - {fileID: 1429973860359610380}
   - {fileID: 1429973860987327835}

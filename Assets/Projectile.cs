@@ -33,7 +33,10 @@ public class Projectile : MonoBehaviour
     private void Start()
     {
         rb = GetComponent<Rigidbody>();
-       
+
+     
+
+
     }
 
   
@@ -105,6 +108,26 @@ public class Projectile : MonoBehaviour
 
         else
         {
+            if (Input.GetMouseButton(0) && Cannon)
+            {
+                if (!played)
+                {
+                    Splash.transform.eulerAngles = new Vector3(-90, -270, 0);
+                    Splash.Play();
+                    DestroyedParts.gameObject.SetActive(true);
+                    DestroyedParts.gameObject.transform.parent = null;
+                    Splash.transform.parent = null;
+                    GetComponent<Collider>().enabled = false;
+                    HitRed.Play();
+                    HitRed.transform.parent = null;
+                    Destroy(HitRed.transform.gameObject, .5f);
+                    ExPlodeStart();
+                    transform.GetChild(1).gameObject.SetActive(false);
+                    played = true;
+                    
+
+                }
+            }
 
             if (rb.velocity.magnitude <= .2f)
             {
