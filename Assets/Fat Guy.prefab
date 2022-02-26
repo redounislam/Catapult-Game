@@ -981,7 +981,7 @@ MonoBehaviour:
   JumpPower: 20
   ImpactRadius: 400
   thisGuysRig: {fileID: 3395674644010531575}
-  IncreaseAmmount: 0.5
+  IncreaseAmmount: 0.3
   Crack: {fileID: 8227198733330654397}
   Cannon: 1
 --- !u!1 &3347496669009186184
@@ -69982,8 +69982,8 @@ SphereCollider:
   m_IsTrigger: 0
   m_Enabled: 0
   serializedVersion: 2
-  m_Radius: 0.79
-  m_Center: {x: 0, y: 0.7, z: 0}
+  m_Radius: 0.61903477
+  m_Center: {x: -1.5840753e-12, y: 0.8709652, z: -4.2708935e-12}
 --- !u!54 &4591816093661619974
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -75704,13 +75704,25 @@ PrefabInstance:
       propertyPath: m_Materials.Array.size
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3538170396574824354, guid: 265d3a5ba69981a4698ceabcedf368b0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 3936182881774076150, guid: 265d3a5ba69981a4698ceabcedf368b0, type: 3}
       propertyPath: playOnAwake
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3936182881774076150, guid: 265d3a5ba69981a4698ceabcedf368b0, type: 3}
+      propertyPath: InitialModule.startSize.scalar
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5750266249211418407, guid: 265d3a5ba69981a4698ceabcedf368b0, type: 3}
       propertyPath: playOnAwake
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5759078148044734595, guid: 265d3a5ba69981a4698ceabcedf368b0, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 5880797563126852495, guid: 265d3a5ba69981a4698ceabcedf368b0, type: 3}
       propertyPath: m_RootOrder
@@ -75772,6 +75784,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CFXR Hit D 3D (Yellow)
       objectReference: {fileID: 0}
+    - target: {fileID: 5880797563127281583, guid: 265d3a5ba69981a4698ceabcedf368b0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 5880797563141009103, guid: 265d3a5ba69981a4698ceabcedf368b0, type: 3}
       propertyPath: playOnAwake
       value: 0
@@ -75779,6 +75795,10 @@ PrefabInstance:
     - target: {fileID: 5880797563141035887, guid: 265d3a5ba69981a4698ceabcedf368b0, type: 3}
       propertyPath: m_Materials.Array.size
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6569807649056357943, guid: 265d3a5ba69981a4698ceabcedf368b0, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 2073871345444748666, guid: 265d3a5ba69981a4698ceabcedf368b0, type: 3}
@@ -75804,6 +75824,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 52e43ff90076e09498315a623cd4d3a3, type: 2}
+    - target: {fileID: 1833582239630474880, guid: fcec30081f7375c4384497218aa5cee1, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 2412794571013397811, guid: fcec30081f7375c4384497218aa5cee1, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -75869,8 +75893,16 @@ PrefabInstance:
       value: chr_Playerfat_bodyparts
       objectReference: {fileID: 0}
     - target: {fileID: 4258383888141018962, guid: fcec30081f7375c4384497218aa5cee1, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4258383888141018962, guid: fcec30081f7375c4384497218aa5cee1, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4552674134139669653, guid: fcec30081f7375c4384497218aa5cee1, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4701826197010284790, guid: fcec30081f7375c4384497218aa5cee1, type: 3}
       propertyPath: m_Interpolate
@@ -75879,6 +75911,10 @@ PrefabInstance:
     - target: {fileID: 5306983689901929342, guid: fcec30081f7375c4384497218aa5cee1, type: 3}
       propertyPath: m_Interpolate
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6716406684223651550, guid: fcec30081f7375c4384497218aa5cee1, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 7177366382859731260, guid: fcec30081f7375c4384497218aa5cee1, type: 3}
       propertyPath: m_Interpolate

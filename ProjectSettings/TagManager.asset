@@ -13,6 +13,7 @@ TagManager:
   - FxTemporaire
   - Death
   - Hoop
+  - Ground1
   layers:
   - Default
   - TransparentFX

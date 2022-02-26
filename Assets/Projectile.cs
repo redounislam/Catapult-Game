@@ -202,7 +202,12 @@ public class Projectile : MonoBehaviour
                 other.transform.gameObject.SetActive(false);
             
         }
-            if (other.gameObject.CompareTag("Ground"))
+        if (other.gameObject.CompareTag("Ground1"))
+        {
+            if (HitRed != null)
+                HitRed.Play();
+        }
+        if (other.gameObject.CompareTag("Ground"))
         {
             
             Camera.main.GetComponent<SharkAttack.CameraController>().enabled = false;
@@ -233,7 +238,7 @@ public class Projectile : MonoBehaviour
         if (other.gameObject.CompareTag("Collectable"))
         {
             ImpactRadius += 250;
-            this.transform.DOScale(new Vector3(this.transform.localScale.x + IncreaseAmmount, this.transform.localScale.y + IncreaseAmmount,
+            this.transform.GetChild(0).DOScale(new Vector3(this.transform.localScale.x + IncreaseAmmount, this.transform.localScale.y + IncreaseAmmount,
              this.transform.localScale.z + IncreaseAmmount), .3f).SetEase(Ease.InOutElastic);
             Destroy(other.gameObject);
         }
