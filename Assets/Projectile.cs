@@ -215,6 +215,15 @@ public class Projectile : MonoBehaviour
 
 
     }
+    public IEnumerator SlowMoRoutine()
+    {
+        yield return new WaitForSeconds(.01f);
+        Time.timeScale = 0.3f;
+        Time.fixedDeltaTime = 0.02F * Time.timeScale;
+        yield return new WaitForSeconds(.1f);
+        Time.timeScale = 1f;
+        Time.fixedDeltaTime = 0.02F * Time.timeScale;
+    }
 
     private void OnTriggerEnter(Collider other)
     {
@@ -269,6 +278,12 @@ public class Projectile : MonoBehaviour
         {
             other.GetComponent<Enemy>().RagDollOn();
             other.GetComponent<Enemy>().Death = true;
+            if (other.GetComponent<Enemy>().m_EnemyType == EnemyType.Giant)
+            {
+                other.GetComponent<Enemy>().mainCollider.isTrigger = true;
+
+                StartCoroutine(SlowMoRoutine());
+            }
         }
 
         if (other.gameObject.CompareTag("Hoop"))
@@ -288,6 +303,16 @@ public class Projectile : MonoBehaviour
 
                 }
 
+            }
+        }
+
+        if (other.gameObject.CompareTag("Death"))
+        {
+            if(GM.Instance.KillCount == 0)
+            {
+                SharkAttack.CameraController.Instance.target = null;
+                UiManager.Instance.EndSceneUI.SetActive(true);
+                UiManager.Instance.ScoreCard.SetActive(false);
             }
         }
     }

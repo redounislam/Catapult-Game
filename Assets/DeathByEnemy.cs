@@ -20,6 +20,15 @@ public class DeathByEnemy : MonoBehaviour
             else
             m_Enemy.RagDollOn();
         }
+        if (other.gameObject.CompareTag("Explode"))
+        {
+            if (other.transform.root.transform.GetChild(0).GetComponent<Enemy>().m_EnemyType == EnemyType.Giant &&  m_Enemy == null)
+            {
+                other.transform.GetChild(0).gameObject.SetActive(true); other.transform.GetChild(0).gameObject.transform.parent = null;
+                other.transform.gameObject.SetActive(false);
+            }
+
+        }
     }
     private void OnCollisionEnter(Collision collision)
     {
@@ -30,6 +39,8 @@ public class DeathByEnemy : MonoBehaviour
             else
                 m_Enemy.RagDollOn();
         }
+
+
     }
 
 }

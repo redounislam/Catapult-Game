@@ -151,9 +151,10 @@ public class Enemy : MonoBehaviour
 
 
 
-            foreach (Collider col in ragCol)
+                foreach (Collider col in ragCol)
             {
                 col.enabled = true;
+                
             }
             foreach (Rigidbody rigid in limbsRb)
             {
@@ -253,6 +254,16 @@ public class Enemy : MonoBehaviour
         GetComponent<Animator>().enabled = true;
     }
     // Update is called once per frame
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if(other.gameObject.CompareTag("Parameter"))
+        {
+            UiManager.Instance.EndSceneUI.SetActive(true);
+            UiManager.Instance.ScoreCard.SetActive(false);
+            GM.Instance.End = true;
+        }
+    }
     void Update()
     {
         
