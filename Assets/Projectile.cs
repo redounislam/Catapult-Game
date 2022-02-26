@@ -220,7 +220,7 @@ public class Projectile : MonoBehaviour
         yield return new WaitForSeconds(.01f);
         Time.timeScale = 0.3f;
         Time.fixedDeltaTime = 0.02F * Time.timeScale;
-        yield return new WaitForSeconds(.1f);
+        yield return new WaitForSeconds(.21f);
         Time.timeScale = 1f;
         Time.fixedDeltaTime = 0.02F * Time.timeScale;
     }
@@ -270,7 +270,7 @@ public class Projectile : MonoBehaviour
         if (other.gameObject.CompareTag("Collectable"))
         {
             ImpactRadius += 250;
-            this.transform.GetChild(0).DOScale(new Vector3(this.transform.localScale.x + IncreaseAmmount, this.transform.localScale.y + IncreaseAmmount,
+            this.transform.DOScale(new Vector3(this.transform.localScale.x + IncreaseAmmount, this.transform.localScale.y + IncreaseAmmount,
              this.transform.localScale.z + IncreaseAmmount), .3f).SetEase(Ease.InOutElastic);
             Destroy(other.gameObject);
         }

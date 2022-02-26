@@ -38,7 +38,7 @@ public class Enemy : MonoBehaviour
     void Start()
     {
      
-        StartCoroutine(AnimatorDelayRoutine());
+
         Canvas = GameObject.FindGameObjectWithTag("Canvas");
         if (m_EnemyType == EnemyType.Normal)
         {

@@ -25,7 +25,7 @@ public class DrawProjection : MonoBehaviour
 
 public IEnumerator Dealys()
     {
-        yield return new WaitForSeconds(1);
+        yield return new WaitForSeconds(.18f);
         Cube.transform.GetChild(0).gameObject.SetActive(true);
     }
     void LateUpdate()
