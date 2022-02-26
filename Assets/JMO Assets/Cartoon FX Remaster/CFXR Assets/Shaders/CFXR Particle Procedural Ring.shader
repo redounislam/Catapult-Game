@@ -82,7 +82,6 @@ Shader "Cartoon FX/Remaster/Particle Procedural Ring"
 		// Includes & Code
 
 		CGINCLUDE
-
 			#include "UnityCG.cginc"
 			#include "UnityStandardUtils.cginc"
 
@@ -94,8 +93,10 @@ Shader "Cartoon FX/Remaster/Particle Procedural Ring"
 
 			CBUFFER_START(UnityPerMaterial)
 
+			sampler2D _MainTex;
 			float4 _MainTex_ST;
 
+			sampler2D _DissolveTex;
 			half _InvertDissolveTex;
 			half _DissolveSmooth;
 
@@ -105,24 +106,17 @@ Shader "Cartoon FX/Remaster/Particle Procedural Ring"
 
 			half _Cutoff;
 
+			UNITY_DECLARE_DEPTH_TEXTURE(_CameraDepthTexture);
 			half _SoftParticlesFadeDistanceNear;
 			half _SoftParticlesFadeDistanceFar;
 			half _EdgeFadePow;
 
-		#if !defined(SHADER_API_GLES)
 			float _ShadowStrength;
-			float4 _DitherCustom_TexelSize;
-		#endif
-
-			CBUFFER_END
-
-			sampler2D _MainTex;
-			sampler2D _DissolveTex;
-			UNITY_DECLARE_DEPTH_TEXTURE(_CameraDepthTexture);
-		#if !defined(SHADER_API_GLES)
 			sampler3D _DitherMaskLOD;
 			sampler3D _DitherCustom;
-		#endif
+			float4 _DitherCustom_TexelSize;
+
+			CBUFFER_END
 
 			// --------------------------------
 			// Input/Output
@@ -178,7 +172,6 @@ Shader "Cartoon FX/Remaster/Particle Procedural Ring"
 
 			// --------------------------------
 			// Vertex
-
 		#if PASS_SHADOW_CASTER
 			void vertex_program (appdata v, out v2f_shadowCaster o, out float4 opos : SV_POSITION)
 		#else
@@ -186,14 +179,13 @@ Shader "Cartoon FX/Remaster/Particle Procedural Ring"
 		#endif
 			{
 		#if !PASS_SHADOW_CASTER
-				v2f o = (v2f)0;
+				v2f o;
 				#if CFXR_URP
 					o = (v2f)0;
 				#else
 					UNITY_INITIALIZE_OUTPUT(v2f, o);
 				#endif
-		#else
-				o = (v2f_shadowCaster)0;
+				// o.pos = UnityObjectToClipPos(v.vertex);
 		#endif
 
 				UNITY_SETUP_INSTANCE_ID(v);
@@ -453,7 +445,7 @@ Shader "Cartoon FX/Remaster/Particle Procedural Ring"
 				#pragma multi_compile_shadowcaster
 				#pragma shader_feature_local _ _CFXR_DITHERED_SHADOWS_ON _CFXR_DITHERED_SHADOWS_CUSTOMTEXTURE
 
-			#if (_CFXR_DITHERED_SHADOWS_ON || _CFXR_DITHERED_SHADOWS_CUSTOMTEXTURE) && !defined(SHADER_API_GLES)
+			#if _CFXR_DITHERED_SHADOWS_ON || _CFXR_DITHERED_SHADOWS_CUSTOMTEXTURE
 				#pragma target 3.0		//needed for VPOS
 			#endif
 
@@ -527,7 +519,7 @@ Shader "Cartoon FX/Remaster/Particle Procedural Ring"
 				#pragma multi_compile_shadowcaster
 				#pragma shader_feature_local _ _CFXR_DITHERED_SHADOWS_ON _CFXR_DITHERED_SHADOWS_CUSTOMTEXTURE
 
-			#if (_CFXR_DITHERED_SHADOWS_ON || _CFXR_DITHERED_SHADOWS_CUSTOMTEXTURE) && !defined(SHADER_API_GLES)
+			#if _CFXR_DITHERED_SHADOWS_ON || _CFXR_DITHERED_SHADOWS_CUSTOMTEXTURE
 				#pragma target 3.0		//needed for VPOS
 			#endif
 

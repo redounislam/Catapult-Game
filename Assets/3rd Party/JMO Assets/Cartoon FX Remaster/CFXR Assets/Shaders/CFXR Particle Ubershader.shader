@@ -214,8 +214,11 @@ Shader "Cartoon FX/Remaster/Particle Ubershader"
 
 			CBUFFER_START(UnityPerMaterial)
 
+			sampler2D _MainTex;
+			sampler2D _OverlayTex;
 			float4 _OverlayTex_Scroll;
 
+			sampler2D _BumpMap;
 			half _BumpScale;
 
 			float4 _GameObjectWorldPosition;
@@ -226,13 +229,18 @@ Shader "Cartoon FX/Remaster/Particle Ubershader"
 			half _DirLightScreenAtten;
 			half _BacklightTransmittance;
 
+			sampler2D _DissolveTex;
 			half _InvertDissolveTex;
 			half _DissolveSmooth;
 
+			sampler2D _DistortTex;
 			half4 _DistortScrolling;
 			half _Distort;
 			half _FadeAlongU;
 
+			// sampler2D _GradientMap;
+
+			sampler2D _SecondColorTex;
 			half _SecondColorSmooth;
 
 			half _HdrMultiply;
@@ -241,29 +249,17 @@ Shader "Cartoon FX/Remaster/Particle Ubershader"
 
 			half _Cutoff;
 
+			UNITY_DECLARE_DEPTH_TEXTURE(_CameraDepthTexture);
 			half _SoftParticlesFadeDistanceNear;
 			half _SoftParticlesFadeDistanceFar;
 			half _EdgeFadePow;
 
-		#if !defined(SHADER_API_GLES)
 			float _ShadowStrength;
-			float4 _DitherCustom_TexelSize;
-		#endif
-
-			CBUFFER_END
-
-			sampler2D _MainTex;
-			sampler2D _OverlayTex;
-			sampler2D _BumpMap;
-			sampler2D _DissolveTex;
-			sampler2D _DistortTex;
-			sampler2D _SecondColorTex;
-			// sampler2D _GradientMap;
-			UNITY_DECLARE_DEPTH_TEXTURE(_CameraDepthTexture);
-		#if !defined(SHADER_API_GLES)
 			sampler3D _DitherMaskLOD;
 			sampler3D _DitherCustom;
-		#endif
+			float4 _DitherCustom_TexelSize;
+
+			CBUFFER_END
 
 			// --------------------------------
 			// Input/output
@@ -348,14 +344,12 @@ Shader "Cartoon FX/Remaster/Particle Ubershader"
 		#endif
 			{
 		#if !PASS_SHADOW_CASTER
-				v2f o = (v2f)0;
+				v2f o;
 				#if CFXR_URP
 					o = (v2f)0;
 				#else
 					UNITY_INITIALIZE_OUTPUT(v2f, o);
 				#endif
-		#else
-				o = (v2f_shadowCaster)0;
 		#endif
 
 				UNITY_SETUP_INSTANCE_ID(v);
@@ -474,13 +468,13 @@ Shader "Cartoon FX/Remaster/Particle Ubershader"
 
 			#if _CFXR_UV_DISTORTION
 				#if _CFXR_UV2_DISTORTION
-					float2 uvDistortion = tex2D(_DistortTex, i.custom1.xy * _DistortScrolling.zw + i.uv_random.zw + frac(_DistortScrolling.xy * _Time.yy)).rg;
+					float2 uvDistortion = tex2D(_DistortTex, (i.custom1.xy * _DistortScrolling.zw + i.uv_random.zw + frac(_DistortScrolling.xy * _Time.yy))).rg * 2.0 - 1.0;
 				#else
-					float2 uvDistortion = tex2D(_DistortTex, i.uv_random.xy * _DistortScrolling.zw + i.uv_random.zw + frac(_DistortScrolling.xy * _Time.yy)).rg;
+					float2 uvDistortion = tex2D(_DistortTex, (i.uv_random.xy * _DistortScrolling.zw + i.uv_random.zw + frac(_DistortScrolling.xy * _Time.yy))).rg * 2.0 - 1.0;
 				#endif
 
 				#if _CFXR_UV_DISTORTION_ADD
-					uvDistortion = i.uv_random.xy + (uvDistortion * 2.0 - 1.0) * _Distort;
+					uvDistortion = i.uv_random.xy + uvDistortion * _Distort;
 				#else
 					uvDistortion = lerp(i.uv_random.xy, uvDistortion, _Distort);
 				#endif
@@ -832,7 +826,7 @@ Shader "Cartoon FX/Remaster/Particle Ubershader"
 				#pragma multi_compile_shadowcaster
 				#pragma shader_feature_local _ _CFXR_DITHERED_SHADOWS_ON _CFXR_DITHERED_SHADOWS_CUSTOMTEXTURE
 
-			#if (_CFXR_DITHERED_SHADOWS_ON || _CFXR_DITHERED_SHADOWS_CUSTOMTEXTURE) && !defined(SHADER_API_GLES)
+			#if _CFXR_DITHERED_SHADOWS_ON || _CFXR_DITHERED_SHADOWS_CUSTOMTEXTURE
 				#pragma target 3.0		//needed for VPOS
 			#endif
 
@@ -924,7 +918,7 @@ Shader "Cartoon FX/Remaster/Particle Ubershader"
 				#pragma multi_compile_shadowcaster
 				#pragma shader_feature_local _ _CFXR_DITHERED_SHADOWS_ON _CFXR_DITHERED_SHADOWS_CUSTOMTEXTURE
 
-			#if (_CFXR_DITHERED_SHADOWS_ON || _CFXR_DITHERED_SHADOWS_CUSTOMTEXTURE) && !defined(SHADER_API_GLES)
+			#if _CFXR_DITHERED_SHADOWS_ON || _CFXR_DITHERED_SHADOWS_CUSTOMTEXTURE
 				#pragma target 3.0		//needed for VPOS
 			#endif
 
