@@ -117,14 +117,14 @@ public class CannonController : MonoBehaviour
                     if (Input.GetAxis("Mouse X") < 0)
                     {
                         transform.Rotate(0, (Input.GetAxis("Mouse X")), 0 * Time.deltaTime * rotationSpeed);
-                        Bend.transform.Rotate(0, 0, (Input.GetAxis("Mouse X")) * Time.deltaTime * rotationSpeed * 4f);
+                        Bend.transform.Rotate(0, 0, (Input.GetAxis("Mouse X")) * Time.deltaTime * rotationSpeed * 2f);
 
                     }
                     else if (Input.GetAxis("Mouse X") > 0)
                     {
                         transform.Rotate(0, (Input.GetAxis("Mouse X")), 0 * Time.deltaTime * rotationSpeed);
 
-                        Bend.transform.Rotate(0, 0, (Input.GetAxis("Mouse X")) * Time.deltaTime * rotationSpeed * 4f);
+                        Bend.transform.Rotate(0, 0, (Input.GetAxis("Mouse X")) * Time.deltaTime * rotationSpeed * 2f);
                     }
 
                 }

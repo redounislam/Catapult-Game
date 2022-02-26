@@ -11,6 +11,7 @@ public enum ProjectileType
 }
 public class Projectile : MonoBehaviour
 {
+    public GameObject GiantHitFX;
     [SerializeField] private GameObject Clone;
     [SerializeField] private int numToInstantiate;
     [SerializeField] private Vector3 startPosition;
@@ -281,7 +282,7 @@ public class Projectile : MonoBehaviour
             if (other.GetComponent<Enemy>().m_EnemyType == EnemyType.Giant)
             {
                 other.GetComponent<Enemy>().mainCollider.isTrigger = true;
-
+                Instantiate(GiantHitFX, new Vector3(other.transform.position . x , other.transform.position.y + 16 , other.transform.position.z) , Quaternion.identity);
                 StartCoroutine(SlowMoRoutine());
             }
         }
@@ -314,7 +315,27 @@ public class Projectile : MonoBehaviour
                 UiManager.Instance.EndSceneUI.SetActive(true);
                 UiManager.Instance.ScoreCard.SetActive(false);
             }
+
+            if (GM.Instance.KillCount < GM.Instance.TargetThisLevel)
+            {
+
+                SharkAttack.CameraController.Instance.target = null;
+                UiManager.Instance.EndSceneUI.SetActive(true);
+                UiManager.Instance.ScoreCard.SetActive(false);
+            }
         }
     }
-
+    //private void OnCollisionEnter(Collision collision)
+    //{
+    //    if(collision.gameObject.CompareTag("Enemy"))
+    //    {
+    //        if (collision.gameObject.GetComponent<Enemy>().m_EnemyType == EnemyType.Giant)
+    //        {
+    //            ContactPoint contact = collision.contacts[0];
+    //            Quaternion rot = Quaternion.FromToRotation(Vector3.up, contact.normal);
+    //            Vector3 pos = contact.point;
+    //            Instantiate(GiantHitFX, pos, rot);
+    //        }
+    //    }
+    //}
 }

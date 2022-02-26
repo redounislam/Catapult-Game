@@ -12,6 +12,8 @@ public enum EnemyType
 public class Enemy : MonoBehaviour
 
 {
+
+    public ParticleSystem HitForGiantFX;
     public EnemyType m_EnemyType;
     public GameObject Canvas, PopUp;
     public bool EnableSword;
@@ -145,6 +147,7 @@ public class Enemy : MonoBehaviour
 
 
             }
+     
 
             Death = true;
 
