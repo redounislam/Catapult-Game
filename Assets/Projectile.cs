@@ -11,6 +11,7 @@ public enum ProjectileType
 }
 public class Projectile : MonoBehaviour
 {
+    public float CloneForce;
     public GameObject GiantHitFX;
     [SerializeField] private GameObject Clone;
     [SerializeField] private int numToInstantiate;
@@ -69,9 +70,10 @@ public class Projectile : MonoBehaviour
     {
 
 
+       
+
         if (m_ProjectileType == ProjectileType.Main)
         {
-
             if (Input.GetMouseButton(0) && Cannon)
             {
                 if (!played)
@@ -125,7 +127,7 @@ public class Projectile : MonoBehaviour
                     ExPlodeStart();
                     transform.GetChild(1).gameObject.SetActive(false);
                     played = true;
-                    
+                 
 
                 }
             }
@@ -133,7 +135,7 @@ public class Projectile : MonoBehaviour
             if (rb.velocity.magnitude <= .2f)
             {
 
-                StartCoroutine(SciptDisable());
+                
             }
         }
     }
@@ -272,7 +274,7 @@ public class Projectile : MonoBehaviour
         {
             ImpactRadius += 250;
             this.transform.DOScale(new Vector3(this.transform.localScale.x + IncreaseAmmount, this.transform.localScale.y + IncreaseAmmount,
-             this.transform.localScale.z + IncreaseAmmount), .3f).SetEase(Ease.InOutElastic);
+             this.transform.localScale.z + IncreaseAmmount), .3f).SetEase(Ease.InOutSine);
             Destroy(other.gameObject);
         }
         if (other.gameObject.CompareTag("Enemy"))
@@ -284,7 +286,8 @@ public class Projectile : MonoBehaviour
                 other.GetComponent<Enemy>().mainCollider.isTrigger = true;
                 if(GiantHitFX != null)
                 Instantiate(GiantHitFX, new Vector3(other.transform.position . x , other.transform.position.y + 16 , other.transform.position.z) , Quaternion.identity);
-                StartCoroutine(SlowMoRoutine());
+                if (m_ProjectileType == ProjectileType.Main)
+                    StartCoroutine(SlowMoRoutine());
             }
         }
 
@@ -296,7 +299,7 @@ public class Projectile : MonoBehaviour
                 for (int i = 0; i < numToInstantiate; i++)
                 {
                     GameObject g = Instantiate(Clone, other.transform.GetChild(i).transform.position, Quaternion.Euler(new Vector3(other.transform.GetChild(i).eulerAngles.x, other.transform.GetChild(i).eulerAngles.y, other.transform.GetChild(i).eulerAngles.z)));
-                    g.transform.GetComponent<Rigidbody>().velocity = transform.forward * 500 * Time.deltaTime;
+                    g.transform.GetComponent<Rigidbody>().AddForce(Vector3.forward * CloneForce * Time.deltaTime);
 
 
 

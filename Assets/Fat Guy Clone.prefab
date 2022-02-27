@@ -935,7 +935,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3232376531517807020}
   serializedVersion: 2
-  m_Mass: 12
+  m_Mass: 2
   m_Drag: 0
   m_AngularDrag: 0
   m_UseGravity: 1
@@ -969,6 +969,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a62e3076eab98fd468c93f01b5482301, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  CloneForce: 100
+  GiantHitFX: {fileID: 0}
   Clone: {fileID: 0}
   numToInstantiate: 0
   startPosition: {x: 0, y: 0, z: 0}

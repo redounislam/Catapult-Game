@@ -22,10 +22,13 @@ public class DeathByEnemy : MonoBehaviour
         }
         if (other.gameObject.CompareTag("Explode"))
         {
-            if (other.transform.root.transform.GetChild(0).GetComponent<Enemy>().m_EnemyType == EnemyType.Giant &&  m_Enemy == null)
+            if ( m_Enemy == null)
             {
-                other.transform.GetChild(0).gameObject.SetActive(true); other.transform.GetChild(0).gameObject.transform.parent = null;
-                other.transform.gameObject.SetActive(false);
+                if (other.transform.root.transform.GetChild(0).GetComponent<Enemy>().m_EnemyType == EnemyType.Giant)
+                {
+                    other.transform.GetChild(0).gameObject.SetActive(true); other.transform.GetChild(0).gameObject.transform.parent = null;
+                    other.transform.gameObject.SetActive(false);
+                }
             }
 
         }

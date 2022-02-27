@@ -763,7 +763,7 @@ Transform:
   m_Father: {fileID: 2670131989281830034}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!64 &3194129236275134330
+--- !u!64 &6347140694113134067
 MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -982,7 +982,7 @@ MonoBehaviour:
   JumpPower: 20
   ImpactRadius: 400
   thisGuysRig: {fileID: 3395674644010531575}
-  IncreaseAmmount: 0.8
+  IncreaseAmmount: 3
   Crack: {fileID: 8227198733330654397}
   Cannon: 1
 --- !u!1 &3347496669009186184
@@ -69893,7 +69893,7 @@ Transform:
   m_Father: {fileID: 4838130441139520032}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!64 &1134930348361682446
+--- !u!64 &4870333444729497162
 MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -70666,7 +70666,7 @@ Transform:
   m_Father: {fileID: 3335983541588212043}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!64 &7659761632976692786
+--- !u!64 &2904939438400428389
 MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
