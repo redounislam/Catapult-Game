@@ -36,8 +36,8 @@ public class Projectile : MonoBehaviour
     {
         rb = GetComponent<Rigidbody>();
 
-     
 
+        StartCoroutine(Ragdoll());
 
     }
 
@@ -210,14 +210,7 @@ public class Projectile : MonoBehaviour
         GetRagDollBits();
         RagDollOn();
     }
-    private void OnEnable()
-    {
-        StartCoroutine(Ragdoll());
 
-
-
-
-    }
     public IEnumerator SlowMoRoutine()
     {
         yield return new WaitForSeconds(.01f);
