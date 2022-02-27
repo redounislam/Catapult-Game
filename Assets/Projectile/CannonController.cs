@@ -83,6 +83,7 @@ public class CannonController : MonoBehaviour
         SharkAttack.CameraController.Instance.gameObject.transform.DORotate(new Vector3(22, -101.977f, 0), 2f);
         SharkAttack.CameraController.Instance.target = CreatedCannonball.transform.GetChild(1);
     }
+    bool SoundPlayed;
     private void Update()
     {
 
@@ -106,6 +107,13 @@ public class CannonController : MonoBehaviour
 
                 if (Input.GetMouseButton(0))
                 {
+                    if(!SoundPlayed)
+                    {
+                        SoundManager.SharedManager().PlaySFX(SoundManager.SharedManager().StickStrechSFX);
+                        SoundPlayed = true;
+                    }
+                  
+
                     GM.Instance.EnemyMove = true;
                     j = (-Input.GetAxis("Mouse Y"));
 
@@ -130,10 +138,10 @@ public class CannonController : MonoBehaviour
                 }
                 if (Input.GetMouseButtonUp(0))
                 {
-         
+                    SoundManager.SharedManager().StopSFX();
                     l.enabled = false;
-            
-                    
+                    SoundManager.SharedManager().PlaySFX(SoundManager.SharedManager().PlayerShootSFX);
+
                     launched = true ;
                     StartCoroutine(LaunchDelay());
 

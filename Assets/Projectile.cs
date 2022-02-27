@@ -160,7 +160,7 @@ public class Projectile : MonoBehaviour
     }
     void RagDollOn()
     {
-
+      
         thisGuysRig.GetComponent<Rigidbody>().mass = 10f; 
         thisGuysRig.GetComponent<Collider>().enabled = false;
         
@@ -225,19 +225,19 @@ public class Projectile : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Explode"))
         {
-
-                other.transform.GetChild(0).gameObject.SetActive(true); other.transform.GetChild(0).gameObject.transform.parent = null;
+            SoundManager.SharedManager().PlaySFX(SoundManager.SharedManager().BarrelExplosionSfx);
+            other.transform.GetChild(0).gameObject.SetActive(true); other.transform.GetChild(0).gameObject.transform.parent = null;
                 other.transform.gameObject.SetActive(false);
             
         }
         if (other.gameObject.CompareTag("Ground1"))
         {
             if (HitRed != null)
-                HitRed.Play();
+                HitRed.Play(); SoundManager.SharedManager().PlaySFX(SoundManager.SharedManager().PlayerFallHit2SFX);
         }
         if (other.gameObject.CompareTag("Ground"))
         {
-            
+            SoundManager.SharedManager().PlaySFX(SoundManager.SharedManager().PlayerFallHit1fx);
             Camera.main.GetComponent<SharkAttack.CameraController>().enabled = false;
             RagDollJump();
             Crack.SetActive(true);
@@ -265,6 +265,7 @@ public class Projectile : MonoBehaviour
         }
         if (other.gameObject.CompareTag("Collectable"))
         {
+            SoundManager.SharedManager().PlaySFX(SoundManager.SharedManager().PizzaSfx);
             ImpactRadius += 250;
             this.transform.DOScale(new Vector3(this.transform.localScale.x + IncreaseAmmount, this.transform.localScale.y + IncreaseAmmount,
              this.transform.localScale.z + IncreaseAmmount), .3f).SetEase(Ease.InOutSine);
@@ -276,6 +277,7 @@ public class Projectile : MonoBehaviour
             other.GetComponent<Enemy>().Death = true;
             if (other.GetComponent<Enemy>().m_EnemyType == EnemyType.Giant)
             {
+                SoundManager.SharedManager().PlaySFX(SoundManager.SharedManager().GiantHitSfx);
                 other.GetComponent<Enemy>().mainCollider.isTrigger = true;
                 if(GiantHitFX != null)
                 Instantiate(GiantHitFX, new Vector3(other.transform.position . x , other.transform.position.y + 16 , other.transform.position.z) , Quaternion.identity);
@@ -288,7 +290,7 @@ public class Projectile : MonoBehaviour
         {
             if (m_ProjectileType == ProjectileType.Main)
             {
-                
+                SoundManager.SharedManager().PlaySFX(SoundManager.SharedManager().MultiplierHoopSfx);
                 for (int i = 0; i < numToInstantiate; i++)
                 {
                     GameObject g = Instantiate(Clone, other.transform.GetChild(i).transform.position, Quaternion.Euler(new Vector3(other.transform.GetChild(i).eulerAngles.x, other.transform.GetChild(i).eulerAngles.y, other.transform.GetChild(i).eulerAngles.z)));
