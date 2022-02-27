@@ -310,7 +310,7 @@ public class Projectile : MonoBehaviour
 
         if (other.gameObject.CompareTag("Death"))
         {
-            if (other.GetComponent<Enemy>().m_EnemyType != EnemyType.Giant)
+            if (m_ProjectileType == ProjectileType.Main)
             {
                 if (GM.Instance.KillCount == 0)
                 {
