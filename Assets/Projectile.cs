@@ -282,6 +282,7 @@ public class Projectile : MonoBehaviour
             if (other.GetComponent<Enemy>().m_EnemyType == EnemyType.Giant)
             {
                 other.GetComponent<Enemy>().mainCollider.isTrigger = true;
+                if(GiantHitFX != null)
                 Instantiate(GiantHitFX, new Vector3(other.transform.position . x , other.transform.position.y + 16 , other.transform.position.z) , Quaternion.identity);
                 StartCoroutine(SlowMoRoutine());
             }
@@ -309,19 +310,22 @@ public class Projectile : MonoBehaviour
 
         if (other.gameObject.CompareTag("Death"))
         {
-            if(GM.Instance.KillCount == 0)
+            if (other.GetComponent<Enemy>().m_EnemyType != EnemyType.Giant)
             {
-                SharkAttack.CameraController.Instance.target = null;
-                UiManager.Instance.EndSceneUI.SetActive(true);
-                UiManager.Instance.ScoreCard.SetActive(false);
-            }
+                if (GM.Instance.KillCount == 0)
+                {
+                    SharkAttack.CameraController.Instance.target = null;
+                    UiManager.Instance.EndSceneUI.SetActive(true);
+                    UiManager.Instance.ScoreCard.SetActive(false);
+                }
 
-            if (GM.Instance.KillCount < GM.Instance.TargetThisLevel)
-            {
+                if (GM.Instance.KillCount < GM.Instance.TargetThisLevel)
+                {
 
-                SharkAttack.CameraController.Instance.target = null;
-                UiManager.Instance.EndSceneUI.SetActive(true);
-                UiManager.Instance.ScoreCard.SetActive(false);
+                    SharkAttack.CameraController.Instance.target = null;
+                    UiManager.Instance.EndSceneUI.SetActive(true);
+                    UiManager.Instance.ScoreCard.SetActive(false);
+                }
             }
         }
     }
