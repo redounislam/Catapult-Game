@@ -969,6 +969,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a62e3076eab98fd468c93f01b5482301, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  CloneForce: 0
   GiantHitFX: {fileID: 4915826587918978179, guid: 27cbe08dc9912834689f77f1df047a9d, type: 3}
   Clone: {fileID: 3232376531517807020, guid: 372768a3402f73e4fb5e5f84b4ad77df, type: 3}
   numToInstantiate: 5
@@ -982,7 +983,7 @@ MonoBehaviour:
   JumpPower: 20
   ImpactRadius: 400
   thisGuysRig: {fileID: 3395674644010531575}
-  IncreaseAmmount: 3
+  IncreaseAmmount: 1
   Crack: {fileID: 8227198733330654397}
   Cannon: 1
 --- !u!1 &3347496669009186184

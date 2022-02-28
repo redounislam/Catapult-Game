@@ -15,6 +15,9 @@ TagManager:
   - Hoop
   - Ground1
   - Parameter
+  - Hoop5
+  - Hoop10
+  - Hoop15
   layers:
   - Default
   - TransparentFX

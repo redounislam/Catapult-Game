@@ -25,14 +25,14 @@ public class DrawProjection : MonoBehaviour
 
 public IEnumerator Dealys()
     {
-        yield return new WaitForSeconds(.18f);
+        yield return new WaitForSeconds(.2f);
         Cube.transform.GetChild(0).gameObject.SetActive(true);
     }
-    void LateUpdate()
+    void Update()
     {
         if (GM.Instance.StartGame)
         {
-            print("---");
+        
             lineRenderer.positionCount = (int)numPoints;
             List<Vector3> points = new List<Vector3>();
             Vector3 startingPosition = cannonController.ShotPoint.position;

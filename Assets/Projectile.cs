@@ -41,7 +41,14 @@ public class Projectile : MonoBehaviour
 
     }
 
-  
+    private void OnEnable()
+    {
+        if (m_ProjectileType == ProjectileType.Copy)
+        {
+            transform.GetComponent<Rigidbody>().AddForce(Vector3.forward * Random.Range(CloneForce - 80, CloneForce + 500) * Time.deltaTime);
+            transform.GetComponent<Rigidbody>().mass = Random.Range(1, 15);
+        }
+    }
     void ExPlodeStart()
     {
         Collider[] objects = UnityEngine.Physics.OverlapSphere(transform.position, 20);
@@ -266,7 +273,7 @@ public class Projectile : MonoBehaviour
         {
             SoundManager.SharedManager().PlaySFX(SoundManager.SharedManager().PizzaSfx);
             ImpactRadius += 250;
-            this.transform.DOScale(new Vector3(this.transform.localScale.x + IncreaseAmmount, this.transform.localScale.y + IncreaseAmmount,
+            this.transform.GetChild(0).DOScale(new Vector3(this.transform.localScale.x + IncreaseAmmount, this.transform.localScale.y + IncreaseAmmount,
              this.transform.localScale.z + IncreaseAmmount), .3f).SetEase(Ease.InOutSine);
             Destroy(other.gameObject);
         }
@@ -285,15 +292,16 @@ public class Projectile : MonoBehaviour
             }
         }
 
-        if (other.gameObject.CompareTag("Hoop"))
+        if (other.gameObject.CompareTag("Hoop5"))
         {
+            numToInstantiate = 5;
             if (m_ProjectileType == ProjectileType.Main)
             {
                 SoundManager.SharedManager().PlaySFX(SoundManager.SharedManager().MultiplierHoopSfx);
                 for (int i = 0; i < numToInstantiate; i++)
                 {
                     GameObject g = Instantiate(Clone, other.transform.GetChild(i).transform.position, Quaternion.Euler(new Vector3(other.transform.GetChild(i).eulerAngles.x, other.transform.GetChild(i).eulerAngles.y, other.transform.GetChild(i).eulerAngles.z)));
-                    g.transform.GetComponent<Rigidbody>().AddForce(Vector3.forward * CloneForce * Time.deltaTime);
+                 
 
 
 
@@ -305,6 +313,47 @@ public class Projectile : MonoBehaviour
             }
         }
 
+        if (other.gameObject.CompareTag("Hoop10"))
+        {
+            numToInstantiate = 10;
+            if (m_ProjectileType == ProjectileType.Main)
+            {
+                SoundManager.SharedManager().PlaySFX(SoundManager.SharedManager().MultiplierHoopSfx);
+                for (int i = 0; i < numToInstantiate; i++)
+                {
+                    GameObject g = Instantiate(Clone, other.transform.GetChild(i).transform.position, Quaternion.Euler(new Vector3(other.transform.GetChild(i).eulerAngles.x, other.transform.GetChild(i).eulerAngles.y, other.transform.GetChild(i).eulerAngles.z)));
+                 
+
+
+
+
+
+
+                }
+
+            }
+        }
+
+        if (other.gameObject.CompareTag("Hoop15"))
+        {
+            numToInstantiate = 15;
+            if (m_ProjectileType == ProjectileType.Main)
+            {
+                SoundManager.SharedManager().PlaySFX(SoundManager.SharedManager().MultiplierHoopSfx);
+                for (int i = 0; i < numToInstantiate; i++)
+                {
+                    GameObject g = Instantiate(Clone, other.transform.GetChild(i).transform.position, Quaternion.Euler(new Vector3(other.transform.GetChild(i).eulerAngles.x, other.transform.GetChild(i).eulerAngles.y, other.transform.GetChild(i).eulerAngles.z)));
+                   
+
+
+
+
+
+
+                }
+
+            }
+        }
         if (other.gameObject.CompareTag("Death"))
         {
             if (m_ProjectileType == ProjectileType.Main)

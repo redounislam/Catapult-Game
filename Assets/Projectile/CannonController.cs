@@ -94,13 +94,13 @@ public class CannonController : MonoBehaviour
 
         if (GM.Instance.StartGame)
         {
-           
+       
             if (launched )
             {
                 if (Bend.angle <= 0)
                 {
                     m += Time.deltaTime * UpMultiplier;
-                    print(m);
+                
                     Bend.angle = Bend.angle + m;
                 }
             
