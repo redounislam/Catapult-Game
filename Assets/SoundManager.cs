@@ -23,8 +23,8 @@ public class SoundManager : MonoBehaviour
     public AudioClip PlayerFallHit2SFX;
     public AudioClip PlayerShootSFX;
     public AudioClip StickStrechSFX;
-    public AudioClip TowerBreakingSFX; 
-
+    public AudioClip TowerBreakingSFX;
+    public AudioClip TapToBurstSFX;
     public static SoundManager SharedManager()
     {
         return sharedInstance;
