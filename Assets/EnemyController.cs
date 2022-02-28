@@ -14,7 +14,7 @@ public class EnemyController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(GM.Instance.StartGame && GM.Instance.EnemyMove && !m_Enemy.Death)
+        if(GM.Instance.StartGame && GM.Instance.EnemyMove && !m_Enemy.Death && Time.timeScale == 1)
         {
            transform.position += Vector3.right * Speed;
         }

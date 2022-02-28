@@ -234,6 +234,17 @@ public class Projectile : MonoBehaviour
         Time.fixedDeltaTime = 0.02F * Time.timeScale;
     }
 
+    bool a;
+    public void 
+        PauseGame()
+    {
+        if (GM.Instance.TapTut)
+        {
+           
+            Time.timeScale = 0f;
+            UiManager.Instance.HandTap.SetActive(true);
+        }
+    }
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.CompareTag("Explode"))
@@ -251,10 +262,10 @@ public class Projectile : MonoBehaviour
             {
                 SoundManager.SharedManager().PlaySFX(SoundManager.SharedManager().PlayerFallHit2SFX);
                 MMVibrationManager.Haptic(HapticTypes.MediumImpact);
-                if (GM.Instance.TapTut)
+                if (!a)
                 {
-                    Time.timeScale = 0.05f;
-                    UiManager.Instance.HandTap.SetActive(true);
+                    Invoke("PauseGame", 2);
+                    a = true;
                 }
             }
            
@@ -267,7 +278,7 @@ public class Projectile : MonoBehaviour
 
                 MMVibrationManager.Haptic(HapticTypes.MediumImpact);
             }
-            Camera.main.GetComponent<SharkAttack.CameraController>().enabled = false;
+           // Camera.main.GetComponent<SharkAttack.CameraController>().enabled = false;
             RagDollJump();
             Crack.SetActive(true);
             Crack.transform.DOMoveY(4.12f, 0);
