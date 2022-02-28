@@ -5,6 +5,7 @@ using Singleton;
 using DG.Tweening;
 public class GM :Singleton<GM>
 {
+    public CannonController cannonController;
     public int TargetThisLevel;
     public int KillCount;
     public GameObject GroundPlane;
@@ -47,6 +48,14 @@ public class GM :Singleton<GM>
       
         StartCoroutine(CameraRoutine());
         UiManager.Instance.StartSceneUI.SetActive(false);
+    }
+    public void LevelFail()
+    {
+        SharkAttack.CameraController.Instance.target = null;
+        UiManager.Instance.EndSceneUI.SetActive(true);
+        UiManager.Instance.ScoreCard.SetActive(false);
+             
+        GM.Instance.End = true;
     }
     void Update()
     {

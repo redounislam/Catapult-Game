@@ -4,6 +4,7 @@ using UnityEngine;
 using Singleton;
 using UnityEngine.UI;
 using TMPro;
+
 using UnityEngine.SceneManagement;
 public class UiManager : Singleton<UiManager>
 {
@@ -16,6 +17,7 @@ public class UiManager : Singleton<UiManager>
         ScoreCard.gameObject.SetActive(false);
         Target.text = GM.Instance.TargetThisLevel.ToString();
         base.Start();
+        StartSceneUI.gameObject.SetActive(true);
     }
     public void GetCurrentFill(float current, float max)
     {
@@ -28,6 +30,15 @@ public class UiManager : Singleton<UiManager>
 
     public void Reset()
     {
+        GM.Instance.cannonController.GetComponent<DrawProjection>().enabled = true;
+        GM.Instance.cannonController.Played = false;
+        GM.Instance.cannonController.launched = false;
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+
+    }
+    public IEnumerator GoToNextScene()
+    {
+        yield return new WaitForSeconds(.2f);
+       
     }
 }

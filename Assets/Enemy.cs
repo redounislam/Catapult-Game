@@ -273,9 +273,7 @@ public class Enemy : MonoBehaviour
     {
         if(other.gameObject.CompareTag("Parameter"))
         {
-            UiManager.Instance.EndSceneUI.SetActive(true);
-            UiManager.Instance.ScoreCard.SetActive(false);
-            GM.Instance.End = true;
+            GM.Instance.LevelFail();
         }
     }
     void Update()

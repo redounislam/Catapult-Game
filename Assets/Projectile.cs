@@ -142,8 +142,7 @@ public class Projectile : MonoBehaviour
     public IEnumerator DelayEnd()
     {
         yield return new WaitForSeconds(4f);
-        UiManager.Instance.EndSceneUI.SetActive(true);
-        UiManager.Instance.ScoreCard.SetActive(false);
+        GM.Instance.LevelFail();
     }
     public IEnumerator SciptDisable()
     {
@@ -312,17 +311,12 @@ public class Projectile : MonoBehaviour
             {
                 if (GM.Instance.KillCount == 0)
                 {
-                    SharkAttack.CameraController.Instance.target = null;
-                    UiManager.Instance.EndSceneUI.SetActive(true);
-                    UiManager.Instance.ScoreCard.SetActive(false);
+                    GM.Instance.LevelFail();
                 }
 
                 if (GM.Instance.KillCount < GM.Instance.TargetThisLevel)
                 {
-
-                    SharkAttack.CameraController.Instance.target = null;
-                    UiManager.Instance.EndSceneUI.SetActive(true);
-                    UiManager.Instance.ScoreCard.SetActive(false);
+                    GM.Instance.LevelFail();
                 }
             }
         }

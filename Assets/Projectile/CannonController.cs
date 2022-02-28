@@ -4,12 +4,12 @@ using UnityEngine;
 using DG.Tweening;
 public class CannonController : MonoBehaviour
 {
+   
     public GameObject Dummy;
     public GameObject MainStick;
     public float rotationSpeed = 1;
     public float BlastPower = 5;
-    public float
-        UpMultiplier = 2 , Delay;
+    public float UpMultiplier = 2 , Delay;
     public GameObject Cannonball;
     public Transform ShotPoint;
     public MegaFiers.MegaBend Bend;
@@ -41,6 +41,11 @@ public class CannonController : MonoBehaviour
         limbsRb1 = Cannonball.GetComponentsInChildren<Rigidbody>();
 
     }
+    private void OnEnable()
+    {
+       Played = false;
+       launched = false;
+    }
     void RagDollOff()
     {
         foreach(Collider col in ragCol)
@@ -69,7 +74,7 @@ public class CannonController : MonoBehaviour
         Cannonball.GetComponent<Collider>().enabled = false;
         Cannonball.transform.GetComponent<Rigidbody>().isKinematic = false;
     }
-    bool Played , launched;
+   public bool Played , launched;
     float m;
 
 
@@ -89,6 +94,7 @@ public class CannonController : MonoBehaviour
 
         if (GM.Instance.StartGame)
         {
+           
             if (launched )
             {
                 if (Bend.angle <= 0)
@@ -124,6 +130,7 @@ public class CannonController : MonoBehaviour
                     BlastPower = BlastPower + i;
                     if (Input.GetAxis("Mouse X") < 0)
                     {
+                        
                         transform.Rotate(0, (Input.GetAxis("Mouse X")), 0 * Time.deltaTime * rotationSpeed);
                         Bend.transform.Rotate(0, 0, (Input.GetAxis("Mouse X")) * Time.deltaTime * rotationSpeed * 2f);
 

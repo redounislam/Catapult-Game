@@ -32,7 +32,7 @@ public IEnumerator Dealys()
     {
         if (GM.Instance.StartGame)
         {
-            
+            print("---");
             lineRenderer.positionCount = (int)numPoints;
             List<Vector3> points = new List<Vector3>();
             Vector3 startingPosition = cannonController.ShotPoint.position;
