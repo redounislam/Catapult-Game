@@ -29,6 +29,13 @@ public class Enemy : MonoBehaviour
     public Collider mainCollider;
     public bool Death;
 
+    [SerializeField]
+    bool autoSyncTransform;
+    [SerializeField]
+    bool reuseCollsionCallBacks;
+
+    
+
     public IEnumerator AnimatorDelayRoutine()
     {
         yield return new WaitForSeconds(Random.Range(.1f, 1.1f));
@@ -39,9 +46,13 @@ public class Enemy : MonoBehaviour
 
     void Start()
     {
-     
 
+        Physics.autoSyncTransforms = autoSyncTransform;
+        Physics.reuseCollisionCallbacks = reuseCollsionCallBacks;
         Canvas = GameObject.FindGameObjectWithTag("Canvas");
+
+        Rigidbody rb = GetComponent<Rigidbody>();
+  
         if (m_EnemyType == EnemyType.Normal)
         {
 
