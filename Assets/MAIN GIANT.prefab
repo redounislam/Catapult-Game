@@ -1028,8 +1028,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 4.9334702, y: 5.5196266, z: 0.89324474}
-  m_Center: {x: 0.01779791, y: 4.6018667, z: -0.19764462}
+  m_Size: {x: 4.9334707, y: 10.601218, z: 0.89324486}
+  m_Center: {x: 0.0177979, y: 5.358871, z: -0.19764458}
 --- !u!95 &5510314762558062638
 Animator:
   serializedVersion: 3
@@ -1078,6 +1078,8 @@ MonoBehaviour:
   thisGuysRig: {fileID: 4863204287031909984}
   mainCollider: {fileID: 5510314762558062651}
   Death: 0
+  autoSyncTransform: 0
+  reuseCollsionCallBacks: 0
 --- !u!1 &4762271752114235679
 GameObject:
   m_ObjectHideFlags: 0

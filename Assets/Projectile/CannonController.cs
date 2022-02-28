@@ -114,7 +114,8 @@ public class CannonController : MonoBehaviour
 
                 if (Input.GetMouseButton(0))
                 {
-                    if(!SoundPlayed)
+                    UiManager.Instance.Tut.SetActive(false);
+                    if (!SoundPlayed)
                     {
                         SoundManager.SharedManager().PlaySFX(SoundManager.SharedManager().StickStrechSFX);
                         SoundPlayed = true;

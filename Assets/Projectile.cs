@@ -83,6 +83,12 @@ public class Projectile : MonoBehaviour
         {
             if (Input.GetMouseButton(0) && Cannon)
             {
+                if (GM.Instance.TapTut)
+                {
+                    UiManager.Instance.HandTap.SetActive(false);
+                    Time.timeScale = 1f;
+
+                }
                 if (!played)
                 {
                     SoundManager.SharedManager().PlaySFX(SoundManager.SharedManager().TapToBurstSFX);
@@ -99,7 +105,7 @@ public class Projectile : MonoBehaviour
                     transform.GetChild(1).gameObject.SetActive(false);
                     played = true;
                     SharkAttack.CameraController.Instance.target = null;
-
+              
                 }
             }
 
@@ -245,7 +251,13 @@ public class Projectile : MonoBehaviour
             {
                 SoundManager.SharedManager().PlaySFX(SoundManager.SharedManager().PlayerFallHit2SFX);
                 MMVibrationManager.Haptic(HapticTypes.MediumImpact);
+                if (GM.Instance.TapTut)
+                {
+                    Time.timeScale = .1f;
+                    UiManager.Instance.HandTap.SetActive(true);
+                }
             }
+           
         }
         if (other.gameObject.CompareTag("Ground"))
         {
@@ -297,7 +309,7 @@ public class Projectile : MonoBehaviour
                 SoundManager.SharedManager().PlaySFX(SoundManager.SharedManager().GiantHitSfx);
                 other.GetComponent<Enemy>().mainCollider.isTrigger = true;
                 if(GiantHitFX != null)
-                Instantiate(GiantHitFX, new Vector3(other.transform.position . x , other.transform.position.y + 16 , other.transform.position.z) , Quaternion.identity);
+                Instantiate(GiantHitFX, other.gameObject.GetComponent<Collider>().ClosestPointOnBounds(transform.position), Quaternion.identity);
                 if (m_ProjectileType == ProjectileType.Main)
                 {
                     StartCoroutine(SlowMoRoutine());

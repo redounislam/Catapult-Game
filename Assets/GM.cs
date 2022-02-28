@@ -18,6 +18,8 @@ public class GM :Singleton<GM>
     public bool EnemyMove;
     public GameObject ParentCam;
     public Vector3 offset;
+
+    public bool TapTut;
     public IEnumerator CameraRoutine()
     {
 
@@ -33,6 +35,7 @@ public class GM :Singleton<GM>
         {
             UiManager.Instance. ScoreCard.gameObject.SetActive(true);
             StartGame = true;
+            UiManager.Instance.Tut.SetActive(true);
             cam.transform.GetComponent<SharkAttack.CameraController>().enabled = true;
         });
 

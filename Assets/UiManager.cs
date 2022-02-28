@@ -10,8 +10,9 @@ public class UiManager : Singleton<UiManager>
 {
     public TMP_Text Target, KillCount;
     public GameObject ScoreCard;
-    public GameObject StartSceneUI, EndSceneUI, LevelCompleteUI;
+    public GameObject StartSceneUI, EndSceneUI, LevelCompleteUI , Tut , HandTap;
     public Image FillBar;
+  
     public override void Start()
     {
         ScoreCard.gameObject.SetActive(false);
