@@ -264,7 +264,7 @@ public class Projectile : MonoBehaviour
                 MMVibrationManager.Haptic(HapticTypes.MediumImpact);
                 if (!a)
                 {
-                    Invoke("PauseGame", 2);
+                    Invoke("PauseGame", 3.5f);
                     a = true;
                 }
             }
@@ -307,6 +307,8 @@ public class Projectile : MonoBehaviour
         {
             SoundManager.SharedManager().PlaySFX(SoundManager.SharedManager().PizzaSfx);
             ImpactRadius += 250;
+            DestroyedParts.transform.DOScale(new Vector3(this.transform.localScale.x + IncreaseAmmount, this.transform.localScale.y + IncreaseAmmount,
+             this.transform.localScale.z + IncreaseAmmount), .3f).SetEase(Ease.InOutSine);
             this.transform.GetChild(0).DOScale(new Vector3(this.transform.localScale.x + IncreaseAmmount, this.transform.localScale.y + IncreaseAmmount,
              this.transform.localScale.z + IncreaseAmmount), .3f).SetEase(Ease.InOutSine);
             Destroy(other.gameObject);
