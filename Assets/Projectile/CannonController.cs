@@ -154,7 +154,7 @@ public class CannonController : MonoBehaviour
 
                     launched = true ;
                     StartCoroutine(LaunchDelay());
-
+                    GetComponent<DrawProjection>().Cube.SetActive(false);
                     
                     Played = true;
 
