@@ -73,7 +73,7 @@ public class Projectile : MonoBehaviour
     }
 
 
-    private void FixedUpdate()
+    private void Update()
     {
 
 
@@ -253,7 +253,7 @@ public class Projectile : MonoBehaviour
                 MMVibrationManager.Haptic(HapticTypes.MediumImpact);
                 if (GM.Instance.TapTut)
                 {
-                    Time.timeScale = .1f;
+                    Time.timeScale = 0.05f;
                     UiManager.Instance.HandTap.SetActive(true);
                 }
             }
@@ -327,13 +327,6 @@ public class Projectile : MonoBehaviour
                 for (int i = 0; i < numToInstantiate; i++)
                 {
                     GameObject g = Instantiate(Clone, other.transform.GetChild(i).transform.position, Quaternion.Euler(new Vector3(other.transform.GetChild(i).eulerAngles.x, other.transform.GetChild(i).eulerAngles.y, other.transform.GetChild(i).eulerAngles.z)));
-                 
-
-
-
-
-
-
                 }
 
             }

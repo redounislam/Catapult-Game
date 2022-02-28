@@ -30,7 +30,7 @@ public IEnumerator Dealys()
     }
     void Update()
     {
-        if (GM.Instance.StartGame)
+        if (GM.Instance.StartGame && !GM.Instance.cannonController.Played)
         {
         
             lineRenderer.positionCount = (int)numPoints;
