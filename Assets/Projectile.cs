@@ -278,7 +278,7 @@ public class Projectile : MonoBehaviour
 
                 MMVibrationManager.Haptic(HapticTypes.MediumImpact);
             }
-           // Camera.main.GetComponent<SharkAttack.CameraController>().enabled = false;
+            Camera.main.GetComponent<SharkAttack.CameraController>().enabled = false;
             RagDollJump();
             Crack.SetActive(true);
             Crack.transform.DOMoveY(4.12f, 0);
