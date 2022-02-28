@@ -112,6 +112,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a22324f19ea393e4f8940f9f0f0607f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HitForGiantFX: {fileID: 0}
   m_EnemyType: 0
   Canvas: {fileID: 0}
   PopUp: {fileID: 2591623643121982080, guid: 75012507313d3dc4498b5101373b07c7, type: 3}
@@ -128,6 +129,9 @@ MonoBehaviour:
   thisGuysRig: {fileID: 1429973860776230342}
   mainCollider: {fileID: 1429973859197354954}
   Death: 0
+  autoSyncTransform: 0
+  reuseCollsionCallBacks: 1
+  solverIteration: 5
 --- !u!65 &1429973859197354954
 BoxCollider:
   m_ObjectHideFlags: 0
