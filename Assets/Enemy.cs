@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+using MoreMountains.NiceVibrations;
 
 
 public enum EnemyType
@@ -229,29 +230,58 @@ public class Enemy : MonoBehaviour
                     Helmet.transform.gameObject.AddComponent<BoxCollider>(); Helmet.transform.parent = null;
                 }
 
+                Death = true;
 
+
+
+
+                foreach (Collider col in ragCol)
+                {
+                    col.enabled = true;
+                }
+                foreach (Rigidbody rigid in limbsRb)
+                {
+                    rigid.isKinematic = false;
+                    rigid.AddExplosionForce(FindObjectOfType<Projectile>().power, FindObjectOfType<Projectile>().transform.position, FindObjectOfType<Projectile>().ImpactRadius);
+
+                }
+                GetComponent<Animator>().enabled = false;
+
+
+                RagDollPlayed = true;
             }
-
-            Death = true;
-
-
-
-
-            foreach (Collider col in ragCol)
+            else
             {
-                col.enabled = true;
+                MMVibrationManager.Haptic(HapticTypes.HeavyImpact);
+                StartCoroutine(RagDollEnable());
             }
-            foreach (Rigidbody rigid in limbsRb)
-            {
-                rigid.isKinematic = false;
-                rigid.AddExplosionForce(FindObjectOfType<Projectile>().power, FindObjectOfType<Projectile>().transform.position, FindObjectOfType<Projectile>().ImpactRadius);
-
-            }
-            GetComponent<Animator>().enabled = false;
 
 
-            RagDollPlayed = true;
         }
+    }
+    public IEnumerator RagDollEnable()
+    {
+        GetComponent<Animator>().Play("back");
+        yield return new WaitForSeconds(.6f);
+        Death = true;
+
+
+
+
+        foreach (Collider col in ragCol)
+        {
+            col.enabled = true;
+        }
+        foreach (Rigidbody rigid in limbsRb)
+        {
+            rigid.isKinematic = false;
+            rigid.AddExplosionForce(FindObjectOfType<Projectile>().power, FindObjectOfType<Projectile>().transform.position, FindObjectOfType<Projectile>().ImpactRadius);
+
+        }
+        GetComponent<Animator>().enabled = false;
+
+
+        RagDollPlayed = true;
     }
     void RagDollOff()
     {

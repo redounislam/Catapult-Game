@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using Singleton;
 using DG.Tweening;
+using UnityEngine.SceneManagement;
 public class GM :Singleton<GM>
 {
     public GameObject CannonPoint , CannonPrefab;
@@ -21,6 +22,7 @@ public class GM :Singleton<GM>
     public Vector3 offset;
 
     public bool TapTut;
+  
     public IEnumerator CameraRoutine()
     {
 
@@ -34,6 +36,8 @@ public class GM :Singleton<GM>
           CamEndPos.transform.eulerAngles.z), CamMoveDuration);
         cam.transform.DOMove(CamEndPos.transform.position, CamMoveDuration).OnComplete(() =>
         {
+            UiManager.Instance.LevelText.gameObject.transform.parent.GetChild(1).gameObject.SetActive(false);
+            UiManager.Instance.LevelText.gameObject.SetActive(false);
             UiManager.Instance. ScoreCard.gameObject.SetActive(true);
             StartGame = true;
             UiManager.Instance.Tut.SetActive(true);
@@ -44,6 +48,8 @@ public class GM :Singleton<GM>
 
     public override void Start()
     {
+
+        PlayerPrefs.SetInt("current_scene", SceneManager.GetActiveScene().buildIndex);
         if (CannonPrefab != null)
         {
             GameObject g = Instantiate(CannonPrefab, CannonPoint.transform.position, Quaternion.Euler(new Vector3(CannonPoint.transform.eulerAngles.x, CannonPoint.transform.eulerAngles.y, CannonPoint.transform.eulerAngles.z)));

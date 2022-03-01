@@ -48,8 +48,7 @@ public class Projectile : MonoBehaviour
             transform.GetComponent<Rigidbody>().AddForce(Vector3.forward * Random.Range(CloneForce - 80, CloneForce + 500) * Time.deltaTime);
             transform.GetComponent<Rigidbody>().mass = Random.Range(1, 15);
 
-            float i = Random.Range(1.5f, 2f);
-            transform.transform.DOScale(new Vector3(i, i, i), 0);
+           
         }
     }
     void ExPlodeStart()
@@ -94,6 +93,7 @@ public class Projectile : MonoBehaviour
                 }
                 if (!played)
                 {
+                    MMVibrationManager.Haptic(HapticTypes.HeavyImpact);
                     SoundManager.SharedManager().PlaySFX(SoundManager.SharedManager().TapToBurstSFX);
                     Splash.transform.eulerAngles = new Vector3(-90, -270, 0);
                     Splash.Play();
@@ -108,7 +108,10 @@ public class Projectile : MonoBehaviour
                     transform.GetChild(1).gameObject.SetActive(false);
                     played = true;
                     SharkAttack.CameraController.Instance.target = null;
-              
+                    if (GM.Instance.KillCount < GM.Instance.TargetThisLevel)
+                    {
+                        GM.Instance.LevelFail();
+                    }
                 }
             }
 
@@ -158,7 +161,7 @@ public class Projectile : MonoBehaviour
     }
     public IEnumerator DelayEnd()
     {
-        yield return new WaitForSeconds(4f);
+        yield return new WaitForSeconds(2f);
         GM.Instance.LevelFail();
     }
     public IEnumerator SciptDisable()
@@ -308,13 +311,16 @@ public class Projectile : MonoBehaviour
         }
         if (other.gameObject.CompareTag("Collectable"))
         {
-            SoundManager.SharedManager().PlaySFX(SoundManager.SharedManager().PizzaSfx);
-            ImpactRadius += 250;
-            DestroyedParts.transform.DOScale(new Vector3(this.transform.localScale.x + IncreaseAmmount, this.transform.localScale.y + IncreaseAmmount,
-             this.transform.localScale.z + IncreaseAmmount), .3f).SetEase(Ease.InOutSine);
-            this.transform.GetChild(0).DOScale(new Vector3(this.transform.localScale.x + IncreaseAmmount, this.transform.localScale.y + IncreaseAmmount,
-             this.transform.localScale.z + IncreaseAmmount), .3f).SetEase(Ease.InOutSine);
-            Destroy(other.gameObject);
+            if (m_ProjectileType == ProjectileType.Main)
+            {
+                SoundManager.SharedManager().PlaySFX(SoundManager.SharedManager().PizzaSfx);
+                ImpactRadius += 250;
+                DestroyedParts.transform.DOScale(new Vector3(this.transform.localScale.x + IncreaseAmmount, this.transform.localScale.y + IncreaseAmmount,
+                 this.transform.localScale.z + IncreaseAmmount), .3f).SetEase(Ease.InOutSine);
+                this.transform.GetChild(0).DOScale(new Vector3(this.transform.localScale.x + IncreaseAmmount, this.transform.localScale.y + IncreaseAmmount,
+                 this.transform.localScale.z + IncreaseAmmount), .3f).SetEase(Ease.InOutSine);
+                Destroy(other.gameObject);
+            }
         }
         if (other.gameObject.CompareTag("Enemy"))
         {
