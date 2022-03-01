@@ -74,11 +74,13 @@ public class Projectile : MonoBehaviour
         }
     }
 
-    public void LevelFail()
-    {
-        GM.Instance.LevelFail();
-    }
 
+    public IEnumerator LevelFail()
+    {
+        yield return new WaitForSeconds(2);
+        if (GM.Instance.KillCount < GM.Instance.TargetThisLevel)
+            GM.Instance.LevelFail();
+    }
     private void Update()
     {
 
@@ -114,7 +116,7 @@ public class Projectile : MonoBehaviour
                     SharkAttack.CameraController.Instance.target = null;
                     if (GM.Instance.KillCount < GM.Instance.TargetThisLevel)
                     {
-                        Invoke("LevelFail", 2);
+                        StartCoroutine(LevelFail());
                     }
                 }
             }
