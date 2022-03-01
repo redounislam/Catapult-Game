@@ -5,6 +5,7 @@ using Singleton;
 using DG.Tweening;
 public class GM :Singleton<GM>
 {
+    public GameObject CannonPoint , CannonPrefab;
     public CannonController cannonController;
     public int TargetThisLevel;
     public int KillCount;
@@ -43,7 +44,11 @@ public class GM :Singleton<GM>
 
     public override void Start()
     {
-      
+        if (CannonPrefab != null)
+        {
+            GameObject g = Instantiate(CannonPrefab, CannonPoint.transform.position, Quaternion.Euler(new Vector3(CannonPoint.transform.eulerAngles.x, CannonPoint.transform.eulerAngles.y, CannonPoint.transform.eulerAngles.z)));
+            cannonController = g.transform.GetComponentInChildren<CannonController>();
+        }
         base.Start();
     }
     public void StartIt()

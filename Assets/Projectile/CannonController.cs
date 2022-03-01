@@ -42,11 +42,7 @@ public class CannonController : MonoBehaviour
         limbsRb1 = Cannonball.GetComponentsInChildren<Rigidbody>();
 
     }
-    private void OnEnable()
-    {
-       Played = false;
-       launched = false;
-    }
+
     void RagDollOff()
     {
         foreach(Collider col in ragCol)

@@ -47,6 +47,9 @@ public class Projectile : MonoBehaviour
         {
             transform.GetComponent<Rigidbody>().AddForce(Vector3.forward * Random.Range(CloneForce - 80, CloneForce + 500) * Time.deltaTime);
             transform.GetComponent<Rigidbody>().mass = Random.Range(1, 15);
+
+            float i = Random.Range(1.5f, 2f);
+            transform.transform.DOScale(new Vector3(i, i, i), 0);
         }
     }
     void ExPlodeStart()
