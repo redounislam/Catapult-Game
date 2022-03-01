@@ -23,6 +23,7 @@ public class CannonController : MonoBehaviour
     private void Start()
     {
        
+       
         l = GetComponent<LineRenderer>();
         l.enabled = false;
     }
