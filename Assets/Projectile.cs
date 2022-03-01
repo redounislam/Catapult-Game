@@ -74,6 +74,10 @@ public class Projectile : MonoBehaviour
         }
     }
 
+    public void LevelFail()
+    {
+        GM.Instance.LevelFail();
+    }
 
     private void Update()
     {
@@ -93,7 +97,7 @@ public class Projectile : MonoBehaviour
                 }
                 if (!played)
                 {
-                    MMVibrationManager.Haptic(HapticTypes.HeavyImpact);
+                    MMVibrationManager.Haptic(HapticTypes.Warning);
                     SoundManager.SharedManager().PlaySFX(SoundManager.SharedManager().TapToBurstSFX);
                     Splash.transform.eulerAngles = new Vector3(-90, -270, 0);
                     Splash.Play();
@@ -110,7 +114,7 @@ public class Projectile : MonoBehaviour
                     SharkAttack.CameraController.Instance.target = null;
                     if (GM.Instance.KillCount < GM.Instance.TargetThisLevel)
                     {
-                        GM.Instance.LevelFail();
+                        Invoke("LevelFail", 2);
                     }
                 }
             }
@@ -255,10 +259,11 @@ public class Projectile : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Explode"))
         {
+            MMVibrationManager.Haptic(HapticTypes.Warning);
             SoundManager.SharedManager().PlaySFX(SoundManager.SharedManager().BarrelExplosionSfx);
             other.transform.GetChild(0).gameObject.SetActive(true); other.transform.GetChild(0).gameObject.transform.parent = null;
                 other.transform.gameObject.SetActive(false);
-            MMVibrationManager.Haptic(HapticTypes.HeavyImpact);
+      
         }
         if (other.gameObject.CompareTag("Ground1"))
         {
@@ -335,7 +340,7 @@ public class Projectile : MonoBehaviour
                 if (m_ProjectileType == ProjectileType.Main)
                 {
                     StartCoroutine(SlowMoRoutine());
-                    MMVibrationManager.Haptic(HapticTypes.HeavyImpact);
+                    MMVibrationManager.Haptic(HapticTypes.Warning);
                 }
             }
         }

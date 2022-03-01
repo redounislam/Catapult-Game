@@ -252,7 +252,7 @@ public class Enemy : MonoBehaviour
             }
             else
             {
-                MMVibrationManager.Haptic(HapticTypes.HeavyImpact);
+               
                 StartCoroutine(RagDollEnable());
             }
 
