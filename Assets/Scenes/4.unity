@@ -2433,6 +2433,7 @@ MonoBehaviour:
   End: 0
   CamStartPos: {fileID: 473669028}
   CamEndPos: {fileID: 618027778}
+  Cam50HoopsPos: {fileID: 0}
   CamMoveDuration: 3
   EnemyMove: 0
   ParentCam: {fileID: 1176950166}
@@ -5358,8 +5359,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 12.095001, y: 14.988691, z: 10.630247}
-  m_Center: {x: -0, y: -1.391593, z: 5.3151255}
+  m_Size: {x: 12.095001, y: 20.64801, z: 13.758933}
+  m_Center: {x: -0, y: -4.2212524, z: 6.8794684}
 --- !u!54 &842513158
 Rigidbody:
   m_ObjectHideFlags: 0

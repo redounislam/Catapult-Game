@@ -1,0 +1,2132 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.19f1 (68f137dc9bbe) revision 6877495'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19043.1526; Version 2009; 64bit' Language: 'en' Physical Memory: 7977 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+D:/Catapult-Game
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+50992
+Successfully changed project path to: D:/Catapult-Game
+D:/Catapult-Game
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 194.06 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.19f1 (68f137dc9bbe)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Catapult-Game/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) UHD Graphics (ID=0x9b41)
+    Vendor:   
+    VRAM:     3988 MB
+    Driver:   27.20.100.9365
+Shader 'BOXOPHOBIC/Polyverse Skies/Simple': fallback shader 'False' not found
+Shader 'BOXOPHOBIC/Polyverse Skies/Standard': fallback shader 'False' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56568
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003760 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 202.14 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  9.139 seconds
+Domain Reload Profiling:
+	ReloadAssembly (9140ms)
+		BeginReloadAssembly (128ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (4ms)
+		EndReloadAssembly (974ms)
+			LoadAssemblies (120ms)
+			RebuildTransferFunctionScriptingTraits (2ms)
+			SetupTypeCache (351ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (57ms)
+			SetupLoadedEditorAssemblies (421ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (202ms)
+				BeforeProcessingInitializeOnLoad (30ms)
+				ProcessInitializeOnLoadAttributes (131ms)
+				ProcessInitializeOnLoadMethodAttributes (51ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.025429 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.33 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.484 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3485ms)
+		BeginReloadAssembly (279ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (39ms)
+		EndReloadAssembly (3138ms)
+			LoadAssemblies (203ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (447ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (88ms)
+			SetupLoadedEditorAssemblies (2283ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (124ms)
+				ProcessInitializeOnLoadAttributes (2043ms)
+				ProcessInitializeOnLoadMethodAttributes (99ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Mesh Animator/Universal Render Pipeline/Unlit': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Mesh Animator/Universal Render Pipeline/Lit': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Mesh Animator/Universal Render Pipeline/Simple Lit': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Mesh Animator/Universal Render Pipeline/Lit': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Mesh Animator/Universal Render Pipeline/Simple Lit': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Mesh Animator/Universal Render Pipeline/Unlit': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'BOXOPHOBIC/Polyverse Skies/Standard': fallback shader 'False' not found
+Shader 'BOXOPHOBIC/Polyverse Skies/Simple': fallback shader 'False' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.16 seconds
+Refreshing native plugins compatible for Editor in 2.14 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3519 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 277.2 MB.
+System memory in use after: 273.0 MB.
+
+Unloading 269 unused Assets to reduce memory usage. Loaded Objects now: 3964.
+Total: 92.811300 ms (FindLiveObjects: 0.501200 ms CreateObjectMapping: 0.226500 ms MarkObjects: 87.673000 ms  DeleteObjects: 4.407900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Misc/CFXR Smoke Poof Circle Flat.prefab
+  artifactKey: Guid(b4f04d135faa2bc42b6a131603b9e813) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Misc/CFXR Smoke Poof Circle Flat.prefab using Guid(b4f04d135faa2bc42b6a131603b9e813) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af20f19ecaf8c9ef97f2e83824b52773') in 0.386183 seconds 
+  Import took 0.400212 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000888 seconds.
+  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Fire/Flames Looped/CFXM_DoubleFlameB Looped.prefab
+  artifactKey: Guid(afccfb7c3a876514fa11ce1de69ec59e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Fire/Flames Looped/CFXM_DoubleFlameB Looped.prefab using Guid(afccfb7c3a876514fa11ce1de69ec59e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc40424b3d73bacd50202bf024c68120') in 0.089949 seconds 
+  Import took 0.101604 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Water/CFX_Water_Sprinkler.prefab
+  artifactKey: Guid(afa29464d05e95344ba938412363fcb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Water/CFX_Water_Sprinkler.prefab using Guid(afa29464d05e95344ba938412363fcb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15bed79efba2cc468f488845eac48a27') in 0.147016 seconds 
+  Import took 0.159032 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Fire/Color Variants/CFXM_DoubleFlameB Yellow.prefab
+  artifactKey: Guid(53b19c9f4cf96c448980d53168dd3fd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Fire/Color Variants/CFXM_DoubleFlameB Yellow.prefab using Guid(53b19c9f4cf96c448980d53168dd3fd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c50a0358e2c92d90948ab9b502823f7') in 0.047393 seconds 
+  Import took 0.062661 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/CFXR Impact Contrast.prefab
+  artifactKey: Guid(d1eb5368e6bef184681cd4db6cf466fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/CFXR Impact Contrast.prefab using Guid(d1eb5368e6bef184681cd4db6cf466fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ecd99f90af1484d494e2eff0b41bf9a') in 0.089771 seconds 
+  Import took 0.105225 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Explosions/CFXM_Explosion+Text.prefab
+  artifactKey: Guid(58213e333a1312245b035a80c7f719fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Explosions/CFXM_Explosion+Text.prefab using Guid(58213e333a1312245b035a80c7f719fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '449dabc63507abf0aa5808d7a3c88e71') in 0.088264 seconds 
+  Import took 0.101857 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Electric/Variants/CFXR Lightning Strike + Impact (Green).prefab
+  artifactKey: Guid(8d6fa9503c5e9e34491b54edb0833855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Electric/Variants/CFXR Lightning Strike + Impact (Green).prefab using Guid(8d6fa9503c5e9e34491b54edb0833855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a3c7869d44b31c8b6d4251ad31f90db') in 0.165547 seconds 
+  Import took 0.180103 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Liquids/Variants/CFXR Water Splash (Green).prefab
+  artifactKey: Guid(b4db7f02d62e5da41a6749332ee040ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Liquids/Variants/CFXR Water Splash (Green).prefab using Guid(b4db7f02d62e5da41a6749332ee040ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d2b9e3a33636ff883ff14976ecede73') in 0.345075 seconds 
+  Import took 0.361417 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Fire/Color Variants/CFXM_FlameA Green.prefab
+  artifactKey: Guid(03d6f0112c2708d449bf913bb5c5cd5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Fire/Color Variants/CFXM_FlameA Green.prefab using Guid(03d6f0112c2708d449bf913bb5c5cd5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2fb644161e1066aa355e39e2e86e182') in 0.051562 seconds 
+  Import took 0.071529 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Misc/CFX_Slash_B Blue.prefab
+  artifactKey: Guid(8f3e5201995fd4c41a47e57b3ed209ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Misc/CFX_Slash_B Blue.prefab using Guid(8f3e5201995fd4c41a47e57b3ed209ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13bfbcd3ac6e23bf2fef59fb658a1a7b') in 0.052386 seconds 
+  Import took 0.069700 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000381 seconds.
+  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Misc/CFX_SpikyAura_Character Looped.prefab
+  artifactKey: Guid(707b8d471c7a8584fb5f3fe03311aa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Misc/CFX_SpikyAura_Character Looped.prefab using Guid(707b8d471c7a8584fb5f3fe03311aa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d86c08c08eec7d34e72f83ebfee1826') in 0.074145 seconds 
+  Import took 0.094500 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Misc/CFX_Slash_B Orange.prefab
+  artifactKey: Guid(cb679bb0fa935f040865c17d0e3a92a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Misc/CFX_Slash_B Orange.prefab using Guid(cb679bb0fa935f040865c17d0e3a92a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4c0763fed2d127a70b93d266d2d2a53') in 0.048304 seconds 
+  Import took 0.065174 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000493 seconds.
+  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Smoke/CFX_SmokePuffsAlt+Text.prefab
+  artifactKey: Guid(b915ea55954041f40a3fd40ee1840dda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Smoke/CFX_SmokePuffsAlt+Text.prefab using Guid(b915ea55954041f40a3fd40ee1840dda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7542a8aa10a6b6b520d8119ced05f2e') in 0.076952 seconds 
+  Import took 0.090260 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/MeshAnimator/Examples/Meshes/HumanModel/Animations/Human@BreathingIdle.fbx
+  artifactKey: Guid(b12f4be994b9e334ca687c84178bf961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshAnimator/Examples/Meshes/HumanModel/Animations/Human@BreathingIdle.fbx using Guid(b12f4be994b9e334ca687c84178bf961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1de73b66e260c3baa7f46ca997b478e') in 0.073134 seconds 
+  Import took 0.087115 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Liquids/Variants/CFXR Water Splash (Smaller, No foam).prefab
+  artifactKey: Guid(808f12851ffdafb4f82e0920b0cd73b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Liquids/Variants/CFXR Water Splash (Smaller, No foam).prefab using Guid(808f12851ffdafb4f82e0920b0cd73b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '696a009ac5dd2e33df4354e838e4008e') in 0.064430 seconds 
+  Import took 0.075700 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000330 seconds.
+  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Texts (drag-drop to prefabs)/CFX_Text Zap.prefab
+  artifactKey: Guid(5666811d4d5702647992c7b56c086ad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Texts (drag-drop to prefabs)/CFX_Text Zap.prefab using Guid(5666811d4d5702647992c7b56c086ad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1cfeebc58ab727bfa53013fcb50dbda') in 0.038716 seconds 
+  Import took 0.057884 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Misc/CFX_MagicPoof+Text.prefab
+  artifactKey: Guid(51a86f32efb25674485dd9c5b35d8695) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Misc/CFX_MagicPoof+Text.prefab using Guid(51a86f32efb25674485dd9c5b35d8695) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bf9b6bfd203e301ff7819cc4e7e324b') in 0.094570 seconds 
+  Import took 0.108577 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Misc/CFXR Smoke Poof.prefab
+  artifactKey: Guid(b2f0b8902a31c8a46a1c4bb24ed9ea36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Misc/CFXR Smoke Poof.prefab using Guid(b2f0b8902a31c8a46a1c4bb24ed9ea36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f88e085de1aa71429c4d453a62f5c81') in 0.085889 seconds 
+  Import took 0.100766 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Misc/CFX_Tornado_Straight.prefab
+  artifactKey: Guid(ee791f0d9e3d3ff4a855b2e4ae3deda0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Misc/CFX_Tornado_Straight.prefab using Guid(ee791f0d9e3d3ff4a855b2e4ae3deda0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b20c14e3c3303fd75b85db02505f3aa') in 0.048833 seconds 
+  Import took 0.065743 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Liquids/CFXR Lava Splash.prefab
+  artifactKey: Guid(6bbb97cd4580a904e866b43b1976e084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Liquids/CFXR Lava Splash.prefab using Guid(6bbb97cd4580a904e866b43b1976e084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31963e0846715afcb97edd3c1d9d4d05') in 0.122476 seconds 
+  Import took 0.140330 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/Prefab/Main Catapult.prefab
+  artifactKey: Guid(cc7e73d6b2ad49a498fe73dfb8f9a994) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Main Catapult.prefab using Guid(cc7e73d6b2ad49a498fe73dfb8f9a994) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cae85a5fdc5d425db07b7ec2b62631d4') in 0.191466 seconds 
+  Import took 0.210934 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000336 seconds.
+  path: Assets/MeshAnimator/Examples/Meshes/HumanModel/Animations/Human@Victory.fbx
+  artifactKey: Guid(bcf170b58f7df2840bcf1aa7d79e3928) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshAnimator/Examples/Meshes/HumanModel/Animations/Human@Victory.fbx using Guid(bcf170b58f7df2840bcf1aa7d79e3928) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db206fbce53dd4d9c07a2651e5e63e42') in 0.055615 seconds 
+  Import took 0.077160 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/Variants/CFXR Impact Glowing Cross HDR (Green).prefab
+  artifactKey: Guid(a978c77dae1016c4ba03ef2803d49eae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/Variants/CFXR Impact Glowing Cross HDR (Green).prefab using Guid(a978c77dae1016c4ba03ef2803d49eae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bde0af2c04ac3c068732033ebf5112b6') in 0.101565 seconds 
+  Import took 0.118083 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Misc/Variants/CFXR Portal (Cyan).prefab
+  artifactKey: Guid(67fed153cb53bfc4faf6b505674d600a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Misc/Variants/CFXR Portal (Cyan).prefab using Guid(67fed153cb53bfc4faf6b505674d600a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa509c68d7e2ee73715063a1ba2b6112') in 0.306449 seconds 
+  Import took 0.322063 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000388 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/Variants/CFXR Impact Contrast (Blue).prefab
+  artifactKey: Guid(b4bc86fafdaad344b970825610d77f07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/Variants/CFXR Impact Contrast (Blue).prefab using Guid(b4bc86fafdaad344b970825610d77f07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e98bd1d4ede599f986e8ed73df26c173') in 0.072873 seconds 
+  Import took 0.090993 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Misc/Tornado Variants/CFX_Tornado_Looped.prefab
+  artifactKey: Guid(a55cd129ef21cf24fa908efb0a8d6708) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Misc/Tornado Variants/CFX_Tornado_Looped.prefab using Guid(a55cd129ef21cf24fa908efb0a8d6708) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'def13653ed50439cf88972a94e34e871') in 0.059780 seconds 
+  Import took 0.089535 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001074 seconds.
+  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Electric/CFXM_ElectricGround.prefab
+  artifactKey: Guid(f71e7641f4394c44095cabfbc0c46ef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Electric/CFXM_ElectricGround.prefab using Guid(f71e7641f4394c44095cabfbc0c46ef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5a5881633a1a686cb218c31e93f6bf0') in 0.103184 seconds 
+  Import took 0.119817 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000356 seconds.
+  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Fire/Flames Looped/CFXM_DoubleFlameC Looped.prefab
+  artifactKey: Guid(61a81c468e358c149b9fb27ed360a9c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Fire/Flames Looped/CFXM_DoubleFlameC Looped.prefab using Guid(61a81c468e358c149b9fb27ed360a9c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd24bc1a77f74615b99b1588c0eaa5032') in 0.077621 seconds 
+  Import took 0.090971 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Fire/Color Variants/CFXM_FlameA Yellow.prefab
+  artifactKey: Guid(e48d43acc070f384ba487dbc3544c327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Fire/Color Variants/CFXM_FlameA Yellow.prefab using Guid(e48d43acc070f384ba487dbc3544c327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d92abc325ed02a58e3a3fdbd9f3f55d') in 0.051328 seconds 
+  Import took 0.073138 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000911 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/CFXR Hit D 3D (Yellow).prefab
+  artifactKey: Guid(265d3a5ba69981a4698ceabcedf368b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/CFXR Hit D 3D (Yellow).prefab using Guid(265d3a5ba69981a4698ceabcedf368b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01ba1c41bfce3297f7e6423566b87657') in 0.075723 seconds 
+  Import took 0.089452 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Meshes/cfxr mesh foam.fbx
+  artifactKey: Guid(efd0ff1193063db498e9ddb30e96e4ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Meshes/cfxr mesh foam.fbx using Guid(efd0ff1193063db498e9ddb30e96e4ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5618284a82b200661cb243fa409dc9d2') in 0.103614 seconds 
+  Import took 0.113078 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Water/CFX_Ripple.prefab
+  artifactKey: Guid(b4adb91270ab1be4b8a2d9d2621bceea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Water/CFX_Ripple.prefab using Guid(b4adb91270ab1be4b8a2d9d2621bceea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '121b383f7d5dfd09c81c597b46939f38') in 0.059491 seconds 
+  Import took 0.080832 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000347 seconds.
+  path: Assets/MeshAnimator/Examples/Meshes/HumanModel/Animations/Human@StableSwordOutwardSlash.fbx
+  artifactKey: Guid(dece99623016de946b9788d5ce1c365a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshAnimator/Examples/Meshes/HumanModel/Animations/Human@StableSwordOutwardSlash.fbx using Guid(dece99623016de946b9788d5ce1c365a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e52cd52ea9ec172329aa12a0453b9c89') in 0.049390 seconds 
+  Import took 0.066280 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Explosions/CFXM_Enemy_Explosion.prefab
+  artifactKey: Guid(de73b98ff812c774783bd145fc25cadb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Explosions/CFXM_Enemy_Explosion.prefab using Guid(de73b98ff812c774783bd145fc25cadb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8fe611cdf83bc03899d00f5c53987a9') in 0.089789 seconds 
+  Import took 0.106310 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/Variants/CFXR Hit A (Red) + Text.prefab
+  artifactKey: Guid(41b57333fef1c834d8da0f4387d82975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/Variants/CFXR Hit A (Red) + Text.prefab using Guid(41b57333fef1c834d8da0f4387d82975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b36ad56a9dc7260c9ee28e937e27244d') in 0.168846 seconds 
+  Import took 0.181871 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Smoke/CFX_SmokePuffs+Text.prefab
+  artifactKey: Guid(db5c3efbba2f1b7419632d7966b542f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Smoke/CFX_SmokePuffs+Text.prefab using Guid(db5c3efbba2f1b7419632d7966b542f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65cb50753dd8cade7bacf15150b0bfd8') in 0.056207 seconds 
+  Import took 0.069865 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000663 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/Variants/CFXR Impact Glowing HDR (Green, No Flare).prefab
+  artifactKey: Guid(3525de7394cea474c968d42607a0e80f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/Variants/CFXR Impact Glowing HDR (Green, No Flare).prefab using Guid(3525de7394cea474c968d42607a0e80f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9fa3a1ee4feb28b568bcba5b56e6dd5') in 0.068750 seconds 
+  Import took 0.089410 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000318 seconds.
+  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Misc/CFX_SpikyAura_Character.prefab
+  artifactKey: Guid(c3a7dce3f7de71346be2f60ddd8aea30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Misc/CFX_SpikyAura_Character.prefab using Guid(c3a7dce3f7de71346be2f60ddd8aea30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcaf2d288bbd64ef0c02e1bf4d4212b5') in 0.052153 seconds 
+  Import took 0.069541 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000348 seconds.
+  path: Assets/MeshAnimator/Examples/Meshes/HumanModel/HumanCrowd.prefab
+  artifactKey: Guid(1eda2b240e8bfbd4d8e9f8df037b9e6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshAnimator/Examples/Meshes/HumanModel/HumanCrowd.prefab using Guid(1eda2b240e8bfbd4d8e9f8df037b9e6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ae998321b29d1f71edacd25e9c1e1ce') in 0.413144 seconds 
+  Import took 0.426967 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Fire/Flames Looped/CFXM_FlameA Looped.prefab
+  artifactKey: Guid(9c8bab8cd3b4f464daff338cf0ed5dcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Fire/Flames Looped/CFXM_FlameA Looped.prefab using Guid(9c8bab8cd3b4f464daff338cf0ed5dcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88adcfb3f57d9dfd0ab406d5e74eee6b') in 0.054097 seconds 
+  Import took 0.071609 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000789 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Screen Distortion/CFXR ScreenDistortion Sphere.prefab
+  artifactKey: Guid(40a4f83415f30d14496ed106a10de339) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Screen Distortion/CFXR ScreenDistortion Sphere.prefab using Guid(40a4f83415f30d14496ed106a10de339) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a4c7187d28fbc832e72bae61ac3e2ab') in 0.130126 seconds 
+  Import took 0.142859 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/Variants/CFXR Impact Glowing Cross Blue HDR.prefab
+  artifactKey: Guid(c3e143c6f7e7adb4f9534a605084c9c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/Variants/CFXR Impact Glowing Cross Blue HDR.prefab using Guid(c3e143c6f7e7adb4f9534a605084c9c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a24ce23893f048ab11d524d9785c8514') in 0.071588 seconds 
+  Import took 0.086458 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Misc/Tornado Variants/CFX_Tornado_Straight_Big.prefab
+  artifactKey: Guid(9ce45ff0015502c40b51b4d715c82241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Misc/Tornado Variants/CFX_Tornado_Straight_Big.prefab using Guid(9ce45ff0015502c40b51b4d715c82241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfa74bfa14bf6c94e3fd7bca173be31a') in 0.044964 seconds 
+  Import took 0.064218 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000387 seconds.
+  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Hits/CFX_Hit_D_Long Blue.prefab
+  artifactKey: Guid(4fe6b9df8812dfe48a34a95b48fa7d71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Hits/CFX_Hit_D_Long Blue.prefab using Guid(4fe6b9df8812dfe48a34a95b48fa7d71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c119aa9da468a19c80f6a0e3e14fbf76') in 0.048080 seconds 
+  Import took 0.064975 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001921 seconds.
+  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Explosions/CFXM_Explosion+Text NoSmoke.prefab
+  artifactKey: Guid(1b0a08f44ea1f8a4793c93cc4da89c63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Explosions/CFXM_Explosion+Text NoSmoke.prefab using Guid(1b0a08f44ea1f8a4793c93cc4da89c63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd2f6e045073c12aaea831846930ec74') in 0.065086 seconds 
+  Import took 0.085030 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/Variants/CFXR Slash (Blue) + Text.prefab
+  artifactKey: Guid(53957b21f3dc62b47b2ea30eb4c71265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/Variants/CFXR Slash (Blue) + Text.prefab using Guid(53957b21f3dc62b47b2ea30eb4c71265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9db4f95991effb443d87e2c45ae0b2d') in 0.081205 seconds 
+  Import took 0.100879 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000356 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Liquids/Variants/CFXR Water Ripples (Loop).prefab
+  artifactKey: Guid(838f2055e3c24e9418e1a55135c00a24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Liquids/Variants/CFXR Water Ripples (Loop).prefab using Guid(838f2055e3c24e9418e1a55135c00a24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c06fa87f33bfaa93b47ba3f2dfce98f') in 0.066935 seconds 
+  Import took 0.084520 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/CFXR Hit B (Blue).prefab
+  artifactKey: Guid(af0ef20d9a41ee7479f76ea5c49918cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/CFXR Hit B (Blue).prefab using Guid(af0ef20d9a41ee7479f76ea5c49918cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5723900d622a8d037d88e179d3ae944b') in 0.074275 seconds 
+  Import took 0.092618 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Fire/Color Variants/CFXM_DoubleFlameC White.prefab
+  artifactKey: Guid(75ff0753f8af17940ab33046062f3454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Fire/Color Variants/CFXM_DoubleFlameC White.prefab using Guid(75ff0753f8af17940ab33046062f3454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4de7f49880d4229dddd98fd40f6e6200') in 0.051568 seconds 
+  Import took 0.068615 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Electric/CFXR Lightning Impact.prefab
+  artifactKey: Guid(42913e44bd86c194f80b76492e6fe2fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Electric/CFXR Lightning Impact.prefab using Guid(42913e44bd86c194f80b76492e6fe2fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73ca4139af03378736e637ab806526e9') in 0.057104 seconds 
+  Import took 0.073285 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000360 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/Variants/CFXR Hit B 3D (Blue) + Text.prefab
+  artifactKey: Guid(3036444d2c1101c4e958738d02bf12bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/Variants/CFXR Hit B 3D (Blue) + Text.prefab using Guid(3036444d2c1101c4e958738d02bf12bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd83fc4424cf801f4c25a5aae13aa6fab') in 0.072851 seconds 
+  Import took 0.092761 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Electric/CFXM_ElectricityBall_Alt.prefab
+  artifactKey: Guid(142ce46be99f13149b966a27928fe6e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Electric/CFXM_ElectricityBall_Alt.prefab using Guid(142ce46be99f13149b966a27928fe6e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '592ae6249bc90167c7fdd24139278ca4') in 0.087272 seconds 
+  Import took 0.099005 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Fire/Flames Looped/Color Variants/CFXM_FlameA Blue Looped.prefab
+  artifactKey: Guid(6b3fd58c532f1b145964a09ae642d463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Fire/Flames Looped/Color Variants/CFXM_FlameA Blue Looped.prefab using Guid(6b3fd58c532f1b145964a09ae642d463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '552ef1d15a511983169d30c2f03d81c3') in 0.045553 seconds 
+  Import took 0.058139 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/Variants/CFXR Impact Glowing HDR (Orange).prefab
+  artifactKey: Guid(508d5389238bcad4eb3974c00ad7ea83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/Variants/CFXR Impact Glowing HDR (Orange).prefab using Guid(508d5389238bcad4eb3974c00ad7ea83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0ad2e9ff38fe8b406d42aeb6f6dc010') in 0.074782 seconds 
+  Import took 0.095350 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Fire/Color Variants/CFXM_DoubleFlameC Black.prefab
+  artifactKey: Guid(ddffcdadbfd73be4dae37e50043a3e2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Fire/Color Variants/CFXM_DoubleFlameC Black.prefab using Guid(ddffcdadbfd73be4dae37e50043a3e2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e7d096d60f07beacc382a1a779c81af') in 0.049513 seconds 
+  Import took 0.067979 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Meshes/cfxr mesh ring.fbx
+  artifactKey: Guid(fd9225d663ccb334dbfa1e5255190553) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Meshes/cfxr mesh ring.fbx using Guid(fd9225d663ccb334dbfa1e5255190553) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8af01697f2f65bfc7eb175683dfbbab3') in 0.067584 seconds 
+  Import took 0.085053 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Liquids/CFXR Water Splash (Smaller).prefab
+  artifactKey: Guid(326e86d5729c54e479798cacab220bb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Liquids/CFXR Water Splash (Smaller).prefab using Guid(326e86d5729c54e479798cacab220bb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '102915d3555ed824d172edbaf52cf7ae') in 0.067505 seconds 
+  Import took 0.083523 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000343 seconds.
+  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Explosions/CFX_SmallExplosionAlt.prefab
+  artifactKey: Guid(2a4d2a4a68e3e1d41afe9474ab4cfff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Explosions/CFX_SmallExplosionAlt.prefab using Guid(2a4d2a4a68e3e1d41afe9474ab4cfff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0da12736430f56aabdcf2e860a0fe12') in 0.053079 seconds 
+  Import took 0.077316 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/MeshAnimator/Examples/Meshes/HumanModel/Animations/SnapshotMeshAnimator/HumanCrowd_AnimatedMesh.prefab
+  artifactKey: Guid(f38eb1c4824d6704fafc14bcada3887e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshAnimator/Examples/Meshes/HumanModel/Animations/SnapshotMeshAnimator/HumanCrowd_AnimatedMesh.prefab using Guid(f38eb1c4824d6704fafc14bcada3887e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75c7c4026e22df51db13302f9be561ee') in 1.600190 seconds 
+  Import took 1.618570 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Fire/CFXM_Fire_Breath_NoSmoke.prefab
+  artifactKey: Guid(2ad6a521d3692b547a306991823ad3d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Fire/CFXM_Fire_Breath_NoSmoke.prefab using Guid(2ad6a521d3692b547a306991823ad3d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bb6122c20a3a432151d8387bf24aa85') in 0.070710 seconds 
+  Import took 0.078651 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/MeshAnimator/Examples/Meshes/BirdModel/Bird.fbx
+  artifactKey: Guid(9d2805f63cd078e4aa1494647ec83733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshAnimator/Examples/Meshes/BirdModel/Bird.fbx using Guid(9d2805f63cd078e4aa1494647ec83733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5d325fb088862c40103882a11c882bd') in 0.108320 seconds 
+  Import took 0.115564 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/MeshAnimator/Examples/Meshes/HumanModel/Animations/Human@RightStrafe.fbx
+  artifactKey: Guid(639e0856f20c61141b65f40927211f26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshAnimator/Examples/Meshes/HumanModel/Animations/Human@RightStrafe.fbx using Guid(639e0856f20c61141b65f40927211f26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '413eef6f442b240879bd79691752c2af') in 0.030755 seconds 
+  Import took 0.047910 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Explosions/Firework Variants/CFXM_Firework_Orange.prefab
+  artifactKey: Guid(5072556484c5d2340a58458c7abc1552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Explosions/Firework Variants/CFXM_Firework_Orange.prefab using Guid(5072556484c5d2340a58458c7abc1552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0ca5993b0139f0b23eb0022d0707684') in 0.067272 seconds 
+  Import took 0.081836 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Misc/CFXR Smoke Poof Circle Screen.prefab
+  artifactKey: Guid(74ccf31d718fbea49a5c201d4b7c5af2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Misc/CFXR Smoke Poof Circle Screen.prefab using Guid(74ccf31d718fbea49a5c201d4b7c5af2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40ffaa2e303952483e3512a25bb6f15b') in 0.062344 seconds 
+  Import took 0.084279 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000474 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Liquids/Variants/CFXR Lava Splash (No drops).prefab
+  artifactKey: Guid(65e5376db4684904cba6a20ce848bc57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Liquids/Variants/CFXR Lava Splash (No drops).prefab using Guid(65e5376db4684904cba6a20ce848bc57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97b2760d7c8f944b755f3aa3c1a5bbd3') in 0.065179 seconds 
+  Import took 0.083657 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/Variants/CFXR Hit A (Red, Blended).prefab
+  artifactKey: Guid(e9ad456ebe254dc4f9bf6c35b54c4f30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/Variants/CFXR Hit A (Red, Blended).prefab using Guid(e9ad456ebe254dc4f9bf6c35b54c4f30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '588bbeae572fa2957ec702916767d922') in 0.069665 seconds 
+  Import took 0.084572 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Smoke/CFX_SmokePuffsAlt.prefab
+  artifactKey: Guid(9670926e073251b4d9e7cc13c294ea9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Smoke/CFX_SmokePuffsAlt.prefab using Guid(9670926e073251b4d9e7cc13c294ea9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9be83ae08b3e3d5a9ca8414c71ee48e') in 0.057690 seconds 
+  Import took 0.067380 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/MeshAnimator/Examples/Meshes/HumanModel/Animations/Human@LeftStrafe.fbx
+  artifactKey: Guid(df81e1c3ce96f9b4380160d9d3fed36e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshAnimator/Examples/Meshes/HumanModel/Animations/Human@LeftStrafe.fbx using Guid(df81e1c3ce96f9b4380160d9d3fed36e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e13174de99c4798a84309d91d57555ea') in 0.039490 seconds 
+  Import took 0.049308 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/MeshAnimator/Examples/Example_PerformanceComparisonCubes/SkinnedMesh/CubesAnimation.fbx
+  artifactKey: Guid(7ab52ec56666d6a498f916cbe3058912) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshAnimator/Examples/Example_PerformanceComparisonCubes/SkinnedMesh/CubesAnimation.fbx using Guid(7ab52ec56666d6a498f916cbe3058912) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc70cd516d21f2462e37356d6f3ef57d') in 0.351302 seconds 
+  Import took 0.361144 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Misc/CFX_Tornado.prefab
+  artifactKey: Guid(352304b7fbe11f445970df6ae36e6227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Misc/CFX_Tornado.prefab using Guid(352304b7fbe11f445970df6ae36e6227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0d646833dbad64a0b698cf83141d139') in 0.045777 seconds 
+  Import took 0.057131 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Explosions/CFX_SmokeExplosion.prefab
+  artifactKey: Guid(f4eccd837e38e66479c94b552a191d36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Explosions/CFX_SmokeExplosion.prefab using Guid(f4eccd837e38e66479c94b552a191d36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53bedac3b9317aceaf4b00c0d55ab929') in 0.055160 seconds 
+  Import took 0.068898 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000365 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Misc/CFXR Smoke Source Spiral 3D.prefab
+  artifactKey: Guid(d618707dc03cd0649a29d9fd2964a3d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Misc/CFXR Smoke Source Spiral 3D.prefab using Guid(d618707dc03cd0649a29d9fd2964a3d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e7b3692b312e87800cc66b78e4fe0e1') in 0.051788 seconds 
+  Import took 0.070547 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Electric/CFX_Thunderbolt.prefab
+  artifactKey: Guid(774832f53bf880b488b8733943e47832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Electric/CFX_Thunderbolt.prefab using Guid(774832f53bf880b488b8733943e47832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd57be313733a58f4342848c6d438881b') in 0.086717 seconds 
+  Import took 0.096096 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Liquids/CFXR Water Splash (Small).prefab
+  artifactKey: Guid(8a9ce8c588b0e2c4fa567c940b82044a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Liquids/CFXR Water Splash (Small).prefab using Guid(8a9ce8c588b0e2c4fa567c940b82044a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aeaa510541a78e72044d8324de46ba90') in 0.075243 seconds 
+  Import took 0.091877 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Explosions/CFXM_Explosion_B_Smoke+Text.prefab
+  artifactKey: Guid(ff603a5c6ea52f943b91ebf74f513828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Explosions/CFXM_Explosion_B_Smoke+Text.prefab using Guid(ff603a5c6ea52f943b91ebf74f513828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '604f2086aa664797c6ac0856b88f34a7') in 0.065700 seconds 
+  Import took 0.072886 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Explosions/Firework Variants/CFXM_Firework_Green.prefab
+  artifactKey: Guid(347c8b74a9579074cb4b5bfd3edd3b51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Explosions/Firework Variants/CFXM_Firework_Green.prefab using Guid(347c8b74a9579074cb4b5bfd3edd3b51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9986d49fe9ffd5cb8ab8b9301449b589') in 0.038814 seconds 
+  Import took 0.055493 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/Variants/CFXR Slash (Cross, Blue).prefab
+  artifactKey: Guid(434df53c94dcf9649a3b8fcd8896f152) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/Variants/CFXR Slash (Cross, Blue).prefab using Guid(434df53c94dcf9649a3b8fcd8896f152) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2c8e539c0e26abf1c170a542af23275') in 0.058295 seconds 
+  Import took 0.071967 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Liquids/Variants/CFXR Water Ripples (Arcs).prefab
+  artifactKey: Guid(dc49b6e63855b1b4eb0b178aa9bf210b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Liquids/Variants/CFXR Water Ripples (Arcs).prefab using Guid(dc49b6e63855b1b4eb0b178aa9bf210b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36a0d99da28bbdfdd8fff3516b525427') in 0.064017 seconds 
+  Import took 0.071643 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000388 seconds.
+  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Texts (drag-drop to prefabs)/CFX_Text Poof.prefab
+  artifactKey: Guid(909d371712feda5458d35ad429bfadf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Texts (drag-drop to prefabs)/CFX_Text Poof.prefab using Guid(909d371712feda5458d35ad429bfadf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee0c19583f289bcf3ca816b6fda7d28e') in 0.041567 seconds 
+  Import took 0.057504 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Fire/Color Variants/CFXM_DoubleFlameA Blue.prefab
+  artifactKey: Guid(0f77e5eea5428a449b4ba177bb2e3784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Fire/Color Variants/CFXM_DoubleFlameA Blue.prefab using Guid(0f77e5eea5428a449b4ba177bb2e3784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c70d545dd4378b158c171d032c1e2814') in 0.048968 seconds 
+  Import took 0.064545 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Explosions/Firework Variants/CFXM_Firework_Blue.prefab
+  artifactKey: Guid(8afba8ae0938326458ff00ad47d6fb04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Explosions/Firework Variants/CFXM_Firework_Blue.prefab using Guid(8afba8ae0938326458ff00ad47d6fb04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a75f5ac9f333281c3fde94a0c9272d42') in 0.040909 seconds 
+  Import took 0.055876 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Liquids/CFXR Lava Drops Splash.prefab
+  artifactKey: Guid(cb0cf98547744714b801177da509baa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Liquids/CFXR Lava Drops Splash.prefab using Guid(cb0cf98547744714b801177da509baa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ba9a2c7f256686b8d972323798097b2') in 0.072834 seconds 
+  Import took 0.084978 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Misc/CFXR Smoke Source 3D.prefab
+  artifactKey: Guid(e509867be4f82f246a95eca1ee5a2d61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Misc/CFXR Smoke Source 3D.prefab using Guid(e509867be4f82f246a95eca1ee5a2d61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cc0f105af3ac08f631fad9e211becda') in 0.056477 seconds 
+  Import took 0.068114 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Misc/CFXR Magical Source.prefab
+  artifactKey: Guid(a8cb176ac2d6504459d1fb8e59257cda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Misc/CFXR Magical Source.prefab using Guid(a8cb176ac2d6504459d1fb8e59257cda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d9f8e93480f6c0c624e7075bfcba5ad') in 0.079632 seconds 
+  Import took 0.092852 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Fire/Flames Looped/Color Variants/CFXM_DoubleFlameB Yellow Looped.prefab
+  artifactKey: Guid(b2b240365f5e9fe4cb8243a002912781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Fire/Flames Looped/Color Variants/CFXM_DoubleFlameB Yellow Looped.prefab using Guid(b2b240365f5e9fe4cb8243a002912781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc9ebe3e2bee04d19aaca4af49961a19') in 0.057274 seconds 
+  Import took 0.077106 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Fire/Color Variants/CFXM_DoubleFlameB Green.prefab
+  artifactKey: Guid(a8d8ee4acae2e494a8f5223bbe7e95bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Fire/Color Variants/CFXM_DoubleFlameB Green.prefab using Guid(a8d8ee4acae2e494a8f5223bbe7e95bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3762e443bd4cc80c9adfcd75b929cea6') in 0.052731 seconds 
+  Import took 0.074660 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Misc/CFXR Smoke Source Spiral.prefab
+  artifactKey: Guid(67965e7702c053d4384c60ca98873fe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Misc/CFXR Smoke Source Spiral.prefab using Guid(67965e7702c053d4384c60ca98873fe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cfb668bc6f062ed7dc4f0b36c92ea15') in 0.416655 seconds 
+  Import took 0.445615 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000323 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Misc/Variants/CFXR Lines Poof + Text.prefab
+  artifactKey: Guid(4d44386539479c6429c66acd1aaeb230) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Misc/Variants/CFXR Lines Poof + Text.prefab using Guid(4d44386539479c6429c66acd1aaeb230) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2915e811aa0dd93aa28a60c6afc44a47') in 0.072008 seconds 
+  Import took 0.173724 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001887 seconds.
+  path: Assets/MeshAnimator/Examples/Meshes/BirdModel/ShaderAnimator/Bird_AnimatedMesh.prefab
+  artifactKey: Guid(0a1d7b882f7172b4494834d522323231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshAnimator/Examples/Meshes/BirdModel/ShaderAnimator/Bird_AnimatedMesh.prefab using Guid(0a1d7b882f7172b4494834d522323231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7223a00af9f658b9da511b74cdb059da') in 0.585416 seconds 
+  Import took 0.608916 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Meshes/cfxr particle_electric_arc.fbx
+  artifactKey: Guid(192a51b0671a3e949b6876606c3205db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Meshes/cfxr particle_electric_arc.fbx using Guid(192a51b0671a3e949b6876606c3205db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '703280542ad0f2ee5aa31cf1f7ef6051') in 0.269543 seconds 
+  Import took 0.300001 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Misc/Tornado Variants/CFX_Tornado_Straight_Big_Looped.prefab
+  artifactKey: Guid(59b9fd754ee46ab45a71d3b0d1986ffa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Misc/Tornado Variants/CFX_Tornado_Straight_Big_Looped.prefab using Guid(59b9fd754ee46ab45a71d3b0d1986ffa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '739327bd0138e5b32e8283931d9baad2') in 0.172036 seconds 
+  Import took 0.298297 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000383 seconds.
+  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Fire/Color Variants/CFXM_FlameA Blue.prefab
+  artifactKey: Guid(351ab419e6879c94b83da8edf3042fc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Fire/Color Variants/CFXM_FlameA Blue.prefab using Guid(351ab419e6879c94b83da8edf3042fc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cc98c3859f837338d75c6e1cef034aa') in 0.045533 seconds 
+  Import took 0.203965 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000649 seconds.
+  path: Assets/Prefab/MAIN GIANT.prefab
+  artifactKey: Guid(b6dcea1bf4476f14689a244d3fdf8b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/MAIN GIANT.prefab using Guid(b6dcea1bf4476f14689a244d3fdf8b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3099d9e547553c32bb644e2ce7e5f58') in 0.126055 seconds 
+  Import took 0.143434 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Explosions/CFX_SmallExplosion.prefab
+  artifactKey: Guid(c6f0dc0eae58dbe4da95e62a8373ad23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Explosions/CFX_SmallExplosion.prefab using Guid(c6f0dc0eae58dbe4da95e62a8373ad23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffa74513140fbb9990f5a06776360420') in 0.137567 seconds 
+  Import took 0.166622 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.048242 seconds.
+  path: Assets/MeshAnimator/Examples/Example_PerformanceComparisonCubes/SnapshotAnimator/CubesAnimation_AnimatedMesh_Snapshot.prefab
+  artifactKey: Guid(7f6f09be478682b4398a19d6ce9e2846) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshAnimator/Examples/Example_PerformanceComparisonCubes/SnapshotAnimator/CubesAnimation_AnimatedMesh_Snapshot.prefab using Guid(7f6f09be478682b4398a19d6ce9e2846) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6a0f01fce30cf16aeb8e0fbd0386b11') in 0.095787 seconds 
+  Import took 0.139746 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000337 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Meshes/cfxr mesh star8.fbx
+  artifactKey: Guid(fb0f8bc3240c8144cb32581b07e12ef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Meshes/cfxr mesh star8.fbx using Guid(fb0f8bc3240c8144cb32581b07e12ef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72e8b6b5ea937e42da245765f981e512') in 0.116729 seconds 
+  Import took 0.125586 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/MeshAnimator/Examples/Meshes/HumanModel/Animations/Human@Cheering.fbx
+  artifactKey: Guid(81a5154eeda3f644bbdb408ba7ca4c6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshAnimator/Examples/Meshes/HumanModel/Animations/Human@Cheering.fbx using Guid(81a5154eeda3f644bbdb408ba7ca4c6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d84d4b63c1814165c299f2876c764ff') in 0.157086 seconds 
+  Import took 0.183164 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/MeshAnimator/Examples/Meshes/HumanModel/HumanRunning.prefab
+  artifactKey: Guid(54de77732d16c6d4c8a05315a0c04df3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshAnimator/Examples/Meshes/HumanModel/HumanRunning.prefab using Guid(54de77732d16c6d4c8a05315a0c04df3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad4343597606ce2499d77ffc68208b41') in 0.121653 seconds 
+  Import took 0.164894 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Smoke/CFX_SmokeTrail.prefab
+  artifactKey: Guid(efc66b85e94732147a2cc76189fb4195) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Smoke/CFX_SmokeTrail.prefab using Guid(efc66b85e94732147a2cc76189fb4195) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d9b3c7e6eba8d618b1c50e5ad711975') in 0.143778 seconds 
+  Import took 0.155997 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Misc/CFX_Virus.prefab
+  artifactKey: Guid(2a474af3f4c27be4e9bdce39cfe4315d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Misc/CFX_Virus.prefab using Guid(2a474af3f4c27be4e9bdce39cfe4315d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bdb11c322562c2ed9738cc2c3cd6621') in 0.099918 seconds 
+  Import took 0.198223 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Fire/Flames Looped/CFXM_DoubleFlameA Looped.prefab
+  artifactKey: Guid(757ea848010b746469253132d7372759) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Fire/Flames Looped/CFXM_DoubleFlameA Looped.prefab using Guid(757ea848010b746469253132d7372759) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c022d2365e3ede970de2a5d318ebab33') in 0.070502 seconds 
+  Import took 0.104552 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001692 seconds.
+  path: Assets/Giants.prefab
+  artifactKey: Guid(1ac3625e8b2c1e243838e22e111088bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Giants.prefab using Guid(1ac3625e8b2c1e243838e22e111088bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69b3fa15c22a331e7ef95eb7d969ed99') in 0.067620 seconds 
+  Import took 0.093503 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001274 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/CFXR Slash (Blue).prefab
+  artifactKey: Guid(18d69cc11ae74294aac3f0c1b92d192d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/CFXR Slash (Blue).prefab using Guid(18d69cc11ae74294aac3f0c1b92d192d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0adb946a59550c5332f07703addc242b') in 0.097793 seconds 
+  Import took 0.110617 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000590 seconds.
+  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Explosions/CFXM_Explosion.prefab
+  artifactKey: Guid(9f18ee4ac76f92f469346d34cc24cb9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Explosions/CFXM_Explosion.prefab using Guid(9f18ee4ac76f92f469346d34cc24cb9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d69c35cd536bd82763415dc1456af0e') in 0.095698 seconds 
+  Import took 0.132373 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Smoke/CFX_Sole_Smoke.prefab
+  artifactKey: Guid(a381ded06c204a54e909a18e574f7436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Smoke/CFX_Sole_Smoke.prefab using Guid(a381ded06c204a54e909a18e574f7436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da2881f77b3a2998938df64f05b97f84') in 0.182932 seconds 
+  Import took 0.243585 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000449 seconds.
+  path: Assets/MegaFiers/MegaLiner Scene/Objects/MegaFlierBase.fbx
+  artifactKey: Guid(ef6486eb27d4dda49b8f17099d14af7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MegaFiers/MegaLiner Scene/Objects/MegaFlierBase.fbx using Guid(ef6486eb27d4dda49b8f17099d14af7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad3744100da462f7ca4d0056b9f8b0fe') in 0.197143 seconds 
+  Import took 0.253227 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Liquids/CFXR Water Sprinkler.prefab
+  artifactKey: Guid(deb4957b29806144d8e57d6e27824f2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Liquids/CFXR Water Sprinkler.prefab using Guid(deb4957b29806144d8e57d6e27824f2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dab01c6bd74f34c0d1a8a26a67c4d835') in 0.133170 seconds 
+  Import took 0.174694 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000815 seconds.
+  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Fire/CFXM_DoubleFlameC.prefab
+  artifactKey: Guid(b4b10723021b93144b29484226e31816) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Fire/CFXM_DoubleFlameC.prefab using Guid(b4b10723021b93144b29484226e31816) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8913b514aa14c2ec78846faf7c824fc') in 0.102251 seconds 
+  Import took 0.135159 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/Variants/CFXR Hit Sparks.prefab
+  artifactKey: Guid(3aea0e148730e074eae87298a8e8ebdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/Variants/CFXR Hit Sparks.prefab using Guid(3aea0e148730e074eae87298a8e8ebdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75d15370d5981dd13ce4591514213b14') in 0.131193 seconds 
+  Import took 0.140068 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Main.prefab
+  artifactKey: Guid(a3b1bef5bf2f4804eb82202207f2d212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main.prefab using Guid(a3b1bef5bf2f4804eb82202207f2d212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd00373186f2f69b334c0b2d2f3e05917') in 0.177584 seconds 
+  Import took 0.206507 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Meshes/cfxr mesh star6.fbx
+  artifactKey: Guid(04eb6fb558fc96e408adfdc22a919448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Meshes/cfxr mesh star6.fbx using Guid(04eb6fb558fc96e408adfdc22a919448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c040094bb2b582b269058d7a7557580c') in 0.151438 seconds 
+  Import took 0.160672 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000742 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Liquids/CFXR Lava Splash (Smaller).prefab
+  artifactKey: Guid(8d4270556d821b84cb3fc8f938354328) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Liquids/CFXR Lava Splash (Smaller).prefab using Guid(8d4270556d821b84cb3fc8f938354328) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcd151a831bb3a53a79b89efa9b9f14f') in 0.137856 seconds 
+  Import took 0.161451 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Hits/Color Variants/CFX_Hit_C Yellow.prefab
+  artifactKey: Guid(a6dd1b9366fffdb46b787f47735c17f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Hits/Color Variants/CFX_Hit_C Yellow.prefab using Guid(a6dd1b9366fffdb46b787f47735c17f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1495f1c4eef109d4f2e7eafc5fa5e2c') in 0.117593 seconds 
+  Import took 0.136811 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Misc/CFX_MagicPoof.prefab
+  artifactKey: Guid(a40b64bf23366dc42a892af2c6ff6140) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Misc/CFX_MagicPoof.prefab using Guid(a40b64bf23366dc42a892af2c6ff6140) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '126019328d46322dadb0c7b07f82906c') in 0.146920 seconds 
+  Import took 0.174951 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Explosions/CFXM_Firework.prefab
+  artifactKey: Guid(4c7e29b3646b436489a8a75f688a24ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Explosions/CFXM_Firework.prefab using Guid(4c7e29b3646b436489a8a75f688a24ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07e790142e56b407925d63b88c8cdc85') in 0.100880 seconds 
+  Import took 0.124142 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Fire/Flames Looped/Color Variants/CFXM_DoubleFlameB Green Looped.prefab
+  artifactKey: Guid(ffd2d8a34d433a9408dd991cc64fea35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Fire/Flames Looped/Color Variants/CFXM_DoubleFlameB Green Looped.prefab using Guid(ffd2d8a34d433a9408dd991cc64fea35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '264ff3455f29500df984ac7fc824d942') in 0.071317 seconds 
+  Import took 0.115632 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000401 seconds.
+  path: Assets/MeshAnimator/Examples/Meshes/HumanModel/Animations/Human@Clapping.fbx
+  artifactKey: Guid(f2e7795ba64b46a429c4c48ea34096b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshAnimator/Examples/Meshes/HumanModel/Animations/Human@Clapping.fbx using Guid(f2e7795ba64b46a429c4c48ea34096b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3dcb507fe42b60d1cdbe2930683dc88') in 0.052429 seconds 
+  Import took 0.079919 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001257 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Misc/Variants/CFXR Portal (Green).prefab
+  artifactKey: Guid(8a03586d3c44e31468456d6ca89e1142) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Misc/Variants/CFXR Portal (Green).prefab using Guid(8a03586d3c44e31468456d6ca89e1142) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd95b34e92c8d888cb84877e46dc3b706') in 0.096017 seconds 
+  Import took 0.113900 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000369 seconds.
+  path: Assets/Enemy (1).prefab
+  artifactKey: Guid(24620f63173e5894cbdb9ad2732337b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemy (1).prefab using Guid(24620f63173e5894cbdb9ad2732337b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '530614306b7fbcde351369c1e1feb1e6') in 0.195272 seconds 
+  Import took 0.216408 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/Variants/CFXR Hit B (Green).prefab
+  artifactKey: Guid(50d9dd9e32474764da35420a8e61fe33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/Variants/CFXR Hit B (Green).prefab using Guid(50d9dd9e32474764da35420a8e61fe33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79087ffa274f1cc6dd3977367cf184c2') in 0.156674 seconds 
+  Import took 0.198866 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Giant hit.prefab
+  artifactKey: Guid(27cbe08dc9912834689f77f1df047a9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Giant hit.prefab using Guid(27cbe08dc9912834689f77f1df047a9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce77ad5ed2fe59fa1b358ba60a529ff3') in 0.245778 seconds 
+  Import took 0.304814 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005495 seconds.
+  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Fire/Flames Looped/Color Variants/CFXM_DoubleFlameA Purple Looped.prefab
+  artifactKey: Guid(d12488c625d0886418eb7cf383b20436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Fire/Flames Looped/Color Variants/CFXM_DoubleFlameA Purple Looped.prefab using Guid(d12488c625d0886418eb7cf383b20436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7f76fa5c0a7644b7966642492e34095') in 0.115224 seconds 
+  Import took 0.257877 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/Variants/CFXR Hit A (Blue).prefab
+  artifactKey: Guid(12900b9cc657de24896713ff7cc67b77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/Variants/CFXR Hit A (Blue).prefab using Guid(12900b9cc657de24896713ff7cc67b77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e42a7fbc066e8e9393648bdbecae67e') in 0.072939 seconds 
+  Import took 0.090459 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Explosions/CFXM_Enemy_Explosion_Big (Colored).prefab
+  artifactKey: Guid(f519944e3b39ba24f8c6b235db6ff3fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Explosions/CFXM_Enemy_Explosion_Big (Colored).prefab using Guid(f519944e3b39ba24f8c6b235db6ff3fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db26eb131a4cdc8b81e2a8e962080597') in 0.047952 seconds 
+  Import took 0.059808 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000939 seconds.
+  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Misc/CFX_Magical_Source.prefab
+  artifactKey: Guid(9e4577abe56a95f4a91d29a0473cd30c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Misc/CFX_Magical_Source.prefab using Guid(9e4577abe56a95f4a91d29a0473cd30c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfcc61c9f38d47044e134cb7b88a2019') in 0.070512 seconds 
+  Import took 0.085742 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000358 seconds.
+  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Explosions/Firework Variants/CFXM_Firework_Red.prefab
+  artifactKey: Guid(9e111226068b0b84bb62cee938c8f55a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Explosions/Firework Variants/CFXM_Firework_Red.prefab using Guid(9e111226068b0b84bb62cee938c8f55a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5862678a7a66134ae931da01835d47a9') in 0.050787 seconds 
+  Import took 0.067906 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Liquids/CFXR Water Splash.prefab
+  artifactKey: Guid(60c88e966a0f8324da766221921ee65f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Liquids/CFXR Water Splash.prefab using Guid(60c88e966a0f8324da766221921ee65f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1733a6cccd187b17d1e66ba4ce9006ad') in 0.074815 seconds 
+  Import took 0.086031 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Meshes/cfxr mesh disk.fbx
+  artifactKey: Guid(7874f2765cea0a547827d03a8933235d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Meshes/cfxr mesh disk.fbx using Guid(7874f2765cea0a547827d03a8933235d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3591b5e656316730248d3c865260e5f4') in 0.052768 seconds 
+  Import took 0.065612 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000549 seconds.
+  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Explosions/CFXM_Explosion_B_Smoke.prefab
+  artifactKey: Guid(9b52372500fcd2345a1495ed4183ace0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Explosions/CFXM_Explosion_B_Smoke.prefab using Guid(9b52372500fcd2345a1495ed4183ace0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71c66fa5809a3bdfd6eb56a02aae477f') in 0.045218 seconds 
+  Import took 0.062568 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Misc/Tornado Variants/CFX_Tornado_Straight_Looped.prefab
+  artifactKey: Guid(cbf0885c4a1fff747a290ddc317842f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Misc/Tornado Variants/CFX_Tornado_Straight_Looped.prefab using Guid(cbf0885c4a1fff747a290ddc317842f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e4d29b1934fa80373215351f5d389e9') in 0.040372 seconds 
+  Import took 0.051445 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000383 seconds.
+  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Misc/Tornado Variants/CFX_Tornado_Big_Looped.prefab
+  artifactKey: Guid(ae8e856e8ce15864cbb292ef8928353f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Misc/Tornado Variants/CFX_Tornado_Big_Looped.prefab using Guid(ae8e856e8ce15864cbb292ef8928353f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4216e1e56a388613d33a82ede7c33c03') in 0.047086 seconds 
+  Import took 0.063553 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Electric/CFX_ThunderboltExplosion.prefab
+  artifactKey: Guid(c1fb627f8ba7ce6438167f13bec2be61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Electric/CFX_ThunderboltExplosion.prefab using Guid(c1fb627f8ba7ce6438167f13bec2be61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f71bb463c18a1b5eadaaa17cfe0c89dd') in 0.080389 seconds 
+  Import took 0.099966 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000321 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Liquids/CFXR Lava Splash (Small).prefab
+  artifactKey: Guid(e2d2dea624a6a244bbd8d5f36a9f907f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Liquids/CFXR Lava Splash (Small).prefab using Guid(e2d2dea624a6a244bbd8d5f36a9f907f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5c96ea3da834b0b6774ed21e0ea0222') in 0.093030 seconds 
+  Import took 0.104053 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Misc/CFX_Slash_B Green.prefab
+  artifactKey: Guid(6a5a2f65cda3f614db9e70c3624311ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Misc/CFX_Slash_B Green.prefab using Guid(6a5a2f65cda3f614db9e70c3624311ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a47bc35d41b3de807eb8132c3c0d0609') in 0.057751 seconds 
+  Import took 0.075159 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Misc/Variants/CFXR Smoke Poof + Text.prefab
+  artifactKey: Guid(d1cc7d09f243bec4b82ee1f02eaadb4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Misc/Variants/CFXR Smoke Poof + Text.prefab using Guid(d1cc7d09f243bec4b82ee1f02eaadb4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb6b2dc5d9554542329249745e149aff') in 0.062162 seconds 
+  Import took 0.071318 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Misc/CFXM_CircularLightWall+Text.prefab
+  artifactKey: Guid(e60e543640bc21c4eb4a39f08158abb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Misc/CFXM_CircularLightWall+Text.prefab using Guid(e60e543640bc21c4eb4a39f08158abb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21a18adedcd677df466e5bf63f9dbbe2') in 0.070647 seconds 
+  Import took 0.079757 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Misc/CFX_SpikyAura_Sphere.prefab
+  artifactKey: Guid(e8c5a31c615759543a0433440625e087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Misc/CFX_SpikyAura_Sphere.prefab using Guid(e8c5a31c615759543a0433440625e087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69ca64fc70ee857f44148675e7e20142') in 0.044783 seconds 
+  Import took 0.053898 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Liquids/CFXR Water Fountain.prefab
+  artifactKey: Guid(f6a3c3d847782f842adfa192f9ad05ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Liquids/CFXR Water Fountain.prefab using Guid(f6a3c3d847782f842adfa192f9ad05ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c75f5fa27ca7fc01c44b0d0875539c6f') in 0.082209 seconds 
+  Import took 0.096105 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/Variants/CFXR Sparks Impact (Purple).prefab
+  artifactKey: Guid(2887bd5ef45a7544199eeb8523d89c60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/Variants/CFXR Sparks Impact (Purple).prefab using Guid(2887bd5ef45a7544199eeb8523d89c60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88e3a3bf1b4d239749338a34998b8a79') in 0.058777 seconds 
+  Import took 0.068507 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/NiceVibrations/Demos/_Common/Prefabs/HorizontalSliderComponent.prefab
+  artifactKey: Guid(cb1d106a6a8f92545a95435a7687a886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NiceVibrations/Demos/_Common/Prefabs/HorizontalSliderComponent.prefab using Guid(cb1d106a6a8f92545a95435a7687a886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3eab36257a15f706f1e9df1afe6ef0b') in 0.064988 seconds 
+  Import took 0.074572 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Electric/CFXM_ElectricMesh.prefab
+  artifactKey: Guid(7ebfa53bee9bf514c908752626f3c27d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Electric/CFXM_ElectricMesh.prefab using Guid(7ebfa53bee9bf514c908752626f3c27d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '229f9cb18fdf43089707c224b1f99965') in 0.043325 seconds 
+  Import took 0.055055 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Fire/Flames Looped/Color Variants/CFXM_DoubleFlameC Black Looped.prefab
+  artifactKey: Guid(3112cfc883d9fa747b10b08bd49eeada) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Fire/Flames Looped/Color Variants/CFXM_DoubleFlameC Black Looped.prefab using Guid(3112cfc883d9fa747b10b08bd49eeada) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1ea2b2951d3ffa5f4531853fb3d4c49') in 0.086703 seconds 
+  Import took 0.117849 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000584 seconds.
+  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Texts (drag-drop to prefabs)/CFX_Text Boom.prefab
+  artifactKey: Guid(447357f4ef4211c4ebf94d3c65e1da19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Texts (drag-drop to prefabs)/CFX_Text Boom.prefab using Guid(447357f4ef4211c4ebf94d3c65e1da19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9a6c45fc018e6b29583d0a07e0a606f') in 0.046878 seconds 
+  Import took 0.064958 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Hits/CFX_Hit_D Blue.prefab
+  artifactKey: Guid(9f410f93e47f7f84abdd8aa722a31585) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Hits/CFX_Hit_D Blue.prefab using Guid(9f410f93e47f7f84abdd8aa722a31585) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a85cefa39730ed901382596e48a09bce') in 0.044469 seconds 
+  Import took 0.056489 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/MeshAnimator/Examples/Meshes/HumanModel/Animations/Human@Running.fbx
+  artifactKey: Guid(85cf1393d7e07804cb2941ab2ecdd205) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshAnimator/Examples/Meshes/HumanModel/Animations/Human@Running.fbx using Guid(85cf1393d7e07804cb2941ab2ecdd205) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '252fc443c9e448488a6f0681ca425ff2') in 0.035012 seconds 
+  Import took 0.056182 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000566 seconds.
+  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Misc/CFX_LightWall.prefab
+  artifactKey: Guid(e427a3233ad87024e9480ecb6a128456) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Misc/CFX_LightWall.prefab using Guid(e427a3233ad87024e9480ecb6a128456) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7aa7ba0f716e13253af12e50c841a77') in 0.064226 seconds 
+  Import took 0.081440 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000385 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Liquids/Variants/CFXR Water Splash (Small, No foam).prefab
+  artifactKey: Guid(49f978e11a5dae6408a062f93f0e7082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Liquids/Variants/CFXR Water Splash (Small, No foam).prefab using Guid(49f978e11a5dae6408a062f93f0e7082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83686dc9990e8fa04a5b60cb4a6d9da6') in 0.065912 seconds 
+  Import took 0.080540 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Misc/Tornado Variants/CFX_Tornado_Big.prefab
+  artifactKey: Guid(18cb59e4201fec14cbe1a4613b156e2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Misc/Tornado Variants/CFX_Tornado_Big.prefab using Guid(18cb59e4201fec14cbe1a4613b156e2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8ea733d993be15cfbb980770e1b0bbd') in 0.045611 seconds 
+  Import took 0.056329 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Misc/Variants/CFXR Smoke Poof (Dense).prefab
+  artifactKey: Guid(78ee1fc7beb65da41ad23fc1c2e427b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Misc/Variants/CFXR Smoke Poof (Dense).prefab using Guid(78ee1fc7beb65da41ad23fc1c2e427b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '141fd76fe5d25ebe88d34a703aab461a') in 0.058057 seconds 
+  Import took 0.072747 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Explosions/CFXM_Enemy_Explosion (Colored).prefab
+  artifactKey: Guid(35739ea6b60c29848a057ac8c7774830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Explosions/CFXM_Enemy_Explosion (Colored).prefab using Guid(35739ea6b60c29848a057ac8c7774830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cffbcb81cdd4d7332087b6279ebc2c49') in 0.043757 seconds 
+  Import took 0.058018 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Misc/CFXM_CircularLightWall.prefab
+  artifactKey: Guid(4b96e0d8d9e130042b36e3d4a2a647d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Misc/CFXM_CircularLightWall.prefab using Guid(4b96e0d8d9e130042b36e3d4a2a647d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcc85da6c84f9524ab92f4c1c0a77a93') in 0.043727 seconds 
+  Import took 0.058275 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000726 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Screen Distortion/CFXR ScreenDistortion Noise Upward (Loop).prefab
+  artifactKey: Guid(4aef0eaa09032814593ec390577dcc4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Screen Distortion/CFXR ScreenDistortion Noise Upward (Loop).prefab using Guid(4aef0eaa09032814593ec390577dcc4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfb05c2b2b5dcd2d36c94e2fd0ab2431') in 0.072697 seconds 
+  Import took 0.089195 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Texts (drag-drop to prefabs)/CFX_Text Slash.prefab
+  artifactKey: Guid(d8f328ac61270c641a9d832a976a3f0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Texts (drag-drop to prefabs)/CFX_Text Slash.prefab using Guid(d8f328ac61270c641a9d832a976a3f0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '344bcc9cec5acdc4667aaa2c6dfa4168') in 0.062470 seconds 
+  Import took 0.071314 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Texts (drag-drop to prefabs)/CFX_Text Splash.prefab
+  artifactKey: Guid(2bc61c11b150b7c498923019d2cf7b21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Texts (drag-drop to prefabs)/CFX_Text Splash.prefab using Guid(2bc61c11b150b7c498923019d2cf7b21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61dccd35a6b05d804f865e2f31f018c8') in 0.042113 seconds 
+  Import took 0.055784 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001084 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/Variants/CFXR Sparks Impact (Blue).prefab
+  artifactKey: Guid(1356b9dc95aec8043b5f9dab42999405) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/Variants/CFXR Sparks Impact (Blue).prefab using Guid(1356b9dc95aec8043b5f9dab42999405) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88e581a0bc714856cd591af2b56daf84') in 0.051102 seconds 
+  Import took 0.068897 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/MegaFiers/MegaLiner Scene/Objects/MegaFlierV2.prefab
+  artifactKey: Guid(ddaf65100e300aa48a8bd8091d16be25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MegaFiers/MegaLiner Scene/Objects/MegaFlierV2.prefab using Guid(ddaf65100e300aa48a8bd8091d16be25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3ad091888f9b7e6c51d8342947c1980') in 0.063887 seconds 
+  Import took 0.074000 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Misc/CFXR Magic Poof.prefab
+  artifactKey: Guid(c4f829cb7dd4b864caf8832ec5b1ee55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Misc/CFXR Magic Poof.prefab using Guid(c4f829cb7dd4b864caf8832ec5b1ee55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b476002adcfa5d0dac89aeaa3aafbc20') in 0.065131 seconds 
+  Import took 0.080381 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/CFXR Hit Sparks HDR.prefab
+  artifactKey: Guid(62334a566bbfe3945bc7bd0c02ca1c9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/CFXR Hit Sparks HDR.prefab using Guid(62334a566bbfe3945bc7bd0c02ca1c9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de4f3ec350ae2714b0878ede9f310f0d') in 0.054913 seconds 
+  Import took 0.064632 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Fire/CFXM_Fire_Breath.prefab
+  artifactKey: Guid(6b046f9a52d68034a9ebadabee76d8cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Fire/CFXM_Fire_Breath.prefab using Guid(6b046f9a52d68034a9ebadabee76d8cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c7a81b0bc86bcd47344685e171051de') in 0.052302 seconds 
+  Import took 0.067425 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Misc/CFX_Slash.prefab
+  artifactKey: Guid(be1098ad45b6cd84288853867464dfaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Misc/CFX_Slash.prefab using Guid(be1098ad45b6cd84288853867464dfaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0963fbb7c5ae00af436d2192c8e27ba4') in 0.069123 seconds 
+  Import took 0.080292 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Electric/Variants/CFXR Lightning Strike + Impact + Text.prefab
+  artifactKey: Guid(b7cae16e3a210354fbfa553fa65704b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Electric/Variants/CFXR Lightning Strike + Impact + Text.prefab using Guid(b7cae16e3a210354fbfa553fa65704b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc32038a46529bdf8cb5fb4443991bf7') in 0.060960 seconds 
+  Import took 0.072841 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Electric/CFXR Lightning Strike + Impact.prefab
+  artifactKey: Guid(334ccdade87a4194b9f1855c484967dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Electric/CFXR Lightning Strike + Impact.prefab using Guid(334ccdade87a4194b9f1855c484967dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb63f149d69508fe58ab1b3c6fdc873b') in 0.066416 seconds 
+  Import took 0.079340 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Misc/CFXR Portal.prefab
+  artifactKey: Guid(142b394e21edf1c42947ec16dc7a523c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Misc/CFXR Portal.prefab using Guid(142b394e21edf1c42947ec16dc7a523c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '348193d8c21e1f609c2b989c0272c28e') in 0.062902 seconds 
+  Import took 0.073330 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000355 seconds.
+  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Smoke/CFX_SmokePuffs_Big+Text.prefab
+  artifactKey: Guid(0426e3d6996937045b977f3a66e95ee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Smoke/CFX_SmokePuffs_Big+Text.prefab using Guid(0426e3d6996937045b977f3a66e95ee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31f5961072259806661772cff023c6cb') in 0.060446 seconds 
+  Import took 0.069917 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Misc/Variants/CFXR Flash Alt.prefab
+  artifactKey: Guid(f5edd022af79f2447a6932bfe5f39d47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Misc/Variants/CFXR Flash Alt.prefab using Guid(f5edd022af79f2447a6932bfe5f39d47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c92ea1af38fea040c0f75285fc0e9bcd') in 0.075418 seconds 
+  Import took 0.084193 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/Variants/CFXR Slash (Green).prefab
+  artifactKey: Guid(2bd8ba7af9dee99419cb0bbc43665bbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/Variants/CFXR Slash (Green).prefab using Guid(2bd8ba7af9dee99419cb0bbc43665bbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b5723b83e26f54aeaad28ca381a3300') in 0.062035 seconds 
+  Import took 0.070099 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/Variants/CFXR Slash (Orange).prefab
+  artifactKey: Guid(ea664eb6e5374444592347742b107aec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/Variants/CFXR Slash (Orange).prefab using Guid(ea664eb6e5374444592347742b107aec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff610d6090dc3e2855b9a59c3d077f69') in 0.062542 seconds 
+  Import took 0.076137 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Water/CFX_Splash.prefab
+  artifactKey: Guid(84b9404521ba94049b96da31e88db549) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Water/CFX_Splash.prefab using Guid(84b9404521ba94049b96da31e88db549) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf92617951aff6e0df1856888fc29997') in 0.047944 seconds 
+  Import took 0.059713 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/JMO Assets/Cartoon FX (legacy)/Mesh/CFX_Mesh_Circular.FBX
+  artifactKey: Guid(33e6621d2756c044d88f4f9de1a55e7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX (legacy)/Mesh/CFX_Mesh_Circular.FBX using Guid(33e6621d2756c044d88f4f9de1a55e7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18a42f072c68c0f8a106af838924b048') in 0.067797 seconds 
+  Import took 0.081074 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Texts (drag-drop to prefabs)/CFX_Text Wham Ground.prefab
+  artifactKey: Guid(9f335d8769896dc4fa57ee6e2d524afd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Texts (drag-drop to prefabs)/CFX_Text Wham Ground.prefab using Guid(9f335d8769896dc4fa57ee6e2d524afd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '720cbeb2b96adcfbb58d70cd460018ac') in 0.046395 seconds 
+  Import took 0.065167 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Hits/Color Variants/CFX_Hit_D Orange.prefab
+  artifactKey: Guid(876800f177db13142b4654c9184703dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Hits/Color Variants/CFX_Hit_D Orange.prefab using Guid(876800f177db13142b4654c9184703dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd67bcc8be0c96200c9af10a8dc3cba75') in 0.056181 seconds 
+  Import took 0.078490 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/Variants/CFXR Impact Glowing HDR (Orange, No Flare).prefab
+  artifactKey: Guid(7a22e9dcf971e5e4486a01861afbdedf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/Variants/CFXR Impact Glowing HDR (Orange, No Flare).prefab using Guid(7a22e9dcf971e5e4486a01861afbdedf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca497a7914c2a6c84e3e53e9cb481b55') in 0.062452 seconds 
+  Import took 0.073871 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/MeshAnimator/Examples/Example_PerformanceComparisonCubes/SkinnedMesh/CubesAnimation.prefab
+  artifactKey: Guid(30ff14cb266ac0b4ba53db22ff84d3b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshAnimator/Examples/Example_PerformanceComparisonCubes/SkinnedMesh/CubesAnimation.prefab using Guid(30ff14cb266ac0b4ba53db22ff84d3b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '117485e44fd5a8a2cb6ddc5e044e46d5') in 0.058783 seconds 
+  Import took 0.075635 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000361 seconds.
+  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Explosions/CFXM_Explosion_B+Text.prefab
+  artifactKey: Guid(abc73d3beeae237469014a13caeae53a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Explosions/CFXM_Explosion_B+Text.prefab using Guid(abc73d3beeae237469014a13caeae53a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4ac9dfb159e1ab3739cd63f9ee5a064') in 0.059100 seconds 
+  Import took 0.070897 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/CFXR Impact Glowing HDR (Blue).prefab
+  artifactKey: Guid(6398d43fe79ea0140913dc5530c646af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/CFXR Impact Glowing HDR (Blue).prefab using Guid(6398d43fe79ea0140913dc5530c646af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b1c454d4efb64a85e78926af0ff80da') in 0.071347 seconds 
+  Import took 0.085403 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Misc/CFX_SoftStar.prefab
+  artifactKey: Guid(d6e250353d197684f9599d3ae4f2a2e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Misc/CFX_SoftStar.prefab using Guid(d6e250353d197684f9599d3ae4f2a2e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c349b36af3364451ddaec6383ac4d15') in 0.058960 seconds 
+  Import took 0.072985 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/Variants/CFXR Impact Glowing HDR (Blue, No Flare).prefab
+  artifactKey: Guid(fb731aabf33b85247a2022c110dcd61a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/Variants/CFXR Impact Glowing HDR (Blue, No Flare).prefab using Guid(fb731aabf33b85247a2022c110dcd61a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7c81dcbb49d032bfc8b192741c779d1') in 0.054248 seconds 
+  Import took 0.074626 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/MeshAnimator/Examples/Meshes/HumanModel/Animations/Human@RunningBackward.fbx
+  artifactKey: Guid(7add0f241645f48408e58bc5fb6f3ec1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshAnimator/Examples/Meshes/HumanModel/Animations/Human@RunningBackward.fbx using Guid(7add0f241645f48408e58bc5fb6f3ec1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c36b8fbb90ba9ff05ac10f2fa50c7047') in 0.024360 seconds 
+  Import took 0.041728 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Meshes/cfxr mesh star4.fbx
+  artifactKey: Guid(a3e854b0e6a2a7d48ad61e15d33575de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Meshes/cfxr mesh star4.fbx using Guid(a3e854b0e6a2a7d48ad61e15d33575de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '159e8f5e2d1de2b9b1f1fb13f89160f2') in 0.078817 seconds 
+  Import took 0.089110 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Fire/Flames Looped/Color Variants/CFXM_DoubleFlameC White Looped.prefab
+  artifactKey: Guid(5d05743899b77ed4285ea8d31ac81349) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Fire/Flames Looped/Color Variants/CFXM_DoubleFlameC White Looped.prefab using Guid(5d05743899b77ed4285ea8d31ac81349) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cca780a1720d25ffdaefdf97afb0156') in 0.049829 seconds 
+  Import took 0.067966 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/Variants/CFXR Hit C 3D + Text.prefab
+  artifactKey: Guid(b6d1b246f52f9cc44a87fb563eabc4d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/Variants/CFXR Hit C 3D + Text.prefab using Guid(b6d1b246f52f9cc44a87fb563eabc4d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a76024fc3bdb534bebd27912ff3a67d') in 0.070273 seconds 
+  Import took 0.084353 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Electric/Variants/CFXR Lightning Impact (Purple).prefab
+  artifactKey: Guid(ea2c342b3bbec2a4b8ac0ea191e4adfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Electric/Variants/CFXR Lightning Impact (Purple).prefab using Guid(ea2c342b3bbec2a4b8ac0ea191e4adfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3261043177e41297e085b7932eabd801') in 0.056407 seconds 
+  Import took 0.071532 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Liquids/CFXR Water Drops Splash.prefab
+  artifactKey: Guid(7de46a9a0a26eaa4599a2113dbc7ea38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Liquids/CFXR Water Drops Splash.prefab using Guid(7de46a9a0a26eaa4599a2113dbc7ea38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a8b0457742a10a1423f8a9ba979f730') in 0.050471 seconds 
+  Import took 0.061149 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000761 seconds.
+  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Explosions/CFXM_Enemy_Explosion_Big.prefab
+  artifactKey: Guid(055b9a89354106b4e878044d7c873d61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Explosions/CFXM_Enemy_Explosion_Big.prefab using Guid(055b9a89354106b4e878044d7c873d61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70168d20c5c41e428441f73965934e98') in 0.048012 seconds 
+  Import took 0.062343 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Liquids/Variants/CFXR Water Splash (Small, No drops).prefab
+  artifactKey: Guid(b5f3fe57cc1293448a9911c2564ac0f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Liquids/Variants/CFXR Water Splash (Small, No drops).prefab using Guid(b5f3fe57cc1293448a9911c2564ac0f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8981cae1c5a5a5cdd2f28717aa68d9b') in 0.051464 seconds 
+  Import took 0.073281 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000632 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/Variants/CFXR Hit B (Yellow).prefab
+  artifactKey: Guid(f2b894e1f4d86aa4dae81fbff7e5e336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/Variants/CFXR Hit B (Yellow).prefab using Guid(f2b894e1f4d86aa4dae81fbff7e5e336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f3b353c75cf79dcf69f9e0b7ad4099d') in 0.061958 seconds 
+  Import took 0.072115 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Misc/CFXR Gas Leak.prefab
+  artifactKey: Guid(a0a1803193f53814fb46f639dc12d8c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Misc/CFXR Gas Leak.prefab using Guid(a0a1803193f53814fb46f639dc12d8c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8f7f68c27f15da1658475fc47ca7d46') in 0.083915 seconds 
+  Import took 0.092446 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/Variants/CFXR Impact Contrast + Text.prefab
+  artifactKey: Guid(2b12a058b451e3e47b8445bb11c1bc71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/Variants/CFXR Impact Contrast + Text.prefab using Guid(2b12a058b451e3e47b8445bb11c1bc71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f96f54104cf28d91852e8e77bb60d347') in 0.067639 seconds 
+  Import took 0.081022 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000855 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Liquids/Variants/CFXR Water Splash (Light Blue).prefab
+  artifactKey: Guid(56753c5211badbe409360316b308900c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Liquids/Variants/CFXR Water Splash (Light Blue).prefab using Guid(56753c5211badbe409360316b308900c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f62553ed59acac4438edef2ba22c447') in 0.066461 seconds 
+  Import took 0.078454 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/JMO Assets/Cartoon FX (legacy)/Mesh/CFX_Mesh_CharacterAura.fbx
+  artifactKey: Guid(0e1203edacc9eeb4b82fbc631dd4bdf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX (legacy)/Mesh/CFX_Mesh_CharacterAura.fbx using Guid(0e1203edacc9eeb4b82fbc631dd4bdf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5b002f43f9410b46ebec64ab192eb74') in 0.060578 seconds 
+  Import took 0.072068 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Explosions/CFXM_Explosion_B.prefab
+  artifactKey: Guid(f43435781114624418ca42a563284b17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Explosions/CFXM_Explosion_B.prefab using Guid(f43435781114624418ca42a563284b17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6c019bd18a4413a3cec995b59d121a5') in 0.075499 seconds 
+  Import took 0.085481 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/CFXR Sparks Impact.prefab
+  artifactKey: Guid(6dc4191059d6c3a4a820270672bbf567) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/CFXR Sparks Impact.prefab using Guid(6dc4191059d6c3a4a820270672bbf567) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa91cc3b41d73dd7a05d1f5b942b6b48') in 0.049220 seconds 
+  Import took 0.063952 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Electric/CFXM_ElectricityBolt+Text.prefab
+  artifactKey: Guid(3c16aced58550a143b591643a1697d92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Electric/CFXM_ElectricityBolt+Text.prefab using Guid(3c16aced58550a143b591643a1697d92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de67054b8ffbd1457de7dd1c141cb4c2') in 0.065559 seconds 
+  Import took 0.077686 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000423 seconds.
+  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Misc/CFX_Slash+Text.prefab
+  artifactKey: Guid(43d28f815894558468fd96fe627bb31c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Misc/CFX_Slash+Text.prefab using Guid(43d28f815894558468fd96fe627bb31c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ac15143cf4270cffe4ef1e995d2de64') in 0.057450 seconds 
+  Import took 0.073830 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Liquids/Variants/CFXR Water Splash + Text.prefab
+  artifactKey: Guid(25bbae2c2b140544b9bf86635d13103f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Liquids/Variants/CFXR Water Splash + Text.prefab using Guid(25bbae2c2b140544b9bf86635d13103f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91ae251c80f45f5e30418fc569a7707a') in 0.078039 seconds 
+  Import took 0.090214 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Misc/CFX_Poof+Text.prefab
+  artifactKey: Guid(7b74eeb989aff1040b23ae061a33b7bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Misc/CFX_Poof+Text.prefab using Guid(7b74eeb989aff1040b23ae061a33b7bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '720b30e99b46598264f6107ce57a8ebd') in 0.042639 seconds 
+  Import took 0.056154 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Fire/CFXM_FlameA.prefab
+  artifactKey: Guid(8988ae456747e82478240efe1a07d46a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Fire/CFXM_FlameA.prefab using Guid(8988ae456747e82478240efe1a07d46a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82f168d5611fc70d568453ab20cd565a') in 0.043885 seconds 
+  Import took 0.059408 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Misc/CFX_LightWall+Text.prefab
+  artifactKey: Guid(c989ddd132cc86a4cb14040b3df8a7e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Misc/CFX_LightWall+Text.prefab using Guid(c989ddd132cc86a4cb14040b3df8a7e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '132c3ac0a66728804aa0c900ee39c864') in 0.051243 seconds 
+  Import took 0.067506 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000477 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Liquids/Variants/CFXR Water Splash (No foam).prefab
+  artifactKey: Guid(81e46352dce49714bb2fa157effc3503) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Liquids/Variants/CFXR Water Splash (No foam).prefab using Guid(81e46352dce49714bb2fa157effc3503) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38225da08d4db367338e3b11f316a08c') in 0.066320 seconds 
+  Import took 0.081330 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/MeshAnimator/Examples/Meshes/HumanModel/Animations/ShaderMeshAnimator/Human_AnimatedMesh.prefab
+  artifactKey: Guid(9fbace2363636f24da52cae3497cbb2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshAnimator/Examples/Meshes/HumanModel/Animations/ShaderMeshAnimator/Human_AnimatedMesh.prefab using Guid(9fbace2363636f24da52cae3497cbb2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac5405ef61f5f4461685bbddc4e55f47') in 0.555065 seconds 
+  Import took 0.567077 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Hits/CFX_Hit_C White+Text.prefab
+  artifactKey: Guid(a0ea627a63bb742458018eb7fd083532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Hits/CFX_Hit_C White+Text.prefab using Guid(a0ea627a63bb742458018eb7fd083532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4965703ec343d4420b2f9026b7aaf01b') in 0.057046 seconds 
+  Import took 0.075409 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000824 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/CFXR Hit C 3D.prefab
+  artifactKey: Guid(3c6022ac1a1cc7b438777188ae54da0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/CFXR Hit C 3D.prefab using Guid(3c6022ac1a1cc7b438777188ae54da0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b32f0fedd8ea78d8dcde3c3887425997') in 0.033975 seconds 
+  Import took 0.043517 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/MeshAnimator/Examples/Meshes/HumanModel/Animations/Human@StableSwordInwardSlash.fbx
+  artifactKey: Guid(f7a9eedb8d95bf548a54cb6b5fe85d2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshAnimator/Examples/Meshes/HumanModel/Animations/Human@StableSwordInwardSlash.fbx using Guid(f7a9eedb8d95bf548a54cb6b5fe85d2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20b1b9994defe3114a862df1a0dac053') in 0.043752 seconds 
+  Import took 0.060792 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Electric/CFXM_ElectricityBolt.prefab
+  artifactKey: Guid(784190dcb0c7afb42bb24fa5770e6016) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Electric/CFXM_ElectricityBolt.prefab using Guid(784190dcb0c7afb42bb24fa5770e6016) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f67f919e405b57ef18b96c1b67bf5bd8') in 0.066696 seconds 
+  Import took 0.083227 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000404 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Screen Distortion/CFXR ScreenDistortion Ring.prefab
+  artifactKey: Guid(af7931239aa7b5e479e4e5c2e6b460c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Screen Distortion/CFXR ScreenDistortion Ring.prefab using Guid(af7931239aa7b5e479e4e5c2e6b460c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c8298cfa276321dbd29cabac2e794a3') in 0.081085 seconds 
+  Import took 0.098829 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Smoke/CFX_SmokePuffs.prefab
+  artifactKey: Guid(754a7a7c55ee2ce4493a0e4079785280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Smoke/CFX_SmokePuffs.prefab using Guid(754a7a7c55ee2ce4493a0e4079785280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7f0d7e8d6557cdca4836d3a5cbd8af6') in 0.057957 seconds 
+  Import took 0.070992 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001305 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/Variants/CFXR Hit D 3D (Yellow) + Text.prefab
+  artifactKey: Guid(854c588999d9c5a488c878bd2dba42b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/Variants/CFXR Hit D 3D (Yellow) + Text.prefab using Guid(854c588999d9c5a488c878bd2dba42b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c32757e661dbe25ca445dd237878bb22') in 0.056220 seconds 
+  Import took 0.069969 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Misc/Variants/CFXR Magical Source (Blue).prefab
+  artifactKey: Guid(259243b4d4f9c724b9cbae340b7fcb09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Misc/Variants/CFXR Magical Source (Blue).prefab using Guid(259243b4d4f9c724b9cbae340b7fcb09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0a0dbd6a88ba4e7766afe3d2dfcd6ac') in 0.060942 seconds 
+  Import took 0.069444 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/Variants/CFXR Hit C + Text.prefab
+  artifactKey: Guid(ef7e07b3017ceac43a77c5103238cce8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/Variants/CFXR Hit C + Text.prefab using Guid(ef7e07b3017ceac43a77c5103238cce8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5d3b9886a0baf1b78999ecaf0812758') in 0.060698 seconds 
+  Import took 0.070061 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/MeshAnimator/Examples/Meshes/HumanModel/Animations/ShaderMeshAnimator/HumanCrowd_AnimatedMesh.prefab
+  artifactKey: Guid(5114ab989b21622489e2eb550989a71a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshAnimator/Examples/Meshes/HumanModel/Animations/ShaderMeshAnimator/HumanCrowd_AnimatedMesh.prefab using Guid(5114ab989b21622489e2eb550989a71a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb8feb4417bce7aecba86fb3ad89e089') in 0.482998 seconds 
+  Import took 0.495846 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000376 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/Variants/CFXR Hit A (Green).prefab
+  artifactKey: Guid(fdd5a2fec49cdeb42aa7d048038eaa30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/Variants/CFXR Hit A (Green).prefab using Guid(fdd5a2fec49cdeb42aa7d048038eaa30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29f8c29516fedd14f7923b8f1f95b7a9') in 0.078949 seconds 
+  Import took 0.089471 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005963 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/Variants/CFXR Hit A (Blue, Blended).prefab
+  artifactKey: Guid(9d439d4ff1b4143469e1d47a4f8b3f46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/Variants/CFXR Hit A (Blue, Blended).prefab using Guid(9d439d4ff1b4143469e1d47a4f8b3f46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ca86aa0a75e9b1cde780fb4ba65d8fa') in 0.124993 seconds 
+  Import took 0.143789 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010055 seconds.
+  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Electric/CFXM_ElectricityBall.prefab
+  artifactKey: Guid(0a8f0138979026948830f1a9dbe60763) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Electric/CFXM_ElectricityBall.prefab using Guid(0a8f0138979026948830f1a9dbe60763) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc6db1f73dc98a3e04b78d7408a9733d') in 0.041173 seconds 
+  Import took 0.109391 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000349 seconds.
+  path: Assets/MeshAnimator/Examples/Meshes/HumanModel/Animations/Human.fbx
+  artifactKey: Guid(599857b014bbd7c4c8c279a399f4f6e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshAnimator/Examples/Meshes/HumanModel/Animations/Human.fbx using Guid(599857b014bbd7c4c8c279a399f4f6e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4350543465020deedd622ddb85c2e3db') in 0.099838 seconds 
+  Import took 0.109794 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Misc/Variants/CFXR Magic Poof + Text Pop.prefab
+  artifactKey: Guid(6f105a576857cfa4da8f9a65ac1f80fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Misc/Variants/CFXR Magic Poof + Text Pop.prefab using Guid(6f105a576857cfa4da8f9a65ac1f80fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a95832e08f51cbd6da834d6a79cf814') in 0.063187 seconds 
+  Import took 0.075204 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/Variants/CFXR Impact Contrast (Blue, HDR).prefab
+  artifactKey: Guid(97990056e8f14794184d33e11d20b80c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/Variants/CFXR Impact Contrast (Blue, HDR).prefab using Guid(97990056e8f14794184d33e11d20b80c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ff323dd68a56d5308e369f038e54919') in 0.066507 seconds 
+  Import took 0.076174 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/CFXR Hit A (Red).prefab
+  artifactKey: Guid(5c755f9bc5253ea418e919994537dcc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/CFXR Hit A (Red).prefab using Guid(5c755f9bc5253ea418e919994537dcc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eeaea0dea568e9930954689a54529fba') in 0.056135 seconds 
+  Import took 0.070718 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/Variants/CFXR Impact Contrast (HDR).prefab
+  artifactKey: Guid(178913616cd0e0346a64d1a4efff2f71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/Variants/CFXR Impact Contrast (HDR).prefab using Guid(178913616cd0e0346a64d1a4efff2f71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db4412cd5e8365f527d87e70ea128f6f') in 0.062895 seconds 
+  Import took 0.071914 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/Variants/CFXR Hit D 3D (Cyan).prefab
+  artifactKey: Guid(11c50669f947c8d4bae4ebcdb6959130) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/Variants/CFXR Hit D 3D (Cyan).prefab using Guid(11c50669f947c8d4bae4ebcdb6959130) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac1172093a12c599cc9d7c28aaa86f93') in 0.063239 seconds 
+  Import took 0.070574 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Hits/Color Variants/CFX_Hit_D Green.prefab
+  artifactKey: Guid(96da1c4a5d6334942b7b8685257de4e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Hits/Color Variants/CFX_Hit_D Green.prefab using Guid(96da1c4a5d6334942b7b8685257de4e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b8b77c804d377f590257e342e6e43ce') in 0.040832 seconds 
+  Import took 0.056846 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000514 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Liquids/Variants/CFXR Water Ripples (Arcs, Loop).prefab
+  artifactKey: Guid(6c1c835d205f0a94683ef90272d9721c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Liquids/Variants/CFXR Water Ripples (Arcs, Loop).prefab using Guid(6c1c835d205f0a94683ef90272d9721c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce2f604e9521f5e1bcce9432430e88e9') in 0.052912 seconds 
+  Import took 0.068030 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Misc/CFXR Smoke Poof Alt.prefab
+  artifactKey: Guid(f0ad7a5f1c59e164aa62b3689281c0f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Misc/CFXR Smoke Poof Alt.prefab using Guid(f0ad7a5f1c59e164aa62b3689281c0f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8e89d90113aef1aa4adf61670b8cf06') in 0.062326 seconds 
+  Import took 0.074721 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Fire/CFXM_DoubleFlameA.prefab
+  artifactKey: Guid(ec2037ac371bd444ba411769bc27994c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Fire/CFXM_DoubleFlameA.prefab using Guid(ec2037ac371bd444ba411769bc27994c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a67491e04c5c6c385fa2b55a489f32b') in 0.037572 seconds 
+  Import took 0.050840 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000359 seconds.
+  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Fire/Color Variants/CFXM_DoubleFlameA Purple.prefab
+  artifactKey: Guid(d07cb7a4b60679e45982309aaf919aa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Fire/Color Variants/CFXM_DoubleFlameA Purple.prefab using Guid(d07cb7a4b60679e45982309aaf919aa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f24a9726b746c29f0bdb1e95ead5b14b') in 0.046720 seconds 
+  Import took 0.063107 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Explosions/CFX_SmokeExplosionAlt.prefab
+  artifactKey: Guid(1b2f8e049c22af2438cac65a921271a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Explosions/CFX_SmokeExplosionAlt.prefab using Guid(1b2f8e049c22af2438cac65a921271a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fadf6ffb367f4ce50a624229a276665') in 0.057059 seconds 
+  Import took 0.072710 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Misc/Variants/CFXR Magic Poof + Text Poof.prefab
+  artifactKey: Guid(236f42d0ad47ec040bd359874bbbaf88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Misc/Variants/CFXR Magic Poof + Text Poof.prefab using Guid(236f42d0ad47ec040bd359874bbbaf88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdcfc9f30a45c008c80e31ac7de7c859') in 0.066154 seconds 
+  Import took 0.074198 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Misc/CFX_SpikyAura_Sphere Looped.prefab
+  artifactKey: Guid(f2d77deeb84d10b4a900e53e8ca3e338) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Misc/CFX_SpikyAura_Sphere Looped.prefab using Guid(f2d77deeb84d10b4a900e53e8ca3e338) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93204e1b0d0cf775ff21c151ccd5f8ac') in 0.040913 seconds 
+  Import took 0.058477 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000440 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Misc/CFXR Lines Poof.prefab
+  artifactKey: Guid(836f721988a69e64b8c023130a7268dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Misc/CFXR Lines Poof.prefab using Guid(836f721988a69e64b8c023130a7268dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db42ad4aa39639bf8951195ae422afcd') in 0.046371 seconds 
+  Import took 0.057648 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/MegaFiers/MegaLiner Scene/Objects/MegaFlierBase.prefab
+  artifactKey: Guid(e15fe276ec858a749a5481bf1cb78533) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MegaFiers/MegaLiner Scene/Objects/MegaFlierBase.prefab using Guid(e15fe276ec858a749a5481bf1cb78533) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af106fd652de093c451f8d4b98f9996b') in 0.014120 seconds 
+  Import took 0.027165 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Liquids/Variants/CFXR Water Splash (Smaller, No drops).prefab
+  artifactKey: Guid(3fc43cec1bf27114eabcd0f88b69ca64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Liquids/Variants/CFXR Water Splash (Smaller, No drops).prefab using Guid(3fc43cec1bf27114eabcd0f88b69ca64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '917e0a1a2d7547ff2b4105d60de547e3') in 0.069310 seconds 
+  Import took 0.081878 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000423 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/Variants/CFXR Slash (Cross, Orange).prefab
+  artifactKey: Guid(d7020793030f63a4e98646e51bdd7357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/Variants/CFXR Slash (Cross, Orange).prefab using Guid(d7020793030f63a4e98646e51bdd7357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fe64e4ecf19b89e04cb4a888e783e6d') in 0.056221 seconds 
+  Import took 0.067076 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/MeshAnimator/Examples/Example_PerformanceComparisonCubes/ShaderAnimator/CubesAnimation_AnimatedMesh_Shader.prefab
+  artifactKey: Guid(37b5619e2aa024b479146d2d35a767c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeshAnimator/Examples/Example_PerformanceComparisonCubes/ShaderAnimator/CubesAnimation_AnimatedMesh_Shader.prefab using Guid(37b5619e2aa024b479146d2d35a767c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06d3ccc0e68340ae9baad7cc8bd2ff72') in 0.066132 seconds 
+  Import took 0.075210 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000993 seconds.
+  path: Assets/JMO Assets/Cartoon FX (legacy)/Mesh/CFX_Mesh_CircularBig.FBX
+  artifactKey: Guid(21768c9bb8f895f499a017c4b2ce392c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX (legacy)/Mesh/CFX_Mesh_CircularBig.FBX using Guid(21768c9bb8f895f499a017c4b2ce392c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8e71b4cf3d7ad6d2c1b1894196175b7') in 0.060732 seconds 
+  Import took 0.070226 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Electric/Variants/CFXR Lightning Impact (Green).prefab
+  artifactKey: Guid(31c258313bc77b8449175569992616af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Electric/Variants/CFXR Lightning Impact (Green).prefab using Guid(31c258313bc77b8449175569992616af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd325d18e953c83ad40071f72837c2ae5') in 0.054396 seconds 
+  Import took 0.069508 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Texts (drag-drop to prefabs)/CFX_Text Hit Random.prefab
+  artifactKey: Guid(33bf389db92af2448a4ed3291054e3c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Texts (drag-drop to prefabs)/CFX_Text Hit Random.prefab using Guid(33bf389db92af2448a4ed3291054e3c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '397472c3c14a8f2d45e532d0bfe66af1') in 0.042041 seconds 
+  Import took 0.053660 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Fire/Flames Looped/Color Variants/CFXM_FlameA Green Looped.prefab
+  artifactKey: Guid(b6c2b261579f0404d95a8b6a56d5234f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Fire/Flames Looped/Color Variants/CFXM_FlameA Green Looped.prefab using Guid(b6c2b261579f0404d95a8b6a56d5234f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6700c2bba33c2d34d37e090c9e787eb8') in 0.042829 seconds 
+  Import took 0.060963 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Electric/Variants/CFXR Lightning Strike + Impact (Purple).prefab
+  artifactKey: Guid(d9a6b62b67fc0ff4fb24f51151287ed9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Electric/Variants/CFXR Lightning Strike + Impact (Purple).prefab using Guid(d9a6b62b67fc0ff4fb24f51151287ed9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9290c916372687d8c82dd54c95d766f') in 0.065559 seconds 
+  Import took 0.080439 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Misc/CFX_Poof.prefab
+  artifactKey: Guid(3156817f64ec68948ad6bb26569b9ef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Misc/CFX_Poof.prefab using Guid(3156817f64ec68948ad6bb26569b9ef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0cfc1ec2e6f3964983fea652a91cea0') in 0.020654 seconds 
+  Import took 0.029809 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/Prefab/Fat Guy Clone.prefab
+  artifactKey: Guid(372768a3402f73e4fb5e5f84b4ad77df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Fat Guy Clone.prefab using Guid(372768a3402f73e4fb5e5f84b4ad77df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2fa9d84a3bd7555e9fa151b70067b47') in 0.058814 seconds 
+  Import took 0.070181 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Fire/CFXM_DoubleFlameB.prefab
+  artifactKey: Guid(7be294ded313da949a1777fca514d834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Fire/CFXM_DoubleFlameB.prefab using Guid(7be294ded313da949a1777fca514d834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '874b6efd498e12279ad4a28d34b048be') in 0.022776 seconds 
+  Import took 0.048353 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Water/CFX_Splash+Text.prefab
+  artifactKey: Guid(6d3c6f884b42a4646a4d7f4379fbe408) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Water/CFX_Splash+Text.prefab using Guid(6d3c6f884b42a4646a4d7f4379fbe408) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4a1e0d7ac759309df888081290d635c') in 0.048312 seconds 
+  Import took 0.066666 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/Variants/CFXR Hit B 3D (Green).prefab
+  artifactKey: Guid(086965b92ce1be7418524db6cacccb4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/Variants/CFXR Hit B 3D (Green).prefab using Guid(086965b92ce1be7418524db6cacccb4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a0778e9b6e5fe741064c8acd2b1f37c') in 0.048272 seconds 
+  Import took 0.065811 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000496 seconds.
+  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Texts (drag-drop to prefabs)/CFX_Text Wham.prefab
+  artifactKey: Guid(89762b2623c1df74b83cd6b6cc5a29e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Texts (drag-drop to prefabs)/CFX_Text Wham.prefab using Guid(89762b2623c1df74b83cd6b6cc5a29e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2dccccf78b8ab7d614ee247a857a3f2') in 0.042765 seconds 
+  Import took 0.056046 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Texts (drag-drop to prefabs)/CFX_Text Wooosh Ground.prefab
+  artifactKey: Guid(aaa785d34735c90438ccf47b947fd1cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Texts (drag-drop to prefabs)/CFX_Text Wooosh Ground.prefab using Guid(aaa785d34735c90438ccf47b947fd1cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '819028e58509e12d93039fad178f8f75') in 0.050875 seconds 
+  Import took 0.067643 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000331 seconds.
+  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Fire/Flames Looped/Color Variants/CFXM_DoubleFlameA Blue Looped.prefab
+  artifactKey: Guid(079fd94a177042849bb1a55ba02d05f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs (Mobile)/Fire/Flames Looped/Color Variants/CFXM_DoubleFlameA Blue Looped.prefab using Guid(079fd94a177042849bb1a55ba02d05f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea41d28295eb7946f4958eb5150c835b') in 0.041564 seconds 
+  Import took 0.058637 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000314 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Liquids/CFXR Water Ripples.prefab
+  artifactKey: Guid(5a8d99fb95262ea458a7b580f2a1611c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Liquids/CFXR Water Ripples.prefab using Guid(5a8d99fb95262ea458a7b580f2a1611c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e419f6fc25e86485d40eb79e7d5f39f0') in 0.063468 seconds 
+  Import took 0.074159 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000407 seconds.
+  path: Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Smoke/CFX_SmokePuffs_Big.prefab
+  artifactKey: Guid(b287b69cd25b44f4fafc46daddba9419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX (legacy)/CFX Prefabs/Smoke/CFX_SmokePuffs_Big.prefab using Guid(b287b69cd25b44f4fafc46daddba9419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e50f4a591251441f5d090458fcd3fe65') in 0.048861 seconds 
+  Import took 0.065639 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000475 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/CFXR Hit C.prefab
+  artifactKey: Guid(da0de216ad60c5d46a6b049d61961615) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Impacts/CFXR Hit C.prefab using Guid(da0de216ad60c5d46a6b049d61961615) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '137ad2e492a5dd4720faed4313768276') in 0.041615 seconds 
+  Import took 0.061768 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Liquids/Variants/CFXR Lava Splash (Small, No drops).prefab
+  artifactKey: Guid(3e87f513708f86e4f910527d8d0c0f8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Liquids/Variants/CFXR Lava Splash (Small, No drops).prefab using Guid(3e87f513708f86e4f910527d8d0c0f8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b93bb2542e35d66e06d70f880e458bc8') in 0.051968 seconds 
+  Import took 0.070972 seconds .
+
