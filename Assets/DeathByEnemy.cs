@@ -42,7 +42,18 @@ public class DeathByEnemy : MonoBehaviour
             else
                 m_Enemy.RagDollOn();
         }
+        if (collision.gameObject.CompareTag("Explode"))
+        {
+            if (m_Enemy == null)
+            {
+                if (collision.transform.root.transform.GetChild(0).GetComponent<Enemy>().m_EnemyType == EnemyType.Giant)
+                {
+                    collision.transform.GetChild(0).gameObject.SetActive(true); collision.transform.GetChild(0).gameObject.transform.parent = null;
+                    collision.transform.gameObject.SetActive(false);
+                }
+            }
 
+        }
 
     }
 

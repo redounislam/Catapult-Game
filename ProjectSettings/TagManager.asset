@@ -18,6 +18,7 @@ TagManager:
   - Hoop5
   - Hoop10
   - Hoop15
+  - Hoop50
   layers:
   - Default
   - TransparentFX

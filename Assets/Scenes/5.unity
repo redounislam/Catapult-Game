@@ -19789,6 +19789,22 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 10.358965, y: 10.721848, z: 26.444742}
   m_Center: {x: -0.00000023841858, y: -0.0000004768373, z: 13.222371}
+--- !u!54 &1425157211
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1425157208}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1001 &1430340592
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20669,6 +20685,22 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 10.358965, y: 10.721848, z: 26.444742}
   m_Center: {x: -0.00000023841858, y: -0.0000004768373, z: 13.222371}
+--- !u!54 &1455275224
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1455275221}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &1458906104
 GameObject:
   m_ObjectHideFlags: 0

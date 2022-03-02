@@ -402,6 +402,26 @@ public class Projectile : MonoBehaviour
 
             }
         }
+        if (other.gameObject.CompareTag("Hoop50"))
+        {
+            numToInstantiate = 50;
+            if (m_ProjectileType == ProjectileType.Main)
+            {
+                SoundManager.SharedManager().PlaySFX(SoundManager.SharedManager().MultiplierHoopSfx);
+                for (int i = 0; i < numToInstantiate; i++)
+                {
+                    GameObject g = Instantiate(Clone, other.transform.GetChild(i).transform.position, Quaternion.Euler(new Vector3(other.transform.GetChild(i).eulerAngles.x, other.transform.GetChild(i).eulerAngles.y, other.transform.GetChild(i).eulerAngles.z)));
+
+
+
+
+
+
+
+                }
+
+            }
+        }
         if (other.gameObject.CompareTag("Death"))
         {
             if (m_ProjectileType == ProjectileType.Main)
