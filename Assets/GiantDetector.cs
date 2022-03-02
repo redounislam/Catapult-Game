@@ -8,11 +8,12 @@ public class GiantDetector : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if(other.gameObject.CompareTag("Enemy"))
+        if(other.gameObject.CompareTag("Other"))
         {
-            if(other.gameObject.GetComponent<Enemy>().m_EnemyType == EnemyType.Giant)
+            if(other.gameObject.transform.root.GetChild(0).GetComponent<Enemy>().m_EnemyType == EnemyType.Giant)
             {
                 transform.GetChild(0).gameObject.SetActive(true);
+                transform.GetComponent<MeshRenderer>().enabled = false;
             }
         }
     }

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using DG.Tweening;
 using MoreMountains.NiceVibrations;
+using UnityEngine.SceneManagement;
 public class CannonController : MonoBehaviour
 {
    
@@ -20,10 +21,15 @@ public class CannonController : MonoBehaviour
     public GameObject thisGuysRig;
     public Animator anim;
     public LineRenderer l;
+
+
+    Scene m_Scene;
+    string sceneName;
     private void Start()
     {
-       
-       
+        m_Scene = SceneManager.GetActiveScene();
+        sceneName = m_Scene.name;
+
         l = GetComponent<LineRenderer>();
         l.enabled = false;
     }
@@ -82,9 +88,12 @@ public class CannonController : MonoBehaviour
         Invoke("DummyDisable", 0);
         GameObject CreatedCannonball = Instantiate(Cannonball, ShotPoint.position, ShotPoint.rotation);
         CreatedCannonball.GetComponent<Rigidbody>().velocity = ShotPoint.transform.up * BlastPower;
-
-        SharkAttack.CameraController.Instance.gameObject.transform.DORotate(new Vector3(22, -101.977f, 0), 2f);
         SharkAttack.CameraController.Instance.target = CreatedCannonball.transform.GetChild(1);
+        if (sceneName != "5 1")
+        {
+            SharkAttack.CameraController.Instance.gameObject.transform.DORotate(new Vector3(22, -101.977f, 0), 2f);
+          
+        }
     }
     bool SoundPlayed;
     private void Update()

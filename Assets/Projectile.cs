@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using DG.Tweening;
 using MoreMountains.NiceVibrations;
-
+using UnityEngine.SceneManagement;
 public enum ProjectileType
 {
     Main , 
@@ -29,8 +29,9 @@ public class Projectile : MonoBehaviour
     public GameObject Crack;
     Rigidbody rb;
     bool played;
-    bool Hit50 ;
-
+    public bool Hit50 ;
+    Scene m_Scene;
+    string sceneName;
     public bool Cannon;
     private void Start()
     {
@@ -38,7 +39,8 @@ public class Projectile : MonoBehaviour
 
 
         StartCoroutine(Ragdoll());
-
+        m_Scene = SceneManager.GetActiveScene();
+        sceneName = m_Scene.name;
     }
 
     private void OnEnable()
@@ -299,9 +301,9 @@ public class Projectile : MonoBehaviour
             Crack.transform.parent = null;
             if(HitRed != null)
             HitRed.Play();
-            if (!Hit50)
+            if (sceneName != "5 1")
             {
-
+               
                 Camera.main.transform.DOLookAt(GM.Instance.ParentCam.transform.position, 1).OnComplete(() =>
                 {
                     GM.Instance.ParentCam.GetComponent<CamRotator>().enabled = true;
@@ -407,18 +409,21 @@ public class Projectile : MonoBehaviour
         }
         if (other.gameObject.CompareTag("Hoop50"))
         {
+            Hit50 = true;
+             Camera.main.GetComponent<SharkAttack.CameraController>().enabled = false;
             numToInstantiate = 50;
             if (m_ProjectileType == ProjectileType.Main)
             {
-                Camera.main.GetComponent<SharkAttack.CameraController>().enabled = false;
-                Camera.main.transform.DOMove(GM.Instance.Cam50HoopsPos.transform.position, 0);
-                Camera.main.transform.DORotate(new Vector3(26 , -114 , 0), 0);
-                Camera.main.transform.DOLookAt(GM.Instance.ParentCam.transform.position, 1).OnComplete(() =>
+             
+                Camera.main.transform.DOMove(GM.Instance.Cam50HoopsPos.transform.position,.5f);
+                Camera.main.transform.DOLocalRotate(new Vector3(22 , -130f, 0), .5f).OnComplete(() =>
                 {
-                    GM.Instance.ParentCam.GetComponent<CamRotator>().enabled = true;
-                    Camera.main.transform.DOMoveX(-215.2f, 10);
+                  
+  
+                      Camera.main.transform.DOMoveX(-215.2f, 10);
                 });
-                Hit50 = true;
+
+               
                 //Camera.main.transform.DOLocalMove(new Vector3(GM.Instance.offset.x, GM.Instance.offset.y, 22.8f), 2f).SetEase(Ease.InSine);
                 //Camera.main.transform.DOLocalRotate(new Vector3(37.9f, -232.3f, 0), 2f).SetEase(Ease.InSine).OnComplete(() =>
                 //{

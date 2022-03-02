@@ -4615,6 +4615,7 @@ MonoBehaviour:
   End: 0
   CamStartPos: {fileID: 473669028}
   CamEndPos: {fileID: 618027778}
+  Cam50HoopsPos: {fileID: 0}
   CamMoveDuration: 3
   EnemyMove: 0
   ParentCam: {fileID: 1176950166}
@@ -19805,6 +19806,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &1425157214
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1425157208}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14b97533ee0bd8e4e9690d955df1d4f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1430340592
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20701,6 +20714,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &1455275227
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1455275221}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14b97533ee0bd8e4e9690d955df1d4f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1458906104
 GameObject:
   m_ObjectHideFlags: 0
