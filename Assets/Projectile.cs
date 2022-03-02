@@ -414,14 +414,8 @@ public class Projectile : MonoBehaviour
             numToInstantiate = 50;
             if (m_ProjectileType == ProjectileType.Main)
             {
-             
-                Camera.main.transform.DOMove(GM.Instance.Cam50HoopsPos.transform.position,1f);
-                Camera.main.transform.DOLocalRotate(new Vector3(22 , -130f, 0), 1f).OnComplete(() =>
-                {
-                  
-  
-                      Camera.main.transform.DOMoveX(-215.2f, 10);
-                });
+
+                StartCoroutine(Delay());
 
                
                 //Camera.main.transform.DOLocalMove(new Vector3(GM.Instance.offset.x, GM.Instance.offset.y, 22.8f), 2f).SetEase(Ease.InSine);
@@ -461,6 +455,18 @@ public class Projectile : MonoBehaviour
                 }
             }
         }
+    }
+
+    public IEnumerator Delay()
+    {
+        yield return new WaitForSeconds(.1f);
+        Camera.main.transform.DOMove(GM.Instance.Cam50HoopsPos.transform.position, 1f);
+        Camera.main.transform.DOLocalRotate(new Vector3(22, -130f, 0), .5f).OnComplete(() =>
+        {
+
+
+            Camera.main.transform.DOMoveX(-215.2f, 10);
+        });
     }
     //private void OnCollisionEnter(Collision collision)
     //{
