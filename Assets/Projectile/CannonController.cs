@@ -88,9 +88,10 @@ public class CannonController : MonoBehaviour
         Invoke("DummyDisable", 0);
         GameObject CreatedCannonball = Instantiate(Cannonball, ShotPoint.position, ShotPoint.rotation);
         CreatedCannonball.GetComponent<Rigidbody>().velocity = ShotPoint.transform.up * BlastPower;
-        SharkAttack.CameraController.Instance.target = CreatedCannonball.transform.GetChild(1);
+       
         if (sceneName != "5 1")
         {
+            SharkAttack.CameraController.Instance.target = CreatedCannonball.transform.GetChild(1);
             SharkAttack.CameraController.Instance.gameObject.transform.DORotate(new Vector3(22, -101.977f, 0), 2f);
           
         }

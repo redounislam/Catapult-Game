@@ -410,7 +410,7 @@ public class Projectile : MonoBehaviour
         if (other.gameObject.CompareTag("Hoop50"))
         {
             Hit50 = true;
-             Camera.main.GetComponent<SharkAttack.CameraController>().enabled = false;
+            Camera.main.GetComponent<SharkAttack.CameraController>().enabled = false;
             numToInstantiate = 50;
             if (m_ProjectileType == ProjectileType.Main)
             {
@@ -459,12 +459,12 @@ public class Projectile : MonoBehaviour
 
     public IEnumerator Delay()
     {
-        yield return new WaitForSeconds(.1f);
+        yield return new WaitForSeconds(0f);
         Camera.main.transform.DOMove(GM.Instance.Cam50HoopsPos.transform.position, 1f);
-        Camera.main.transform.DOLocalRotate(new Vector3(22, -130f, 0), .5f).OnComplete(() =>
+        Camera.main.transform.DOLocalRotate(new Vector3(22, -130f, 0), 1f).OnComplete(() =>
         {
 
-
+    
             Camera.main.transform.DOMoveX(-215.2f, 10);
         });
     }
