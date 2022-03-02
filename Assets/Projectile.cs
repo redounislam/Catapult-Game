@@ -415,8 +415,8 @@ public class Projectile : MonoBehaviour
             if (m_ProjectileType == ProjectileType.Main)
             {
              
-                Camera.main.transform.DOMove(GM.Instance.Cam50HoopsPos.transform.position,.5f);
-                Camera.main.transform.DOLocalRotate(new Vector3(22 , -130f, 0), .5f).OnComplete(() =>
+                Camera.main.transform.DOMove(GM.Instance.Cam50HoopsPos.transform.position,1f);
+                Camera.main.transform.DOLocalRotate(new Vector3(22 , -130f, 0), 1f).OnComplete(() =>
                 {
                   
   
