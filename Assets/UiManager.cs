@@ -50,7 +50,7 @@ public class UiManager : Singleton<UiManager>
         string sceneName = currentScene.name;
         // PlayerPrefs.SetInt("SaveScene", SceneManager.GetActiveScene().buildIndex );
 
-        if (sceneName == "3")
+        if (sceneName == "5")
         {
             SceneManager.LoadScene(2);
         }
