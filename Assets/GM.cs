@@ -14,7 +14,7 @@ public class GM :Singleton<GM>
 
     public bool StartGame, End;
 
-    public GameObject CamStartPos, CamEndPos;
+    public GameObject CamStartPos, CamEndPos, Cam50HoopsPos;
     public float CamMoveDuration = 1f;
     Camera cam;
     public bool EnemyMove;

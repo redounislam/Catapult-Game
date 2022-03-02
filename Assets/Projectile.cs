@@ -29,7 +29,7 @@ public class Projectile : MonoBehaviour
     public GameObject Crack;
     Rigidbody rb;
     bool played;
-
+    bool Hit50 ;
 
     public bool Cannon;
     private void Start()
@@ -299,20 +299,23 @@ public class Projectile : MonoBehaviour
             Crack.transform.parent = null;
             if(HitRed != null)
             HitRed.Play();
-
-
-            Camera.main.transform.DOLookAt(GM.Instance.ParentCam.transform.position, 1).OnComplete(() =>
+            if (!Hit50)
             {
-                GM.Instance.ParentCam.GetComponent<CamRotator>().enabled = true;
-            });
-            //Camera.main.transform.DOLocalMove(new Vector3(GM.Instance.offset.x, GM.Instance.offset.y, 22.8f), 2f).SetEase(Ease.InSine);
-            //Camera.main.transform.DOLocalRotate(new Vector3(37.9f, -232.3f, 0), 2f).SetEase(Ease.InSine).OnComplete(() =>
-            //{
 
-            //});
-            GM.Instance.ParentCam.GetComponent<CamRotator>();
-            Camera.main.transform.parent = GM.Instance.ParentCam.transform;
-            transform.GetComponentInChildren<MySDK.SimpleRotator>().enabled = false; 
+                Camera.main.transform.DOLookAt(GM.Instance.ParentCam.transform.position, 1).OnComplete(() =>
+                {
+                    GM.Instance.ParentCam.GetComponent<CamRotator>().enabled = true;
+                });
+                //Camera.main.transform.DOLocalMove(new Vector3(GM.Instance.offset.x, GM.Instance.offset.y, 22.8f), 2f).SetEase(Ease.InSine);
+                //Camera.main.transform.DOLocalRotate(new Vector3(37.9f, -232.3f, 0), 2f).SetEase(Ease.InSine).OnComplete(() =>
+                //{
+
+                //});
+                GM.Instance.ParentCam.GetComponent<CamRotator>();
+                Camera.main.transform.parent = GM.Instance.ParentCam.transform;
+                transform.GetComponentInChildren<MySDK.SimpleRotator>().enabled = false;
+            }
+
             other.tag = "Untagged";
           
         }
@@ -407,12 +410,28 @@ public class Projectile : MonoBehaviour
             numToInstantiate = 50;
             if (m_ProjectileType == ProjectileType.Main)
             {
+                Camera.main.GetComponent<SharkAttack.CameraController>().enabled = false;
+                Camera.main.transform.DOMove(GM.Instance.Cam50HoopsPos.transform.position, 0);
+                Camera.main.transform.DORotate(new Vector3(26 , -114 , 0), 0);
+                Camera.main.transform.DOLookAt(GM.Instance.ParentCam.transform.position, 1).OnComplete(() =>
+                {
+                    GM.Instance.ParentCam.GetComponent<CamRotator>().enabled = true;
+                    Camera.main.transform.DOMoveX(-215.2f, 10);
+                });
+                Hit50 = true;
+                //Camera.main.transform.DOLocalMove(new Vector3(GM.Instance.offset.x, GM.Instance.offset.y, 22.8f), 2f).SetEase(Ease.InSine);
+                //Camera.main.transform.DOLocalRotate(new Vector3(37.9f, -232.3f, 0), 2f).SetEase(Ease.InSine).OnComplete(() =>
+                //{
+
+                //});
+               
+
                 SoundManager.SharedManager().PlaySFX(SoundManager.SharedManager().MultiplierHoopSfx);
                 for (int i = 0; i < numToInstantiate; i++)
                 {
                     GameObject g = Instantiate(Clone, other.transform.GetChild(i).transform.position, Quaternion.Euler(new Vector3(other.transform.GetChild(i).eulerAngles.x, other.transform.GetChild(i).eulerAngles.y, other.transform.GetChild(i).eulerAngles.z)));
 
-
+            
 
 
 
