@@ -433,8 +433,8 @@ public class Projectile : MonoBehaviour
                 SoundManager.SharedManager().PlaySFX(SoundManager.SharedManager().MultiplierHoopSfx);
                 for (int i = 0; i < numToInstantiate; i++)
                 {
-                    GameObject g = Instantiate(Clone, GM.Instance.player.transform.position, Quaternion.Euler(new Vector3(other.transform.GetChild(i).eulerAngles.x, other.transform.GetChild(i).eulerAngles.y, other.transform.GetChild(i).eulerAngles.z)));
 
+                    Invoke("DelaySpawn", .5f);
             
 
 
@@ -462,6 +462,10 @@ public class Projectile : MonoBehaviour
         }
     }
 
+    public void DelaySpawn()
+    {
+        GameObject g = Instantiate(Clone, GM.Instance.player.transform.position, Quaternion.identity);
+    }
     public IEnumerator Delay()
     {
         yield return new WaitForSeconds(0f);
