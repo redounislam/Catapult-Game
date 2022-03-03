@@ -22,7 +22,11 @@ public class GM :Singleton<GM>
     public Vector3 offset;
 
     public bool TapTut;
-  
+
+
+    public GameObject player;
+
+
     public IEnumerator CameraRoutine()
     {
 
@@ -73,6 +77,7 @@ public class GM :Singleton<GM>
     }
     void Update()
     {
-        
+        if (player == null)
+            player = GameObject.FindWithTag("Player");
     }
 }
