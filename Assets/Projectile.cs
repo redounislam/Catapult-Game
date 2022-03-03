@@ -43,11 +43,15 @@ public class Projectile : MonoBehaviour
         sceneName = m_Scene.name;
     }
 
+    public void SpreadDealy()
+    {
+        transform.DOMoveZ(Random.Range(-12, 23), 1);
+    }
     private void OnEnable()
     {
         if (m_ProjectileType == ProjectileType.Copy)
         {
-            transform.DOMoveZ(Random.Range(-12, 23), 1);
+            Invoke("SpreadDealy", .2f);
             transform.GetComponent<Rigidbody>().AddForce((new Vector3(Random.Range(-180f, 300f), Random.Range(5, 20f), Random.Range(-300f, 180f)).normalized * Random.Range(CloneForce - 80, CloneForce + 500) * Time.deltaTime));
             transform.GetComponent<Rigidbody>().mass = Random.Range(1, 15);
 
@@ -375,7 +379,7 @@ public class Projectile : MonoBehaviour
                 SoundManager.SharedManager().PlaySFX(SoundManager.SharedManager().MultiplierHoopSfx);
                 for (int i = 0; i < numToInstantiate; i++)
                 {
-                    GameObject g = Instantiate(Clone, other.transform.GetChild(i).transform.position, Quaternion.Euler(new Vector3(other.transform.GetChild(i).eulerAngles.x, other.transform.GetChild(i).eulerAngles.y, other.transform.GetChild(i).eulerAngles.z)));
+                    GameObject g = Instantiate(Clone,transform.transform.position, Quaternion.Euler(new Vector3(other.transform.GetChild(i).eulerAngles.x, other.transform.GetChild(i).eulerAngles.y, other.transform.GetChild(i).eulerAngles.z)));
                  
 
 
