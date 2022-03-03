@@ -241,7 +241,7 @@ public class Enemy : MonoBehaviour
                 }
                 foreach (Rigidbody rigid in limbsRb)
                 {
-                    rigid.isKinematic = false;
+                    rigid.isKinematic = false; rigid.interpolation = RigidbodyInterpolation.Interpolate;
                     rigid.AddExplosionForce(FindObjectOfType<Projectile>().power, FindObjectOfType<Projectile>().transform.position, FindObjectOfType<Projectile>().ImpactRadius);
 
                 }
@@ -274,7 +274,7 @@ public class Enemy : MonoBehaviour
         }
         foreach (Rigidbody rigid in limbsRb)
         {
-            rigid.isKinematic = false;
+            rigid.isKinematic = false; rigid.interpolation = RigidbodyInterpolation.Interpolate;
             rigid.AddExplosionForce(FindObjectOfType<Projectile>().power, FindObjectOfType<Projectile>().transform.position, FindObjectOfType<Projectile>().ImpactRadius);
 
         }
