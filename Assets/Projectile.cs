@@ -434,7 +434,7 @@ public class Projectile : MonoBehaviour
                 for (int i = 0; i < numToInstantiate; i++)
                 {
 
-                    Invoke("DelaySpawn", .5f);
+                    Invoke("DelaySpawn", .25f);
             
 
 
