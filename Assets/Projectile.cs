@@ -53,7 +53,7 @@ public class Projectile : MonoBehaviour
         {
             Invoke("SpreadDealy", .2f);
             transform.GetComponent<Rigidbody>().AddForce((new Vector3(Random.Range(-180f, 300f), Random.Range(5, 20f), Random.Range(-300f, 180f)).normalized * Random.Range(CloneForce - 80, CloneForce + 500) * Time.deltaTime));
-            transform.GetComponent<Rigidbody>().mass = Random.Range(1, 15);
+            transform.GetComponent<Rigidbody>().mass = Random.Range(1,15);
 
            
         }
@@ -464,7 +464,7 @@ public class Projectile : MonoBehaviour
 
     public void DelaySpawn()
     {
-        GameObject g = Instantiate(Clone, GM.Instance.player.transform.position, Quaternion.identity);
+        GameObject g = Instantiate(Clone, new Vector3(GM.Instance.player.transform.position.x, GM.Instance.player.transform.position.y - 8, GM.Instance.player.transform.position.z), Quaternion.identity);
     }
     public IEnumerator Delay()
     {

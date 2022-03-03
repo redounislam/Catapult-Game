@@ -19,6 +19,7 @@ TagManager:
   - Hoop10
   - Hoop15
   - Hoop50
+  - Bot
   layers:
   - Default
   - TransparentFX
