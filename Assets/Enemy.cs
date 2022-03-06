@@ -303,7 +303,8 @@ public class Enemy : MonoBehaviour
     {
         if(other.gameObject.CompareTag("Parameter"))
         {
-            GM.Instance.LevelFail();
+            if (GM.Instance.KillCount < GM.Instance.TargetThisLevel)
+                GM.Instance.LevelFail();
         }
     }
     void Update()
