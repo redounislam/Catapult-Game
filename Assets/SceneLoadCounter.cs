@@ -4,7 +4,7 @@ using UnityEngine;
 using Singleton;
 using UnityEngine.SceneManagement;
 
-using GameAnalyticsSDK;
+
 public class SceneLoadCounter : Singleton<SceneLoadCounter>
 {
     public int SceneLoadCount;
@@ -14,7 +14,7 @@ public class SceneLoadCounter : Singleton<SceneLoadCounter>
 
     public override void Start()
     {
-        GameAnalytics.Initialize();
+
             
 
 
