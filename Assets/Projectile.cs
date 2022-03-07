@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using DG.Tweening;
-using MoreMountains.NiceVibrations;
+
 
 public enum ProjectileType
 {
@@ -99,7 +99,7 @@ public class Projectile : MonoBehaviour
                 }
                 if (!played)
                 {
-                    MMVibrationManager.Haptic(HapticTypes.Warning);
+                 
                     SoundManager.SharedManager().PlaySFX(SoundManager.SharedManager().TapToBurstSFX);
                     Splash.transform.eulerAngles = new Vector3(-90, -270, 0);
                     Splash.Play();
@@ -261,7 +261,7 @@ public class Projectile : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Explode"))
         {
-            MMVibrationManager.Haptic(HapticTypes.Warning);
+         
             SoundManager.SharedManager().PlaySFX(SoundManager.SharedManager().BarrelExplosionSfx);
             other.transform.GetChild(0).gameObject.SetActive(true); other.transform.GetChild(0).gameObject.transform.parent = null;
                 other.transform.gameObject.SetActive(false);
@@ -274,7 +274,7 @@ public class Projectile : MonoBehaviour
             if (m_ProjectileType == ProjectileType.Main)
             {
                 SoundManager.SharedManager().PlaySFX(SoundManager.SharedManager().PlayerFallHit2SFX);
-                MMVibrationManager.Haptic(HapticTypes.MediumImpact);
+              
                 if (!a)
                 {
                     Invoke("PauseGame", 3.5f);
@@ -289,7 +289,7 @@ public class Projectile : MonoBehaviour
             {
                 SoundManager.SharedManager().PlaySFX(SoundManager.SharedManager().PlayerFallHit1fx);
 
-                MMVibrationManager.Haptic(HapticTypes.MediumImpact);
+                
             }
             Camera.main.GetComponent<SharkAttack.CameraController>().enabled = false;
             RagDollJump();
@@ -345,7 +345,7 @@ public class Projectile : MonoBehaviour
                 if (m_ProjectileType == ProjectileType.Main)
                 {
                     StartCoroutine(SlowMoRoutine());
-                    MMVibrationManager.Haptic(HapticTypes.Warning);
+                   
                 }
             }
         }

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using DG.Tweening;
-using MoreMountains.NiceVibrations;
+
 public class CannonController : MonoBehaviour
 {
    
@@ -144,7 +144,6 @@ public class CannonController : MonoBehaviour
                 }
                 if (Input.GetMouseButtonUp(0))
                 {
-                    MMVibrationManager.Haptic(HapticTypes.MediumImpact);
                     SoundManager.SharedManager().StopSFX();
                     l.enabled = false;
                     SoundManager.SharedManager().PlaySFX(SoundManager.SharedManager().PlayerShootSFX);

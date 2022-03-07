@@ -2277,3 +2277,27 @@ Received Import Request.
 Start importing Assets/Plugins/Android/com.google.android.gms.play-services-ads-base-16.0.0.aar using Guid(c3dee88c4fab3644b9fddd4e41d74b4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a65cf577435be359d832fd3313721522') in 0.015364 seconds 
   Import took 0.023692 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 82.375444 seconds.
+  path: Assets/Projectile
+  artifactKey: Guid(1b35402bcfcf82642a6ab6fb5b8cbf5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Projectile using Guid(1b35402bcfcf82642a6ab6fb5b8cbf5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab7fb46fd4e25bfbf442333c9f283853') in 0.010649 seconds 
+  Import took 0.019834 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 147.690587 seconds.
+  path: Assets/EffectCore
+  artifactKey: Guid(42ad576bcb200cd49be7f81527443cd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectCore using Guid(42ad576bcb200cd49be7f81527443cd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab5189f696d5f259b562f6c8a06fc079') in 0.007825 seconds 
+  Import took 0.014956 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.793891 seconds.
+  path: Assets/EffectCore/textures/blood
+  artifactKey: Guid(3a713fd7b6f1ba14a8b957b51e7d303e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectCore/textures/blood using Guid(3a713fd7b6f1ba14a8b957b51e7d303e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cad28030bdfa36c5384505a7b7c4ca6') in 0.007714 seconds 
+  Import took 0.016711 seconds .
+
