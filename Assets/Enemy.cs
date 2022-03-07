@@ -174,6 +174,7 @@ public class Enemy : MonoBehaviour
             foreach (Rigidbody rigid in limbsRb)
             {
                 rigid.isKinematic = false;
+                rigid.interpolation = rigid.interpolation;
                 rigid.AddForce(new Vector3(Random.Range(-18f, 18f), Random.Range(2, 12f), Random.Range(-18f, 18f)).normalized * 150);
             }
             GetComponent<Animator>().enabled = false;
@@ -243,7 +244,7 @@ public class Enemy : MonoBehaviour
                 {
                     rigid.isKinematic = false;
                     rigid.AddExplosionForce(FindObjectOfType<Projectile>().power, FindObjectOfType<Projectile>().transform.position, FindObjectOfType<Projectile>().ImpactRadius);
-
+                    rigid.interpolation = rigid.interpolation;
                 }
                 GetComponent<Animator>().enabled = false;
 
@@ -303,7 +304,8 @@ public class Enemy : MonoBehaviour
     {
         if(other.gameObject.CompareTag("Parameter"))
         {
-            GM.Instance.LevelFail();
+            if (GM.Instance.KillCount < GM.Instance.TargetThisLevel)
+                GM.Instance.LevelFail();
         }
     }
     void Update()
