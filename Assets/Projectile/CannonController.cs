@@ -13,7 +13,8 @@ public class CannonController : MonoBehaviour
     public float UpMultiplier = 2 , Delay;
     public GameObject Cannonball;
     public Transform ShotPoint;
-    public MegaFiers.MegaBend Bend;
+    //   public MegaFiers.MegaBend Bend;
+    public GameObject Rotator;
     float i , j , k;
 
     public Collider mainCollider;
@@ -95,13 +96,13 @@ public class CannonController : MonoBehaviour
        
             if (launched )
             {
-                if (Bend.angle <= 0)
-                {
-                    m += Time.deltaTime * UpMultiplier;
-                
-                    Bend.angle = Bend.angle + m;
-                }
-            
+                //if (Bend.angle <= 0)
+                //{
+                //    m += Time.deltaTime * UpMultiplier;
+
+                //    Bend.angle = Bend.angle + m;
+                //}
+                Rotator.transform.DOLocalRotate(new Vector3(0, 0, 0), .37f);
                 
             }
 
@@ -121,9 +122,9 @@ public class CannonController : MonoBehaviour
 
                     GM.Instance.EnemyMove = true;
                     j = (-Input.GetAxis("Mouse Y"));
-
+                    Rotator.transform.Rotate(j, 0, (Input.GetAxis("Mouse X")) * Time.deltaTime * rotationSpeed * 2f);
                     l.enabled = true;
-                    Bend.angle = Bend.angle + -(j * 2);
+                 //   Bend.angle = Bend.angle + -(j * 2);
 
 
                     BlastPower = BlastPower + i;
@@ -131,14 +132,14 @@ public class CannonController : MonoBehaviour
                     {
                         
                         transform.Rotate(0, (Input.GetAxis("Mouse X")), 0 * Time.deltaTime * rotationSpeed);
-                        Bend.transform.Rotate(0, 0, (Input.GetAxis("Mouse X")) * Time.deltaTime * rotationSpeed * 2f);
+                        Rotator.transform.Rotate(0, 0, (Input.GetAxis("Mouse X")) * Time.deltaTime * rotationSpeed * 2f);
 
                     }
                     else if (Input.GetAxis("Mouse X") > 0)
                     {
                         transform.Rotate(0, (Input.GetAxis("Mouse X")), 0 * Time.deltaTime * rotationSpeed);
 
-                        Bend.transform.Rotate(0, 0, (Input.GetAxis("Mouse X")) * Time.deltaTime * rotationSpeed * 2f);
+                        Rotator.transform.Rotate(0, 0, (Input.GetAxis("Mouse X")) * Time.deltaTime * rotationSpeed * 2f);
                     }
 
                 }
