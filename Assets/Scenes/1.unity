@@ -2514,6 +2514,7 @@ MonoBehaviour:
   End: 0
   CamStartPos: {fileID: 473669028}
   CamEndPos: {fileID: 618027778}
+  Cam50HoopsPos: {fileID: 0}
   CamMoveDuration: 3
   EnemyMove: 0
   ParentCam: {fileID: 1176950166}

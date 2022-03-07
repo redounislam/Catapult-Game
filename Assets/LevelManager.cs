@@ -11,7 +11,7 @@ public class LevelManager : MonoBehaviour
     private void Awake()
     {
 
-       // GameAnalytics.Initialize();
+        GameAnalytics.Initialize();
         if (PlayerPrefs.GetInt("Played", 0) == 0)
         {
             SceneManager.LoadScene(1);
