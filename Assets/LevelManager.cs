@@ -3,15 +3,15 @@ using System.Collections.Generic;
 using UnityEngine;
 using Singleton;
 using UnityEngine.SceneManagement;
-
+using GameAnalyticsSDK;
 public class LevelManager : MonoBehaviour
 {
     // Start is called before the first frame update
 
     private void Awake()
     {
-     
 
+        GameAnalytics.Initialize();
         if (PlayerPrefs.GetInt("Played", 0) == 0)
         {
             SceneManager.LoadScene(1);

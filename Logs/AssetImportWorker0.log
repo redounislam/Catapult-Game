@@ -962,3 +962,1318 @@ AssetImportParameters requested are different than current active one (requested
   custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.017949 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.39 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.814 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2817ms)
+		BeginReloadAssembly (409ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (32ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (87ms)
+		EndReloadAssembly (2329ms)
+			LoadAssemblies (135ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (464ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (60ms)
+			SetupLoadedEditorAssemblies (1452ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (125ms)
+				ProcessInitializeOnLoadAttributes (1132ms)
+				ProcessInitializeOnLoadMethodAttributes (180ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'BOXOPHOBIC/Polyverse Skies/Simple': fallback shader 'False' not found
+Shader 'BOXOPHOBIC/Polyverse Skies/Standard': fallback shader 'False' not found
+Refreshing native plugins compatible for Editor in 8.84 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3360 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 191.5 MB.
+System memory in use after: 185.9 MB.
+
+Unloading 73 unused Assets to reduce memory usage. Loaded Objects now: 4006.
+Total: 79.483600 ms (FindLiveObjects: 0.856200 ms CreateObjectMapping: 0.420500 ms MarkObjects: 65.579200 ms  DeleteObjects: 12.624900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.153462 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 3.72 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: API Compatibility level changed
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
+Mono: successfully reloaded assembly
+- Completed reload, in  3.802 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3802ms)
+		BeginReloadAssembly (206ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (86ms)
+		EndReloadAssembly (3377ms)
+			LoadAssemblies (169ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (747ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (68ms)
+			SetupLoadedEditorAssemblies (2180ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (4ms)
+				BeforeProcessingInitializeOnLoad (133ms)
+				ProcessInitializeOnLoadAttributes (1168ms)
+				ProcessInitializeOnLoadMethodAttributes (864ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Script is not up to date after domain reload: guid(2f48f78cc0f12524f85fabec25fa2a8a) path("Assets/Code/JsonDotNet/Source/Schema/SchemaExtensions.cs") state(2)
+Script is not up to date after domain reload: guid(9b7c3261410d6564e877815db8594cc2) path("Assets/Code/JsonDotNet/Source/Schema/JsonSchemaModelBuilder.cs") state(2)
+Script is not up to date after domain reload: guid(40dda1b37af26af46a29acf03fa0b000) path("Assets/Code/JsonDotNet/Source/WinRT/RT_ConstructorHandling.cs") state(2)
+Script is not up to date after domain reload: guid(ed1bd249811a5d8448c05fd1ccd0cea6) path("Assets/Code/JsonDotNet/Source/WinRT/Utilities/RT_CollectionWrapper.cs") state(2)
+Script is not up to date after domain reload: guid(f673e571c5bb2294f9d5abc16db56e4b) path("Assets/Code/JsonDotNet/Source/Linq/JValue.cs") state(2)
+Script is not up to date after domain reload: guid(21a7f14d48b29ea479362964def6df87) path("Assets/Code/JsonDotNet/Extras/CustomConverters/Vector3Converter.cs") state(2)
+Script is not up to date after domain reload: guid(51c3033a1da6903489e78e8597aa91d6) path("Assets/Code/JsonDotNet/Source/Schema/JsonSchemaModel.cs") state(2)
+Script is not up to date after domain reload: guid(56d1777fe9d9a0f41a5e8ce2f7506750) path("Assets/Code/JsonDotNet/Source/WinRT/RT_JsonWriter.cs") state(2)
+Script is not up to date after domain reload: guid(d87a568c091037d4290ab9d60e0a3d55) path("Assets/Code/JsonDotNet/Source/WinRT/Linq/RT_JArray.cs") state(2)
+Script is not up to date after domain reload: guid(431f7e01a531a42ebbbd8adbd1b6ebc2) path("Assets/Plugins/iOS/SingularStateWrapper.h") state(2)
+Script is not up to date after domain reload: guid(d0a58ded5ecbeac428d56f5ab0f0a27b) path("Assets/Code/JsonDotNet/Source/WinRT/RT_MemberSerialization.cs") state(2)
+Script is not up to date after domain reload: guid(7dcc51c2bc7534c4dbe079b44bc44976) path("Assets/Code/JsonDotNet/Source/WinRT/RT_JsonObjectAttribute.cs") state(2)
+Script is not up to date after domain reload: guid(0202781d00d5886458cbbe5302de94ea) path("Assets/Code/JsonDotNet/Source/WinRT/Bson/RT_BsonWriter.cs") state(2)
+Script is not up to date after domain reload: guid(f0a1da9e7d7d3ae44a23af72c09d607f) path("Assets/Code/JsonDotNet/Source/DefaultValueHandling.cs") state(2)
+Script is not up to date after domain reload: guid(ce31f134ee0953648a918af8e02d8573) path("Assets/Code/JsonDotNet/Source/WinRT/Serialization/RT_JsonObjectContract.cs") state(2)
+Script is not up to date after domain reload: guid(895d2005e21197249b48ea3f056e4b78) path("Assets/Code/JsonDotNet/Source/JsonReader.cs") state(2)
+Script is not up to date after domain reload: guid(cf8dd8379802e1641bc0a85f132d1cd8) path("Assets/Code/JsonDotNet/Source/WinRT/Schema/RT_JsonSchema.cs") state(2)
+Script is not up to date after domain reload: guid(e5caaa96124d98b4ea0cee43acfb6f62) path("Assets/Code/JsonDotNet/Source/Schema/JsonSchemaBuilder.cs") state(2)
+Script is not up to date after domain reload: guid(1948e0504d190f745816297fe46dd64a) path("Assets/Code/JsonDotNet/Source/Utilities/BidirectionalDictionary.cs") state(2)
+Script is not up to date after domain reload: guid(c929d5a5430a4a54bbf0861933afff49) path("Assets/Code/JsonDotNet/Source/WinRT/Utilities/RT_StringUtils.cs") state(2)
+Script is not up to date after domain reload: guid(644b6b38e9543244e842021dfc7ca0fc) path("Assets/Code/JsonDotNet/Source/JsonWriterException.cs") state(2)
+Script is not up to date after domain reload: guid(325bb8445085c5a4496584a05717defb) path("Assets/Code/JsonDotNet/Source/WinRT/Bson/RT_BsonReader.cs") state(2)
+Script is not up to date after domain reload: guid(a8e0e9ac5304d4ad683ae5146a7d8006) path("Assets/Plugins/iOS/SingularLinkParams.h") state(2)
+Script is not up to date after domain reload: guid(4456015e79c14064a83ff02889f07046) path("Assets/Code/JsonDotNet/Source/WinRT/RT_DateParseHandling.cs") state(2)
+Script is not up to date after domain reload: guid(ceddff2612724471d9fb80e60713742c) path("Assets/Code/SingularLinkHandler.cs") state(2)
+Script is not up to date after domain reload: guid(357a6d64bb3ba8d47a7a1da2b1a012fd) path("Assets/Code/JsonDotNet/Source/Serialization/JsonPrimitiveContract.cs") state(2)
+Script is not up to date after domain reload: guid(94e13654af9210f448faf61a9c9a7ac9) path("Assets/Code/JsonDotNet/Source/Schema/JsonSchemaNode.cs") state(2)
+Script is not up to date after domain reload: guid(4ade83f25228ac74dbc3e6a57ccd8881) path("Assets/Code/JsonDotNet/Source/WinRT/RT_PreserveReferencesHandling.cs") state(2)
+Script is not up to date after domain reload: guid(378b285afd0ba6645af90f0f79704650) path("Assets/Code/JsonDotNet/Source/WinRT/Utilities/RT_BidirectionalDictionary.cs") state(2)
+Script is not up to date after domain reload: guid(7335464cbedf0704b89907a933a06c7c) path("Assets/Code/JsonDotNet/Source/Utilities/CollectionUtils.cs") state(2)
+Script is not up to date after domain reload: guid(f4bb727e9483945feb6a15cad8052459) path("Assets/Plugins/iOS/SingularConfig.h") state(2)
+Script is not up to date after domain reload: guid(ac3f684d4643f184ca48a99f8eac914d) path("Assets/Code/JsonDotNet/Source/Bson/BsonObjectId.cs") state(2)
+Script is not up to date after domain reload: guid(a8a672b4dd21187459fdb153ad8b275e) path("Assets/Code/JsonDotNet/Source/Linq/LinqExtensions.cs") state(2)
+Script is not up to date after domain reload: guid(df2c593f17f05174485d9253128f5ad3) path("Assets/Code/JsonDotNet/Source/Linq/JTokenEqualityComparer.cs") state(2)
+Script is not up to date after domain reload: guid(9de89837de2f6c24990ffbd602245ed6) path("Assets/Code/JsonDotNet/Source/WinRT/Linq/RT_JPropertyKeyedCollection.cs") state(2)
+Script is not up to date after domain reload: guid(f25aa59fac4190f4d9fa6231ca50d705) path("Assets/Code/JsonDotNet/Source/WinRT/Serialization/RT_ExpressionValueProvider.cs") state(2)
+Script is not up to date after domain reload: guid(c1f438affd3dd4945ae5c3ac19557707) path("Assets/Code/JsonDotNet/Source/Serialization/ErrorEventArgs.cs") state(2)
+Script is not up to date after domain reload: guid(f324bf33dbc6a174e83097b111d5805d) path("Assets/Code/JsonDotNet/Source/ObservableSupport/PropertyChangingEventArgs.cs") state(2)
+Script is not up to date after domain reload: guid(00d57d52b6901624084f114849ab9952) path("Assets/Code/JsonDotNet/Source/Schema/JsonSchemaNodeCollection.cs") state(2)
+Script is not up to date after domain reload: guid(1b058958547aaf544be7bdc09f19f79c) path("Assets/Code/JsonDotNet/Source/Converters/StringEnumConverter.cs") state(2)
+Script is not up to date after domain reload: guid(0ec199536b6faab4ead1fca1f079adb2) path("Assets/Code/JsonDotNet/Source/WinRT/Utilities/RT_ExpressionReflectionDelegateFactory.cs") state(2)
+Script is not up to date after domain reload: guid(156136233cad842c2bb347da4a05255a) path("Assets/Code/SingularDeferredDeepLinkHandler.cs") state(2)
+Script is not up to date after domain reload: guid(e577f650ea7b07d4c99c935b9157575e) path("Assets/Code/JsonDotNet/Source/WinRT/RT_JsonSerializationException.cs") state(2)
+Script is not up to date after domain reload: guid(2583c01b4f7cb454e8828eba98550538) path("Assets/Code/SingularSDK.cs") state(2)
+Script is not up to date after domain reload: guid(3d33b464a8abcda4d8cc7a9d8b44acdc) path("Assets/Code/JsonDotNet/Source/WinRT/RT_NullValueHandling.cs") state(2)
+Script is not up to date after domain reload: guid(0a83b429f33a82d45ae21b2f00fa0195) path("Assets/Code/JsonDotNet/Source/WinRT/RT_JsonPosition.cs") state(2)
+Script is not up to date after domain reload: guid(06967088860205949a308de78dbbec57) path("Assets/Code/JsonDotNet/Source/WinRT/RT_JsonSerializer.cs") state(2)
+Script is not up to date after domain reload: guid(317f63c983a35b2439f4a81bd408c4ae) path("Assets/Code/JsonDotNet/Source/Bson/BsonWriter.cs") state(2)
+Script is not up to date after domain reload: guid(c9f4d8bde87b36541ba413dfb4516a1c) path("Assets/Code/JsonDotNet/Source/WinRT/RT_FormatterAssemblyStyle.cs") state(2)
+Script is not up to date after domain reload: guid(3d7d4d1faf675bc4a85c7a9773c6210e) path("Assets/Code/JsonDotNet/Source/WinRT/Utilities/RT_ValidationUtils.cs") state(2)
+Script is not up to date after domain reload: guid(65777e29e2150514fa527ac4852b05ef) path("Assets/Code/JsonDotNet/Source/WinRT/RT_ReferenceLoopHandling.cs") state(2)
+Script is not up to date after domain reload: guid(b3ae74cbe96618543ada584af0b8ab8b) path("Assets/Code/JsonDotNet/Source/WinRT/Serialization/RT_ReflectionValueProvider.cs") state(2)
+Script is not up to date after domain reload: guid(ceda19f8e16335640bcb531b03c5216f) path("Assets/Code/JsonDotNet/Examples/Serialization/1-BasicSerialization/JNSimpleObjectSample.cs") state(2)
+Script is not up to date after domain reload: guid(c60ec84e14f9e644d82db82f267d47c9) path("Assets/Code/JsonDotNet/Source/Utilities/EnumUtils.cs") state(2)
+Script is not up to date after domain reload: guid(58d54147f121696459f9bb4535ec1bfc) path("Assets/Code/JsonDotNet/Source/JsonWriter.cs") state(2)
+Script is not up to date after domain reload: guid(ae922bf4f606add4788b3d63cc9d015a) path("Assets/Code/JsonDotNet/Source/Converters/DateTimeConverterBase.cs") state(2)
+Script is not up to date after domain reload: guid(d9179bbf67c7e734eb20d8aa576142c5) path("Assets/Code/JsonDotNet/Source/Serialization/JsonISerializableContract.cs") state(2)
+Script is not up to date after domain reload: guid(fdb758cc79c8ce444808d71b00568ca6) path("Assets/Code/JsonDotNet/Source/Aot/EnumerationExtension.cs") state(2)
+Script is not up to date after domain reload: guid(236f70ccc73bb164fa8413d4686493f5) path("Assets/Code/JsonDotNet/Source/Utilities/StringBuffer.cs") state(2)
+Script is not up to date after domain reload: guid(7ac8b6ce65c6ddd4d908a2c01ebf97fc) path("Assets/Code/JsonDotNet/Source/Serialization/JsonLinqContract.cs") state(2)
+Script is not up to date after domain reload: guid(d7e4c97403db6984685d87a97d3a8a11) path("Assets/Code/JsonDotNet/Source/Utilities/DictionaryWrapper.cs") state(2)
+Script is not up to date after domain reload: guid(fbc3474176496ae46b7007bbfcb7324c) path("Assets/Code/JsonDotNet/Source/WinRT/Utilities/RT_ReflectionDelegateFactory.cs") state(2)
+Script is not up to date after domain reload: guid(4bd1768a7d589b6498fe2cf28932761a) path("Assets/Code/JsonDotNet/Source/Required.cs") state(2)
+Script is not up to date after domain reload: guid(96f80043f226b8a4db69df3cd4da547d) path("Assets/Code/JsonDotNet/Source/WinRT/Converters/RT_DateTimeConverterBase.cs") state(2)
+Script is not up to date after domain reload: guid(b101a1795302fd745920266dc00a5e43) path("Assets/Code/JsonDotNet/Source/Serialization/JsonStringContract.cs") state(2)
+Script is not up to date after domain reload: guid(3453e06b8cd22614faa1f3b552114013) path("Assets/Code/JsonDotNet/Source/WinRT/Bson/RT_BsonObjectId.cs") state(2)
+Script is not up to date after domain reload: guid(fa629760a21b6bf4690688fb2e9f3e8f) path("Assets/Code/JsonDotNet/Source/Serialization/JsonSerializerInternalWriter.cs") state(2)
+Script is not up to date after domain reload: guid(2eb6e06e7dcee2a4fb7adc3eef69ac89) path("Assets/Code/JsonDotNet/Source/WinRT/Converters/RT_JavaScriptDateTimeConverter.cs") state(2)
+Script is not up to date after domain reload: guid(e67c859f559894f4d916dac745566cf8) path("Assets/Code/JsonDotNet/Source/Linq/JTokenType.cs") state(2)
+Script is not up to date after domain reload: guid(10732fd0cc9c4a145af6462579164b1d) path("Assets/Code/JsonDotNet/Source/WinRT/RT_JsonTextWriter.cs") state(2)
+Script is not up to date after domain reload: guid(14701abcdc37f466cbdec488737c2f39) path("Assets/Homa Games/Homa Belly/Attributions/Singular/Scripts/SingularAttribution.cs") state(2)
+Script is not up to date after domain reload: guid(1e59ca48788fc1048bd152a31064fc8b) path("Assets/Code/JsonDotNet/Source/Linq/JArray.cs") state(2)
+Script is not up to date after domain reload: guid(7528330309be25740a0568ec90cc0337) path("Assets/Code/JsonDotNet/Source/Linq/IJEnumerable.cs") state(2)
+Script is not up to date after domain reload: guid(4ae4f111d0a523e4ab4f563984f91227) path("Assets/Code/JsonDotNet/Source/WinRT/Linq/RT_JRaw.cs") state(2)
+Script is not up to date after domain reload: guid(3915fd1aafa983d4e8c83ee819c16f79) path("Assets/Code/JsonDotNet/Source/Utilities/ConvertUtils.cs") state(2)
+Script is not up to date after domain reload: guid(a86394faf12550846ad9a46e135a56e6) path("Assets/Code/JsonDotNet/Source/WinRT/Serialization/RT_DefaultReferenceResolver.cs") state(2)
+Script is not up to date after domain reload: guid(b0cfe184021aaf24399162d0be89eb38) path("Assets/Code/JsonDotNet/Examples/Tests/TextTest.cs") state(2)
+Script is not up to date after domain reload: guid(c1aec995063e2a449b456ea3c9f99641) path("Assets/Code/JsonDotNet/Source/WinRT/Utilities/RT_DynamicProxyMetaObject.cs") state(2)
+Script is not up to date after domain reload: guid(0b81cce9f92fae64485173811b0fca32) path("Assets/Code/JsonDotNet/Source/Utilities/ReflectionDelegateFactory.cs") state(2)
+Script is not up to date after domain reload: guid(58b6065666e1af84f97745782a2df190) path("Assets/Code/JsonDotNet/Source/Utilities/MiscellaneousUtils.cs") state(2)
+Script is not up to date after domain reload: guid(e8cd5bf9d04bd7e49b938f40d10d8723) path("Assets/Code/JsonDotNet/Source/WinRT/Schema/RT_ValidationEventHandler.cs") state(2)
+Script is not up to date after domain reload: guid(d85cf494abd256d47942a3344658e836) path("Assets/Code/JsonDotNet/Source/WinRT/Converters/RT_IsoDateTimeConverter.cs") state(2)
+Script is not up to date after domain reload: guid(061224a76c4b8c24d8941c02e0f0e2da) path("Assets/Code/JsonDotNet/Source/WinRT/Utilities/RT_StringBuffer.cs") state(2)
+Script is not up to date after domain reload: guid(dbe1d89ea9d92314aa8d92e83bcc33ee) path("Assets/Code/JsonDotNet/Source/Utilities/DynamicReflectionDelegateFactory.cs") state(2)
+Script is not up to date after domain reload: guid(b01a306cecd770e46828de5f0bed61f5) path("Assets/Code/JsonDotNet/Source/WinRT/Linq/RT_JConstructor.cs") state(2)
+Script is not up to date after domain reload: guid(fe86c501049fc4e34b18f885bbe5228c) path("Assets/Plugins/Android/singular_sdk.aar") state(2)
+Script is not up to date after domain reload: guid(f46e10d213b8dce43aeedd562cd4344d) path("Assets/Code/JsonDotNet/Source/WinRT/RT_JsonExtensionDataAttribute.cs") state(2)
+Script is not up to date after domain reload: guid(ebd90209ca1fb4a478d14c3b03fafb65) path("Assets/Code/JsonDotNet/Source/WinRT/Schema/RT_UndefinedSchemaIdHandling.cs") state(2)
+Script is not up to date after domain reload: guid(d3e9a402ff5be9d4eba536493ee1a7ee) path("Assets/Code/JsonDotNet/Source/WinRT/Utilities/RT_ReflectionUtils.cs") state(2)
+Script is not up to date after domain reload: guid(afb1d5d9a87adb749a02e918c9bc25ed) path("Assets/Code/JsonDotNet/Source/WinRT/Utilities/RT_DictionaryWrapper.cs") state(2)
+Script is not up to date after domain reload: guid(3be61a7ff3a17eb428ffe00d5ca95d7a) path("Assets/Code/JsonDotNet/Source/WinRT/RT_JsonArrayAttribute.cs") state(2)
+Script is not up to date after domain reload: guid(8d8460a8093c8d845bc4bbe9146ab5f8) path("Assets/Code/JsonDotNet/Source/WinRT/Serialization/RT_JsonSerializerInternalWriter.cs") state(2)
+Script is not up to date after domain reload: guid(5dcb2b2998bc06648bba192bdd26fe32) path("Assets/Code/JsonDotNet/Source/WinRT/Serialization/RT_DefaultSerializationBinder.cs") state(2)
+Script is not up to date after domain reload: guid(6d8b7d60502a5f44191845b4a0ed278f) path("Assets/Code/JsonDotNet/Source/WinRT/Serialization/RT_JsonPropertyCollection.cs") state(2)
+Script is not up to date after domain reload: guid(feaacc0fc2072f44a89d36f1eced89f6) path("Assets/Code/JsonDotNet/Source/WinRT/Serialization/RT_JsonDictionaryContract.cs") state(2)
+Script is not up to date after domain reload: guid(38eb70c57f2d6a84ba9471c756b2b16e) path("Assets/Code/JsonDotNet/Source/Utilities/Base64Encoder.cs") state(2)
+Script is not up to date after domain reload: guid(eb24f646dc3b86f479d709f5dbb7365e) path("Assets/Code/JsonDotNet/Source/WinRT/Serialization/RT_JsonStringContract.cs") state(2)
+Script is not up to date after domain reload: guid(151b3ee255a1ceb4cb82832ccd787e5f) path("Assets/Code/JsonDotNet/Source/Serialization/IValueProvider.cs") state(2)
+Script is not up to date after domain reload: guid(f763eb8719af5004a9341d4bc227684f) path("Assets/Code/JsonDotNet/Source/WinRT/Serialization/RT_OnErrorAttribute.cs") state(2)
+Script is not up to date after domain reload: guid(804a48587222ed8468728f2e78443595) path("Assets/Code/JsonDotNet/Source/WinRT/RT_JsonTextReader.cs") state(2)
+Script is not up to date after domain reload: guid(6e12396e8af0a4042ba1c8c8d7f5ea23) path("Assets/Code/JsonDotNet/Source/MemberSerialization.cs") state(2)
+Script is not up to date after domain reload: guid(002387c1b4a0c9c4f86720fa2479bf0f) path("Assets/Code/JsonDotNet/Source/WinRT/Serialization/RT_ErrorContext.cs") state(2)
+Script is not up to date after domain reload: guid(ac8857cbfa5023f438bf3f960a1f42da) path("Assets/Code/JsonDotNet/Source/Shims/DataMemberAttribute.cs") state(2)
+Script is not up to date after domain reload: guid(df6ac0e711e5c234db283ef57e84c8d5) path("Assets/Code/JsonDotNet/Source/WinRT/Serialization/RT_JsonSerializerProxy.cs") state(2)
+Script is not up to date after domain reload: guid(7e163ff4171458d44a1731f8fcd1a596) path("Assets/Code/JsonDotNet/Source/WinRT/RT_JsonSerializerSettings.cs") state(2)
+Script is not up to date after domain reload: guid(0ad40c96e8c234249b9f21ec139223dd) path("Assets/Code/JsonDotNet/Examples/Serialization/2-Polymorphism/JNPolymorphismSample.cs") state(2)
+Script is not up to date after domain reload: guid(956970bf092f14c45bd411de5b1e725f) path("Assets/Code/JsonDotNet/Source/Linq/JRaw.cs") state(2)
+Script is not up to date after domain reload: guid(2ab00e2366085e94cb32303d08020e5c) path("Assets/Code/JsonDotNet/Source/WinRT/Converters/RT_BsonObjectIdConverter.cs") state(2)
+Script is not up to date after domain reload: guid(bd4dbb862eb99a044bc3bb661be0546c) path("Assets/Code/JsonDotNet/Source/WinRT/Schema/RT_JsonSchemaModelBuilder.cs") state(2)
+Script is not up to date after domain reload: guid(cfb440eb5712416438a7c093c0c95b7d) path("Assets/Code/JsonDotNet/Source/WinRT/Serialization/RT_IValueProvider.cs") state(2)
+Script is not up to date after domain reload: guid(0a587e6bf2863b34cb6e8111866c2c5b) path("Assets/Code/JsonDotNet/Source/Converters/XmlNodeConverter.cs") state(2)
+Script is not up to date after domain reload: guid(c453ab28437ee4748b9d0cd8301774cf) path("Assets/Code/JsonDotNet/Source/Serialization/IContractResolver.cs") state(2)
+Script is not up to date after domain reload: guid(9993cc7cdea0b2f4b94584d4d816a925) path("Assets/Code/JsonDotNet/Source/WinRT/Converters/RT_ExpandoObjectConverter.cs") state(2)
+Script is not up to date after domain reload: guid(3ddfd18dc55355c4f91abfd242d0bf0b) path("Assets/Code/JsonDotNet/Source/WinRT/Linq/RT_JEnumerable.cs") state(2)
+Script is not up to date after domain reload: guid(3b8ceac1e333068468a98378c2547ec3) path("Assets/Code/JsonDotNet/Source/Linq/JObject.cs") state(2)
+Script is not up to date after domain reload: guid(10b67b35bfd2ecc4389f13a5b1fa326a) path("Assets/Code/JsonDotNet/Source/Linq/JEnumerable.cs") state(2)
+Script is not up to date after domain reload: guid(27874f1768660d94992477b1834c8ea1) path("Assets/Code/JsonDotNet/Source/WinRT/Linq/RT_JContainer.cs") state(2)
+Script is not up to date after domain reload: guid(83a9562fc4ada23439ab64289b820a22) path("Assets/Code/JsonDotNet/Source/WinRT/Schema/RT_JsonSchemaType.cs") state(2)
+Script is not up to date after domain reload: guid(0700ccafbe885ab4886ec19bccaadb3e) path("Assets/Code/JsonDotNet/Source/WinRT/Utilities/RT_JavaScriptUtils.cs") state(2)
+Script is not up to date after domain reload: guid(ffb98738be8925541958e4bf6897759a) path("Assets/Code/JsonDotNet/Source/WinRT/RT_JsonWriterException.cs") state(2)
+Script is not up to date after domain reload: guid(fe4609bf5b50c094091e435a2cf1da65) path("Assets/Code/JsonDotNet/Source/WinRT/Serialization/RT_TraceJsonReader.cs") state(2)
+Script is not up to date after domain reload: guid(055078bfc91f7410b96f94b34150df27) path("Assets/Plugins/iOS/SingularAdData.h") state(2)
+Script is not up to date after domain reload: guid(2e4a8b9d99960dc4eb808179889f81a2) path("Assets/Code/JsonDotNet/Source/JsonConverterAttribute.cs") state(2)
+Script is not up to date after domain reload: guid(670b5ea2967bc8340b11c89adb5bb6c3) path("Assets/Code/JsonDotNet/Source/WinRT/RT_TypeNameHandling.cs") state(2)
+Script is not up to date after domain reload: guid(3d0c2505335fe1141a7b943cd2572274) path("Assets/Code/JsonDotNet/Source/WinRT/Linq/RT_JTokenType.cs") state(2)
+Script is not up to date after domain reload: guid(d42bd6c66aee8f54697312da29e8e68a) path("Assets/Code/JsonDotNet/Source/WinRT/Bson/RT_BsonToken.cs") state(2)
+Script is not up to date after domain reload: guid(be9df19491cac2744bbddb1c884006b4) path("Assets/Code/JsonDotNet/Source/WinRT/Schema/RT_JsonSchemaException.cs") state(2)
+Script is not up to date after domain reload: guid(7a31eb44de532a6429fd443c8a901a68) path("Assets/Code/JsonDotNet/Source/Utilities/ILGeneratorExtensions.cs") state(2)
+Script is not up to date after domain reload: guid(537f6e8a416547441b2fcdd8c577d30b) path("Assets/Code/JsonDotNet/Source/WinRT/Serialization/RT_JsonSerializerInternalBase.cs") state(2)
+Script is not up to date after domain reload: guid(625f1eee382d32a47a58d9bd859f9955) path("Assets/Code/JsonDotNet/Source/WinRT/Serialization/RT_JsonContainerContract.cs") state(2)
+Script is not up to date after domain reload: guid(2b8e1fd31ee11764d92a7061249f49ed) path("Assets/Code/JsonDotNet/Source/WinRT/RT_DefaultValueHandling.cs") state(2)
+Script is not up to date after domain reload: guid(62f5950cf3b32984392c33994e49183d) path("Assets/Code/JsonDotNet/Source/Linq/JToken.cs") state(2)
+Script is not up to date after domain reload: guid(91b3e2d30df618e4b83a6df01ecd18a6) path("Assets/Code/JsonDotNet/Examples/Serialization/999-ExampleModels/JNExampleModels.cs") state(2)
+Script is not up to date after domain reload: guid(9ca0f4ffddfad694eb8d2a7a3126dff1) path("Assets/Code/JsonDotNet/Source/WinRT/Linq/RT_JTokenWriter.cs") state(2)
+Script is not up to date after domain reload: guid(5d4473375ff0b5f4fa8e3d011c3f0368) path("Assets/Code/JsonDotNet/Source/WinRT/RT_JsonReaderException.cs") state(2)
+Script is not up to date after domain reload: guid(2fcd6cad9d9ed7349b2372f6f5442b14) path("Assets/Code/JsonDotNet/Source/WinRT/RT_FloatParseHandling.cs") state(2)
+Script is not up to date after domain reload: guid(f60c2a40f56a2a24c90a768a26bceec1) path("Assets/Code/JsonDotNet/Source/WinRT/Bson/RT_BsonBinaryType.cs") state(2)
+Script is not up to date after domain reload: guid(7004743c137e5cd418d26c93544708d9) path("Assets/Code/JsonDotNet/Examples/Tests/TestModels/SampleObject.cs") state(2)
+Script is not up to date after domain reload: guid(6ab7586edc04d6d499dae6f36ccf2a57) path("Assets/Code/JsonDotNet/Source/WinRT/Serialization/RT_ErrorEventArgs.cs") state(2)
+Script is not up to date after domain reload: guid(2df0648bde4363e46be132f176054c9a) path("Assets/Code/JsonDotNet/Source/WinRT/Linq/RT_JToken.cs") state(2)
+Script is not up to date after domain reload: guid(12822f510a842034a90006da666de455) path("Assets/Code/JsonDotNet/Source/WinRT/Schema/RT_JsonSchemaNodeCollection.cs") state(2)
+Script is not up to date after domain reload: guid(fadbdea7eae26c94b8866c556e8f0811) path("Assets/Code/JsonDotNet/Source/WinRT/RT_MissingMemberHandling.cs") state(2)
+Script is not up to date after domain reload: guid(ae853d663f92b4a49afa545f3ddef9c1) path("Assets/Code/JsonDotNet/Source/Serialization/DefaultSerializationBinder.cs") state(2)
+Script is not up to date after domain reload: guid(aa1b98964000754489b034086aa56096) path("Assets/Code/JsonDotNet/Source/Bson/BsonBinaryType.cs") state(2)
+Script is not up to date after domain reload: guid(6a2969c139440524d9b94cb46c0b1273) path("Assets/Code/JsonDotNet/Source/Serialization/LateBoundMetadataTypeAttribute.cs") state(2)
+Script is not up to date after domain reload: guid(43a7091b0571e5e4ca80ec939eba88b8) path("Assets/Code/JsonDotNet/Source/Utilities/CollectionWrapper.cs") state(2)
+Script is not up to date after domain reload: guid(9b6909c89647c7d488dd381f57d2edb2) path("Assets/Code/JsonDotNet/Source/Serialization/DynamicValueProvider.cs") state(2)
+Script is not up to date after domain reload: guid(0e4fb38c3abf7544a86cb7d8d934e768) path("Assets/Code/JsonDotNet/Source/WinRT/Utilities/RT_MiscellaneousUtils.cs") state(2)
+Script is not up to date after domain reload: guid(bd06235ff5922444fb6d1f5b57a1ddd5) path("Assets/Code/JsonDotNet/Source/WinRT/Linq/RT_JTokenEqualityComparer.cs") state(2)
+Script is not up to date after domain reload: guid(27e32bbc50a37db4ca2565d80f7d23e4) path("Assets/Code/JsonDotNet/Source/Bson/BsonToken.cs") state(2)
+Script is not up to date after domain reload: guid(06e5fba16b56ed54a86715cec277e81d) path("Assets/Code/JsonDotNet/Source/WinRT/Serialization/RT_JsonPrimitiveContract.cs") state(2)
+Script is not up to date after domain reload: guid(c462a36caf1293949af479a304e34fbd) path("Assets/Code/JsonDotNet/Source/Schema/JsonSchemaException.cs") state(2)
+Script is not up to date after domain reload: guid(802d766bd7c86f24dbb6797a073d0a7e) path("Assets/Code/JsonDotNet/Source/WinRT/RT_JsonValidatingReader.cs") state(2)
+Script is not up to date after domain reload: guid(1883379c3b9048941bc0abf36c659f28) path("Assets/Code/JsonDotNet/Source/Schema/JsonSchemaConstants.cs") state(2)
+Script is not up to date after domain reload: guid(d9b2c9281442b2c4085c89110b298222) path("Assets/Code/JsonDotNet/Source/Converters/RegexConverter.cs") state(2)
+Script is not up to date after domain reload: guid(9e61506b28d37f04d887987221692ce9) path("Assets/Code/JsonDotNet/Source/JsonObjectAttribute.cs") state(2)
+Script is not up to date after domain reload: guid(5adefe19f050c374395c138cea8cfcfa) path("Assets/Code/JsonDotNet/Source/PreserveReferencesHandling.cs") state(2)
+Script is not up to date after domain reload: guid(6d4180147d812964397cbd1c8c3da5ae) path("Assets/Code/JsonDotNet/Source/WinRT/Converters/RT_RegexConverter.cs") state(2)
+Script is not up to date after domain reload: guid(bdb2e48147960f04991a065476189cc5) path("Assets/Code/JsonDotNet/Source/JsonConverterCollection.cs") state(2)
+Script is not up to date after domain reload: guid(8f240ca4c98d63f44904d8f474e631ad) path("Assets/Code/JsonDotNet/Source/Utilities/MethodCall.cs") state(2)
+Script is not up to date after domain reload: guid(5099df3c1d5264149a3010dcfb67bd61) path("Assets/Code/JsonDotNet/Source/Utilities/LateBoundReflectionDelegateFactory.cs") state(2)
+Script is not up to date after domain reload: guid(8f231852df90b9745ac92ca1d963e39a) path("Assets/Code/JsonDotNet/Source/Converters/IsoDateTimeConverter.cs") state(2)
+Script is not up to date after domain reload: guid(317e5bc1b51e8884b8049347aae6a273) path("Assets/Code/JsonDotNet/Source/Bson/BsonType.cs") state(2)
+Script is not up to date after domain reload: guid(e2b8c2bd273154c469b9d69e170db827) path("Assets/Code/JsonDotNet/Source/WinRT/Utilities/RT_Base64Encoder.cs") state(2)
+Script is not up to date after domain reload: guid(5dac99e3e4a707e499d59445c30511ae) path("Assets/Code/JsonDotNet/Source/Utilities/ThreadSafeStore.cs") state(2)
+Script is not up to date after domain reload: guid(03667c7b69d0c094397bc1274c1beb9c) path("Assets/Code/JsonDotNet/Source/WinRT/Schema/RT_JsonSchemaNode.cs") state(2)
+Script is not up to date after domain reload: guid(1788d1106ab40ae4485bb7e5a2d9ab69) path("Assets/Code/JsonDotNet/Source/WinRT/Converters/RT_VersionConverter.cs") state(2)
+Script is not up to date after domain reload: guid(03dc4088b03f6f24a8e8f7c28f1ebac7) path("Assets/Code/JsonDotNet/Examples/Tests/TestModels/SampleClassLibrary.dll") state(2)
+Script is not up to date after domain reload: guid(3248a490ad24da54ca90c3abdbce4796) path("Assets/Code/JsonDotNet/Source/Linq/JContainer.cs") state(2)
+Script is not up to date after domain reload: guid(082ac99d4b78e4c439e8a7b233a21e97) path("Assets/Code/JsonDotNet/Source/Serialization/CamelCasePropertyNamesContractResolver.cs") state(2)
+Script is not up to date after domain reload: guid(c08e81375c860e94994f65657b9cf055) path("Assets/Code/JsonDotNet/Source/Linq/JTokenWriter.cs") state(2)
+Script is not up to date after domain reload: guid(0e23aa87fe983e44487b3cfd998f356e) path("Assets/Code/JsonDotNet/Source/Bson/BsonBinaryWriter.cs") state(2)
+Script is not up to date after domain reload: guid(0e05386c94f001c458828417820c3fad) path("Assets/Code/JsonDotNet/Source/WinRT/RT_JsonDictionaryAttribute.cs") state(2)
+Script is not up to date after domain reload: guid(249b321b984a4a246a1f09eb7ec6c8ff) path("Assets/Code/JsonDotNet/Source/Schema/ValidationEventHandler.cs") state(2)
+Script is not up to date after domain reload: guid(a4f573393838e9244a6ba57f6feb25e1) path("Assets/Code/JsonDotNet/Source/Utilities/StringUtils.cs") state(2)
+Script is not up to date after domain reload: guid(af5378d6a3c6e384e827afc95421fa81) path("Assets/Code/JsonDotNet/Source/JsonValidatingReader.cs") state(2)
+Script is not up to date after domain reload: guid(dc796d55ed9486744b94b2aab4a774ed) path("Assets/Code/JsonDotNet/Source/Serialization/DefaultContractResolver.cs") state(2)
+Script is not up to date after domain reload: guid(f5ca2bd022014f7469067a9cc2c81860) path("Assets/Code/JsonDotNet/Source/WinRT/Utilities/RT_MathUtils.cs") state(2)
+Script is not up to date after domain reload: guid(ebe341d739ce4b948be450d2b4cd0856) path("Assets/Code/JsonDotNet/Source/WinRT/RT_StringEscapeHandling.cs") state(2)
+Script is not up to date after domain reload: guid(8dbe4cd3da97fdc4cbaf76f4a371c937) path("Assets/Code/JsonDotNet/Source/ObservableSupport/INotifyPropertyChanging.cs") state(2)
+Script is not up to date after domain reload: guid(ceef68d816c1b24449535fefabbb4899) path("Assets/Code/JsonDotNet/Source/IJsonLineInfo.cs") state(2)
+Script is not up to date after domain reload: guid(4c72f81e169aacd4798d50dc72de769d) path("Assets/Code/JsonDotNet/Source/WinRT/Converters/RT_StringEnumConverter.cs") state(2)
+Script is not up to date after domain reload: guid(f1af470ddc619b74d88b2aa0e97482d6) path("Assets/Code/JsonDotNet/Source/ObservableSupport/AddingNewEventHandler.cs") state(2)
+Script is not up to date after domain reload: guid(906493cc3163c5a4d9a128f18f470f59) path("Assets/Code/JsonDotNet/Source/Shims/WP8/SerializationBinder.cs") state(2)
+Script is not up to date after domain reload: guid(8239dd1199526cf46bc5c8d86505ab3a) path("Assets/Code/JsonDotNet/Source/Schema/JsonSchemaResolver.cs") state(2)
+Script is not up to date after domain reload: guid(14c62552c68426548b7dcaaeb07c68cc) path("Assets/Code/JsonDotNet/Source/WinRT/Serialization/RT_IContractResolver.cs") state(2)
+Script is not up to date after domain reload: guid(63ea384ed56f6504299ee85dc2ef43fd) path("Assets/Code/JsonDotNet/Source/WinRT/Serialization/RT_DefaultContractResolver.cs") state(2)
+Script is not up to date after domain reload: guid(5ed2a220f9a7b4dd6a6f13f870d1caf3) path("Assets/Plugins/iOS/SingularStateWrapper.m") state(2)
+Script is not up to date after domain reload: guid(387e7af9ce8ab564d9979c4ef2857110) path("Assets/Code/JsonDotNet/Examples/Tests/TestCaseUtils.cs") state(2)
+Script is not up to date after domain reload: guid(e4af46445a725b442b056a7370fda291) path("Assets/Code/JsonDotNet/Source/WinRT/Utilities/RT_DynamicProxy.cs") state(2)
+Script is not up to date after domain reload: guid(b4b1c8c751492324e9ef71d9d6d02988) path("Assets/Code/JsonDotNet/Source/WinRT/Utilities/RT_EnumValues.cs") state(2)
+Script is not up to date after domain reload: guid(a94712a2ab49b492b9bb4cbf8724fbcb) path("Assets/Plugins/iOS/SingularAppDelegate.m") state(2)
+Script is not up to date after domain reload: guid(fa6bdb19b36d3ee429eb52e963dd0c89) path("Assets/Code/JsonDotNet/Source/WinRT/RT_ObjectCreationHandling.cs") state(2)
+Script is not up to date after domain reload: guid(ed1fc890c72494a45a55459d4b96301a) path("Assets/Code/JsonDotNet/Source/WinRT/Converters/RT_XmlNodeConverter.cs") state(2)
+Script is not up to date after domain reload: guid(fbbb181ec6c65304ba260076dee8c6e2) path("Assets/Code/JsonDotNet/Source/WinRT/Serialization/RT_TraceJsonWriter.cs") state(2)
+Script is not up to date after domain reload: guid(0be1bead5f8ece34fbebeb41e63983d0) path("Assets/Code/JsonDotNet/Source/Serialization/DefaultReferenceResolver.cs") state(2)
+Script is not up to date after domain reload: guid(7327e1f8b99672447b4796cadd4f3a22) path("Assets/Code/JsonDotNet/Source/Serialization/JsonTypeReflector.cs") state(2)
+Script is not up to date after domain reload: guid(bf4c08efe0029a04dbef5d4a6a37a39a) path("Assets/Code/JsonDotNet/Source/WinRT/RT_WriteState.cs") state(2)
+Script is not up to date after domain reload: guid(2d748345612355c41a6cb7534eee0fcb) path("Assets/Code/JsonDotNet/Source/WinRT/Schema/RT_JsonSchemaGenerator.cs") state(2)
+Script is not up to date after domain reload: guid(78faf3b02818d63449a4dd32fc44138e) path("Assets/Code/JsonDotNet/Source/WinRT/RT_JsonPropertyAttribute.cs") state(2)
+Script is not up to date after domain reload: guid(860a539dfe0ca8c4e9751689aa12899f) path("Assets/Code/JsonDotNet/Source/Linq/JTokenReader.cs") state(2)
+Script is not up to date after domain reload: guid(6319df380314d274cb9638dffa424b7e) path("Assets/Code/JsonDotNet/Source/WinRT/Serialization/RT_CamelCasePropertyNamesContractResolver.cs") state(2)
+Script is not up to date after domain reload: guid(2d154e81c22174aa8b3a91291a42e041) path("Assets/Plugins/Android/SingularUnityBridge.jar") state(2)
+Script is not up to date after domain reload: guid(21a7746744232b3479a083867bad17b2) path("Assets/Code/JsonDotNet/Source/WinRT/Serialization/RT_JsonProperty.cs") state(2)
+Script is not up to date after domain reload: guid(7f7285c21458c154baa7697df7c6c562) path("Assets/Code/JsonDotNet/Source/Serialization/JsonContract.cs") state(2)
+Script is not up to date after domain reload: guid(f1a35e885edc1b2459df267a28697015) path("Assets/Code/JsonDotNet/Examples/Tests/TestModels/SampleBase.cs") state(2)
+Script is not up to date after domain reload: guid(6b65414ce0686134faf877e91e52b7aa) path("Assets/Code/JsonDotNet/Source/WinRT/Linq/RT_JTokenReader.cs") state(2)
+Script is not up to date after domain reload: guid(580ac2868512245448d07df611fae810) path("Assets/Code/JsonDotNet/Source/TypeNameHandling.cs") state(2)
+Script is not up to date after domain reload: guid(9871bece71118434c9018dc82f9c9821) path("Assets/Code/JsonDotNet/Source/WinRT/Serialization/RT_JsonArrayContract.cs") state(2)
+Script is not up to date after domain reload: guid(b212f70d2dbf7644280c6b64c99b1b2a) path("Assets/Code/JsonDotNet/Source/Utilities/EnumValue.cs") state(2)
+Script is not up to date after domain reload: guid(b2c29ad19c4520b418e3249375cd779a) path("Assets/Code/JsonDotNet/Source/Converters/KeyValuePairConverter.cs") state(2)
+Script is not up to date after domain reload: guid(62ad21515769dc741963cdddb79d22d9) path("Assets/Code/JsonDotNet/Extras/CustomConverters/Matrix4x4Converter.cs") state(2)
+Script is not up to date after domain reload: guid(83a2ce70ed1acc044a8922b642802b6c) path("Assets/Code/JsonDotNet/Source/JsonTextReader.cs") state(2)
+Script is not up to date after domain reload: guid(9177dff452a16c54789bc795175e119d) path("Assets/Code/JsonDotNet/Source/WinRT/Schema/RT_JsonSchemaModel.cs") state(2)
+Script is not up to date after domain reload: guid(260ff83e676e1954186f9646c91b77f6) path("Assets/Code/JsonDotNet/Source/WinRT/RT_JsonConverterAttribute.cs") state(2)
+Script is not up to date after domain reload: guid(886ece5c1a9b59e4da12393533c9a3c2) path("Assets/Code/JsonDotNet/Source/WinRT/Serialization/RT_JsonSerializerInternalReader.cs") state(2)
+Script is not up to date after domain reload: guid(6506e96dae138f343b52f64376c7b33c) path("Assets/Code/JsonDotNet/Source/WinRT/Schema/RT_JsonSchemaConstants.cs") state(2)
+Script is not up to date after domain reload: guid(b406a6eeeae894c418eb50a1ccf849cf) path("Assets/Code/JsonDotNet/Source/Serialization/OnErrorAttribute.cs") state(2)
+Script is not up to date after domain reload: guid(d7555d2cf86fb604c8307a9d72b2b136) path("Assets/Code/JsonDotNet/Source/WinRT/Serialization/RT_ITraceWriter.cs") state(2)
+Script is not up to date after domain reload: guid(2bc4947be1ec1b7408d8e57bab5e9b08) path("Assets/Code/JsonDotNet/Source/Serialization/ObjectConstructor.cs") state(2)
+Script is not up to date after domain reload: guid(a27708a61e55f4bcb8c5f2936be21c37) path("Assets/Code/SingularConversionValueUpdatedHandler.cs") state(2)
+Script is not up to date after domain reload: guid(b8652b2639bc5f447a025d2248ee2b8e) path("Assets/Code/JsonDotNet/Source/WinRT/Linq/RT_JObject.cs") state(2)
+Script is not up to date after domain reload: guid(5115717eabeaa6f42bb3609ad73b1238) path("Assets/Code/JsonDotNet/Source/Serialization/JsonDictionaryContract.cs") state(2)
+Script is not up to date after domain reload: guid(53821cd920aa04b559c56e708b5738d8) path("Assets/Plugins/iOS/SingularUnityWrapper.mm") state(2)
+Script is not up to date after domain reload: guid(b0d98e0bca111a44299e001ba8ced5c8) path("Assets/Code/JsonDotNet/Source/MissingMemberHandling.cs") state(2)
+Script is not up to date after domain reload: guid(d04e909c70554264d9773be7d273c2c9) path("Assets/Code/JsonDotNet/Source/Shims/EnumMemberAttribute.cs") state(2)
+Script is not up to date after domain reload: guid(673fa18897e05864c83ebc9d267ef38c) path("Assets/Code/JsonDotNet/Source/ObjectCreationHandling.cs") state(2)
+Script is not up to date after domain reload: guid(68d72fe86c5b49f45b97f38a0aa3aca5) path("Assets/Code/JsonDotNet/Source/WinRT/Utilities/RT_LateBoundReflectionDelegateFactory.cs") state(2)
+Script is not up to date after domain reload: guid(42fa682bd1d45584b844543dd13393a7) path("Assets/Code/JsonDotNet/Source/WinRT/RT_JsonConstructorAttribute.cs") state(2)
+Script is not up to date after domain reload: guid(8fbdf2feb532dcd4fbcde9e402cf9464) path("Assets/Code/JsonDotNet/Source/Shims/WP8/FormatterAssemblyStyle.cs") state(2)
+Script is not up to date after domain reload: guid(b7f4b74c4317079439ac07b19dbdd636) path("Assets/Code/JsonDotNet/Source/WinRT/RT_JsonConvert.cs") state(2)
+Script is not up to date after domain reload: guid(75ffaf1029bddba47bfd2591edc41d49) path("Assets/Code/JsonDotNet/Source/ObservableSupport/PropertyChangingEventHandler.cs") state(2)
+Script is not up to date after domain reload: guid(3452427185370cf45b7894d6bbe3c2f6) path("Assets/Code/JsonDotNet/Source/Schema/JsonSchema.cs") state(2)
+Script is not up to date after domain reload: guid(1eb1a2bed69398f48b4e4e68ad672657) path("Assets/Code/JsonDotNet/Source/Shims/DataContractAttribute.cs") state(2)
+Script is not up to date after domain reload: guid(3758dbb685397f14d866276f59a2f59e) path("Assets/Code/JsonDotNet/Source/Serialization/ErrorContext.cs") state(2)
+Script is not up to date after domain reload: guid(f5debce3bfbf1ad429c139a45cbc8417) path("Assets/Code/JsonDotNet/Source/WinRT/RT_JsonToken.cs") state(2)
+Script is not up to date after domain reload: guid(7dd19bcf06d1818488b517137c9f6887) path("Assets/Code/JsonDotNet/Source/WinRT/Serialization/RT_JsonDynamicContract.cs") state(2)
+Script is not up to date after domain reload: guid(1847a3caff91c32409d1519b577aa4c5) path("Assets/Code/JsonDotNet/Source/WinRT/Serialization/RT_MemoryTraceWriter.cs") state(2)
+Script is not up to date after domain reload: guid(fdd5a3c5d4ea7fd478f545db60fdad4f) path("Assets/Code/JsonDotNet/Source/WinRT/Bson/RT_BsonType.cs") state(2)
+Script is not up to date after domain reload: guid(099c95d506ddf014285409e94b9e789c) path("Assets/Code/JsonDotNet/Source/Linq/JProperty.cs") state(2)
+Script is not up to date after domain reload: guid(df75c66027e394bce8fe7ba66f0054ff) path("Assets/Code/SingularAdData.cs") state(2)
+Script is not up to date after domain reload: guid(d4c5b92cddc2e3d44b9e05d1aeaf85cf) path("Assets/Code/JsonDotNet/Source/WinRT/Schema/RT_JsonSchemaResolver.cs") state(2)
+Script is not up to date after domain reload: guid(b2123bd24829ea34c8867e82c0e86998) path("Assets/Code/JsonDotNet/Source/WinRT/Utilities/RT_DateTimeUtils.cs") state(2)
+Script is not up to date after domain reload: guid(33b8d3f3fd70d6a49b80199f1fc7f308) path("Assets/Code/JsonDotNet/Examples/Serialization/3-BSON/JNBsonSample.cs") state(2)
+Script is not up to date after domain reload: guid(c3a38ae0dd7daec4584fab55ed5a9bd0) path("Assets/Code/JsonDotNet/Source/Schema/JsonSchemaGenerator.cs") state(2)
+Script is not up to date after domain reload: guid(e8cf744676a53db4390c743c28dfc722) path("Assets/Code/JsonDotNet/Source/Serialization/ReflectionValueProvider.cs") state(2)
+Script is not up to date after domain reload: guid(522cf7deb4a10e4429b0be1b5122f567) path("Assets/Code/JsonDotNet/Source/ObservableSupport/INotifyCollectionChanged.cs") state(2)
+Script is not up to date after domain reload: guid(0df3a52b817f3ee459621c6cfe40962a) path("Assets/Code/JsonDotNet/Source/JsonTextWriter.cs") state(2)
+Script is not up to date after domain reload: guid(1aabbb48827e9ec419b918d67831fc84) path("Assets/Code/JsonDotNet/Source/JsonConstructorAttribute.cs") state(2)
+Script is not up to date after domain reload: guid(6d1dba17a611fff4cbe2ee58549caa18) path("Assets/Code/JsonDotNet/Source/WinRT/Converters/RT_JsonValueConverter.cs") state(2)
+Script is not up to date after domain reload: guid(1b3e49d116a7cb049a99b42240413ba1) path("Assets/Code/JsonDotNet/Source/Serialization/CachedAttributeGetter.cs") state(2)
+Script is not up to date after domain reload: guid(bd66a11d7bdee2245b092d1339981837) path("Assets/Code/JsonDotNet/Source/Converters/JsonDateTimeSerializationMode.cs") state(2)
+Script is not up to date after domain reload: guid(d68eb9a861a9d8d4c9ba39ab4937d0ee) path("Assets/Code/JsonDotNet/Source/WinRT/Utilities/RT_ConvertUtils.cs") state(2)
+Script is not up to date after domain reload: guid(dae5725ddbf8f1049bde5dbb2a061d36) path("Assets/Code/JsonDotNet/Source/WinRT/Utilities/RT_StringReference.cs") state(2)
+Script is not up to date after domain reload: guid(d6959c1e2e80c5d449964ab3aad2398c) path("Assets/Code/JsonDotNet/Source/Utilities/ReflectionUtils.cs") state(2)
+Script is not up to date after domain reload: guid(db98ec428e411a44994c422be6461e52) path("Assets/Code/JsonDotNet/Source/NullValueHandling.cs") state(2)
+Script is not up to date after domain reload: guid(927afaf02f655b1458535a2568a58cc3) path("Assets/Code/JsonDotNet/Source/Converters/JavaScriptDateTimeConverter.cs") state(2)
+Script is not up to date after domain reload: guid(e0e960f463f823b4dab5b22b7a9d6356) path("Assets/Code/JsonDotNet/Extras/CustomConverters/Vector4Converter.cs") state(2)
+Script is not up to date after domain reload: guid(5fed3a1a1d39e4146b4e6f329ef7b833) path("Assets/Code/JsonDotNet/Source/WinRT/RT_SerializationBinder.cs") state(2)
+Script is not up to date after domain reload: guid(116308110bbc3ce4bbdd97d6c9e6cfb4) path("Assets/Code/JsonDotNet/Source/Serialization/JsonSerializerInternalBase.cs") state(2)
+Script is not up to date after domain reload: guid(e39384f1713249845965ae1faf5c1182) path("Assets/Code/JsonDotNet/Source/Serialization/JsonObjectContract.cs") state(2)
+Script is not up to date after domain reload: guid(ac323f7b1ac893f4a9b54552f464fb31) path("Assets/Code/JsonDotNet/Examples/Tests/TestModels/SimpleClassObject.cs") state(2)
+Script is not up to date after domain reload: guid(44e5239a21d164c4ea096d15ac979040) path("Assets/Code/JsonDotNet/Source/WinRT/Serialization/RT_IReferenceResolver.cs") state(2)
+Script is not up to date after domain reload: guid(122c4eefc9d013946b9738979081be15) path("Assets/Code/JsonDotNet/Source/WinRT/Utilities/RT_MethodCall.cs") state(2)
+Script is not up to date after domain reload: guid(8652e0129fc38d34bae4fc8ceda412d6) path("Assets/Code/JsonDotNet/Source/WinRT/RT_JsonConverterCollection.cs") state(2)
+Script is not up to date after domain reload: guid(7cf9aac2ef41f824d8b357d0eb8fb87b) path("Assets/Code/JsonDotNet/Source/WinRT/RT_JsonContainerAttribute.cs") state(2)
+Script is not up to date after domain reload: guid(3faeb5481b210e04cab60723a90f9489) path("Assets/Code/JsonDotNet/Source/Serialization/JsonFormatterConverter.cs") state(2)
+Script is not up to date after domain reload: guid(123e5f94625b2ac4895abb0315820067) path("Assets/Code/JsonDotNet/Source/WinRT/Utilities/RT_TypeExtensions.cs") state(2)
+Script is not up to date after domain reload: guid(d9a7135c132eeed45ac1d36e9952c5d6) path("Assets/Code/JsonDotNet/Source/WinRT/Converters/RT_CustomCreationConverter.cs") state(2)
+Script is not up to date after domain reload: guid(1ea2789d16ff6fa41971367de4e881a6) path("Assets/Code/JsonDotNet/Source/Utilities/MathUtils.cs") state(2)
+Script is not up to date after domain reload: guid(d564b217d104c654f864e7e5f78a7678) path("Assets/Code/JsonDotNet/Source/WinRT/Converters/RT_KeyValuePairConverter.cs") state(2)
+Script is not up to date after domain reload: guid(d606092cd8b39f543b214474dedc13ec) path("Assets/Code/JsonDotNet/Source/JsonSerializer.cs") state(2)
+Script is not up to date after domain reload: guid(3620491f8d5c64bb190b51190f8999a1) path("Assets/Plugins/iOS/SingularSwizzledAppController.m") state(2)
+Script is not up to date after domain reload: guid(0d61475a2e8b4134e874a5407d4556ee) path("Assets/Code/JsonDotNet/Source/WinRT/RT_DateFormatHandling.cs") state(2)
+Script is not up to date after domain reload: guid(5af898001ae0a7c42aa19dc7dcf7f15d) path("Assets/Code/JsonDotNet/Source/WinRT/Linq/RT_IJEnumerable.cs") state(2)
+Script is not up to date after domain reload: guid(40e80e41235d21947bea2fd258a699f1) path("Assets/Code/JsonDotNet/Source/Schema/UndefinedSchemaIdHandling.cs") state(2)
+Script is not up to date after domain reload: guid(2c804677c3865694bb3a543a6414111f) path("Assets/Code/JsonDotNet/Source/ObservableSupport/NotifyCollectionChangedEventArgs.cs") state(2)
+Script is not up to date after domain reload: guid(bcb0562fd6ac24a4c99e85ace39d7ad8) path("Assets/Code/JsonDotNet/Source/WinRT/Bson/RT_BsonBinaryWriter.cs") state(2)
+Script is not up to date after domain reload: guid(df90fa1776ea0bb409867d9c06ea1377) path("Assets/Code/JsonDotNet/Source/ObservableSupport/NotifyCollectionChangedEventHandler.cs") state(2)
+Script is not up to date after domain reload: guid(df720ad6ffb365d4785f363b739ad459) path("Assets/Code/JsonDotNet/Source/WinRT/RT_FloatFormatHandling.cs") state(2)
+Script is not up to date after domain reload: guid(e733d50a8707d5c4ba047bc838879aec) path("Assets/Code/JsonDotNet/Source/WinRT/Utilities/RT_DynamicUtils.cs") state(2)
+Script is not up to date after domain reload: guid(1092b7d6bcbf7874188f4c4f9664141b) path("Assets/Code/JsonDotNet/Source/ObservableSupport/NotifyCollectionChangedAction.cs") state(2)
+Script is not up to date after domain reload: guid(b3b63b6df1bd7de46ae8456f484bbec3) path("Assets/Code/JsonDotNet/Source/Serialization/JsonProperty.cs") state(2)
+Script is not up to date after domain reload: guid(3afa658c01d772644b0717445ab8a0a7) path("Assets/Code/JsonDotNet/Source/WinRT/Utilities/RT_ThreadSafeStore.cs") state(2)
+Script is not up to date after domain reload: guid(b4c7ef0854f629d4e98fd5fc2e3c4f71) path("Assets/Code/JsonDotNet/Source/JsonSerializationException.cs") state(2)
+Script is not up to date after domain reload: guid(5d6c3837d914349e9b96ddc908819151) path("Assets/Plugins/iOS/libSingular.a") state(2)
+Script is not up to date after domain reload: guid(e07f47d59877caa43a89a16c825b9fcf) path("Assets/Code/JsonDotNet/Source/WinRT/RT_JsonIgnoreAttribute.cs") state(2)
+Script is not up to date after domain reload: guid(e03c63f86b5e7bf428043f124d7e5494) path("Assets/Code/JsonDotNet/Source/JsonToken.cs") state(2)
+Script is not up to date after domain reload: guid(90bd04527e4bafc4a84a0a8a55cb875f) path("Assets/Code/JsonDotNet/Source/WinRT/RT_Formatting.cs") state(2)
+Script is not up to date after domain reload: guid(1a4fe444c761a7843b516b565550e192) path("Assets/Code/JsonDotNet/Source/WinRT/Schema/RT_JsonSchemaBuilder.cs") state(2)
+Script is not up to date after domain reload: guid(44141abf798fee64b9b1061921fcaed3) path("Assets/Code/JsonDotNet/Source/Schema/JsonSchemaWriter.cs") state(2)
+Script is not up to date after domain reload: guid(284580643e1bb904a930509fcffcb14a) path("Assets/Code/JsonDotNet/Source/WinRT/Schema/RT_ValidationEventArgs.cs") state(2)
+Script is not up to date after domain reload: guid(7e706b89d5254d4409dc64949bcb3516) path("Assets/Code/JsonDotNet/Source/JsonPropertyAttribute.cs") state(2)
+Script is not up to date after domain reload: guid(2c5d1b5801c6b2f448b4e11b260206c4) path("Assets/Code/JsonDotNet/Examples/Tests/TestModels/SampleChild.cs") state(2)
+Script is not up to date after domain reload: guid(85061ec4538f68244ba07dcacdde001f) path("Assets/Code/JsonDotNet/Source/Serialization/JsonSerializerInternalReader.cs") state(2)
+Script is not up to date after domain reload: guid(2ee2d64b52e217c4bb9d8480fe8445c6) path("Assets/Code/JsonDotNet/Source/Linq/JPath.cs") state(2)
+Script is not up to date after domain reload: guid(aac03950313cbac40ba7a5cf62f32ef1) path("Assets/Code/JsonDotNet/Source/Utilities/DynamicWrapper.cs") state(2)
+Script is not up to date after domain reload: guid(1c5700bccbe26e043acfab1971691535) path("Assets/Code/JsonDotNet/Source/WinRT/RT_JsonException.cs") state(2)
+Script is not up to date after domain reload: guid(1793a2f568ac4476799344353a50f969) path("Assets/Homa Games/Homa Belly/Attributions/Singular/Editor/SingularPostprocessor.cs") state(2)
+Script is not up to date after domain reload: guid(e025bc105e021674f84246d4af479f15) path("Assets/Code/JsonDotNet/Source/WinRT/Linq/RT_JProperty.cs") state(2)
+Script is not up to date after domain reload: guid(7a49e0bc28d102c46a1a99db4ae3fe71) path("Assets/Code/JsonDotNet/Source/WinRT/Linq/RT_JPath.cs") state(2)
+Script is not up to date after domain reload: guid(ff6d7eb03ec06ff469d60278c0a1a702) path("Assets/Code/JsonDotNet/Source/WinRT/RT_DateTimeZoneHandling.cs") state(2)
+Script is not up to date after domain reload: guid(b97ca6546c3bce94bba4c5bd033d8524) path("Assets/Code/JsonDotNet/Source/JsonConverter.cs") state(2)
+Script is not up to date after domain reload: guid(22936db892734ba48bdc6687d735f72d) path("Assets/Code/JsonDotNet/Source/ConstructorHandling.cs") state(2)
+Script is not up to date after domain reload: guid(6f91795132dad47158694dc24160ed11) path("Assets/Homa Games/Homa Belly/Attributions/Singular/Scripts/HomaBellySingularConstants.cs") state(2)
+Script is not up to date after domain reload: guid(3f2aaddb607d0fe4296b9474fde324d0) path("Assets/Code/JsonDotNet/Source/WinRT/RT_IJsonLineInfo.cs") state(2)
+Script is not up to date after domain reload: guid(84a0be828ae39114fbc38f7e685d4d83) path("Assets/Code/JsonDotNet/Source/ReferenceLoopHandling.cs") state(2)
+Script is not up to date after domain reload: guid(0174a7625d6c5c249baf8daa4c091555) path("Assets/Code/JsonDotNet/Source/WinRT/Utilities/RT_EnumUtils.cs") state(2)
+Script is not up to date after domain reload: guid(678b0ebdbfad3cc489471341fccce04a) path("Assets/Code/JsonDotNet/Source/WinRT/Serialization/RT_JsonContract.cs") state(2)
+Script is not up to date after domain reload: guid(7fa289c8d8b4eec43911ad6588a50287) path("Assets/Code/JsonDotNet/Source/Utilities/ListWrapper.cs") state(2)
+Script is not up to date after domain reload: guid(322b693ae9856d14aaabcbdc78e5f915) path("Assets/Code/JsonDotNet/Source/WinRT/RT_JsonConverter.cs") state(2)
+Script is not up to date after domain reload: guid(65c323af5fec57d49910558f3fc93d6b) path("Assets/Code/JsonDotNet/Source/Bson/BsonReader.cs") state(2)
+Script is not up to date after domain reload: guid(207f6af46f66aa440b28340c964f0ed7) path("Assets/Code/JsonDotNet/Source/ObservableSupport/AddingNewEventArgs.cs") state(2)
+Script is not up to date after domain reload: guid(28e418e6e221c5e4487024750e4d6b59) path("Assets/Code/JsonDotNet/Source/Serialization/JsonPropertyCollection.cs") state(2)
+Script is not up to date after domain reload: guid(ed4d9fc71477550499883082a435fc16) path("Assets/Code/JsonDotNet/Source/Linq/JPropertyDescriptor.cs") state(2)
+Script is not up to date after domain reload: guid(e43ee6c17e909e540964eb4cd1daf213) path("Assets/Code/JsonDotNet/Examples/Tests/JsonTestScript.cs") state(2)
+Script is not up to date after domain reload: guid(eb2ac8db5b3306d4f85123c6d2f9f311) path("Assets/Code/JsonDotNet/Source/JsonArrayAttribute.cs") state(2)
+Script is not up to date after domain reload: guid(15dcbf4f7b957754480f8908883217ca) path("Assets/Code/JsonDotNet/Source/Serialization/JsonArrayContract.cs") state(2)
+Script is not up to date after domain reload: guid(2b548b5492685c04694b32da9c4b7156) path("Assets/Code/JsonDotNet/Source/WinRT/Serialization/RT_CachedAttributeGetter.cs") state(2)
+Script is not up to date after domain reload: guid(57828bd1b126cd0469e001dc56f59fd1) path("Assets/Code/JsonDotNet/Source/JsonContainerAttribute.cs") state(2)
+Script is not up to date after domain reload: guid(bdc40b5a687f35044bd083cf6e35ca53) path("Assets/Code/JsonDotNet/Source/WinRT/Linq/RT_JValue.cs") state(2)
+Script is not up to date after domain reload: guid(aa528d2bafa28c34990aa98eb5354512) path("Assets/Code/JsonDotNet/Source/Utilities/ValidationUtils.cs") state(2)
+Script is not up to date after domain reload: guid(29cb55dd895e1eb4082792c06fd4b125) path("Assets/Code/JsonDotNet/Source/JsonSerializerSettings.cs") state(2)
+Script is not up to date after domain reload: guid(3d258f08492e60444a780f3c4b286df2) path("Assets/Code/JsonDotNet/Source/WinRT/Utilities/RT_CollectionUtils.cs") state(2)
+Script is not up to date after domain reload: guid(e7215ce3baf0d4143ab1c870b02f6124) path("Assets/Code/JsonDotNet/Source/WinRT/Schema/RT_SchemaExtensions.cs") state(2)
+Script is not up to date after domain reload: guid(baa48c64f70359b439e0c54d3a00fa84) path("Assets/Code/JsonDotNet/Source/Converters/CustomCreationConverter.cs") state(2)
+Script is not up to date after domain reload: guid(a3fc5e33b0f517f499d87389ccbd47af) path("Assets/Code/JsonDotNet/Source/Serialization/JsonSerializerProxy.cs") state(2)
+Script is not up to date after domain reload: guid(48fe98a1c0b0c424f885ada377c5169c) path("Assets/Code/JsonDotNet/Source/WinRT/Serialization/RT_ObjectConstructor.cs") state(2)
+Script is not up to date after domain reload: guid(6761554e0906f7b41b3f9a7b0833a663) path("Assets/Code/JsonDotNet/Source/WinRT/Schema/RT_JsonSchemaWriter.cs") state(2)
+Script is not up to date after domain reload: guid(4ddf9d1af7a1bdd4ba42905e46952447) path("Assets/Code/JsonDotNet/Source/WinRT/Utilities/RT_ImmutableCollectionsUtils.cs") state(2)
+Script is not up to date after domain reload: guid(7d3cd1df7da9098478ec949ed1de69ee) path("Assets/Code/JsonDotNet/Source/Utilities/DateTimeUtils.cs") state(2)
+Script is not up to date after domain reload: guid(d1ae2b7b90a6ad040b155449e775af76) path("Assets/Code/JsonDotNet/Source/Utilities/JavaScriptUtils.cs") state(2)
+Script is not up to date after domain reload: guid(1b4690fba008fa149b6df92ce2947583) path("Assets/Code/JsonDotNet/Source/Schema/ValidationEventArgs.cs") state(2)
+Script is not up to date after domain reload: guid(7842eb9c37007a64c9208a29184a04ff) path("Assets/Code/JsonDotNet/Source/Schema/JsonSchemaType.cs") state(2)
+Script is not up to date after domain reload: guid(2d4f87a07ee71f84da5d2b826e728b3d) path("Assets/Code/JsonDotNet/Source/WinRT/Linq/RT_LinqExtensions.cs") state(2)
+Script is not up to date after domain reload: guid(2188bdb7ee6e8f245b7201523b06c79a) path("Assets/Code/JsonDotNet/Source/JsonConvert.cs") state(2)
+Script is not up to date after domain reload: guid(e3c573956ca1d6b429b7295189a73298) path("Assets/Code/JsonDotNet/Source/WinRT/Serialization/RT_JsonTypeReflector.cs") state(2)
+Script is not up to date after domain reload: guid(0dcef478b6dd19443ab0ff6bfebfe9be) path("Assets/Code/JsonDotNet/Extras/CustomConverters/Vector2Converter.cs") state(2)
+Script is not up to date after domain reload: guid(d977c728586c87b42a5b54ab4cb88920) path("Assets/Code/JsonDotNet/Source/WinRT/Serialization/RT_JsonLinqContract.cs") state(2)
+Script is not up to date after domain reload: guid(1ce2637c44334ba42a4a66c335aa8da8) path("Assets/Code/JsonDotNet/Source/Converters/BsonObjectIdConverter.cs") state(2)
+Script is not up to date after domain reload: guid(175fd4335a5acb949b5d54dd5e73fc20) path("Assets/Code/JsonDotNet/Source/JsonReaderException.cs") state(2)
+Script is not up to date after domain reload: guid(6d3e2d1b2c2d98f4dbc765ab6a873fcf) path("Assets/Code/JsonDotNet/Source/WinRT/Utilities/RT_DateTimeParser.cs") state(2)
+Script is not up to date after domain reload: guid(80370f13103484ce6b5d8e2d5fb84dfa) path("Assets/Plugins/iOS/Singular.h") state(2)
+Script is not up to date after domain reload: guid(36ea11b1dad490d42881fdfb6ae42564) path("Assets/Code/JsonDotNet/Source/WinRT/RT_Required.cs") state(2)
+Script is not up to date after domain reload: guid(d0c0bc0d250bbf04fa7582770c3f297e) path("Assets/Code/JsonDotNet/Source/WinRT/Utilities/RT_EnumValue.cs") state(2)
+Script is not up to date after domain reload: guid(55c88ddd3920db143bd3c3803607b1a0) path("Assets/Code/JsonDotNet/Source/JsonIgnoreAttribute.cs") state(2)
+Script is not up to date after domain reload: guid(191ab650040f92445aa964b07caae596) path("Assets/Code/JsonDotNet/Source/WinRT/RT_TraceLevel.cs") state(2)
+Script is not up to date after domain reload: guid(7bf904a1ceacb6e48904ff58827022ce) path("Assets/Code/JsonDotNet/Source/Utilities/EnumValues.cs") state(2)
+Script is not up to date after domain reload: guid(2fe6f468ff063934a844eece3c026ab0) path("Assets/Code/JsonDotNet/Source/Serialization/IReferenceResolver.cs") state(2)
+Script is not up to date after domain reload: guid(4d164657a8c46624ca9cd5c4af9cf126) path("Assets/Code/JsonDotNet/Source/Linq/JConstructor.cs") state(2)
+Script is not up to date after domain reload: guid(acc7a11a75524914d8e82abda1b93df4) path("Assets/Code/JsonDotNet/Source/WinRT/RT_JsonReader.cs") state(2)
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'BOXOPHOBIC/Polyverse Skies/Simple': fallback shader 'False' not found
+Shader 'BOXOPHOBIC/Polyverse Skies/Standard': fallback shader 'False' not found
+Refreshing native plugins compatible for Editor in 1.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3442 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 205.0 MB.
+System memory in use after: 199.4 MB.
+
+Unloading 74 unused Assets to reduce memory usage. Loaded Objects now: 4103.
+Total: 86.998100 ms (FindLiveObjects: 3.226900 ms CreateObjectMapping: 0.361900 ms MarkObjects: 73.006100 ms  DeleteObjects: 10.399300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.024823 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 6.05 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+[HomaBelly] Auto generating code for HomaGames.HomaBelly.IAttribution Services: HomaGames.HomaBelly.SingularAttribution. File: HomaBridgeDependenciesAttributions
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+HomaGames.HomaBelly.HomaBridgeDependenciesCodeGenerator:AutoGenerateInitializationFile (string,string,string,System.Type,bool) (at Assets/Homa Games/Homa Belly/Core/Scripts/HomaBridge/Editor/HomaBridgeDependenciesCodeGenerator.cs:95)
+HomaGames.HomaBelly.HomaBridgeDependenciesCodeGenerator:AutoGenerateInitializationFiles (bool) (at Assets/Homa Games/Homa Belly/Core/Scripts/HomaBridge/Editor/HomaBridgeDependenciesCodeGenerator.cs:34)
+HomaGames.HomaBelly.HomaBridgeDependenciesCodeGenerator:AutoGenerateCode () (at Assets/Homa Games/Homa Belly/Core/Scripts/HomaBridge/Editor/HomaBridgeDependenciesCodeGenerator.cs:18)
+System.Reflection.MonoMethod:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+(Filename: Assets/Homa Games/Homa Belly/Core/Scripts/HomaBridge/Editor/HomaBridgeDependenciesCodeGenerator.cs Line: 95)
+
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: API Compatibility level changed
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
+Mono: successfully reloaded assembly
+- Completed reload, in  5.090 seconds
+Domain Reload Profiling:
+	ReloadAssembly (5090ms)
+		BeginReloadAssembly (636ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (82ms)
+		EndReloadAssembly (4320ms)
+			LoadAssemblies (628ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (620ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (87ms)
+			SetupLoadedEditorAssemblies (3019ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (20ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (6ms)
+				BeforeProcessingInitializeOnLoad (175ms)
+				ProcessInitializeOnLoadAttributes (1484ms)
+				ProcessInitializeOnLoadMethodAttributes (1326ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Script is not up to date after domain reload: guid(e185dadd9acc8487d8d4bb2936a243cc) path("Assets/GameAnalytics/Plugins/GameAnalytics.dll") state(2)
+Script is not up to date after domain reload: guid(1488bee7925fe433fbddf989c50ad4ff) path("Assets/GameAnalytics/Plugins/Scripts/GameAnalytics.cs") state(2)
+Script is not up to date after domain reload: guid(19da6243a1a7449a585f5f945b7a1f94) path("Assets/GameAnalytics/Editor/GA_PostprocessBuild.cs") state(2)
+Script is not up to date after domain reload: guid(efee5ff52c83843e08be583cbb6f3c5e) path("Assets/GameAnalytics/Plugins/Scripts/Enums.cs") state(2)
+Script is not up to date after domain reload: guid(fa243e0b34b0943898d5bdbc2e0f5e04) path("Assets/GameAnalytics/Plugins/Scripts/Wrapper/GA_tvOSWrapper.cs") state(2)
+Script is not up to date after domain reload: guid(b6bf71225669c488b93e861115752dbc) path("Assets/GameAnalytics/Plugins/tvOS/GameAnalyticsTVOS.h") state(2)
+Script is not up to date after domain reload: guid(316a5978eed5b400c8dd756e6eb47fdc) path("Assets/GameAnalytics/Plugins/Android/gameanalytics.aar") state(2)
+Script is not up to date after domain reload: guid(b2e01a91a8f57cc4ab01eb170c170820) path("Assets/GameAnalytics/Plugins/Scripts/Wrapper/GA_WebGLWrapper.cs") state(2)
+Script is not up to date after domain reload: guid(fb8bd556074cc4e21aa07b59846598e4) path("Assets/GameAnalytics/Plugins/Scripts/Utilities/GA_MiniJson.cs") state(2)
+Script is not up to date after domain reload: guid(07f754a4e3cf34a898750465ec6d4afe) path("Assets/GameAnalytics/Plugins/iOS/GameAnalyticsATTObjCBridge.h") state(2)
+Script is not up to date after domain reload: guid(95ca1d00b4a004e3f9f69da6258ecdb1) path("Assets/GameAnalytics/Plugins/Scripts/Wrapper/GA_AndroidWrapper.cs") state(2)
+Script is not up to date after domain reload: guid(6455957878877439898d50d5143ff4f6) path("Assets/GameAnalytics/Plugins/Scripts/Events/GA_Debug.cs") state(2)
+Script is not up to date after domain reload: guid(08aa36c620a9340648d45b3707830e81) path("Assets/GameAnalytics/Plugins/Playmaker/SendAdEvent.cs") state(2)
+Script is not up to date after domain reload: guid(6b4b6b600a7a81e499287fefa90fec16) path("Assets/GameAnalytics/Plugins/WSA/x64/GameAnalytics.UWP.dll") state(2)
+Script is not up to date after domain reload: guid(839df1d9532264d9c9365e5fe1469267) path("Assets/GameAnalytics/Plugins/Playmaker/GetABTestingVariantId.cs") state(2)
+Script is not up to date after domain reload: guid(163ec4bf94c105943aff6929a819f444) path("Assets/GameAnalytics/Plugins/WebGL/GameAnalytics.jspre") state(2)
+Script is not up to date after domain reload: guid(0a3d477cdf26e4516ab204fc8fd9a841) path("Assets/GameAnalytics/Editor/GA_AutoRun.cs") state(2)
+Script is not up to date after domain reload: guid(b86bf966f50b94d51b995b04fd531177) path("Assets/GameAnalytics/Plugins/Playmaker/SendProgressionEvent.cs") state(2)
+Script is not up to date after domain reload: guid(858f7c48da8a74c11b8a3cc0cbf14499) path("Assets/GameAnalytics/Plugins/Scripts/Wrapper/GA_MonoWrapper.cs") state(2)
+Script is not up to date after domain reload: guid(68544a0857d96482ca2440c0ffef392a) path("Assets/GameAnalytics/Plugins/Windows/x86/sqlite3.dll") state(2)
+Script is not up to date after domain reload: guid(a2403619fc556407983e282336344f15) path("Assets/GameAnalytics/Editor/GA_AssetPostprocessor.cs") state(2)
+Script is not up to date after domain reload: guid(b2de1245ae0c4465eaa008dbcc12d8b5) path("Assets/GameAnalytics/Plugins/Scripts/Wrapper/GA_iOSWrapper.cs") state(2)
+Script is not up to date after domain reload: guid(0d20dfc8bc20a4245955c31b3e01e78c) path("Assets/GameAnalytics/Plugins/Scripts/ILRD/GameAnalyticsILRD.cs") state(2)
+Script is not up to date after domain reload: guid(128ff5fbca9e2134e8d5740af437bd8d) path("Assets/GameAnalytics/Plugins/WebGL/GameAnalyticsUnity.jslib") state(2)
+Script is not up to date after domain reload: guid(385dfd45fbeae4407b26dab4174751a1) path("Assets/GameAnalytics/Plugins/Playmaker/GetRemoteConfigsValueAsString.cs") state(2)
+Script is not up to date after domain reload: guid(284d46b9b11834f6c87bd0c1919befa5) path("Assets/Homa Games/Homa Belly/Analytics/GameAnalytics/Editor/GameAnalyticsPostprocessor.cs") state(2)
+Script is not up to date after domain reload: guid(546155fc8c8e946beb7aa56aa713067c) path("Assets/GameAnalytics/Editor/GA_ContinuationManager.cs") state(2)
+Script is not up to date after domain reload: guid(e80bd2212bced4389864d19a834a7ae2) path("Assets/GameAnalytics/Plugins/Scripts/Events/GA_Error.cs") state(2)
+Script is not up to date after domain reload: guid(496a0307096f3cb4e816f8e580b26bf1) path("Assets/GameAnalytics/Plugins/SamsungTV/sqlite3.h") state(2)
+Script is not up to date after domain reload: guid(b6a0e41a829274f5685679cc63e692ca) path("Assets/GameAnalytics/Plugins/Scripts/ILRD/HyperBid/GAHyperBidIntegration.cs") state(2)
+Script is not up to date after domain reload: guid(adefe18d2f40dd84c8666cc766d5de82) path("Assets/GameAnalytics/Plugins/Scripts/Events/GA_SpecialEvents.cs") state(2)
+Script is not up to date after domain reload: guid(9370f17c653e94c29948b6883597f4f3) path("Assets/GameAnalytics/Plugins/Playmaker/GAInitialize.cs") state(2)
+Script is not up to date after domain reload: guid(d8953a9bb703e45e7b3e4b181c1fc3f8) path("Assets/GameAnalytics/Plugins/Windows/x64/sqlite3.dll") state(2)
+Script is not up to date after domain reload: guid(ec1a0407f53ca47cca42c7edf4e364fd) path("Assets/GameAnalytics/Plugins/Scripts/Fyber/GAFyberIntegration.cs") state(2)
+Script is not up to date after domain reload: guid(406a6696e05cc447c8d6a01396d21b90) path("Assets/GameAnalytics/Editor/GA_Menu.cs") state(2)
+Script is not up to date after domain reload: guid(20bf6fb24fdb6204680a36dddcfc1217) path("Assets/GameAnalytics/Plugins/SamsungTV/Mono.Data.Sqlite.dll") state(2)
+Script is not up to date after domain reload: guid(1c4b16e44b6ce4aa3829724d9730e8b6) path("Assets/GameAnalytics/Plugins/Playmaker/SendBusinessEvent.cs") state(2)
+Script is not up to date after domain reload: guid(2d56f07645a844a4c9cd1186cf2e3d40) path("Assets/GameAnalytics/Plugins/iOS/libGameAnalytics.a") state(2)
+Script is not up to date after domain reload: guid(713a350eb8a424f94952b2a37d8532a5) path("Assets/GameAnalytics/Plugins/Scripts/IronSource/GAIronSourceIntegration.cs") state(2)
+Script is not up to date after domain reload: guid(ef714624881664191ade6c6dda4bef44) path("Assets/GameAnalytics/Editor/GameAnalyticsInspector.cs") state(2)
+Script is not up to date after domain reload: guid(78ad7cbebadcf462498c3fb5f7e7f1d3) path("Assets/GameAnalytics/Plugins/Playmaker/SendErrorEvent.cs") state(2)
+Script is not up to date after domain reload: guid(466097c6542ef414ab79979159749cab) path("Assets/GameAnalytics/Plugins/Scripts/ILRD/TopOn/GATopOnIntegration.cs") state(2)
+Script is not up to date after domain reload: guid(47ae3aa637bbf40d58b3c71eda712a7c) path("Assets/GameAnalytics/Plugins/iOS/GameAnalytics.h") state(2)
+Script is not up to date after domain reload: guid(ad35c27ecc9784217817c154d2ff09ff) path("Assets/GameAnalytics/Plugins/Scripts/Events/GA_Setup.cs") state(2)
+Script is not up to date after domain reload: guid(d485564365158ac468bb985d519a87b3) path("Assets/GameAnalytics/Plugins/SamsungTV/sqlite3.c") state(2)
+Script is not up to date after domain reload: guid(a5ff0e500ec2d4f3f938b6e9bff688ee) path("Assets/GameAnalytics/Plugins/iOS/GameAnalyticsHyperBidHelper.m") state(2)
+Script is not up to date after domain reload: guid(59b631ff074a747748991261a24f2a0d) path("Assets/GameAnalytics/Plugins/Playmaker/Editor/PlayMakerPresenceCheck.cs") state(2)
+Script is not up to date after domain reload: guid(d3ca28f8a6c264997b626bff1013edec) path("Assets/GameAnalytics/Plugins/tvOS/libGameAnalyticsTVOS.a") state(2)
+Script is not up to date after domain reload: guid(5a494c438f5f54d1bb203b9477f2db77) path("Assets/Homa Games/Homa Belly/Analytics/GameAnalytics/Scripts/GameAnalyticsImplementation.cs") state(2)
+Script is not up to date after domain reload: guid(0683b20eb25df464b8f46d93396af7f6) path("Assets/GameAnalytics/Plugins/Linux/sqlite3.so") state(2)
+Script is not up to date after domain reload: guid(cc659be917120422eb70ee4a5e5bdb4b) path("Assets/GameAnalytics/Plugins/iOS/GameAnalyticsTopOnHelper.m") state(2)
+Script is not up to date after domain reload: guid(55fff062c66344373bcb93c2873a3b81) path("Assets/GameAnalytics/Plugins/Scripts/Events/GA_Ads.cs") state(2)
+Script is not up to date after domain reload: guid(f44a87d500d6c7143bcd0f8c3376d0b3) path("Assets/GameAnalytics/Plugins/WSA/x86/GameAnalytics.UWP.dll") state(2)
+Script is not up to date after domain reload: guid(2f5d575b6c7034a7385fb0ee45564a2e) path("Assets/GameAnalytics/Plugins/Scripts/Events/GAValidator.cs") state(2)
+Script is not up to date after domain reload: guid(8651cd8b2ad854ef588461bbab2e1931) path("Assets/Homa Games/Homa Belly/Analytics/GameAnalytics/Scripts/HomaBellyGameAnalyticsConstants.cs") state(2)
+Script is not up to date after domain reload: guid(dfd276755e3d24398b20a727ba63f40a) path("Assets/GameAnalytics/Editor/GA_EditorUtilities.cs") state(2)
+Script is not up to date after domain reload: guid(2399d067eb0414c1788edd794d77e8c1) path("Assets/GameAnalytics/Plugins/Android/instantapps-1.1.0.aar") state(2)
+Script is not up to date after domain reload: guid(f303caa895c244cb1817893da8a79602) path("Assets/GameAnalytics/Plugins/Scripts/Events/GA_Resource.cs") state(2)
+Script is not up to date after domain reload: guid(3f88bfa18b258b24887b9b4352dd096f) path("Assets/GameAnalytics/Plugins/Scripts/Wrapper/GA_UWPWrapper.cs") state(2)
+Script is not up to date after domain reload: guid(b4b02fb883d7e45cc9d445c8eca67419) path("Assets/GameAnalytics/Plugins/Playmaker/IsRemoteConfigsReady.cs") state(2)
+Script is not up to date after domain reload: guid(f50974faf2211494d9c937a90c66fc94) path("Assets/GameAnalytics/Plugins/Playmaker/Editor/SendResourceEventActionEditor.cs") state(2)
+Script is not up to date after domain reload: guid(b1b1d00f771994e7a841e0ae77e5980a) path("Assets/GameAnalytics/Plugins/Scripts/ILRD/Max/GAMaxIntegration.cs") state(2)
+Script is not up to date after domain reload: guid(f42b062f02b89464abfa8001c5249524) path("Assets/GameAnalytics/Plugins/Scripts/IGameAnalyticsATTListener.cs") state(2)
+Script is not up to date after domain reload: guid(0d4cc2e81a2a44fcbba82d0af4fe74fc) path("Assets/GameAnalytics/Plugins/Playmaker/Editor/SendProgressionEventActionEditor.cs") state(2)
+Script is not up to date after domain reload: guid(86ed39b13aec946a1b3db01e13cb1423) path("Assets/GameAnalytics/Plugins/Scripts/ILRD/Aequus/GAAequusIntegration.cs") state(2)
+Script is not up to date after domain reload: guid(1be0c7b0c717943a2bee44e5a7831b08) path("Assets/GameAnalytics/Plugins/iOS/GameAnalyticsUnity.m") state(2)
+Script is not up to date after domain reload: guid(69088c40a9088448b931f5688693ff5d) path("Assets/GameAnalytics/Plugins/Playmaker/SendDesignEvent.cs") state(2)
+Script is not up to date after domain reload: guid(cc498e43de17b2e4e8cc95006c5007c4) path("Assets/GameAnalytics/Plugins/Scripts/Events/GA_Design.cs") state(2)
+Script is not up to date after domain reload: guid(3f481e5372ce84e879d760b70c7249e2) path("Assets/GameAnalytics/Plugins/tvOS/GameAnalyticsTVOSUnity.m") state(2)
+Script is not up to date after domain reload: guid(22fd93fe611b3394290b35e003b17628) path("Assets/GameAnalytics/Plugins/WSA/ARM/GameAnalytics.UWP.dll") state(2)
+Script is not up to date after domain reload: guid(771d45ab6687246f4ac00b5bf537e520) path("Assets/GameAnalytics/Editor/GA_SettingsInspector.cs") state(2)
+Script is not up to date after domain reload: guid(6f78192cec1344d83a177ac5e6139ab3) path("Assets/GameAnalytics/Plugins/Scripts/Setup/Settings.cs") state(2)
+Script is not up to date after domain reload: guid(63c7fbb74d1694323b632b9b4cd7d1d1) path("Assets/GameAnalytics/Plugins/Android/unity_gameanalytics.jar") state(2)
+Script is not up to date after domain reload: guid(1dbf392b666c845bf82215596840f3cf) path("Assets/GameAnalytics/Plugins/iOS/GameAnalyticsATTObjCBridge.m") state(2)
+Script is not up to date after domain reload: guid(9c87e364230a6ce459923436a2215b15) path("Assets/GameAnalytics/Plugins/Scripts/Events/GA_Business.cs") state(2)
+Script is not up to date after domain reload: guid(87b563831833df94b948b555664a4412) path("Assets/GameAnalytics/Plugins/Tizen/libGameAnalytics.a") state(2)
+Script is not up to date after domain reload: guid(56cce7ed1fb8446f5a88f6dd01ceef0c) path("Assets/GameAnalytics/Plugins/Scripts/Mopub/GAMopubIntegration.cs") state(2)
+Script is not up to date after domain reload: guid(454d889a3c60a494aa071812450cf1e2) path("Assets/GameAnalytics/Plugins/Playmaker/GetABTestingId.cs") state(2)
+Script is not up to date after domain reload: guid(8badeee0f8f58488c94706222ee1e6fb) path("Assets/GameAnalytics/Editor/GA_SignUp.cs") state(2)
+Script is not up to date after domain reload: guid(945d8f3f6133f44b085ed8aa3df995b9) path("Assets/GameAnalytics/Plugins/Android/gameanalytics-imei.jar") state(2)
+Script is not up to date after domain reload: guid(b0f8e458451f540a1b0dd6c6381858ec) path("Assets/GameAnalytics/Plugins/Playmaker/SendResourceEvent.cs") state(2)
+Script is not up to date after domain reload: guid(0f62e1daf300cc540841be311ff17de8) path("Assets/GameAnalytics/Plugins/SamsungTV/GameAnalytics.SamsungTV.dll") state(2)
+Script is not up to date after domain reload: guid(b06eb2deb6e7b4a288b01906f178cbaa) path("Assets/GameAnalytics/Plugins/Scripts/Events/GA_Progression.cs") state(2)
+Script is not up to date after domain reload: guid(f199e60f747934effb1d8e3fce31d6df) path("Assets/GameAnalytics/Plugins/Playmaker/SetCustomDimension.cs") state(2)
+Script is not up to date after domain reload: guid(b998bd7e85fce46a4ade4beb78edf1c9) path("Assets/GameAnalytics/Plugins/Scripts/ATT/GameAnalyticsATTClient.cs") state(2)
+Script is not up to date after domain reload: guid(b025a92f1fe974e5faf57688a659013a) path("Assets/GameAnalytics/Editor/GA_UpdateWindow.cs") state(2)
+Script is not up to date after domain reload: guid(f770e9a858e99433d9719ad773afb625) path("Assets/GameAnalytics/Plugins/Scripts/Wrapper/GA_Wrapper.cs") state(2)
+Script is not up to date after domain reload: guid(765d24f4e7ad33545adebb304b525f01) path("Assets/GameAnalytics/Plugins/Scripts/Wrapper/GA_TizenWrapper.cs") state(2)
+Script is not up to date after domain reload: guid(76cd2783d53fd4bfda5c04439f8dd1bd) path("Assets/GameAnalytics/Plugins/Scripts/ATT/GameAnalyticsATTObjCBridge.cs") state(2)
+Script is not up to date after domain reload: guid(35cbb352079de40f7aa3f481c1fa42c1) path("Assets/GameAnalytics/Plugins/Scripts/State/GAState.cs") state(2)
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'BOXOPHOBIC/Polyverse Skies/Simple': fallback shader 'False' not found
+Shader 'BOXOPHOBIC/Polyverse Skies/Standard': fallback shader 'False' not found
+Refreshing native plugins compatible for Editor in 8.90 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3793 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 216.9 MB.
+System memory in use after: 211.4 MB.
+
+Unloading 87 unused Assets to reduce memory usage. Loaded Objects now: 4457.
+Total: 313.097500 ms (FindLiveObjects: 0.799500 ms CreateObjectMapping: 0.400900 ms MarkObjects: 302.055300 ms  DeleteObjects: 9.839200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Script is not up to date after domain reload: guid(511e95bcdad89425999ccbb3e315246a) path("Assets/FacebookSDK/SDK/Editor/iOS/FBUnityInterface.h") state(2)
+Script is not up to date after domain reload: guid(c57105322a98c474faf1ce607f20c3f8) path("Assets/FacebookSDK/Plugins/Canvas/Facebook.Unity.Canvas.dll") state(2)
+Script is not up to date after domain reload: guid(082cd93ddb11e4437b52ea3d121816d8) path("Assets/FacebookSDK/Plugins/Canvas/CanvasJSSDKBindings.jslib") state(2)
+Script is not up to date after domain reload: guid(abcfdae5d23df40e9a7ec554ddc17a22) path("Assets/FacebookSDK/Plugins/Android/libs/facebook-android-wrapper-11.0.0.aar") state(2)
+Script is not up to date after domain reload: guid(516664901472b44fe83b720b195b5b60) path("Assets/FacebookSDK/Plugins/iOS/Facebook.Unity.IOS.dll") state(2)
+Script is not up to date after domain reload: guid(cfd587f32401443d0b223aa6246fe5bc) path("Assets/FacebookSDK/Plugins/Gameroom/FacebookNamedPipeClient.dll") state(2)
+Script is not up to date after domain reload: guid(66952bdb75cae4c348f3d0521da59bfd) path("Assets/FacebookSDK/SDK/Editor/iOS/FBSDK+Internal.h") state(2)
+Script is not up to date after domain reload: guid(fb286cd0f33ce4f5e81baf10dab8d865) path("Assets/FacebookSDK/Plugins/Android/Facebook.Unity.Android.dll") state(2)
+Script is not up to date after domain reload: guid(5cafb2af7ca9641f58022a816236d1ad) path("Assets/FacebookSDK/SDK/Editor/iOS/FBUnityUtility.mm") state(2)
+Script is not up to date after domain reload: guid(b4469d6625a664618b68231ee0dcc093) path("Assets/FacebookSDK/SDK/Editor/iOS/FBUnityUtility.h") state(2)
+Script is not up to date after domain reload: guid(08462833fafe743b8bd59914b9f52696) path("Assets/FacebookSDK/Plugins/Facebook.Unity.dll") state(2)
+Script is not up to date after domain reload: guid(c49f2b3ca212b47fc9cd8ce655177c89) path("Assets/FacebookSDK/Plugins/Settings/Facebook.Unity.Settings.dll") state(2)
+Script is not up to date after domain reload: guid(99f23b07cdda04baea08736723cf3aad) path("Assets/FacebookSDK/Plugins/Gameroom/Facebook.Unity.Gameroom.dll") state(2)
+Script is not up to date after domain reload: guid(fbc51482e3ca248329707d61959f9d9d) path("Assets/FacebookSDK/SDK/Editor/iOS/FBUnitySDKDelegate.m") state(2)
+Script is not up to date after domain reload: guid(137a102f808364a0fb444bedefe2575d) path("Assets/FacebookSDK/Plugins/Editor/Facebook.Unity.Editor.dll") state(2)
+Script is not up to date after domain reload: guid(7461bcc2e2c714a03a3f60d68ec79369) path("Assets/FacebookSDK/SDK/Editor/iOS/FBUnitySDKDelegate.h") state(2)
+Script is not up to date after domain reload: guid(4c29c5d59509848c4bc24c13ac976932) path("Assets/FacebookSDK/SDK/Editor/iOS/FBUnityInterface.mm") state(2)
+Registering precompiled user dll's ...
+Registered in 0.149105 seconds.
+Begin MonoManager ReloadAssembly
+Error: Could not load signature of Facebook.Unity.Example.MenuBase:HandleResult due to: Could not load file or assembly 'Facebook.Unity, Version=11.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Facebook.Unity, Version=11.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+Unloading broken assembly Library/ScriptAssemblies/Assembly-CSharp.dll, this assembly can cause crashes in the runtime
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 5.37 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+[HomaBelly] Auto generating code for HomaGames.HomaBelly.IAttribution Services: . File: HomaBridgeDependenciesAttributions
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+HomaGames.HomaBelly.HomaBridgeDependenciesCodeGenerator:AutoGenerateInitializationFile (string,string,string,System.Type,bool) (at Assets/Homa Games/Homa Belly/Core/Scripts/HomaBridge/Editor/HomaBridgeDependenciesCodeGenerator.cs:95)
+HomaGames.HomaBelly.HomaBridgeDependenciesCodeGenerator:AutoGenerateInitializationFiles (bool) (at Assets/Homa Games/Homa Belly/Core/Scripts/HomaBridge/Editor/HomaBridgeDependenciesCodeGenerator.cs:34)
+HomaGames.HomaBelly.HomaBridgeDependenciesCodeGenerator:AutoGenerateCode () (at Assets/Homa Games/Homa Belly/Core/Scripts/HomaBridge/Editor/HomaBridgeDependenciesCodeGenerator.cs:18)
+System.Reflection.MonoMethod:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+(Filename: Assets/Homa Games/Homa Belly/Core/Scripts/HomaBridge/Editor/HomaBridgeDependenciesCodeGenerator.cs Line: 95)
+
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: API Compatibility level changed
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
+Mono: successfully reloaded assembly
+- Completed reload, in  5.134 seconds
+Domain Reload Profiling:
+	ReloadAssembly (5134ms)
+		BeginReloadAssembly (971ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (573ms)
+		EndReloadAssembly (4040ms)
+			LoadAssemblies (175ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (582ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (75ms)
+			SetupLoadedEditorAssemblies (2727ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (5ms)
+				BeforeProcessingInitializeOnLoad (177ms)
+				ProcessInitializeOnLoadAttributes (1961ms)
+				ProcessInitializeOnLoadMethodAttributes (562ms)
+				AfterProcessingInitializeOnLoad (15ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (117ms)
+Platform modules already initialized, skipping
+Script is not up to date after domain reload: guid(47b49bdc3cb9940fb99fe267fdde8412) path("Assets/Homa Games/Homa Belly/Analytics/Facebook/Scripts/HomaBellyFacebookConstants.cs") state(2)
+Script is not up to date after domain reload: guid(910cbe16250cb4363b70464c39fc701a) path("Assets/FacebookSDK/Examples/Scripts/LogView.cs") state(2)
+Script is not up to date after domain reload: guid(511e95bcdad89425999ccbb3e315246a) path("Assets/FacebookSDK/SDK/Editor/iOS/FBUnityInterface.h") state(2)
+Script is not up to date after domain reload: guid(c57105322a98c474faf1ce607f20c3f8) path("Assets/FacebookSDK/Plugins/Canvas/Facebook.Unity.Canvas.dll") state(2)
+Script is not up to date after domain reload: guid(3b4c675f81a254b87adc8ad01006c580) path("Assets/FacebookSDK/Examples/Scripts/SubMenus/AppRequests.cs") state(2)
+Script is not up to date after domain reload: guid(082cd93ddb11e4437b52ea3d121816d8) path("Assets/FacebookSDK/Plugins/Canvas/CanvasJSSDKBindings.jslib") state(2)
+Script is not up to date after domain reload: guid(8f28f9112a7d44d3c999fbd95333abbb) path("Assets/FacebookSDK/Examples/Scripts/MenuBase.cs") state(2)
+Script is not up to date after domain reload: guid(abcfdae5d23df40e9a7ec554ddc17a22) path("Assets/FacebookSDK/Plugins/Android/libs/facebook-android-wrapper-11.0.0.aar") state(2)
+Script is not up to date after domain reload: guid(516664901472b44fe83b720b195b5b60) path("Assets/FacebookSDK/Plugins/iOS/Facebook.Unity.IOS.dll") state(2)
+Script is not up to date after domain reload: guid(cfd587f32401443d0b223aa6246fe5bc) path("Assets/FacebookSDK/Plugins/Gameroom/FacebookNamedPipeClient.dll") state(2)
+Script is not up to date after domain reload: guid(66952bdb75cae4c348f3d0521da59bfd) path("Assets/FacebookSDK/SDK/Editor/iOS/FBSDK+Internal.h") state(2)
+Script is not up to date after domain reload: guid(e8659f5605d094c19a8b7ef9471c3603) path("Assets/FacebookSDK/Examples/Scripts/ConsoleBase.cs") state(2)
+Script is not up to date after domain reload: guid(fb286cd0f33ce4f5e81baf10dab8d865) path("Assets/FacebookSDK/Plugins/Android/Facebook.Unity.Android.dll") state(2)
+Script is not up to date after domain reload: guid(2c9358d64a1d046139f1a90a432a2285) path("Assets/Homa Games/Homa Belly/Analytics/Facebook/Editor/FacebookPostprocessor.cs") state(2)
+Script is not up to date after domain reload: guid(5cafb2af7ca9641f58022a816236d1ad) path("Assets/FacebookSDK/SDK/Editor/iOS/FBUnityUtility.mm") state(2)
+Script is not up to date after domain reload: guid(e93c4155902d3496399630ee494eab6b) path("Assets/FacebookSDK/Examples/Scripts/SubMenus/DialogShare.cs") state(2)
+Script is not up to date after domain reload: guid(b4469d6625a664618b68231ee0dcc093) path("Assets/FacebookSDK/SDK/Editor/iOS/FBUnityUtility.h") state(2)
+Script is not up to date after domain reload: guid(528311bfe70f74a4d81d96e20ed6aa10) path("Assets/Homa Games/Homa Belly/Analytics/Facebook/Scripts/FacebookImplementation.cs") state(2)
+Script is not up to date after domain reload: guid(08462833fafe743b8bd59914b9f52696) path("Assets/FacebookSDK/Plugins/Facebook.Unity.dll") state(2)
+Script is not up to date after domain reload: guid(c49f2b3ca212b47fc9cd8ce655177c89) path("Assets/FacebookSDK/Plugins/Settings/Facebook.Unity.Settings.dll") state(2)
+Script is not up to date after domain reload: guid(99f23b07cdda04baea08736723cf3aad) path("Assets/FacebookSDK/Plugins/Gameroom/Facebook.Unity.Gameroom.dll") state(2)
+Script is not up to date after domain reload: guid(fbc51482e3ca248329707d61959f9d9d) path("Assets/FacebookSDK/SDK/Editor/iOS/FBUnitySDKDelegate.m") state(2)
+Script is not up to date after domain reload: guid(137a102f808364a0fb444bedefe2575d) path("Assets/FacebookSDK/Plugins/Editor/Facebook.Unity.Editor.dll") state(2)
+Script is not up to date after domain reload: guid(23c3cb06c2209474e9a8441e2712d5d2) path("Assets/FacebookSDK/Examples/Scripts/SubMenus/GraphRequest.cs") state(2)
+Script is not up to date after domain reload: guid(7461bcc2e2c714a03a3f60d68ec79369) path("Assets/FacebookSDK/SDK/Editor/iOS/FBUnitySDKDelegate.h") state(2)
+Script is not up to date after domain reload: guid(f9f0b7257fa054227be6e26bf1f6b339) path("Assets/FacebookSDK/Examples/Scripts/SubMenus/AppLinks.cs") state(2)
+Script is not up to date after domain reload: guid(4cc408e158eec46b28b93a44fc8819ff) path("Assets/FacebookSDK/Examples/Scripts/SubMenus/AccessTokenMenu.cs") state(2)
+Script is not up to date after domain reload: guid(922e3ad8d88a146b3b392cd8c84edd6a) path("Assets/FacebookSDK/Examples/Scripts/SubMenus/MainMenu.cs") state(2)
+Script is not up to date after domain reload: guid(7f08c9721703046ec883e57562184726) path("Assets/FacebookSDK/Examples/Scripts/SubMenus/Pay.cs") state(2)
+Script is not up to date after domain reload: guid(4c29c5d59509848c4bc24c13ac976932) path("Assets/FacebookSDK/SDK/Editor/iOS/FBUnityInterface.mm") state(2)
+Script is not up to date after domain reload: guid(e3c0dd81ff77c4c30834810815c69f6d) path("Assets/FacebookSDK/Examples/Scripts/SubMenus/AppEvents.cs") state(2)
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'BOXOPHOBIC/Polyverse Skies/Simple': fallback shader 'False' not found
+Shader 'BOXOPHOBIC/Polyverse Skies/Standard': fallback shader 'False' not found
+Refreshing native plugins compatible for Editor in 2.85 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3883 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 211.7 MB.
+System memory in use after: 206.2 MB.
+
+Unloading 115 unused Assets to reduce memory usage. Loaded Objects now: 4537.
+Total: 91.645800 ms (FindLiveObjects: 1.473600 ms CreateObjectMapping: 0.555100 ms MarkObjects: 85.074200 ms  DeleteObjects: 4.540700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 1.709433 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.97 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.IO.FileNotFoundException: Could not load file or assembly 'UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies.
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <97ba64834c8f4edc84e3d8e30b04f122>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+[HomaBelly] Auto generating code for HomaGames.HomaBelly.IAttribution Services: HomaGames.HomaBelly.SingularAttribution. File: HomaBridgeDependenciesAttributions
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+HomaGames.HomaBelly.HomaBridgeDependenciesCodeGenerator:AutoGenerateInitializationFile (string,string,string,System.Type,bool) (at Assets/Homa Games/Homa Belly/Core/Scripts/HomaBridge/Editor/HomaBridgeDependenciesCodeGenerator.cs:95)
+HomaGames.HomaBelly.HomaBridgeDependenciesCodeGenerator:AutoGenerateInitializationFiles (bool) (at Assets/Homa Games/Homa Belly/Core/Scripts/HomaBridge/Editor/HomaBridgeDependenciesCodeGenerator.cs:34)
+HomaGames.HomaBelly.HomaBridgeDependenciesCodeGenerator:AutoGenerateCode () (at Assets/Homa Games/Homa Belly/Core/Scripts/HomaBridge/Editor/HomaBridgeDependenciesCodeGenerator.cs:18)
+System.Reflection.MonoMethod:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+(Filename: Assets/Homa Games/Homa Belly/Core/Scripts/HomaBridge/Editor/HomaBridgeDependenciesCodeGenerator.cs Line: 95)
+
+[HomaBelly] Auto generating code for HomaGames.HomaBelly.IAnalytics Services: HomaGames.HomaBelly.FacebookImplementation,HomaGames.HomaBelly.GameAnalyticsImplementation. File: HomaBridgeDependenciesAnalytics
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+HomaGames.HomaBelly.HomaBridgeDependenciesCodeGenerator:AutoGenerateInitializationFile (string,string,string,System.Type,bool) (at Assets/Homa Games/Homa Belly/Core/Scripts/HomaBridge/Editor/HomaBridgeDependenciesCodeGenerator.cs:95)
+HomaGames.HomaBelly.HomaBridgeDependenciesCodeGenerator:AutoGenerateInitializationFiles (bool) (at Assets/Homa Games/Homa Belly/Core/Scripts/HomaBridge/Editor/HomaBridgeDependenciesCodeGenerator.cs:39)
+HomaGames.HomaBelly.HomaBridgeDependenciesCodeGenerator:AutoGenerateCode () (at Assets/Homa Games/Homa Belly/Core/Scripts/HomaBridge/Editor/HomaBridgeDependenciesCodeGenerator.cs:18)
+System.Reflection.MonoMethod:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+(Filename: Assets/Homa Games/Homa Belly/Core/Scripts/HomaBridge/Editor/HomaBridgeDependenciesCodeGenerator.cs Line: 95)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  8.748 seconds
+Domain Reload Profiling:
+	ReloadAssembly (8749ms)
+		BeginReloadAssembly (313ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (20ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (136ms)
+		EndReloadAssembly (8311ms)
+			LoadAssemblies (598ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (2544ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (178ms)
+			SetupLoadedEditorAssemblies (4321ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (496ms)
+				ProcessInitializeOnLoadAttributes (2017ms)
+				ProcessInitializeOnLoadMethodAttributes (1780ms)
+				AfterProcessingInitializeOnLoad (15ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (42ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'BOXOPHOBIC/Polyverse Skies/Simple': fallback shader 'False' not found
+Shader 'BOXOPHOBIC/Polyverse Skies/Standard': fallback shader 'False' not found
+Refreshing native plugins compatible for Editor in 1.94 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3914 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 221.0 MB.
+System memory in use after: 215.5 MB.
+
+Unloading 132 unused Assets to reduce memory usage. Loaded Objects now: 4592.
+Total: 97.437300 ms (FindLiveObjects: 0.576900 ms CreateObjectMapping: 1.659600 ms MarkObjects: 91.720000 ms  DeleteObjects: 3.478600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.050764 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.74 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.IO.FileNotFoundException: Could not load file or assembly 'UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies.
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <97ba64834c8f4edc84e3d8e30b04f122>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  7.460 seconds
+Domain Reload Profiling:
+	ReloadAssembly (7461ms)
+		BeginReloadAssembly (259ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (118ms)
+		EndReloadAssembly (7086ms)
+			LoadAssemblies (234ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (712ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (94ms)
+			SetupLoadedEditorAssemblies (5665ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (173ms)
+				ProcessInitializeOnLoadAttributes (3972ms)
+				ProcessInitializeOnLoadMethodAttributes (1498ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (17ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'BOXOPHOBIC/Polyverse Skies/Simple': fallback shader 'False' not found
+Shader 'BOXOPHOBIC/Polyverse Skies/Standard': fallback shader 'False' not found
+Refreshing native plugins compatible for Editor in 1.88 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3914 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 232.6 MB.
+System memory in use after: 227.0 MB.
+
+Unloading 132 unused Assets to reduce memory usage. Loaded Objects now: 4608.
+Total: 66.309500 ms (FindLiveObjects: 0.488900 ms CreateObjectMapping: 4.921900 ms MarkObjects: 56.259700 ms  DeleteObjects: 4.637300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 676.372828 seconds.
+  path: Assets/Resources/GameAnalytics/Settings.asset
+  artifactKey: Guid(248ca15231a5e314d980e59b79a5d27d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/GameAnalytics/Settings.asset using Guid(248ca15231a5e314d980e59b79a5d27d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f155d14bb260cce924e111a07dd1ef12') in 0.043151 seconds 
+  Import took 0.053287 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 72.135047 seconds.
+  path: Assets/Homa Games/Homa Belly/Core/Prefabs/Homa Belly.prefab
+  artifactKey: Guid(a5e9020127c79476c8e108d8e504f722) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Homa Games/Homa Belly/Core/Prefabs/Homa Belly.prefab using Guid(a5e9020127c79476c8e108d8e504f722) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31138abad88a97efd7fcf5dbe9b4391d') in 0.027187 seconds 
+  Import took 0.034859 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/Homa Games/Homa Belly/Core/Prefabs/DummyAds/HOMA_GAMES_LOGO.png
+  artifactKey: Guid(7a5ceb597e2874f768c4b5fdc508cb69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Homa Games/Homa Belly/Core/Prefabs/DummyAds/HOMA_GAMES_LOGO.png using Guid(7a5ceb597e2874f768c4b5fdc508cb69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c9c2d779c68cef5d2faed848267bffe') in 0.147907 seconds 
+  Import took 0.158436 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Homa Games/Homa Belly/Plugin Manifest/Editor/UI/HomaStyle.guiskin
+  artifactKey: Guid(7c715c8afed9e4763861f8652e5146c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Homa Games/Homa Belly/Plugin Manifest/Editor/UI/HomaStyle.guiskin using Guid(7c715c8afed9e4763861f8652e5146c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fab6eada9360f238c3d9234a972f0d1') in 0.022019 seconds 
+  Import took 0.031682 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.024494 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.75 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.IO.FileNotFoundException: Could not load file or assembly 'UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies.
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <97ba64834c8f4edc84e3d8e30b04f122>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  3.286 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3286ms)
+		BeginReloadAssembly (169ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (75ms)
+		EndReloadAssembly (3046ms)
+			LoadAssemblies (136ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (437ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (69ms)
+			SetupLoadedEditorAssemblies (2139ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (106ms)
+				ProcessInitializeOnLoadAttributes (1191ms)
+				ProcessInitializeOnLoadMethodAttributes (827ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'BOXOPHOBIC/Polyverse Skies/Simple': fallback shader 'False' not found
+Shader 'BOXOPHOBIC/Polyverse Skies/Standard': fallback shader 'False' not found
+Refreshing native plugins compatible for Editor in 1.70 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3914 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 227.5 MB.
+System memory in use after: 221.9 MB.
+
+Unloading 132 unused Assets to reduce memory usage. Loaded Objects now: 4630.
+Total: 35.818600 ms (FindLiveObjects: 0.431900 ms CreateObjectMapping: 0.259200 ms MarkObjects: 32.405200 ms  DeleteObjects: 2.720500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.025674 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.90 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.IO.FileNotFoundException: Could not load file or assembly 'UnityEditor.Android.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies.
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <97ba64834c8f4edc84e3d8e30b04f122>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  3.232 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3232ms)
+		BeginReloadAssembly (144ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (61ms)
+		EndReloadAssembly (3017ms)
+			LoadAssemblies (132ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (447ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (56ms)
+			SetupLoadedEditorAssemblies (2137ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (194ms)
+				ProcessInitializeOnLoadAttributes (1374ms)
+				ProcessInitializeOnLoadMethodAttributes (555ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'BOXOPHOBIC/Polyverse Skies/Simple': fallback shader 'False' not found
+Shader 'BOXOPHOBIC/Polyverse Skies/Standard': fallback shader 'False' not found
+Refreshing native plugins compatible for Editor in 1.70 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3914 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 229.2 MB.
+System memory in use after: 223.6 MB.
+
+Unloading 132 unused Assets to reduce memory usage. Loaded Objects now: 4646.
+Total: 36.557200 ms (FindLiveObjects: 0.418600 ms CreateObjectMapping: 0.251700 ms MarkObjects: 32.789500 ms  DeleteObjects: 3.094900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Shader 'BOXOPHOBIC/Polyverse Skies/Simple': fallback shader 'False' not found
+Shader 'BOXOPHOBIC/Polyverse Skies/Standard': fallback shader 'False' not found
+Refreshing native plugins compatible for Editor in 31.64 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 129 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 130.2 MB.
+System memory in use after: 124.7 MB.
+
+Unloading 129 unused Assets to reduce memory usage. Loaded Objects now: 4646.
+Total: 40.744400 ms (FindLiveObjects: 0.505200 ms CreateObjectMapping: 0.325000 ms MarkObjects: 36.615800 ms  DeleteObjects: 3.296300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1243.402626 seconds.
+  path: Assets/FacebookSDK/SDK/Resources/FacebookSettings.asset
+  artifactKey: Guid(5d3755cf1b98d024eaa0bb397810e1fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FacebookSDK/SDK/Resources/FacebookSettings.asset using Guid(5d3755cf1b98d024eaa0bb397810e1fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16377ffcd82b3170a42b08e94fcc80b0') in 0.018220 seconds 
+  Import took 0.028470 seconds .
+
+========================================================================
+Received Prepare
+Shader 'BOXOPHOBIC/Polyverse Skies/Simple': fallback shader 'False' not found
+Shader 'BOXOPHOBIC/Polyverse Skies/Standard': fallback shader 'False' not found
+Refreshing native plugins compatible for Editor in 58.83 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 192 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 132.4 MB.
+System memory in use after: 126.9 MB.
+
+Unloading 192 unused Assets to reduce memory usage. Loaded Objects now: 4646.
+Total: 41.593100 ms (FindLiveObjects: 0.474400 ms CreateObjectMapping: 0.282900 ms MarkObjects: 37.591000 ms  DeleteObjects: 3.242200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 461.229643 seconds.
+  path: Assets/Prefab
+  artifactKey: Guid(35e83b69fc73dbd468079aac7d58d73b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab using Guid(35e83b69fc73dbd468079aac7d58d73b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c904f51267efb9790243db6deddcfef') in 0.012012 seconds 
+  Import took 0.022215 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.967646 seconds.
+  path: Assets/FacebookSDK
+  artifactKey: Guid(a79fc251f4c884fccb31c337d5edd5c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FacebookSDK using Guid(a79fc251f4c884fccb31c337d5edd5c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '019c006c617f571ee6f6ad8b159e84f5') in 0.009887 seconds 
+  Import took 0.018798 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.456280 seconds.
+  path: Assets/ExternalDependencyManager
+  artifactKey: Guid(4dea9fb60b9574fc493a9a3d5921e1e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternalDependencyManager using Guid(4dea9fb60b9574fc493a9a3d5921e1e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2733f0cfe953731128f273d77e4681f0') in 0.009928 seconds 
+  Import took 0.018460 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 32.322065 seconds.
+  path: Assets/NiceVibrations
+  artifactKey: Guid(e4e808c1e7b42504ba5d28995a594113) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NiceVibrations using Guid(e4e808c1e7b42504ba5d28995a594113) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33388a6473e91b765f36b74434a0b4c5') in 0.008433 seconds 
+  Import took 0.016319 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.259408 seconds.
+  path: Assets/MegaFiers
+  artifactKey: Guid(9e540cc243b544d4c99b116c632c5a84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MegaFiers using Guid(9e540cc243b544d4c99b116c632c5a84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06059f70170f979ffb2b3bc2b9102107') in 0.010911 seconds 
+  Import took 0.021090 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.902076 seconds.
+  path: Assets/MegaFiers/Scripts/Burst
+  artifactKey: Guid(9f70300629b69fa40b04fccb5d0d2de7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MegaFiers/Scripts/Burst using Guid(9f70300629b69fa40b04fccb5d0d2de7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e48ce48a565e88ef2eced863202a2506') in 0.009427 seconds 
+  Import took 0.017670 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.038528 seconds.
+  path: Assets/PaintIn3D
+  artifactKey: Guid(45c99c49f3eb036448e95e3dfd067280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PaintIn3D using Guid(45c99c49f3eb036448e95e3dfd067280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cfd636843e422adbfd0e48d31627ea1') in 0.008922 seconds 
+  Import took 0.017999 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.147765 seconds.
+  path: Assets/Plugins/iOS
+  artifactKey: Guid(686e552a9c3759d41a7a91ee37deb28e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/iOS using Guid(686e552a9c3759d41a7a91ee37deb28e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e4ab5e5081fd0fecac6e00be2c41cef') in 0.007805 seconds 
+  Import took 0.016560 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 276.640846 seconds.
+  path: Assets/Plugins/Android/com.google.android.gms.play-services-ads-base-16.0.0.aar
+  artifactKey: Guid(c3dee88c4fab3644b9fddd4e41d74b4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Android/com.google.android.gms.play-services-ads-base-16.0.0.aar using Guid(c3dee88c4fab3644b9fddd4e41d74b4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a65cf577435be359d832fd3313721522') in 0.015364 seconds 
+  Import took 0.023692 seconds .
+
