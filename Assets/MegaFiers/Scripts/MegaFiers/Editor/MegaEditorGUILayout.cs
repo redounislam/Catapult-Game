@@ -380,7 +380,7 @@ namespace MegaFiers
 
 		static public Vector3 FreeHandle(Object target, Vector3 pos, Quaternion rot, float size, Vector3 snap, Handles.CapFunction cap, int id = 0)
 		{
-			Vector3 npos = Handles.FreeMoveHandle(id, pos, rot, size, snap, cap);
+			Vector3 npos = Handles.FreeMoveHandle(id, pos, size, snap, cap);
 			if ( npos != pos )
 				Undo.RecordObject(target, "Free Handle Changed");
 			return npos;

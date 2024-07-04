@@ -800,12 +800,12 @@ namespace MegaFiers
 
 		Vector3 CircleCap(int id, Vector3 pos, Quaternion rot, float size)
 		{
-			return Handles.FreeMoveHandle(cid, pos, rot, size, Vector3.zero, Handles.CircleHandleCap);
+			return Handles.FreeMoveHandle(cid, pos, size, Vector3.zero, Handles.CircleHandleCap);
 		}
 
 		Vector3 SphereCap(int id, Vector3 pos, Quaternion rot, float size)
 		{
-			return Handles.FreeMoveHandle(cid, pos, rot, size, Vector3.zero, Handles.SphereHandleCap);
+			return Handles.FreeMoveHandle(cid, pos, size, Vector3.zero, Handles.SphereHandleCap);
 		}
 
 		public void OnSceneGUI()

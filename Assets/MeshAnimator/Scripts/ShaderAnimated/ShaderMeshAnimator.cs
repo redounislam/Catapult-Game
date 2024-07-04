@@ -310,8 +310,8 @@ namespace FSG.MeshAnimator.ShaderAnimated
                             texSize.y = anim.textures[t].height;
                     }
                 }
-                var textureLimit = QualitySettings.masterTextureLimit;
-                QualitySettings.masterTextureLimit = 0;
+                var textureLimit = QualitySettings.globalTextureMipmapLimit;
+                QualitySettings.globalTextureMipmapLimit = 0;
                 var copyTextureSupport = SystemInfo.copyTextureSupport;
                 Texture2DArray texture2DArray = new Texture2DArray(texSize.x, texSize.y, totalTextures, meshAnimations[0].textures[0].format, false, false);
                 texture2DArray.filterMode = FilterMode.Point;
@@ -340,7 +340,7 @@ namespace FSG.MeshAnimator.ShaderAnimated
                     texture2DArray.Apply(true, true);
                 }
                 _animTextures.Add(baseMesh, texture2DArray);
-                QualitySettings.masterTextureLimit = textureLimit;
+                QualitySettings.globalTextureMipmapLimit = textureLimit;
             }
             _materialCacheLookup.Clear();
             if (meshRenderer == null)
